@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>mapper</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Alegreya+Sans:wght@400;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div id="app">
+  <div id="canvas-wrap">
+    <canvas id="canvas"></canvas>
+    <div id="intro-text"></div>
+    <div id="title">mapper</div>
+    <div id="command-list"></div>
+    <div id="mode-indicator">
+      <span class="indicator-label">mode:</span>
+      <span id="mode-broad"></span> | <span id="mode-deep"></span>
+    </div>
+    <div id="view-indicator">
+      <span class="indicator-label">view:</span>
+      <span id="view-dynamic">dynamic</span> | <span id="view-fixed">fixed</span>
+    </div>
+  </div>
+  <div id="keyboard">
+    <div id="transcript"></div>
+    <button id="mic-btn"></button>
+  </div>
+</div>
+<script src="config.js"></script>
+<script src="commands.js"></script>
+<script src="canvas.js"></script>
+<script src="node.js"></script>
+<script src="view.js"></script>
+<script src="command-list.js"></script>
+<script src="modes.js"></script>
+<script src="voice.js"></script>
+<script src="intro.js"></script>
+</body>
+</html>
