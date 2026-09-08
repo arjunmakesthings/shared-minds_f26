@@ -55,3 +55,4 @@ grouped into four sections:
 | `voice.js` | speech recognition setup and its restart/watchdog resilience |
 | `command-list.js` | renders the top-left command reference from `commands.js` |
 | `intro.js` | the "central question" prompt shown before speak-mode starts |
+
