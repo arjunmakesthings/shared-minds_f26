@@ -2,14 +2,10 @@
 
 import { initCanvas } from './canvas.js';
 import { ROLE_LABEL, ROLE_LINE, GUARDRAIL, INITIAL_STRUCTURE, CONTINUATION_STRUCTURE, THOUGHT_FADE_STEP, THOUGHT_MIN_OPACITY } from './config.js';
-import { callModel, getAuthToken } from './api.js';
+import { callModel } from './api.js';
 import { addPendingMessage, setMessageText, appendMessage } from './render.js';
 
 initCanvas();
-
-// warm the token cache while the person is still reading/typing, instead of paying for
-// the (small, local) fetch latency on the critical path of the first real request
-getAuthToken().catch(() => {});
 
 const PANES = ['left', 'right'];
 

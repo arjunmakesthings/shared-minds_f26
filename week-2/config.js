@@ -2,7 +2,6 @@
 
 export const PROXY_URL = 'https://itp-ima-replicate-proxy.web.app/api/create_n_get';
 export const MODEL = 'anthropic/claude-opus-4.6';
-export const TOKEN_PATH = 'hidden/token.txt';
 
 // replicate enforces this as the floor for claude-opus-4.6 (input.max_tokens: must be >= 1024) --
 // it's a ceiling on output length, not a target, so actual response length is controlled via the
