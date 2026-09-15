@@ -1,5 +1,6 @@
 .DS_Store
 __MACOSX/
+hidden/
 
 #thumbnails:
 ._*
