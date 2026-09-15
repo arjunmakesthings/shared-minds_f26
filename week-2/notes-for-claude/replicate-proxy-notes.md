@@ -52,6 +52,13 @@ async function askForPicture(p_prompt) {
 - rate limits: 500 req/day on cheap models, 10 req/day on expensive/video models (authenticated)
 - my token for this project is stored locally in `hidden/token.txt` (gitignored, never commit it)
 
+**status in this project (2026-09-15): auth removed.** the dialectic canvas feature (`api.js`)
+sends no `Authorization` header at all now, so the page works for anyone on the web with no login
+step, per the proxy docs saying auth is optional. `hidden/token.txt` and the read-token-then-send-
+bearer-header pattern above are both still here, untouched, specifically so this is easy to revert
+if the unauthenticated "a few creations" quota turns out too small for real traffic -- see
+`architecture.md`'s "known constraints" for the tradeoff.
+
 ## sending media (images/audio/etc as input to a model)
 browser can't host files for replicate to fetch, so the proxy does it:
 - base64-encode the file client side (e.g. `canvas.toDataURL()`)

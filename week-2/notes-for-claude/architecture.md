@@ -15,10 +15,9 @@ for the rest of the page load.
 - `config.js` -- every tunable in one place: the proxy url, the model name, `max_tokens`, the
   agreer/disagreer role copy, and the prompt scaffolding (word/sentence-count targets are named
   constants, not buried in prose).
-- `api.js` -- the only file that talks to the network for the ai feature. `getAuthToken()` reads
-  `hidden/token.txt` and caches the *promise* (not just the value) so two near-simultaneous calls
-  share one fetch instead of racing two. `callModel(systemPrompt, promptText)` is the one place
-  that knows the proxy's request/response shape.
+- `api.js` -- the only file that talks to the network for the ai feature. `callModel(systemPrompt,
+  promptText)` is the one place that knows the proxy's request/response shape. calls are made with
+  no `Authorization` header -- see "the replicate proxy contract" below.
 - `render.js` -- turns text into safe dom content. everything goes through `escapeHtml` before
   `innerHTML`; the only html we ever construct ourselves is the `<a>` wrapper `linkifyText` adds
   around real `https?://` urls the model returns. never trust model output enough to skip this.
@@ -32,8 +31,10 @@ module scripts need to be served over http(s) -- won't work opened directly as a
 ## the replicate proxy contract
 
 single endpoint: `POST https://itp-ima-replicate-proxy.web.app/api/create_n_get`, body
-`{ model, input: { prompt, system_prompt, max_tokens } }`, `Authorization: Bearer <token>`.
-confirmed live (see chat history for the curl tests) that claude-opus-4.6's actual input schema
+`{ model, input: { prompt, system_prompt, max_tokens } }`. **no `Authorization` header sent** --
+removed 2026-09-15 so the page works for anyone on the web with no login step; see "known
+constraints" below for the tradeoff. confirmed live (see chat history for the curl tests) that
+claude-opus-4.6's actual input schema
 on replicate is exactly `{ prompt, system_prompt, max_tokens, image?, max_image_resolution? }` --
 **no `messages` or `conversation_history` field**. it is not a chat model in the api sense, just a
 single completion per call. `max_tokens` has a hard floor of 1024 for this model (422 if lower);
@@ -81,8 +82,12 @@ conversation this file doesn't capture for why.
 
 ## known constraints worth remembering
 
-- the auth token in `hidden/token.txt` expires roughly hourly (per the proxy's own docs) and has
-  to be refreshed by hand -- there's no refresh flow built in.
+- no auth token is sent (removed 2026-09-15, per the proxy docs saying it's optional). tradeoff:
+  unauthenticated calls fall under the proxy's vague "a few creations" free tier instead of the
+  500/day authenticated quota -- and that free tier is likely a shared pool across all of itp's
+  anonymous traffic, not per-visitor, so this page may start failing under real public load.
+  `hidden/token.txt` and `getAuthToken()`-style code (see `replicate-proxy-notes.md`) are kept
+  around/documented specifically so auth is easy to reinstate if that happens.
 - replicate/proxy quota tiers (500/day cheap models, 10/day expensive ones per the proxy docs)
   aren't documented per-model; whether claude-opus-4.6 counts as "expensive" is still unconfirmed.
 - the center textbox is genuinely one-shot: once a thought is submitted it's hidden and swapped

@@ -24,10 +24,8 @@ model) -- this file is the higher-level "what and why," that file is the "how."
 - `index.html`, `style.css` -- structure and all visual styling
 - `config.js`, `api.js`, `render.js`, `canvas.js`, `app.js` -- js modules (loaded via
   `<script type="module" src="app.js">`, which imports the rest)
-- `hidden/token.txt` -- gitignored auth token, required for every api call. **expires roughly
-  hourly** -- if requests start failing, this is the first thing to check. refresh it manually by
-  signing in at https://itp-ima-replicate-proxy.web.app with an nyu.edu account and pasting the
-  new token in.
+- `hidden/token.txt` -- gitignored auth token, no longer used by any api call (see "auth" under
+  known decisions below). left in place, untracked, in case auth is reinstated later.
 - `notes-for-claude/` -- claude's own reference notes: this file, `architecture.md` (technical
   deep-dive), and `replicate-proxy-notes.md` (general proxy usage notes from before this feature
   existed).
@@ -43,6 +41,15 @@ model) -- this file is the higher-level "what and why," that file is the "how."
 - **left pane = disagreer (oppose), right pane = agreer (reaffirm)** -- this mapping was
   deliberately confirmed with the user via an explicit either/or question; don't assume the more
   "intuitive" left=agree pairing.
+- **auth removed (2026-09-15)**: the proxy's own docs say authentication is optional
+  ("you do not need to authenticate and it is a bit of a pain so you should probably skip this"),
+  so the token/`Authorization` header was stripped from `api.js`, `config.js`, and `app.js` so the
+  page works for anyone on the web with no login step. tradeoff: unauthenticated calls fall under
+  the proxy's vague "a few creations" free tier instead of the 500/day authenticated quota, and
+  that free tier is likely a shared pool across all of itp's anonymous traffic, not per-visitor --
+  so this page may start failing under real public load. `hidden/token.txt` and the reading code
+  pattern in `notes-for-claude/replicate-proxy-notes.md` are kept around specifically so this is
+  easy to revert if unauthenticated calls turn out to be too limited.
 - model: `anthropic/claude-opus-4.6` via the replicate proxy, picked specifically for
   argumentative strength -- the user asked about picking a model with "the least guardrails" for
   this, and the resolution was: pick for strength, not for fewest refusals, and instead add an
@@ -64,7 +71,8 @@ model) -- this file is the higher-level "what and why," that file is the "how."
 
 ## known constraints
 
-- token expiry (~hourly) is the most likely thing to silently break requests -- see above.
+- no auth token is sent anymore -- if requests start failing broadly, check whether the
+  unauthenticated quota got hit rather than looking for a stale token.
 - replicate/proxy quota tier for this specific model (cheap vs. expensive, 500/day vs 10/day per
   the proxy's own docs) has never been confirmed.
 - no token streaming -- the proxy's `create_n_get` endpoint blocks until the full completion is
@@ -84,6 +92,8 @@ model) -- this file is the higher-level "what and why," that file is the "how."
 
 ## open items
 
-nothing is explicitly queued right now. the black-line-only canvas styling was flagged early on as
-temporary ("for now"), so a broader visual/color pass is a plausible next ask, but nothing has been
-requested yet.
+- watch whether the unauthenticated quota is actually enough for real public traffic -- if it
+  isn't, reinstating the token flow (`getAuthToken()` in `api.js`, `TOKEN_PATH` in `config.js`) is
+  the fix; the user has said they may want to go back to it.
+- the black-line-only canvas styling was flagged early on as temporary ("for now"), so a broader
+  visual/color pass is a plausible next ask, but nothing has been requested yet.
