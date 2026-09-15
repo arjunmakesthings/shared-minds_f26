@@ -48,6 +48,7 @@ function createPaneInput(pane) {
     const input = document.createElement('input');
     input.type = 'text';
     input.className = 'panel-input';
+    input.autocomplete = 'off';
     input.placeholder = `ask the ${ROLE_LABEL[pane]}...`;
     input.addEventListener('keydown', (event) => {
         if (event.key === 'Enter') submitFollowup(pane);
