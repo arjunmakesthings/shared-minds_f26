@@ -1,0 +1,168 @@
+* {
+    box-sizing: border-box;
+}
+
+html, body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    background: #fff;
+    color: #000;
+}
+
+body {
+    font-family: "Courier New", Courier, monospace;
+    font-size: 14px;
+    line-height: 1.4;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
+
+#timer {
+    position: fixed;
+    top: 16px;
+    left: 16px;
+    font-family: "Courier New", Courier, monospace;
+    font-size: 14px;
+    color: #000;
+}
+
+#model-line {
+    position: fixed;
+    top: 36px;
+    left: 16px;
+    font-family: "Courier New", Courier, monospace;
+    font-size: 14px;
+    color: #000;
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    text-transform: lowercase;
+}
+
+#using-label,
+#model-name {
+    font-size: 10px;
+    color: #888;
+}
+
+#dot {
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    background: transparent;
+    display: inline-block;
+}
+
+#dot.generating {
+    background: #d4b106;
+}
+
+#dot.done {
+    background: #2e8b2e;
+}
+
+#dot.error {
+    background: #b02323;
+}
+
+#end-btn {
+    position: fixed;
+    bottom: 16px;
+    right: 16px;
+    font-family: "Courier New", Courier, monospace;
+    font-size: 14px;
+    background: #fff;
+    color: #000;
+    border: 1px solid #000;
+    padding: 6px 14px;
+    cursor: pointer;
+    text-transform: lowercase;
+}
+
+#end-btn:hover {
+    background: #000;
+    color: #fff;
+}
+
+#stage {
+    width: 75vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
+#image-box {
+    width: 100%;
+    aspect-ratio: 16 / 9;
+    border: 1px solid #000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    background: #fff;
+}
+
+#output-image {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+#image-placeholder {
+    font-size: 14px;
+    color: #000;
+}
+
+#speak-btn {
+    align-self: center;
+    font-family: "Courier New", Courier, monospace;
+    font-size: 14px;
+    background: #fff;
+    color: #000;
+    border: 1px solid #000;
+    padding: 6px 14px;
+    cursor: pointer;
+    text-transform: lowercase;
+}
+
+#speak-btn.active {
+    background: #000;
+    color: #fff;
+}
+
+#speak-btn:disabled {
+    color: #888;
+    border-color: #888;
+    cursor: not-allowed;
+}
+
+#input-box {
+    width: 100%;
+    height: 160px;
+    resize: none;
+    overflow-y: auto;
+    font-family: "Courier New", Courier, monospace;
+    font-size: 14px;
+    line-height: 1.4;
+    color: #000;
+    background: #fff;
+    border: 1px solid #000;
+    padding: 10px;
+    text-transform: lowercase;
+}
+
+#input-box::placeholder {
+    color: #000;
+    opacity: 0.5;
+    text-transform: lowercase;
+}
+
+#input-box:focus {
+    outline: none;
+}
+

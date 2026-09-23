@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>sm_week-3_performance</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+    <div id="timer">00:00:00</div>
+    <div id="model-line">
+        <span id="using-label">using:</span>
+        <span id="model-name"></span>
+        <span id="dot"></span>
+    </div>
+
+    <main id="stage">
+        <div id="image-box">
+            <img id="output-image" alt="" hidden />
+            <div id="image-placeholder">no image yet</div>
+        </div>
+
+        <textarea
+            id="input-box"
+            spellcheck="false"
+            autocomplete="off"
+            autocapitalize="off"
+            placeholder="start writing..."
+        ></textarea>
+        <button id="speak-btn">speak</button>
+    </main>
+
+    <button id="end-btn">end</button>
+
+    <script type="module" src="app.js"></script>
+</body>
+</html>
