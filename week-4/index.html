@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>week 4 — message board</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <main>
+    <h1>leave a message</h1>
+
+    <form id="messageForm">
+      <label for="name">name</label>
+      <input type="text" id="name" required />
+
+      <label for="message">message</label>
+      <textarea id="message" required></textarea>
+
+      <button type="submit">submit</button>
+    </form>
+
+    <h2>messages</h2>
+    <ul id="messageList"></ul>
+  </main>
+
+  <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
+  <script src="script.js"></script>
+</body>
+</html>
