@@ -1,0 +1,15 @@
+{
+    "name": "exquisite-cursors-worker",
+    "private": true,
+    "type": "module",
+    "scripts": {
+        "start": "node --env-file=.env worker.js"
+    },
+    "engines": {
+        "node": ">=22"
+    },
+    "dependencies": {
+        "@napi-rs/canvas": "^1.0.10",
+        "@supabase/supabase-js": "^2.117.2"
+    }
+}

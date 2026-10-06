@@ -1,0 +1,499 @@
+/* figma-ish: grey canvas, a white frame on it, a floating dock of cursors, a properties-style panel */
+
+:root {
+    --canvas: #e5e5e5;
+    --surface: #ffffff;
+    --border: #e6e6e6;
+    --text: #1e1e1e;
+    --muted: #757575;
+    --faint: #b3b3b3;
+    --accent: #0d99ff;
+    --live: #14ae5c;
+    --shadow: 0 1px 3px rgba(0, 0, 0, 0.08), 0 6px 20px rgba(0, 0, 0, 0.08);
+    --radius: 12px;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+html,
+body {
+    margin: 0;
+    height: 100%;
+}
+
+body {
+    display: grid;
+    grid-template-columns: minmax(0, 3fr) minmax(300px, 1fr);
+    background: var(--canvas);
+    color: var(--text);
+    font: 13px/1.45 Inter, system-ui, -apple-system, sans-serif;
+    overflow: hidden;
+}
+
+/* --- left: the stage --------------------------------------------------------------------------- */
+
+#stage {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    min-width: 0;
+    height: 100vh;
+    overflow: hidden;
+}
+
+.status {
+    position: absolute;
+    top: 14px;
+    left: 16px;
+    z-index: 2;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    padding: 6px 12px;
+    background: var(--surface);
+    border-radius: 999px;
+    box-shadow: var(--shadow);
+    font-weight: 500;
+}
+
+.status-dot {
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    background: var(--faint);
+}
+
+.status.is-live .status-dot {
+    background: var(--live);
+    animation: pulse 1.6s ease-in-out infinite;
+}
+
+.status-clock {
+    color: var(--muted);
+    font-variant-numeric: tabular-nums;
+}
+
+@keyframes pulse {
+    50% {
+        opacity: 0.35;
+    }
+}
+
+#frame-area {
+    flex: 1;
+    min-height: 0;
+    display: grid;
+    place-items: center;
+    padding: 64px 32px 16px;
+}
+
+.frame-label {
+    display: flex;
+    justify-content: space-between;
+    gap: 16px;
+    margin-bottom: 6px;
+    color: var(--muted);
+    font-size: 12px;
+    white-space: nowrap;
+}
+
+#frame-title {
+    min-width: 0;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+#frame {
+    position: relative;
+    background: #ffffff; /* the paper */
+    box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.06), 0 2px 12px rgba(0, 0, 0, 0.06);
+}
+
+#frame canvas {
+    position: absolute;
+    inset: 0;
+    width: 100%;
+    height: 100%;
+}
+
+#dock {
+    flex: none;
+    align-self: center;
+    display: flex;
+    gap: 4px;
+    margin: 0 16px 20px;
+    padding: 8px;
+    background: var(--surface);
+    border-radius: var(--radius);
+    box-shadow: var(--shadow);
+    max-width: calc(100% - 32px);
+}
+
+.slot {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-width: 92px;
+    padding: 6px 10px 4px;
+    border-radius: 8px;
+    text-align: center;
+}
+
+.slot:hover {
+    background: #f5f5f5;
+}
+
+.slot-spot {
+    width: 22px;
+    height: 26px;
+    margin-bottom: 4px;
+    border-radius: 6px;
+}
+
+.slot.is-up .slot-spot {
+    outline: 1.5px dashed var(--c);
+    outline-offset: 1px;
+}
+
+.slot-name {
+    font-weight: 600;
+}
+
+.slot-sub {
+    color: var(--muted);
+    font-size: 11px;
+    white-space: nowrap;
+}
+
+.slot.is-up .slot-sub {
+    color: var(--c);
+    font-weight: 500;
+}
+
+/* hover card with the persona's one-liner */
+.slot-card {
+    position: absolute;
+    bottom: calc(100% + 10px);
+    left: 50%;
+    z-index: 4;
+    transform: translateX(-50%);
+    width: 220px;
+    padding: 10px 12px;
+    background: var(--text);
+    color: #fff;
+    border-radius: 8px;
+    font-size: 12px;
+    text-align: left;
+    opacity: 0;
+    pointer-events: none;
+    transition: opacity 0.15s;
+}
+
+.slot:hover .slot-card {
+    opacity: 1;
+}
+
+.slot-card b {
+    display: block;
+}
+
+.slot-card span {
+    display: block;
+    color: #c4c4c4;
+}
+
+/* cursors live above everything on the stage and glide between the dock and the frame */
+#cursors {
+    position: absolute;
+    inset: 0;
+    z-index: 3;
+    pointer-events: none;
+}
+
+.cursor {
+    position: absolute;
+    top: 0;
+    left: 0;
+    will-change: transform;
+}
+
+.cursor svg {
+    display: block;
+    width: 18px;
+    height: 24px;
+    filter: drop-shadow(0 1px 1.5px rgba(0, 0, 0, 0.25));
+}
+
+.cursor svg path {
+    fill: var(--c);
+    stroke: #fff;
+    stroke-width: 1.5;
+    stroke-linejoin: round;
+}
+
+.pill {
+    position: absolute;
+    top: 20px;
+    left: 14px;
+    width: max-content;
+    max-width: 260px;
+    padding: 4px 8px;
+    background: var(--c);
+    color: #fff;
+    border-radius: 2px 8px 8px 8px;
+    font-size: 12px;
+    line-height: 1.35;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.15);
+    transition: opacity 0.25s, transform 0.25s;
+}
+
+.pill b {
+    font-weight: 600;
+}
+
+.pill .say:not(:empty)::before {
+    content: " · ";
+    opacity: 0.8;
+}
+
+.cursor.is-docked .pill {
+    opacity: 0;
+    transform: translateY(-4px);
+}
+
+/* --- right: the titles panel ------------------------------------------------------------------- */
+
+#panel {
+    display: flex;
+    flex-direction: column;
+    min-width: 0;
+    height: 100vh;
+    background: var(--surface);
+    border-left: 1px solid var(--border);
+    overflow-y: auto;
+}
+
+.panel-header {
+    padding: 20px 20px 4px;
+}
+
+.panel-header h1 {
+    margin: 0 0 6px;
+    font-size: 15px;
+    font-weight: 600;
+}
+
+.panel-header p {
+    margin: 0;
+    color: var(--muted);
+}
+
+#title-form {
+    display: grid;
+    gap: 10px;
+    margin: 16px 20px;
+    padding: 14px;
+    border: 1px solid var(--border);
+    border-radius: var(--radius);
+}
+
+#title-form label {
+    display: grid;
+    gap: 4px;
+}
+
+#title-form label span {
+    color: var(--muted);
+    font-size: 11px;
+    font-weight: 500;
+}
+
+input {
+    width: 100%;
+    padding: 8px 10px;
+    border: 1px solid var(--border);
+    border-radius: 6px;
+    background: #fff;
+    color: var(--text);
+    font: inherit;
+}
+
+input:focus {
+    outline: 2px solid var(--accent);
+    outline-offset: -1px;
+    border-color: transparent;
+}
+
+button[type="submit"] {
+    padding: 8px 12px;
+    border: 0;
+    border-radius: 6px;
+    background: var(--accent);
+    color: #fff;
+    font: inherit;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+button[type="submit"]:disabled {
+    opacity: 0.6;
+    cursor: progress;
+}
+
+.form-status {
+    margin: 0;
+    min-height: 1em;
+    color: var(--muted);
+    font-size: 12px;
+}
+
+.form-status.is-error {
+    color: #f24822;
+}
+
+.list-head {
+    display: flex;
+    justify-content: space-between;
+    padding: 4px 20px 8px;
+    color: var(--muted);
+    font-size: 11px;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.04em;
+}
+
+#titles {
+    margin: 0;
+    padding: 0 12px 24px;
+    list-style: none;
+}
+
+.titles-empty {
+    margin: 0 20px;
+    color: var(--muted);
+}
+
+.title-item + .title-item {
+    margin-top: 2px;
+}
+
+.title-item.is-new .title-head {
+    animation: arrive 1.4s ease-out;
+}
+
+@keyframes arrive {
+    from {
+        background: #e5f4ff;
+    }
+}
+
+.title-head {
+    display: grid;
+    grid-template-columns: 1fr auto;
+    gap: 2px 8px;
+    width: 100%;
+    padding: 10px 8px;
+    border: 0;
+    border-radius: 8px;
+    background: none;
+    color: inherit;
+    font: inherit;
+    text-align: left;
+    cursor: pointer;
+}
+
+.title-head:hover {
+    background: #f5f5f5;
+}
+
+.title-text {
+    font-size: 14px;
+    font-weight: 600;
+    overflow-wrap: anywhere;
+}
+
+.title-meta {
+    grid-column: 1;
+    color: var(--muted);
+    font-size: 12px;
+}
+
+.title-meta .ago {
+    color: var(--text);
+    font-weight: 500;
+}
+
+.chev {
+    grid-column: 2;
+    grid-row: 1 / span 2;
+    align-self: center;
+    width: 12px;
+    height: 12px;
+    color: var(--muted);
+    transition: transform 0.2s;
+}
+
+.title-head[aria-expanded="true"] .chev {
+    transform: rotate(180deg);
+}
+
+.title-body {
+    padding: 0 8px 12px;
+}
+
+.title-body img {
+    display: block;
+    width: 100%;
+    aspect-ratio: 1200 / 750;
+    background: #fff;
+    border: 1px solid var(--border);
+    border-radius: 6px;
+}
+
+.title-context {
+    margin: 6px 0 0;
+    color: var(--muted);
+    font-size: 12px;
+}
+
+/* --- small screens: stack the panel under the stage (still always visible, just below) --------- */
+
+@media (max-width: 760px) {
+    body {
+        grid-template-columns: 1fr;
+        overflow: auto;
+    }
+
+    #stage {
+        height: 72vh;
+    }
+
+    #frame-area {
+        padding: 56px 16px 8px;
+    }
+
+    #panel {
+        height: auto;
+        border-left: 0;
+        border-top: 1px solid var(--border);
+        overflow: visible;
+    }
+
+    #dock {
+        margin: 0 8px 12px;
+        max-width: calc(100% - 16px);
+    }
+
+    .slot {
+        min-width: 0;
+        padding: 4px 6px;
+    }
+
+    .slot-sub,
+    .slot-card {
+        display: none;
+    }
+}

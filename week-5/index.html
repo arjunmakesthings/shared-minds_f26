@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exquisite Cursors</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <main id="stage">
+        <div id="status" class="status">
+            <span class="status-dot"></span>
+            <span id="status-text">connecting…</span>
+            <span id="status-clock" class="status-clock"></span>
+        </div>
+
+        <div id="frame-area">
+            <div id="frame-wrap">
+                <div class="frame-label">
+                    <span id="frame-title">Untitled</span>
+                    <span id="frame-turn"></span>
+                </div>
+                <div id="frame">
+                    <canvas id="base"></canvas>
+                    <canvas id="live"></canvas>
+                </div>
+            </div>
+        </div>
+
+        <div id="dock" aria-label="the five drawers"></div>
+        <div id="cursors" aria-hidden="true"></div>
+    </main>
+
+    <aside id="panel">
+        <header class="panel-header">
+            <h1>Exquisite Cursors</h1>
+            <p>Five strangers, each one an AI model with a life of its own, take turns drawing one picture
+                that never ends. One minute each, forever. Tell us what you think it is.</p>
+        </header>
+
+        <form id="title-form" autocomplete="off">
+            <label>
+                <span>Your name</span>
+                <input id="name-input" maxlength="40" required placeholder="Ada">
+            </label>
+            <label>
+                <span>Title this drawing</span>
+                <input id="title-input" maxlength="120" required placeholder="What is this a picture of?">
+            </label>
+            <button id="submit" type="submit">Title it</button>
+            <p id="form-status" class="form-status" role="status"></p>
+        </form>
+
+        <div class="list-head">
+            <span>Titles over time</span>
+            <span id="title-count"></span>
+        </div>
+        <ol id="titles"></ol>
+        <p id="titles-empty" class="titles-empty">No one has titled it yet. Be the first.</p>
+    </aside>
+
+    <script type="module" src="app.js"></script>
+</body>
+
+</html>
