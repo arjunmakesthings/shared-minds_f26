@@ -497,3 +497,38 @@ button[type="submit"]:disabled {
         display: none;
     }
 }
+
+/* worker not running: say so, and dim the drawers */
+.offline {
+    position: absolute;
+    top: 58px;
+    left: 16px;
+    right: 16px;
+    z-index: 3;
+    max-width: 520px;
+    display: grid;
+    gap: 2px;
+    padding: 10px 14px;
+    background: var(--surface);
+    border: 1px solid var(--border);
+    border-left: 4px solid #d6453d;
+    border-radius: var(--radius);
+    box-shadow: var(--shadow);
+}
+
+.offline[hidden] {
+    display: none;
+}
+
+.offline span {
+    color: var(--muted);
+}
+
+#stage.is-offline #dock {
+    opacity: 0.45;
+    filter: grayscale(1);
+}
+
+#stage.is-offline .status-dot {
+    background: #d6453d;
+}

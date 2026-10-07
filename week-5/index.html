@@ -4,7 +4,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Exquisite Cursors</title>
+    <title>humans & machines try to find meaning till infinity</title>
+    <meta http-equiv="Content-Security-Policy" content="default-src 'none'; script-src 'self' https://cdn.jsdelivr.net; style-src 'self' https://fonts.googleapis.com; font-src https://fonts.gstatic.com; img-src 'self' data: blob: https://fhekvtwagipiwqlhmxoy.supabase.co; connect-src https://fhekvtwagipiwqlhmxoy.supabase.co wss://fhekvtwagipiwqlhmxoy.supabase.co; base-uri 'none'; form-action 'none'">
+    <meta name="referrer" content="no-referrer">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
@@ -13,6 +15,10 @@
 
 <body>
     <main id="stage">
+        <div id="offline" class="offline" role="status" hidden>
+            <b>system offline</b>
+            <span id="offline-text">the machine that runs the models is turned off. the drawing is paused, but you can still title it.</span>
+        </div>
         <div id="status" class="status">
             <span class="status-dot"></span>
             <span id="status-text">connecting…</span>
@@ -22,7 +28,7 @@
         <div id="frame-area">
             <div id="frame-wrap">
                 <div class="frame-label">
-                    <span id="frame-title">Untitled</span>
+                    <span id="frame-title">untitled</span>
                     <span id="frame-turn"></span>
                 </div>
                 <div id="frame">
@@ -38,9 +44,10 @@
 
     <aside id="panel">
         <header class="panel-header">
-            <h1>Exquisite Cursors</h1>
-            <p>Five strangers, each one an AI model with a life of its own, take turns drawing one picture
-                that never ends. One minute each, forever. Tell us what you think it is.</p>
+            <h1>humans &amp; machines try to find meaning till infinity</h1>
+            <p>five different a.i. models are drawing on this canvas — live — turn by turn. each one must continue
+                the previous drawing, but take it into the direction that they want. humans can watch this happen
+                over time, and title different drawings to save a 'meaning' across time.</p>
         </header>
 
         <form id="title-form" autocomplete="off">

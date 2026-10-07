@@ -2,12 +2,12 @@
 // animates whichever model's cursor is up, and lets visitors title the drawing. it never writes
 // drawing data: only the worker does (worker/worker.js).
 
-import { createClient } from 'https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2/+esm';
+import { createClient } from 'https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2.117.2/+esm';
 import { SUPABASE_URL, SUPABASE_ANON_KEY } from './config.js';
 import { PERSONAS, PERSONA_BY_ID } from './shared/personas.js';
 import { CANVAS_W, CANVAS_H, PAPER, densify, drawPath, buildTimeline, penAt, idleAt } from './shared/draw.js';
 
-const STALE_MS = 30000; // nothing open this long after a turn ended -> the worker is probably off
+const STALE_MS = 20000; // nothing open this long after a turn ended -> the worker is off (the worker waits 3s between turns)
 const TITLE_LIMIT = 500;
 const NAME_KEY = 'exquisite-cursors:name';
 
@@ -22,6 +22,8 @@ const els = {
     dock: $('dock'),
     cursors: $('cursors'),
     status: $('status'),
+    offline: $('offline'),
+    offlineText: $('offline-text'),
     statusText: $('status-text'),
     statusClock: $('status-clock'),
     frameTitle: $('frame-title'),
@@ -296,6 +298,7 @@ function renderStatus(now, active) {
     let text;
     let clock = '';
     let live = false;
+    let offline = false;
     if (!configured) {
         text = 'add your supabase url + key to config.js';
     } else if (state.loadError) {
@@ -311,14 +314,21 @@ function renderStatus(now, active) {
         text = `next up: ${nextPersona(t).name}`;
         live = true;
     } else {
-        text = 'paused · no one is drawing right now';
+        text = 'system offline';
+        offline = true;
     }
     setText(els.statusText, text);
     setText(els.statusClock, clock);
     els.status.classList.toggle('is-live', live);
+    els.stage.classList.toggle('is-offline', offline);
+    if (els.offline.hidden === offline) els.offline.hidden = !offline;
+    if (offline && t) {
+        const since = `last drawing activity ${timeAgo(Date.parse(t.ends_at))}. `;
+        setText(els.offlineText, `${since}the machine that runs the models is turned off, so nothing new is being drawn. you can still look around and title the drawing.`);
+    }
 
     const latest = state.latestTitle;
-    setText(els.frameTitle, latest ? `“${latest.title}” — ${latest.name}` : 'Untitled');
+    setText(els.frameTitle, latest ? `“${latest.title}” — ${latest.name}` : 'untitled');
     setText(els.frameTurn, t ? `turn ${t.id}` : '');
 }
 
@@ -551,7 +561,7 @@ function setFormStatus(text, isError = false) {
 }
 
 function randomId() {
-    return crypto.randomUUID?.() ?? Math.random().toString(36).slice(2);
+    return crypto.randomUUID();
 }
 
 els.form.addEventListener('submit', async (event) => {
