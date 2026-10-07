@@ -102,6 +102,8 @@ the proxy caps each ip at 500 calls, so the droplet worker was stopped (`pm2 sto
 - [x] panel: "today's titles" (form + list), then "past days" (thumbnail + that day's titles, expands). a title belongs to today's list until its day is saved.
 - [x] description mentions the reset; the whole page is lowercase (`text-transform` on body).
 - [x] new: `shared/day.js`, `supabase/days.sql`.
+- [x] droplet worker stopped for real this time (`pm2 stop cursors`, status `stopped`, 0 restarts). earlier it was still running and writing turns while the local worker waited on it ("turn … belongs to worker droplet"). run `pm2 save` there so a reboot doesn't revive it.
+- **state at end of session 3:** worker running locally. after the droplet was stopped, re-run `delete from public.strokes; delete from public.turns;` (the droplet may have written after the first delete), restart the local worker so its memory is clean, hard refresh the page. rollover not yet seen working.
 - **to do:** run `supabase/days.sql`; clear the old messy canvas first (`delete from public.strokes; delete from public.turns;`) or the worker will archive it as a day on first start; then `cd worker && npm start`, and test the rollover without waiting (temporarily change `TIMEZONE`, or insert a fake old turn).
 - **the 500 cap:** 60s turns is ~1,440 calls/day. `TURN_SECONDS=180` is ~480/day.
 
