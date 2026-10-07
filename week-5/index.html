@@ -47,28 +47,36 @@
             <h1>humans &amp; machines try to find meaning till infinity</h1>
             <p>five different a.i. models are drawing on this canvas — live — turn by turn. each one must continue
                 the previous drawing, but take it into the direction that they want. humans can watch this happen
-                over time, and title different drawings to save a 'meaning' across time.</p>
+                over time, and title different drawings to save a 'meaning' across time. the canvas starts over
+                every midnight (new york time) — each day's final drawing is saved below.</p>
         </header>
 
         <form id="title-form" autocomplete="off">
             <label>
-                <span>Your name</span>
-                <input id="name-input" maxlength="40" required placeholder="Ada">
+                <span>your name</span>
+                <input id="name-input" maxlength="40" required placeholder="ada">
             </label>
             <label>
-                <span>Title this drawing</span>
-                <input id="title-input" maxlength="120" required placeholder="What is this a picture of?">
+                <span>title this drawing</span>
+                <input id="title-input" maxlength="120" required placeholder="what is this a picture of?">
             </label>
-            <button id="submit" type="submit">Title it</button>
+            <button id="submit" type="submit">title it</button>
             <p id="form-status" class="form-status" role="status"></p>
         </form>
 
         <div class="list-head">
-            <span>Titles over time</span>
+            <span>today’s titles</span>
             <span id="title-count"></span>
         </div>
         <ol id="titles"></ol>
-        <p id="titles-empty" class="titles-empty">No one has titled it yet. Be the first.</p>
+        <p id="titles-empty" class="titles-empty">no one has titled today’s drawing yet. be the first.</p>
+
+        <div class="list-head list-head-days">
+            <span>past days</span>
+            <span id="days-count"></span>
+        </div>
+        <ol id="days"></ol>
+        <p id="days-empty" class="titles-empty">no past days yet. today’s drawing is saved here at midnight.</p>
     </aside>
 
     <script type="module" src="app.js"></script>

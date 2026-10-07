@@ -13,6 +13,7 @@ import { createClient } from '@supabase/supabase-js';
 import { createCanvas } from '@napi-rs/canvas';
 import { CANVAS_W, CANVAS_H, PAPER, densify, drawPath } from '../shared/draw.js';
 import { PERSONAS } from '../shared/personas.js';
+import { dayOf } from '../shared/day.js';
 import { MODELS, PROXY_URL } from './models.js';
 import { buildPrompt, parseReply } from './prompt.js';
 
@@ -86,13 +87,44 @@ async function loadHistory() {
     history.push(...rows.reverse());
 }
 
-function renderPng() {
+function renderBuffer() {
     const canvas = createCanvas(CANVAS_W, CANVAS_H);
     const ctx = canvas.getContext('2d');
     ctx.fillStyle = PAPER;
     ctx.fillRect(0, 0, CANVAS_W, CANVAS_H);
     for (const s of strokes) drawPath(ctx, s.dense, s.width);
-    return `data:image/png;base64,${canvas.toBuffer('image/png').toString('base64')}`;
+    return canvas.toBuffer('image/png');
+}
+
+function renderPng() {
+    return `data:image/png;base64,${renderBuffer().toString('base64')}`;
+}
+
+// save the finished day as a png + a `days` row, and only then wipe the canvas. nothing is deleted
+// unless the png is safely stored, and every step can be retried.
+async function rollover(day) {
+    await syncStrokes();
+    if (strokes.length) {
+        const path = `day-${day}.png`;
+        const upload = await db.storage.from('snapshots').upload(path, renderBuffer(), { contentType: 'image/png', upsert: true });
+        if (upload.error) throw new Error(`supabase storage: ${upload.error.message}`);
+        const { count, error } = await db.from('turns').select('id', { count: 'exact', head: true }).eq('status', 'done');
+        if (error) throw new Error(`supabase: ${error.message}`);
+        must(await db.from('days').upsert({
+            day,
+            snapshot_url: db.storage.from('snapshots').getPublicUrl(path).data.publicUrl,
+            turns: count ?? 0,
+            strokes: strokes.length,
+        }));
+        log(`saved ${day}: ${count} turns, ${strokes.length} strokes`);
+    }
+    must(await db.from('strokes').delete().gt('id', 0));
+    must(await db.from('turns').delete().gt('id', 0));
+    // a blank canvas: forget the drawing and what the others "said" about it (the personas stay)
+    strokes.length = 0;
+    lastStrokeId = 0;
+    history.length = 0;
+    log('new day, blank canvas');
 }
 
 async function latestTurn() {
@@ -239,10 +271,20 @@ async function main() {
     await loadHistory();
     log(`loaded ${strokes.length} existing strokes`);
 
+    // the day the canvas on screen belongs to; a new day starts a blank one
+    const startTurn = await latestTurn();
+    let canvasDay = dayOf(startTurn ? Date.parse(startTurn.started_at) : Date.now());
+
     let ahead = null;
     while (true) {
         try {
-            const last = await waitForOthers();
+            let last = await waitForOthers();
+            if (dayOf(Date.now()) !== canvasDay) {
+                await rollover(canvasDay);
+                canvasDay = dayOf(Date.now());
+                last = null; // the first drawer of the day is the first persona
+                ahead = null;
+            }
             const persona = nextPersona(last);
             // only use a thought-ahead reply if nothing else happened on the canvas in between
             const ready = ahead && ahead.personaId === persona.id && ahead.afterTurnId === last?.id ? ahead.reply : null;

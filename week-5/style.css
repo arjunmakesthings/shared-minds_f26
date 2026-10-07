@@ -29,7 +29,13 @@ body {
     background: var(--canvas);
     color: var(--text);
     font: 13px/1.45 Inter, system-ui, -apple-system, sans-serif;
+    text-transform: lowercase; /* everything on the page is lowercase, including what visitors type */
     overflow: hidden;
+}
+
+input,
+button {
+    text-transform: inherit;
 }
 
 /* --- left: the stage --------------------------------------------------------------------------- */
@@ -361,11 +367,11 @@ button[type="submit"]:disabled {
     color: var(--muted);
     font-size: 11px;
     font-weight: 600;
-    text-transform: uppercase;
     letter-spacing: 0.04em;
 }
 
-#titles {
+#titles,
+#days {
     margin: 0;
     padding: 0 12px 24px;
     list-style: none;
@@ -451,6 +457,29 @@ button[type="submit"]:disabled {
     background: #fff;
     border: 1px solid var(--border);
     border-radius: 6px;
+}
+
+.list-head-days {
+    margin-top: 8px;
+    padding-top: 16px;
+    border-top: 1px solid var(--border);
+}
+
+.day-titles {
+    margin: 8px 0 0;
+    padding: 0;
+    list-style: none;
+    color: var(--muted);
+    font-size: 12px;
+}
+
+.day-titles li + li {
+    margin-top: 2px;
+}
+
+.day-titles b {
+    color: var(--text);
+    font-weight: 600;
 }
 
 .title-context {

@@ -59,6 +59,54 @@ real supabase project yet.
 
 ---
 
+## status as of 2026-10-07 (end of session 2)
+
+**the worker is live on the digitalocean droplet under pm2.** the page has not been checked in a browser
+by claude (claude doesn't run servers), so the csp and the offline banner still need a real look.
+
+### done this session
+
+- [x] supabase project set up; `config.js` has the real url (bare project url, no `/rest/v1/`) + publishable key.
+- [x] `worker/.env` created locally (gitignored). `worker/.env.local` holds the db password (gitignored via `worker/.gitignore`; nothing reads it).
+- [x] new copy: page `<title>` and panel heading/description are now "humans & machines try to find meaning till infinity" + arjun's description.
+- [x] **offline state**: 20s after the last turn ends the status pill says "system offline", a banner explains it (with time of last activity), the dock dims. clears itself when the worker returns.
+- [x] **hardening**: csp + no-referrer meta in `index.html`; `supabase-js` pinned to 2.117.2 in `app.js`; new `supabase/hardening.sql` (titles insert restricted to own-bucket png url / real persona id / existing turn; snapshot upload names restricted; browsers can't write turns/strokes). arjun chose **not** to add a title rate limit.
+- [x] git history checked: no secrets ever committed.
+- [x] droplet: node upgraded 18 → 22+, repo cloned, `npm install`, `.env` written, `npm start` worked, `pm2 start` + `pm2 save` done (process `cursors`, online, ~66mb).
+
+### still to check / do
+
+1. **run `supabase/hardening.sql`** in the sql editor (after `schema.sql`) if not done yet.
+2. confirm `pm2 startup` really took: `systemctl status pm2-non-root | head -5`, ideally a `sudo reboot` test then `pm2 status`.
+3. firewall on the droplet: `sudo ufw allow OpenSSH && sudo ufw enable` (test a second ssh login first).
+4. optional: `pm2 install pm2-logrotate`.
+5. open the page in a browser (serve `week-5/` yourself), watch the console for csp errors, then title a drawing and check the snapshot upload still passes the new storage policy.
+6. test the offline banner: `pm2 stop cursors`, wait ~20s, look at the page, then `pm2 start cursors`.
+7. commit (arjun commits themselves; leave `assets/` out unless wanted), turn on github pages (branch main, root; page lives at `.../week-5/`).
+8. only one worker at a time: don't run `npm start` on the laptop while the droplet runs.
+
+### droplet cheatsheet
+
+- logs: `pm2 logs cursors --lines 50` (stream) or `--nostream`; files in `~/.pm2/logs/`.
+- stop / start: `pm2 stop cursors` / `pm2 start cursors`. a powered-off droplet still bills; only destroying it stops billing.
+- update code: `cd ~/sm_git-repo && git pull && pm2 restart cursors`.
+- the droplet's `.env` (secret key) lives only there; never paste it in chat or commit it.
+
+---
+
+## status as of 2026-10-07 (session 3): daily reset
+
+the proxy caps each ip at 500 calls, so the droplet worker was stopped (`pm2 stop cursors`); run the worker locally for now.
+
+- [x] **daily reset, written but not run.** at midnight new york time the worker saves the day's drawing to `snapshots/day-YYYY-MM-DD.png`, inserts a `days` row, deletes all turns + strokes, clears its stroke + intent history, and the first persona starts the blank canvas. pages clear on the `days` insert.
+- [x] panel: "today's titles" (form + list), then "past days" (thumbnail + that day's titles, expands). a title belongs to today's list until its day is saved.
+- [x] description mentions the reset; the whole page is lowercase (`text-transform` on body).
+- [x] new: `shared/day.js`, `supabase/days.sql`.
+- **to do:** run `supabase/days.sql`; clear the old messy canvas first (`delete from public.strokes; delete from public.turns;`) or the worker will archive it as a day on first start; then `cd worker && npm start`, and test the rollover without waiting (temporarily change `TIMEZONE`, or insert a fake old turn).
+- **the 500 cap:** 60s turns is ~1,440 calls/day. `TURN_SECONDS=180` is ~480/day.
+
+---
+
 ## decisions made (and why)
 
 | decision | why |

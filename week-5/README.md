@@ -84,12 +84,18 @@ run only one worker at a time. a second one will just wait politely, but there's
 - what the models are told → `worker/prompt.js`
 - turn length → `TURN_SECONDS` in `worker/.env`; other timings at the top of `worker/worker.js`
 
+## daily reset
+
+run `supabase/days.sql` once (after `schema.sql` and `hardening.sql`). at midnight new york time (`shared/day.js`)
+the worker saves the finished drawing as `snapshots/day-YYYY-MM-DD.png`, adds a row to `days`, deletes that day's
+turns + strokes, and forgets the drawing and the models' intents. titles are kept. open pages clear themselves.
+
 ## starting over
 
 sql editor:
 
 ```sql
-truncate table public.titles, public.strokes, public.turns restart identity;
+truncate table public.titles, public.strokes, public.turns, public.days restart identity;
 ```
 
 then empty the `snapshots` bucket under storage.

@@ -1,10 +1,11 @@
-// exquisite cursors -- the page everyone watches. it reads turns, strokes and titles from supabase,
+// exquisite cursors -- the page everyone watches. it reads turns, strokes, titles and days from supabase,
 // animates whichever model's cursor is up, and lets visitors title the drawing. it never writes
 // drawing data: only the worker does (worker/worker.js).
 
 import { createClient } from 'https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2.117.2/+esm';
 import { SUPABASE_URL, SUPABASE_ANON_KEY } from './config.js';
 import { PERSONAS, PERSONA_BY_ID } from './shared/personas.js';
+import { dayOf } from './shared/day.js';
 import { CANVAS_W, CANVAS_H, PAPER, densify, drawPath, buildTimeline, penAt, idleAt } from './shared/draw.js';
 
 const STALE_MS = 20000; // nothing open this long after a turn ended -> the worker is off (the worker waits 3s between turns)
@@ -36,6 +37,9 @@ const els = {
     titles: $('titles'),
     titleCount: $('title-count'),
     titlesEmpty: $('titles-empty'),
+    days: $('days'),
+    daysCount: $('days-count'),
+    daysEmpty: $('days-empty'),
 };
 
 const configured = !SUPABASE_URL.includes('your-project-ref');
@@ -50,9 +54,13 @@ const state = {
     timeline: null, // { turnId, count, timeline } for the turn being drawn
     anchor: null, // { turnId, point } where that turn's cursor idles while thinking
     titleIds: new Set(),
+    titleRows: [], // every title loaded, newest first
     lastTitleId: 0,
-    titleCount: 0,
+    titleCount: 0, // titles on today's canvas
     latestTitle: null,
+    dayRows: [], // finished days, newest first
+    dayIds: new Set(),
+    daysReady: false, // false while the first load runs, so the first days don't count as a new day
     loadError: null,
 };
 
@@ -395,22 +403,35 @@ async function loadTurn() {
     if (rows[0]) setTurn(rows[0]);
 }
 
+// a title belongs to today's canvas until its day has been saved to the past days
+function onCanvas(row) {
+    return !state.dayIds.has(dayOf(Date.parse(row.created_at)));
+}
+
+function renderToday() {
+    els.titles.replaceChildren();
+    state.titleCount = 0;
+    state.latestTitle = null;
+    for (const row of state.titleRows) {
+        if (!onCanvas(row)) continue;
+        els.titles.append(titleItem(row, false));
+        state.titleCount++;
+        state.latestTitle ??= row;
+    }
+    renderTitleCount();
+}
+
 async function loadInitialTitles() {
-    const { data, count, error } = await db.from('titles')
-        .select('*', { count: 'exact' })
+    const { data, error } = await db.from('titles')
+        .select('*')
         .order('id', { ascending: false })
         .limit(TITLE_LIMIT);
     if (error) throw error;
-    state.titleCount = count ?? data.length;
-    for (const row of data) {
-        state.titleIds.add(row.id);
-        els.titles.append(titleItem(row, false));
-    }
-    if (data[0]) {
-        state.lastTitleId = data[0].id;
-        state.latestTitle = data[0];
-    }
-    renderTitleCount();
+    for (const row of data) state.titleIds.add(row.id);
+    state.titleRows = data;
+    if (data[0]) state.lastTitleId = data[0].id;
+    renderToday();
+    renderDays();
 }
 
 async function loadNewTitles() {
@@ -421,13 +442,46 @@ async function loadNewTitles() {
 function addNewTitle(row) {
     if (!row?.id || state.titleIds.has(row.id)) return;
     state.titleIds.add(row.id);
-    state.titleCount++;
-    els.titles.prepend(titleItem(row, true));
-    if (row.id > state.lastTitleId) {
-        state.lastTitleId = row.id;
+    state.titleRows.unshift(row);
+    if (row.id > state.lastTitleId) state.lastTitleId = row.id;
+    if (onCanvas(row)) {
+        state.titleCount++;
         state.latestTitle = row;
+        els.titles.prepend(titleItem(row, true));
+        renderTitleCount();
+    } else {
+        renderDays();
     }
-    renderTitleCount();
+}
+
+// --- days: the canvas starts over at midnight --------------------------------------------------------
+
+async function loadDays() {
+    const rows = must(await db.from('days').select('*').order('day', { ascending: false }).limit(366));
+    rows.forEach(addDay);
+}
+
+function addDay(row) {
+    if (!row?.day || state.dayIds.has(row.day)) return;
+    state.dayIds.add(row.day);
+    state.dayRows.push(row);
+    state.dayRows.sort((a, b) => b.day.localeCompare(a.day));
+    // the worker saves the day, then wipes the canvas: clear ours too
+    if (state.daysReady) resetCanvas();
+    renderDays();
+}
+
+function resetCanvas() {
+    state.strokes.clear();
+    state.strokeIds.clear();
+    state.lastStrokeId = 0;
+    state.pending.clear();
+    state.timeline = null;
+    state.anchor = null;
+    state.turn = null;
+    redrawBase();
+    clearCtx(liveCtx);
+    renderToday();
 }
 
 // catch up on anything missed while disconnected or in a background tab
@@ -435,6 +489,7 @@ let syncing = null;
 function resync() {
     syncing ??= (async () => {
         try {
+            await loadDays(); // first: a new day clears the canvas before the new strokes are loaded
             await loadStrokes();
             await loadTurn();
             await loadNewTitles();
@@ -452,6 +507,7 @@ function subscribe() {
         .on('postgres_changes', { event: '*', schema: 'public', table: 'turns' }, ({ new: row }) => setTurn(row))
         .on('postgres_changes', { event: 'INSERT', schema: 'public', table: 'strokes' }, ({ new: row }) => addStroke(row))
         .on('postgres_changes', { event: 'INSERT', schema: 'public', table: 'titles' }, ({ new: row }) => addNewTitle(row))
+        .on('postgres_changes', { event: 'INSERT', schema: 'public', table: 'days' }, ({ new: row }) => addDay(row))
         .subscribe((status) => {
             if (status === 'SUBSCRIBED') resync();
         });
@@ -527,6 +583,62 @@ function titleItem(row, isNew) {
 function renderTitleCount() {
     els.titleCount.textContent = state.titleCount ? String(state.titleCount) : '';
     els.titlesEmpty.hidden = state.titleCount > 0;
+}
+
+function fmtDay(day) {
+    const date = new Date(`${day}T12:00:00`); // noon, so the local timezone can't shift the date
+    const sameYear = date.getFullYear() === new Date().getFullYear();
+    return new Intl.DateTimeFormat(undefined, {
+        weekday: 'short',
+        month: 'short',
+        day: 'numeric',
+        ...(sameYear ? {} : { year: 'numeric' }),
+    }).format(date);
+}
+
+function dayItem(row) {
+    const titles = state.titleRows.filter((t) => dayOf(Date.parse(t.created_at)) === row.day);
+    const li = document.createElement('li');
+    li.className = 'title-item';
+    li.innerHTML = `
+        <button class="title-head" type="button" aria-expanded="false">
+            <span class="title-text"></span>
+            <span class="title-meta"></span>
+            <svg class="chev" viewBox="0 0 12 12" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M2.5 4.5 6 8l3.5-3.5"/></svg>
+        </button>
+        <div class="title-body" hidden>
+            <img alt="">
+            <ul class="day-titles"></ul>
+        </div>`;
+
+    li.querySelector('.title-text').textContent = fmtDay(row.day);
+    const bits = [`${row.turns} turns`, `${titles.length} title${titles.length === 1 ? '' : 's'}`];
+    li.querySelector('.title-meta').textContent = bits.join(' · ');
+
+    const list = li.querySelector('.day-titles');
+    for (const t of titles) {
+        const item = document.createElement('li');
+        item.append(Object.assign(document.createElement('b'), { textContent: `“${t.title}”` }), ` — ${t.name}`);
+        list.append(item);
+    }
+
+    const head = li.querySelector('.title-head');
+    const body = li.querySelector('.title-body');
+    const img = li.querySelector('img');
+    img.alt = `the final drawing of ${fmtDay(row.day)}`;
+    head.addEventListener('click', () => {
+        const open = head.getAttribute('aria-expanded') !== 'true';
+        head.setAttribute('aria-expanded', String(open));
+        body.hidden = !open;
+        if (open && !img.src) img.src = row.snapshot_url; // load on first open
+    });
+    return li;
+}
+
+function renderDays() {
+    els.days.replaceChildren(...state.dayRows.map(dayItem));
+    els.daysCount.textContent = state.dayRows.length ? String(state.dayRows.length) : '';
+    els.daysEmpty.hidden = state.dayRows.length > 0;
 }
 
 function refreshAgo() {
@@ -633,8 +745,11 @@ async function init() {
     requestAnimationFrame(tick);
 
     renderTitleCount();
+    renderDays();
     if (!db) return;
     try {
+        await loadDays(); // before the titles: which of them belong to a past day
+        state.daysReady = true;
         await Promise.all([
             loadInitialTitles(),
             // strokes before the turn, so the idle anchor of the current turn is computed from real data
