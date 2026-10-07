@@ -27,7 +27,6 @@ const els = {
     offlineText: $('offline-text'),
     statusText: $('status-text'),
     statusClock: $('status-clock'),
-    frameTitle: $('frame-title'),
     frameTurn: $('frame-turn'),
     form: $('title-form'),
     nameInput: $('name-input'),
@@ -57,7 +56,7 @@ const state = {
     titleRows: [], // every title loaded, newest first
     lastTitleId: 0,
     titleCount: 0, // titles on today's canvas
-    latestTitle: null,
+    firstTurnId: null, // the first turn of the current canvas: turn numbers count from it
     dayRows: [], // finished days, newest first
     dayIds: new Set(),
     daysReady: false, // false while the first load runs, so the first days don't count as a new day
@@ -335,9 +334,7 @@ function renderStatus(now, active) {
         setText(els.offlineText, `${since}the machine that runs the models is turned off, so nothing new is being drawn. you can still look around and title the drawing.`);
     }
 
-    const latest = state.latestTitle;
-    setText(els.frameTitle, latest ? `“${latest.title}” — ${latest.name}` : 'untitled');
-    setText(els.frameTurn, t ? `turn ${t.id}` : '');
+    setText(els.frameTurn, t && state.firstTurnId !== null ? `turn ${t.id - state.firstTurnId + 1}` : '');
 }
 
 let lastFrame = performance.now();
@@ -377,6 +374,7 @@ function addStroke(row) {
 function setTurn(row) {
     if (!row?.id || (state.turn && row.id < state.turn.id)) return;
     state.turn = row;
+    state.firstTurnId ??= row.id; // the first turn after a blank canvas
     const have = state.strokes.get(row.id)?.length ?? 0;
     if (row.status === 'drawing' && have < row.stroke_count) loadTurnStrokes(row.id);
 }
@@ -399,6 +397,10 @@ async function loadTurnStrokes(turnId) {
 }
 
 async function loadTurn() {
+    if (state.firstTurnId === null) {
+        const first = must(await db.from('turns').select('id').order('id').limit(1));
+        if (first[0]) state.firstTurnId = first[0].id;
+    }
     const rows = must(await db.from('turns').select('*').order('id', { ascending: false }).limit(1));
     if (rows[0]) setTurn(rows[0]);
 }
@@ -411,12 +413,10 @@ function onCanvas(row) {
 function renderToday() {
     els.titles.replaceChildren();
     state.titleCount = 0;
-    state.latestTitle = null;
     for (const row of state.titleRows) {
         if (!onCanvas(row)) continue;
         els.titles.append(titleItem(row, false));
         state.titleCount++;
-        state.latestTitle ??= row;
     }
     renderTitleCount();
 }
@@ -446,7 +446,6 @@ function addNewTitle(row) {
     if (row.id > state.lastTitleId) state.lastTitleId = row.id;
     if (onCanvas(row)) {
         state.titleCount++;
-        state.latestTitle = row;
         els.titles.prepend(titleItem(row, true));
         renderTitleCount();
     } else {
@@ -479,6 +478,7 @@ function resetCanvas() {
     state.timeline = null;
     state.anchor = null;
     state.turn = null;
+    state.firstTurnId = null;
     redrawBase();
     clearCtx(liveCtx);
     renderToday();
@@ -562,7 +562,7 @@ function titleItem(row, isNew) {
     li.querySelector('.when').textContent = fmtWhen(ts);
 
     const persona = PERSONA_BY_ID[row.model_id];
-    const context = [row.turn_id && `turn ${row.turn_id}`, persona && `${persona.name}’s turn`].filter(Boolean);
+    const context = [persona && `${persona.name}’s turn`].filter(Boolean);
     if (!row.snapshot_url) context.push('no snapshot was saved');
     li.querySelector('.title-context').textContent = context.join(' · ');
 
