@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>n-dimensional space</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <main id="stage">
+        <canvas id="view"></canvas>
+        <div id="hud" class="hud"></div>
+        <p class="help">
+            drag an axis tip to tilt the camera into that trait (pull hidden ones out of the centre) ·
+            drag anywhere else to spin · scroll to zoom<br>
+            keys: <b>space</b> tour · <b>f</b> face a–b · <b>r</b> reset · <b>z</b> zoom to fit
+        </p>
+    </main>
+    <aside id="panel"></aside>
+    <script type="module" src="app.js"></script>
+</body>
+
+</html>

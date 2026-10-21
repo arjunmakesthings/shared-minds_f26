@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>n-dimensional space</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <script type="importmap">
+        {
+            "imports": {
+                "three": "https://cdn.jsdelivr.net/npm/three@0.170.0/build/three.module.js",
+                "three/addons/": "https://cdn.jsdelivr.net/npm/three@0.170.0/examples/jsm/"
+            }
+        }
+    </script>
+</head>
+
+<body>
+    <main id="stage">
+        <div id="hud" class="hud"></div>
+        <p class="help">
+            <b>drag</b> to orbit · <b>right-drag</b> to pan · <b>scroll</b> to zoom<br>
+            <b>drag an axis tip</b> to tilt the room into that parameter<br>
+            keys: <b>space</b> tour · <b>f</b> face 1–2 · <b>r</b> reset · <b>z</b> zoom to fit
+        </p>
+    </main>
+    <aside id="panel"></aside>
+    <script type="module" src="app.js"></script>
+</body>
+
+</html>
