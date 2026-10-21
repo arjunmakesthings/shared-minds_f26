@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>shared minds</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --bg: #161616;
+            --layer: #262626;
+            --line: #393939;
+            --text: #f4f4f4;
+            --muted: #a8a8a8;
+            color-scheme: dark;
+        }
+
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            margin: 0;
+            background: var(--bg);
+            color: var(--text);
+            font: 400 13px / 1.5 "IBM Plex Sans", system-ui, sans-serif;
+            letter-spacing: 0.01em;
+        }
+
+        .wrap {
+            max-width: 880px;
+            margin: 0 auto;
+            padding: 0 24px;
+        }
+
+        header {
+            padding: 48px 0 24px;
+        }
+
+        h1 {
+            margin: 0;
+            font-size: 32px;
+            font-weight: 300;
+            letter-spacing: 0;
+            line-height: 1.2;
+        }
+
+        .lede {
+            margin: 8px 0 0;
+            color: var(--muted);
+            max-width: 60ch;
+        }
+
+        h2 {
+            margin: 32px 0 8px;
+            font-size: 12px;
+            font-weight: 600;
+            color: var(--muted);
+            text-transform: lowercase;
+            letter-spacing: 0.04em;
+        }
+
+        a {
+            color: var(--text);
+            text-underline-offset: 2px;
+        }
+
+        a:hover {
+            color: var(--muted);
+        }
+
+        :focus-visible {
+            outline: 2px solid var(--text);
+            outline-offset: 1px;
+        }
+
+        .week {
+            display: grid;
+            grid-template-columns: 96px 1fr;
+            gap: 16px;
+            padding: 16px 0;
+            border-top: 1px solid var(--line);
+        }
+
+        .week-name {
+            font-weight: 600;
+        }
+
+        .pages {
+            margin: 0;
+            padding: 0;
+            list-style: none;
+            display: grid;
+            gap: 4px;
+        }
+
+        .pages small {
+            color: var(--muted);
+            margin-left: 8px;
+        }
+
+        .none {
+            color: var(--muted);
+        }
+
+        .updates {
+            margin: 0;
+            padding: 0;
+            list-style: none;
+        }
+
+        .updates li {
+            display: grid;
+            grid-template-columns: 96px 1fr;
+            gap: 16px;
+            padding: 8px 0;
+            border-top: 1px solid var(--line);
+        }
+
+        .updates time {
+            color: var(--muted);
+            font-variant-numeric: tabular-nums;
+        }
+
+        .status {
+            color: var(--muted);
+            padding: 16px 0;
+        }
+
+        footer {
+            margin-top: 48px;
+            padding: 16px 0 48px;
+            border-top: 1px solid var(--line);
+            color: var(--muted);
+            font-size: 12px;
+        }
+
+        @media (max-width: 560px) {
+
+            .week,
+            .updates li {
+                grid-template-columns: 1fr;
+                gap: 4px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div class="wrap">
+        <header>
+            <h1>shared minds</h1>
+            <p class="lede">weekly assignments for shared minds, a class at itp (fall 2026). this page builds itself from
+                the repo: new weeks and updates show up here on their own.</p>
+        </header>
+
+        <main>
+            <h2>weeks</h2>
+            <div id="weeks"><p class="status">loading…</p></div>
+
+            <h2>recent updates</h2>
+            <ul id="updates" class="updates"></ul>
+        </main>
+
+        <footer>
+            <a id="repo-link" href="https://github.com">view the repo on github</a>
+        </footer>
+    </div>
+
+    <script>
+        // where this repo lives. on github pages the address is <owner>.github.io/<repo>/, so we read it
+        // from there; the constants are only used when the page is opened some other way.
+        const FALLBACK = { owner: "arjunmakesthings", repo: "shared-minds_f26", branch: "main" };
+        const host = location.hostname.endsWith(".github.io") ? location.hostname.split(".")[0] : null;
+        const repoName = host ? location.pathname.split("/")[1] : null;
+        const OWNER = host || FALLBACK.owner;
+        const REPO = repoName || FALLBACK.repo;
+        const BRANCH = FALLBACK.branch;
+        const API = `https://api.github.com/repos/${OWNER}/${REPO}`;
+
+        // <pure>
+        // every web page under a week-N folder: week-N/index.html, week-N/project/index.html, …
+        // folders that hold dependencies or caches are skipped, as are the pages inside them.
+        function groupWeeks(tree) {
+            const weeks = new Map();
+            const skip = /(^|\/)(node_modules|cache|hidden|\.[^/]+)(\/|$)/;
+            for (const e of tree) {
+                const top = e.path.match(/^(week-(\d+))(\/|$)/);
+                if (!top) continue;
+                if (!weeks.has(top[1])) weeks.set(top[1], { name: top[1], n: Number(top[2]), pages: [] });
+                if (e.type === "blob" && /(^|\/)index\.html$/.test(e.path) && !skip.test(e.path)) {
+                    weeks.get(top[1]).pages.push(e.path.replace(/index\.html$/, ""));
+                }
+            }
+            for (const w of weeks.values()) w.pages.sort((a, b) => a.localeCompare(b));
+            return [...weeks.values()].sort((a, b) => b.n - a.n); // newest week first
+        }
+
+        // "week-6/how-similar-are/" -> "how similar are"; a week's own page has no sub-name
+        function pageLabel(path) {
+            const parts = path.replace(/\/$/, "").split("/");
+            return parts.length === 1 ? null : parts.slice(1).join(" / ").replace(/[-_]+/g, " ");
+        }
+        // </pure>
+
+        const $ = (id) => document.getElementById(id);
+        const el = (tag, attrs = {}, ...kids) => {
+            const e = document.createElement(tag);
+            for (const [k, v] of Object.entries(attrs)) e.setAttribute(k, v);
+            e.append(...kids);
+            return e;
+        };
+
+        // the github api allows 60 unauthenticated calls an hour per visitor, so keep answers for a while
+        async function cachedJson(url, minutes = 10) {
+            const key = "sm:" + url;
+            try {
+                const hit = JSON.parse(sessionStorage.getItem(key));
+                if (hit && Date.now() - hit.t < minutes * 60000) return hit.v;
+            } catch { }
+            const res = await fetch(url, { headers: { Accept: "application/vnd.github+json" } });
+            if (!res.ok) throw new Error(`${res.status}`);
+            const v = await res.json();
+            try { sessionStorage.setItem(key, JSON.stringify({ t: Date.now(), v })); } catch { }
+            return v;
+        }
+
+        // the <title> of one of our own pages (same site, so the browser allows reading it)
+        async function titleOf(path) {
+            try {
+                const res = await fetch(path);
+                if (!res.ok) return null;
+                const m = (await res.text()).match(/<title>([\s\S]*?)<\/title>/i);
+                return m ? m[1].trim().replace(/\s+/g, " ") : null;
+            } catch { return null; }
+        }
+
+        async function renderWeeks() {
+            const box = $("weeks");
+            try {
+                const data = await cachedJson(`${API}/git/trees/${BRANCH}?recursive=1`);
+                const weeks = groupWeeks(data.tree);
+                box.replaceChildren();
+                for (const w of weeks) {
+                    const list = el("ul", { class: "pages" });
+                    if (!w.pages.length) {
+                        list.append(el("li", { class: "none" }, "no page yet · ", el("a", { href: `https://github.com/${OWNER}/${REPO}/tree/${BRANCH}/${w.name}` }, "see the folder")));
+                    }
+                    for (const p of w.pages) {
+                        const sub = pageLabel(p);
+                        const a = el("a", { href: p }, sub ?? w.name);
+                        const li = el("li", {}, a);
+                        list.append(li);
+                        titleOf(p).then((t) => { if (t && t !== (sub ?? w.name)) li.append(el("small", {}, t)); });
+                    }
+                    box.append(el("div", { class: "week" }, el("div", { class: "week-name" }, w.name.replace("-", " ")), list));
+                }
+                if (!weeks.length) box.append(el("p", { class: "status" }, "no weeks yet."));
+            } catch (e) {
+                box.replaceChildren(el("p", { class: "status" }, `couldn't load the list of weeks (${e.message}). `, el("a", { href: `https://github.com/${OWNER}/${REPO}` }, "browse the repo instead"), "."));
+            }
+        }
+
+        async function renderUpdates() {
+            const ul = $("updates");
+            try {
+                const commits = await cachedJson(`${API}/commits?sha=${BRANCH}&per_page=12`);
+                for (const c of commits) {
+                    const msg = c.commit.message.split("\n")[0];
+                    const when = (c.commit.author?.date ?? "").slice(0, 10);
+                    ul.append(el("li", {}, el("time", { datetime: when }, when), el("a", { href: c.html_url }, msg)));
+                }
+            } catch {
+                ul.append(el("li", {}, el("span", { class: "none" }, "couldn't load updates right now.")));
+            }
+        }
+
+        $("repo-link").href = `https://github.com/${OWNER}/${REPO}`;
+        renderWeeks();
+        renderUpdates();
+    </script>
+</body>
+
+</html>
