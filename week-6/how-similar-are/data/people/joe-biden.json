@@ -1,0 +1,2041 @@
+{
+  "id": "joe-biden",
+  "collected": "2026-10-21",
+  "stats": {
+    "wikiquote": 49,
+    "ontheissues": 67,
+    "ucsb": 53,
+    "asked": 135,
+    "dropped": 15
+  },
+  "quotes": [
+    {
+      "id": "q1",
+      "text": "My fellow Americans, I am speaking to you tonight from the Oval Office. Before I begin, let me speak to important news from earlier today. After eight months of nonstop negotiation, my administration — by my administration, a ceasefire and a hostage deal has been reached by Israel and Hamas, the elements of which I laid out in great detail in May of this year. This plan was developed and negotiated by my team and will be largely implemented by the incoming administration. That's why I told my team to keep the incoming administration fully informed, because that's how it should be: working together as Americans. This will be my final address to you from — the American people from the Oval Office, from this desk as president. And I've been thinking a lot about who we are and, maybe more importantly, who we should be.",
+      "context": "Farewell Address to the Nation (15 January 2025)",
+      "via": "wikiquote",
+      "source": {
+        "url": "https://en.wikiquote.org/wiki/Joe_Biden",
+        "title": "wikiquote: Farewell Address to the Nation (15 January 2025)",
+        "publisher": "wikiquote",
+        "date": "2025-01-15"
+      }
+    },
+    {
+      "id": "q2",
+      "text": "You know, we've proven we don't have to choose between protecting the environment and growing the economy. We're doing both. But powerful forces want to wield their unchecked influence to eliminate the steps we've taken to tackle the climate crisis to serve their own interest for power and profit. We must not be bullied into sacrificing the future, the future of our children and our grandchildren. We must keep pushing forward and push faster. There is no time to waste.",
+      "context": "Farewell Address to the Nation (15 January 2025)",
+      "via": "wikiquote",
+      "source": {
+        "url": "https://en.wikiquote.org/wiki/Joe_Biden",
+        "title": "wikiquote: Farewell Address to the Nation (15 January 2025)",
+        "publisher": "wikiquote",
+        "date": "2025-01-15"
+      }
+    },
+    {
+      "id": "q3",
+      "text": "This morning the deal that I first put forward last May for the Middle East has finally come to fruition.",
+      "context": "Gaza cease-fire and hostage release deal achievement",
+      "via": "ucsb",
+      "source": {
+        "url": "https://www.presidency.ucsb.edu/documents/remarks-implementation-the-cease-fire-and-hostage-release-deal-between-israel-and-hamas",
+        "title": "Remarks on Implementation of the Cease-Fire and Hostage-Release Deal Between Israel and Hamas and an Exchange With Reporters...",
+        "publisher": "the american presidency project (ucsb)",
+        "date": "2025"
+      }
+    },
+    {
+      "id": "q4",
+      "text": "This was the deal that I outlined for the world back on May 31; many of you covered it at the time.",
+      "context": "Biden's earlier proposal for Middle East deal",
+      "via": "ucsb",
+      "source": {
+        "url": "https://www.presidency.ucsb.edu/documents/remarks-implementation-the-cease-fire-and-hostage-release-deal-between-israel-and-hamas",
+        "title": "Remarks on Implementation of the Cease-Fire and Hostage-Release Deal Between Israel and Hamas and an Exchange With Reporters...",
+        "publisher": "the american presidency project (ucsb)",
+        "date": "2025"
+      }
+    },
+    {
+      "id": "q5",
+      "text": "I've worked in foreign policy for decades, and this is one of the toughest negotiations I've been part of.",
+      "context": "Difficulty of Gaza cease-fire negotiations",
+      "via": "ucsb",
+      "source": {
+        "url": "https://www.presidency.ucsb.edu/documents/remarks-implementation-the-cease-fire-and-hostage-release-deal-between-israel-and-hamas",
+        "title": "Remarks on Implementation of the Cease-Fire and Hostage-Release Deal Between Israel and Hamas and an Exchange With Reporters...",
+        "publisher": "the american presidency project (ucsb)",
+        "date": "2025"
+      }
+    },
+    {
+      "id": "q6",
+      "text": "Some said my policy of a firm support for Israel is relentlessly pursuing diplomacy risked drawing America into a wider war in the region. I listened to those voices, many of whom I respected a great deal. But I concluded abandoning the course I was on would not have led us to the cease-fire we're seeing today, but instead, it would have risked the wider war in the region that so many feared.",
+      "context": "Explanation of diplomatic strategy for Middle East",
+      "via": "ucsb",
+      "source": {
+        "url": "https://www.presidency.ucsb.edu/documents/remarks-implementation-the-cease-fire-and-hostage-release-deal-between-israel-and-hamas",
+        "title": "Remarks on Implementation of the Cease-Fire and Hostage-Release Deal Between Israel and Hamas and an Exchange With Reporters...",
+        "publisher": "the american presidency project (ucsb)",
+        "date": "2025"
+      }
+    },
+    {
+      "id": "q7",
+      "text": "Today's cease-fire in Gaza and the release of hostages is a result of a principled and effective policy that we presided—I presided over for months.",
+      "context": "Credit for Gaza cease-fire implementation",
+      "via": "ucsb",
+      "source": {
+        "url": "https://www.presidency.ucsb.edu/documents/remarks-implementation-the-cease-fire-and-hostage-release-deal-between-israel-and-hamas",
+        "title": "Remarks on Implementation of the Cease-Fire and Hostage-Release Deal Between Israel and Hamas and an Exchange With Reporters...",
+        "publisher": "the american presidency project (ucsb)",
+        "date": "2025"
+      }
+    },
+    {
+      "id": "q8",
+      "text": "at long last, I can announce a cease-fire and a hostage deal has been reached between Israel and Hamas.",
+      "context": "announcing Israel-Hamas cease-fire and hostage deal",
+      "via": "ucsb",
+      "source": {
+        "url": "https://www.presidency.ucsb.edu/documents/remarks-reaching-cease-fire-and-hostage-release-deal-between-israel-and-hamas-and-exchange",
+        "title": "Remarks on Reaching a Cease-Fire and Hostage-Release Deal Between Israel and Hamas and an Exchange With Reporters",
+        "publisher": "the american presidency project (ucsb)",
+        "date": "2025"
+      }
+    },
+    {
+      "id": "q9",
+      "text": "fighting in Gaza will stop, and soon the hostages will return home to their families.",
+      "context": "describing outcome of cease-fire agreement",
+      "via": "ucsb",
+      "source": {
+        "url": "https://www.presidency.ucsb.edu/documents/remarks-reaching-cease-fire-and-hostage-release-deal-between-israel-and-hamas-and-exchange",
+        "title": "Remarks on Reaching a Cease-Fire and Hostage-Release Deal Between Israel and Hamas and an Exchange With Reporters",
+        "publisher": "the american presidency project (ucsb)",
+        "date": "2025"
+      }
+    },
+    {
+      "id": "q10",
+      "text": "The elements of this deal were what I laid out in detail this past May, which was embraced by countries around the world and endorsed overwhelmingly by the U.N. Security Council.",
+      "context": "describing origin of deal framework",
+      "via": "ucsb",
+      "source": {
+        "url": "https://www.presidency.ucsb.edu/documents/remarks-reaching-cease-fire-and-hostage-release-deal-between-israel-and-hamas-and-exchange",
+        "title": "Remarks on Reaching a Cease-Fire and Hostage-Release Deal Between Israel and Hamas and an Exchange With Reporters",
+        "publisher": "the american presidency project (ucsb)",
+        "date": "2025"
+      }
+    },
+    {
+      "id": "q11",
+      "text": "I'm deeply satisfied this day has come—finally come for the sake of the people of Israel and the families waiting in agony and for the sake of the innocent people in Gaza who suffered unimaginable devastation because of the war.",
+      "context": "expressing satisfaction about cease-fire agreement",
+      "via": "ucsb",
+      "source": {
+        "url": "https://www.presidency.ucsb.edu/documents/remarks-reaching-cease-fire-and-hostage-release-deal-between-israel-and-hamas-and-exchange",
+        "title": "Remarks on Reaching a Cease-Fire and Hostage-Release Deal Between Israel and Hamas and an Exchange With Reporters",
+        "publisher": "the american presidency project (ucsb)",
+        "date": "2025"
+      }
+    },
+    {
+      "id": "q12",
+      "text": "The Palestinian people have gone through hell. Too many innocent people have died. Too many communities have been destroyed.",
+      "context": "describing suffering of Palestinian people",
+      "via": "ucsb",
+      "source": {
+        "url": "https://www.presidency.ucsb.edu/documents/remarks-reaching-cease-fire-and-hostage-release-deal-between-israel-and-hamas-and-exchange",
+        "title": "Remarks on Reaching a Cease-Fire and Hostage-Release Deal Between Israel and Hamas and an Exchange With Reporters",
+        "publisher": "the american presidency project (ucsb)",
+        "date": "2025"
+      }
+    },
+    {
+      "id": "q13",
+      "text": "In this deal, the people of Gaza can finally recover and rebuild. They can look to a future without Hamas in power.",
+      "context": "describing future prospects for Gaza under deal",
+      "via": "ucsb",
+      "source": {
+        "url": "https://www.presidency.ucsb.edu/documents/remarks-reaching-cease-fire-and-hostage-release-deal-between-israel-and-hamas-and-exchange",
+        "title": "Remarks on Reaching a Cease-Fire and Hostage-Release Deal Between Israel and Hamas and an Exchange With Reporters",
+        "publisher": "the american presidency project (ucsb)",
+        "date": "2025"
+      }
+    },
+    {
+      "id": "q14",
+      "text": "as I prepare to leave office, our friends are strong, our enemies are weak, and there's a—genuine opportunities for a new future.",
+      "context": "assessing state of Middle East upon leaving office",
+      "via": "ucsb",
+      "source": {
+        "url": "https://www.presidency.ucsb.edu/documents/remarks-reaching-cease-fire-and-hostage-release-deal-between-israel-and-hamas-and-exchange",
+        "title": "Remarks on Reaching a Cease-Fire and Hostage-Release Deal Between Israel and Hamas and an Exchange With Reporters",
+        "publisher": "the american presidency project (ucsb)",
+        "date": "2025"
+      }
+    },
+    {
+      "id": "q15",
+      "text": "Well, you know, this is the exact framework of the deal I proposed back in May—exact—and we got the world to endorse it.",
+      "context": "responding to question about Trump credit for deal",
+      "via": "ucsb",
+      "source": {
+        "url": "https://www.presidency.ucsb.edu/documents/remarks-reaching-cease-fire-and-hostage-release-deal-between-israel-and-hamas-and-exchange",
+        "title": "Remarks on Reaching a Cease-Fire and Hostage-Release Deal Between Israel and Hamas and an Exchange With Reporters",
+        "publisher": "the american presidency project (ucsb)",
+        "date": "2025"
+      }
+    },
+    {
+      "id": "q16",
+      "text": "Well, the Governor asked for a declaration that provides for everything the Federal Government can do, and I'm prepared to sign it today.",
+      "context": "Wildfire federal assistance and declaration",
+      "via": "ucsb",
+      "source": {
+        "url": "https://www.presidency.ucsb.edu/documents/remarks-during-briefing-the-palisades-wildfire-santa-monica-california",
+        "title": "Remarks During a Briefing on the Palisades Wildfire in Santa Monica, California",
+        "publisher": "the american presidency project (ucsb)",
+        "date": "2025"
+      }
+    },
+    {
+      "id": "q17",
+      "text": "I've directed DOD—the Department of Defense—to rapidly provide additional firefighting personnel and capabilities.",
+      "context": "Directing Department of Defense wildfire response",
+      "via": "ucsb",
+      "source": {
+        "url": "https://www.presidency.ucsb.edu/documents/remarks-during-briefing-the-palisades-wildfire-santa-monica-california",
+        "title": "Remarks During a Briefing on the Palisades Wildfire in Santa Monica, California",
+        "publisher": "the american presidency project (ucsb)",
+        "date": "2025"
+      }
+    },
+    {
+      "id": "q18",
+      "text": "We're prepared to do anything and everything as long as it takes to contain these fires and to help reconstruct and make sure we get back to normal.",
+      "context": "Federal commitment to wildfire containment and recovery",
+      "via": "ucsb",
+      "source": {
+        "url": "https://www.presidency.ucsb.edu/documents/remarks-during-briefing-the-palisades-wildfire-santa-monica-california",
+        "title": "Remarks During a Briefing on the Palisades Wildfire in Santa Monica, California",
+        "publisher": "the american presidency project (ucsb)",
+        "date": "2025"
+      }
+    },
+    {
+      "id": "q19",
+      "text": "The Federal Government is here to stay as long as you need us and everything you need.",
+      "context": "Long-term federal support for wildfire recovery",
+      "via": "ucsb",
+      "source": {
+        "url": "https://www.presidency.ucsb.edu/documents/remarks-during-briefing-the-palisades-wildfire-santa-monica-california",
+        "title": "Remarks During a Briefing on the Palisades Wildfire in Santa Monica, California",
+        "publisher": "the american presidency project (ucsb)",
+        "date": "2025"
+      }
+    },
+    {
+      "id": "q20",
+      "text": "this is the most solemn occasion that I participated in in my 4 years every time we do this event",
+      "context": "Medal of Honor ceremony significance",
+      "via": "ucsb",
+      "source": {
+        "url": "https://www.presidency.ucsb.edu/documents/remarks-presenting-the-medal-honor-0",
+        "title": "Remarks on Presenting the Medal of Honor",
+        "publisher": "the american presidency project (ucsb)",
+        "date": "2025"
+      }
+    },
+    {
+      "id": "q21",
+      "text": "Today is the final time as Commander in Chief and I'm deeply privileged to honor seven American—seven American heroes.",
+      "context": "Presenting Medal of Honor on final day as Commander in Chief",
+      "via": "ucsb",
+      "source": {
+        "url": "https://www.presidency.ucsb.edu/documents/remarks-presenting-the-medal-honor-0",
+        "title": "Remarks on Presenting the Medal of Honor",
+        "publisher": "the american presidency project (ucsb)",
+        "date": "2025"
+      }
+    },
+    {
+      "id": "q22",
+      "text": "It's been the greatest honor of my life to be entrusted with the greatest fighting force in the history of the world.",
+      "context": "Service as Commander in Chief and military",
+      "via": "ucsb",
+      "source": {
+        "url": "https://www.presidency.ucsb.edu/documents/remarks-presenting-the-medal-honor-0",
+        "title": "Remarks on Presenting the Medal of Honor",
+        "publisher": "the american presidency project (ucsb)",
+        "date": "2025"
+      }
+    },
+    {
+      "id": "q23",
+      "text": "A lot happening in the Middle East. After 13 years of civil war in Syria and more than half a century of brutal authoritarian rule by Bashar Assad and his father before him, rebel forces have forced Assad to resign his office and flee the country. We’re not sure where he is, but the- — there’s word that he’s in Moscow.",
+      "context": "Remarks on the fall of the Assad regime in Syria (8 December 2024)",
+      "via": "wikiquote",
+      "source": {
+        "url": "https://en.wikiquote.org/wiki/Joe_Biden",
+        "title": "wikiquote: Remarks on the fall of the Assad regime in Syria (8 December 2024)",
+        "publisher": "wikiquote",
+        "date": "2024-12-08"
+      }
+    },
+    {
+      "id": "q24",
+      "text": "At long last, the Assad regime has fallen. This regime brutalized and tortured and killed literally hundreds of thousands of innocent Syrians. A fall of the regime is a fundamental act of justice. It’s a moment of historic opportunity for the long-suffering people of Syria to build a better future for their proud country. It’s also a moment of risk and uncertainty. As we all turn to the question of what comes next, the United States will work with our partners and the stakeholders in Syria to help them seize an opportunity to manage the risks.",
+      "context": "Remarks on the fall of the Assad regime in Syria (8 December 2024)",
+      "via": "wikiquote",
+      "source": {
+        "url": "https://en.wikiquote.org/wiki/Joe_Biden",
+        "title": "wikiquote: Remarks on the fall of the Assad regime in Syria (8 December 2024)",
+        "publisher": "wikiquote",
+        "date": "2024-12-08"
+      }
+    },
+    {
+      "id": "q25",
+      "text": "You know, for years, the main backers of Assad have been Iran, Hezbollah, and Russia. But over the last week, their support collapsed — all three of them — because all three of them are far weaker today than they were when I took office. And let’s remember why.",
+      "context": "Remarks on the fall of the Assad regime in Syria (8 December 2024)",
+      "via": "wikiquote",
+      "source": {
+        "url": "https://en.wikiquote.org/wiki/Joe_Biden",
+        "title": "wikiquote: Remarks on the fall of the Assad regime in Syria (8 December 2024)",
+        "publisher": "wikiquote",
+        "date": "2024-12-08"
+      }
+    },
+    {
+      "id": "q26",
+      "text": "Iran’s own military capabilities have been weakened. Iran tried two times to attack Israel, and the United States and — built a coalition of countries to directly defend Israel and help defeat those attacks. All this made possible for Iran and Hezbollah to continue to prop up — impossible, I should say, for them to prop up the Assad regime.",
+      "context": "Remarks on the fall of the Assad regime in Syria (8 December 2024)",
+      "via": "wikiquote",
+      "source": {
+        "url": "https://en.wikiquote.org/wiki/Joe_Biden",
+        "title": "wikiquote: Remarks on the fall of the Assad regime in Syria (8 December 2024)",
+        "publisher": "wikiquote",
+        "date": "2024-12-08"
+      }
+    },
+    {
+      "id": "q27",
+      "text": "Russia’s support for Assad also failed. And that’s because Ukraine, backed by our American allies, has put up a wall of resistance against the invading Russian forces, inflicting massive damage on the Russian forces. And that has left Russia unable to protect its main ally in the Middle East.",
+      "context": "Remarks on the fall of the Assad regime in Syria (8 December 2024)",
+      "via": "wikiquote",
+      "source": {
+        "url": "https://en.wikiquote.org/wiki/Joe_Biden",
+        "title": "wikiquote: Remarks on the fall of the Assad regime in Syria (8 December 2024)",
+        "publisher": "wikiquote",
+        "date": "2024-12-08"
+      }
+    },
+    {
+      "id": "q28",
+      "text": "Looking ahead, the United States will do the following: First, we’ll support Syria’s neighbors — including Jordan, Lebanon, Iraq, and Israel — should any threat arise from Syria during this period of transition. I will speak with leaders of the region in the coming days. I had long discussions with all of our people earlier this morning. And I’ll send senior officials from my administration to the region as well. Second, we will help stability — ensure stability in eastern Syria, protecting any personnel — our personnel against any threats. And it will remain — our mission against ISIS will be maintained, including the security of detention facilities where ISIS fighters are being held as prisoners. We’re clear-eyed about the fact that ISIS will try to take advantage of any vacuum to reestablish its capability and to create a safe haven. We will not let that happen.",
+      "context": "Remarks on the fall of the Assad regime in Syria (8 December 2024)",
+      "via": "wikiquote",
+      "source": {
+        "url": "https://en.wikiquote.org/wiki/Joe_Biden",
+        "title": "wikiquote: Remarks on the fall of the Assad regime in Syria (8 December 2024)",
+        "publisher": "wikiquote",
+        "date": "2024-12-08"
+      }
+    },
+    {
+      "id": "q29",
+      "text": "Make no mistake, some of the rebel groups that took down Assad have their own grim record of terrorism and humanit- — human right abuses. We’ve taken note of statements by the leaders of these rebel groups in recent days. And we’re — they’re saying the right things now, but as they take on greater responsibility, we will assess not just their words, but their actions.",
+      "context": "Remarks on the fall of the Assad regime in Syria (8 December 2024)",
+      "via": "wikiquote",
+      "source": {
+        "url": "https://en.wikiquote.org/wiki/Joe_Biden",
+        "title": "wikiquote: Remarks on the fall of the Assad regime in Syria (8 December 2024)",
+        "publisher": "wikiquote",
+        "date": "2024-12-08"
+      }
+    },
+    {
+      "id": "q30",
+      "text": "As I’ve said, this is a moment of considerable risk and uncertainty, but I also believe this is the best opportunity in generations for Syrians to forge their own future free of opposition. It’s also an opportunity, through far from certain — though it’s far from certain, for a more secure and prosperous Middle East, where our friends are safe, where our enemies are contained. And it would be a waste of this historic opportunity if one tyrant were toppled and only a — only to see a new one rise up in its place. So, it’s now incumbent upon all the opposition groups who seek a role in governing Syria to demonstrate their commitment to the rights of all Syrians, the rule of law, and the protection of religious and ethnic minorities.",
+      "context": "Remarks on the fall of the Assad regime in Syria (8 December 2024)",
+      "via": "wikiquote",
+      "source": {
+        "url": "https://en.wikiquote.org/wiki/Joe_Biden",
+        "title": "wikiquote: Remarks on the fall of the Assad regime in Syria (8 December 2024)",
+        "publisher": "wikiquote",
+        "date": "2024-12-08"
+      }
+    },
+    {
+      "id": "q31",
+      "text": "These past few days have been historic, and, you know, it’s in the days ahead that will determine the future of a — this country, and we intend to approach them with strength, wisdom, and resolve.",
+      "context": "Remarks on the fall of the Assad regime in Syria (8 December 2024)",
+      "via": "wikiquote",
+      "source": {
+        "url": "https://en.wikiquote.org/wiki/Joe_Biden",
+        "title": "wikiquote: Remarks on the fall of the Assad regime in Syria (8 December 2024)",
+        "publisher": "wikiquote",
+        "date": "2024-12-08"
+      }
+    },
+    {
+      "id": "q32",
+      "text": "My fellow Democrats, my fellow Americans, nearly four years ago in winter on the steps of the Capitol, on a cold January day, I raised my right hand and I swore an oath to you and to God, to preserve, protect, and defend the Constitution and to faithfully execute the office of the President of the United States. In front of me was a city surrounded by the National Guard. Behind me, a Capitol just two weeks before had been overrun by a violent mob. But I knew then, from the bottom of my heart that I knew now, there is no place in America for political violence. None.",
+      "context": "Speech at the 2024 Democratic National Convention (19 August 2024)",
+      "via": "wikiquote",
+      "source": {
+        "url": "https://en.wikiquote.org/wiki/Joe_Biden",
+        "title": "wikiquote: Speech at the 2024 Democratic National Convention (19 August 2024)",
+        "publisher": "wikiquote",
+        "date": "2024-08-19"
+      }
+    },
+    {
+      "id": "q33",
+      "text": "Progress was and is possible. Justice is achievable, and our best days are not behind us, they’re before us. Now it’s summer. The winter has passed, and with a grateful heart I stand before you now on this August night to report that democracy has prevailed, democracy has delivered, and now democracy must be preserved. You’ve heard me say it before, we’re facing an inflection point, one of those rare moments in history when the decisions we make now will determine the fate of our nation and the world for decades to come. That’s not hyperbole, I mean it literally. We’re in a battle for the very soul of America.",
+      "context": "Speech at the 2024 Democratic National Convention (19 August 2024)",
+      "via": "wikiquote",
+      "source": {
+        "url": "https://en.wikiquote.org/wiki/Joe_Biden",
+        "title": "wikiquote: Speech at the 2024 Democratic National Convention (19 August 2024)",
+        "publisher": "wikiquote",
+        "date": "2024-08-19"
+      }
+    },
+    {
+      "id": "q34",
+      "text": "I know and believe in an America where honesty, dignity, decency, still matter. An America where everyone has a fair shot and hate has no safe harbor. An America where the fundamental creed of this nation that all of us are created equal is still very much alive. And a broad coalition of Americans joined with me. Eighty-one million voters voted for us, more than any time in all of history. Because of all of you in this room and others, we came together in 2020 to save democracy. As your President, I’ve been determined to keep America moving forward, not going back. To stand against hate and violence in all its forms. To be a nation where we not only live with but thrive on diversity, demonizing no one, leaving no one behind, and becoming a nation that we profess to be.",
+      "context": "Speech at the 2024 Democratic National Convention (19 August 2024)",
+      "via": "wikiquote",
+      "source": {
+        "url": "https://en.wikiquote.org/wiki/Joe_Biden",
+        "title": "wikiquote: Speech at the 2024 Democratic National Convention (19 August 2024)",
+        "publisher": "wikiquote",
+        "date": "2024-08-19"
+      }
+    },
+    {
+      "id": "q35",
+      "text": "Donald Trump promised Infrastructure Week, every week for four years, and he never built a damn thing. And now because of what Kamala and I have done—remember, we were told we couldn’t get it done? Remember, when we came into office, we couldn’t get anything passed?—but right now, we’re giving America an infrastructure decade not week. We’re modernizing our roads, our bridges, our ports, our airports, our trains, our buses, removing every lead pipe from schools and homes so every child could drink clean water. We’re providing affordable high speed internet for every American no matter where they live, unlike, not unlike what Roosevelt did with electricity. And so much more. We are uniting the country, we’re growing our economy, we’re improving our quality of life, and we’re building a better America. Because that’s who we are.",
+      "context": "Speech at the 2024 Democratic National Convention (19 August 2024)",
+      "via": "wikiquote",
+      "source": {
+        "url": "https://en.wikiquote.org/wiki/Joe_Biden",
+        "title": "wikiquote: Speech at the 2024 Democratic National Convention (19 August 2024)",
+        "publisher": "wikiquote",
+        "date": "2024-08-19"
+      }
+    },
+    {
+      "id": "q36",
+      "text": "Folks, I’ve got five months left in my presidency. I’ve got a lot to do. I intend to get it done. It’s been the honor of my lifetime to serve as your President. I love the job, but I love my country more. I love my country more.",
+      "context": "Speech at the 2024 Democratic National Convention (19 August 2024)",
+      "via": "wikiquote",
+      "source": {
+        "url": "https://en.wikiquote.org/wiki/Joe_Biden",
+        "title": "wikiquote: Speech at the 2024 Democratic National Convention (19 August 2024)",
+        "publisher": "wikiquote",
+        "date": "2024-08-19"
+      }
+    },
+    {
+      "id": "q37",
+      "text": "Selecting Kamala was the very first decision I made when I became our nominee. And it was the best decision I made my whole career. We’ve not only gotten to know each other, we’ve become close friends. She’s tough, she’s experienced, and she has enormous integrity. Enormous integrity. Her story represents the best American story. And like many of our best Presidents, she was also Vice President. That’s a joke. But she’ll be a President our children could look up to. She'll be a President respected by world leaders because she already is. She’ll be a President we can all be proud of. And she will be an historic President who puts her stamp on America’s future.",
+      "context": "Speech at the 2024 Democratic National Convention (19 August 2024)",
+      "via": "wikiquote",
+      "source": {
+        "url": "https://en.wikiquote.org/wiki/Joe_Biden",
+        "title": "wikiquote: Speech at the 2024 Democratic National Convention (19 August 2024)",
+        "publisher": "wikiquote",
+        "date": "2024-08-19"
+      }
+    },
+    {
+      "id": "q38",
+      "text": "Folks, all of us carry a special obligation. Independents, Republicans, Democrats. We saved democracy in 2020, and now we must save it again in 2024. The vote that each of us cast this year will determine whether democracy and freedom will prevail. It’s that simple. It’s that serious. And the power is literally in your hands. History’s in your hands. Not hyperbole. It’s in your hands. America’s future’s in your hands.",
+      "context": "Speech at the 2024 Democratic National Convention (19 August 2024)",
+      "via": "wikiquote",
+      "source": {
+        "url": "https://en.wikiquote.org/wiki/Joe_Biden",
+        "title": "wikiquote: Speech at the 2024 Democratic National Convention (19 August 2024)",
+        "publisher": "wikiquote",
+        "date": "2024-08-19"
+      }
+    },
+    {
+      "id": "q39",
+      "text": "Today is a powerful example of why it’s vital to have friends in this world — friends you can trust, work with, and depend upon, especially on matters of great consequence and sensitivity like this. Our alliances make our people safer, and we began to see that again today. Let me say this. It says a lot about the United States that we work relentlessly to free Americans who are unjustly held around the world. It also says a lot about us that this deal includes the release of Russian political prisoners. They stood up for democracy and human rights. Their own leaders threw them in prison. The United States helped secure their release as well. That’s who we are in the United States. We stand for freedom, for liberty, for justice — not only for our own people but for others as well. And that’s why all Americans can take pride in what we’ve achieved today.",
+      "context": "August 2024",
+      "via": "wikiquote",
+      "source": {
+        "url": "https://www.whitehouse.gov/briefing-room/speeches-remarks/2024/08/01/remarks-by-president-biden-on-freeing-americans-detained-in-russia/",
+        "title": "\"Remarks by President Biden on Freeing Americans Detained in Russia\" (1 August 2024)",
+        "publisher": "via wikiquote",
+        "date": "2024-08-01"
+      }
+    },
+    {
+      "id": "q40",
+      "text": "My fellow Americans, I’m speaking to you tonight from behind the Resolute Desk in the Oval Office. In this sacred space, I’m surrounded by portraits of extraordinary American presidents. Thomas Jefferson, who wrote the immortal words that guide this nation. George Washington, who showed us presidents are not kings. Abraham Lincoln, who implored us to reject malice. Franklin Roosevelt, who inspired us to reject fear. I revere this office, but I love my country more. It’s been the honor of my life to serve as your president. But in the defense of democracy, which is at stake, I think it’s more important than any title. I draw strength and I find joy in working for the American people. But this sacred task of perfecting our Union — it’s not about me. It’s about you, your families, your futures. It’s about “We the People.” We can never forget that, and I never have.",
+      "context": "Statement to the American People (24 July 2024)",
+      "via": "wikiquote",
+      "source": {
+        "url": "https://en.wikiquote.org/wiki/Joe_Biden",
+        "title": "wikiquote: Statement to the American People (24 July 2024)",
+        "publisher": "wikiquote",
+        "date": "2024-07-24"
+      }
+    },
+    {
+      "id": "q41",
+      "text": "I’ve made it clear that I believe America is at an inflection point, one of those rare moments in history when the decisions we make now will determine our fate of our nation and the world for decades to come. America is going to have to choose between moving forward or backward, between hope and hate, between unity and division. We have to decide: Do we still believe in honesty, decency, and respect; freedom, justice, and democracy? In this moment, we can see those we disagree with not as enemies or — but as frien- — as fellow Americans. Can we do that? Does character in public life still matter? I believe I know the answer to these questions, because I know you, the American people. And I know this: We are a great nation because we are a good people.",
+      "context": "Statement to the American People (24 July 2024)",
+      "via": "wikiquote",
+      "source": {
+        "url": "https://en.wikiquote.org/wiki/Joe_Biden",
+        "title": "wikiquote: Statement to the American People (24 July 2024)",
+        "publisher": "wikiquote",
+        "date": "2024-07-24"
+      }
+    },
+    {
+      "id": "q42",
+      "text": "For now, let me express my deepest gratitude to all those who have worked so hard to see me reelected. I want to thank Vice President Kamala Harris for being an extraordinary partner in all this work. And let me express my heartfelt appreciation to the American people for the faith and trust you have placed in me. I believe today what I always have: that there is nothing America can't do - when we do it together. We just have to remember we are the United States of America.",
+      "context": "Announcement of the end of his 2024 reelection campaign (July 21, 2024)",
+      "via": "wikiquote",
+      "source": {
+        "url": "https://en.wikiquote.org/wiki/Joe_Biden",
+        "title": "wikiquote: Announcement of the end of his 2024 reelection campaign (July 21, 2024)",
+        "publisher": "wikiquote",
+        "date": "2024-07-21"
+      }
+    },
+    {
+      "id": "q43",
+      "text": "My fellow Democrats, I have decided not to accept the nomination and to focus all my energies on my duties as President for the remainder of my term. My very first decision as the party nominee in 2020 was to pick Kamala Harris as my Vice President. And it’s been the best decision I’ve made. Today I want to offer my full support and endorsement for Kamala to be the nominee of our party this year. Democrats — it’s time to come together and beat Trump. Let’s do this.",
+      "context": "Endorsement of Kamala Harris to be the Democratic candidate for President (July 21, 2024)",
+      "via": "wikiquote",
+      "source": {
+        "url": "https://en.wikiquote.org/wiki/Joe_Biden",
+        "title": "wikiquote: Endorsement of Kamala Harris to be the Democratic candidate for President (July 21, 2024)",
+        "publisher": "wikiquote",
+        "date": "2024-07-21"
+      }
+    },
+    {
+      "id": "q44",
+      "text": "The choice we make in this election will shape the future of America and the world for decades to come. I believe that with all my soul. I know that millions of my fellow Americans believe it as well. And some have a different view as to the direction our country should take. Disagreement is inevitable in American democracy. It is part of human nature. Politics must never be a killing field. I believe politics ought to be an arena for peaceful debate, to pursue justice, to make decisions guided by the Declaration of Independence and our constitution. We stand for an America not of extremism and fury, but of decency and grace. All of us now face a time of testing as the election approaches. The higher the stakes, the more fervent the passion becomes. This places an added burden on each of us to ensure no matter how strong our convictions, we must never descend into violence.",
+      "context": "July 2024",
+      "via": "wikiquote",
+      "source": {
+        "url": "https://www.c-span.org/video/?537030-1/president-biden-national-address-attempted-assassination-president-trump",
+        "title": "Remarks after the attempted assassination of Donald Trump (July 14, 2024) · video on C-SPAN",
+        "publisher": "via wikiquote",
+        "date": "2024-07-14"
+      }
+    },
+    {
+      "id": "q45",
+      "text": "The fact is that the vast majority of constitutional scholars supported Roe when it was decided. And this is the guy [Trump] who says the states should be able to have it.",
+      "context": "Abortion rights and Roe v. Wade decision",
+      "via": "ontheissues",
+      "source": {
+        "url": "https://www.ontheissues.org/2024_1st_Debate.htm",
+        "title": "First Trump-Biden debate, at CNN in Atlanta",
+        "publisher": "ontheissues.org",
+        "date": "2024-06-27"
+      }
+    },
+    {
+      "id": "q46",
+      "text": "We're in a state where in six weeks, you don't even know whether you're pregnant or not, but you cannot see the doctor or have your--and have him decide on what your circumstances are, whether you need help.",
+      "context": "State abortion restrictions and access to doctors",
+      "via": "ontheissues",
+      "source": {
+        "url": "https://www.ontheissues.org/2024_1st_Debate.htm",
+        "title": "First Trump-Biden debate, at CNN in Atlanta",
+        "publisher": "ontheissues.org",
+        "date": "2024-06-27"
+      }
+    },
+    {
+      "id": "q47",
+      "text": "The idea that states are able to do this is a little like saying, we're going to turn civil rights back to the states. Let each state have a different rule.",
+      "context": "Abortion policy and civil rights comparison",
+      "via": "ontheissues",
+      "source": {
+        "url": "https://www.ontheissues.org/2024_1st_Debate.htm",
+        "title": "First Trump-Biden debate, at CNN in Atlanta",
+        "publisher": "ontheissues.org",
+        "date": "2024-06-27"
+      }
+    },
+    {
+      "id": "q48",
+      "text": "We find that the choice that black families have to make relative to childcare is incredibly difficult. When we did the first major piece of legislation in the past, I was able to reduce black childcare costs. I cut them in half.",
+      "context": "Childcare costs and support for black families",
+      "via": "ontheissues",
+      "source": {
+        "url": "https://www.ontheissues.org/2024/Joe_Biden_Families_+_Children.htm",
+        "title": "First Trump-Biden debate, at CNN in Atlanta",
+        "publisher": "ontheissues.org",
+        "date": "2024-06-27"
+      }
+    },
+    {
+      "id": "q49",
+      "text": "We've got to make sure we provide for childcare costs. We've got to make sure--because when you provide that childcare protections, you increase economic growth because more people can be in the job market.",
+      "context": "Childcare policy and economic growth",
+      "via": "ontheissues",
+      "source": {
+        "url": "https://www.ontheissues.org/2024/Joe_Biden_Families_+_Children.htm",
+        "title": "First Trump-Biden debate, at CNN in Atlanta",
+        "publisher": "ontheissues.org",
+        "date": "2024-06-27"
+      }
+    },
+    {
+      "id": "q50",
+      "text": "I was recently in France for [the 80th anniversary of] D-Day, and I went to the World War I cemetery [Trump] refused to go to.",
+      "context": "D-Day and cemetery visit in France",
+      "via": "ontheissues",
+      "source": {
+        "url": "https://www.ontheissues.org/2024_1st_Debate.htm",
+        "title": "First Trump-Biden debate, at CNN in Atlanta",
+        "publisher": "ontheissues.org",
+        "date": "2024-06-27"
+      }
+    },
+    {
+      "id": "q51",
+      "text": "My son [Beau Biden, who served as a JAG in Iraq] was not a loser. He was not a sucker. You're the sucker. You're the loser.",
+      "context": "Defense of son Beau and response to alleged insults",
+      "via": "ontheissues",
+      "source": {
+        "url": "https://www.ontheissues.org/2024_1st_Debate.htm",
+        "title": "First Trump-Biden debate, at CNN in Atlanta",
+        "publisher": "ontheissues.org",
+        "date": "2024-06-27"
+      }
+    },
+    {
+      "id": "q52",
+      "text": "You had a four-star general stand at your side, who was on your staff, who said you said it, period [referring to Trump chief of staff John Kelly].",
+      "context": "General Kelly as witness to Trump's alleged statements",
+      "via": "ontheissues",
+      "source": {
+        "url": "https://www.ontheissues.org/2024_1st_Debate.htm",
+        "title": "First Trump-Biden debate, at CNN in Atlanta",
+        "publisher": "ontheissues.org",
+        "date": "2024-06-27"
+      }
+    },
+    {
+      "id": "q53",
+      "text": "The idea that somehow we are this failing country, I never heard a president talk like this before. We--we're the envy of the world. Name me a single major country president who wouldn't trade places with the United States of America.",
+      "context": "America's position and strength globally",
+      "via": "ontheissues",
+      "source": {
+        "url": "https://www.ontheissues.org/2024/Joe_Biden_Principles_+_Values.htm",
+        "title": "First Trump-Biden debate, at CNN in Atlanta",
+        "publisher": "ontheissues.org",
+        "date": "2024-06-27"
+      }
+    },
+    {
+      "id": "q54",
+      "text": "For all our problems and all our opportunities, we're the most progressive country in the world and getting things done. We're the strongest country in the world. We're country in the world who keeps our word and everybody trusts us, all of our allies.",
+      "context": "America's progressive nature and international trust",
+      "via": "ontheissues",
+      "source": {
+        "url": "https://www.ontheissues.org/2024/Joe_Biden_Principles_+_Values.htm",
+        "title": "First Trump-Biden debate, at CNN in Atlanta",
+        "publisher": "ontheissues.org",
+        "date": "2024-06-27"
+      }
+    },
+    {
+      "id": "q55",
+      "text": "I know I'm not a young man, to state the obvious. I don't walk as easy as I used to. I don't speak as smoothly as I used to. I don't debate as well as I used to. But I know what I do know: I know how to tell the truth. I know right from wrong. And I know how to do this job.",
+      "context": "Biden addressing concerns about his debate performance and candidacy viability",
+      "via": "ontheissues",
+      "source": {
+        "url": "https://www.ontheissues.org/2024_1st_Debate.htm",
+        "title": "First Trump-Biden debate, at CNN in Atlanta",
+        "publisher": "ontheissues.org",
+        "date": "2024-06-27"
+      }
+    },
+    {
+      "id": "q56",
+      "text": "I would not be running again if I did not believe with all my heart and soul that I can do this job.",
+      "context": "Biden's commitment to running for reelection despite debate concerns",
+      "via": "ontheissues",
+      "source": {
+        "url": "https://www.ontheissues.org/2024_1st_Debate.htm",
+        "title": "First Trump-Biden debate, at CNN in Atlanta",
+        "publisher": "ontheissues.org",
+        "date": "2024-06-27"
+      }
+    },
+    {
+      "id": "q57",
+      "text": "We have a thousand billionaires in America. And what's happening? They're in a situation where they, in fact, pay 8.2% in taxes. If they just paid 24% or 25%, either one of those numbers, they'd raise $500 billion dollars in a 10-year period.",
+      "context": "Biden on tax policy for wealthy individuals",
+      "via": "ontheissues",
+      "source": {
+        "url": "https://www.ontheissues.org/2024_1st_Debate.htm",
+        "title": "First Trump-Biden debate, at CNN in Atlanta",
+        "publisher": "ontheissues.org",
+        "date": "2024-06-27"
+      }
+    },
+    {
+      "id": "q58",
+      "text": "The fact is that Putin is a war criminal. He's killed thousands and thousands of people. And he has made one thing clear, he wants to re-establish what was part of the Soviet Empire, not just a piece, he wants all of Ukraine.",
+      "context": "Biden characterizing Putin and Russian intentions toward Ukraine",
+      "via": "ontheissues",
+      "source": {
+        "url": "https://www.ontheissues.org/2024_1st_Debate.htm",
+        "title": "First Trump-Biden debate, at CNN in Atlanta",
+        "publisher": "ontheissues.org",
+        "date": "2024-06-27"
+      }
+    },
+    {
+      "id": "q59",
+      "text": "What do you think happens to Poland? What do you think of Belarus? What do you think happens to those NATO countries?",
+      "context": "Biden on potential Russian expansion beyond Ukraine",
+      "via": "ontheissues",
+      "source": {
+        "url": "https://www.ontheissues.org/2024_1st_Debate.htm",
+        "title": "First Trump-Biden debate, at CNN in Atlanta",
+        "publisher": "ontheissues.org",
+        "date": "2024-06-27"
+      }
+    },
+    {
+      "id": "q60",
+      "text": "Everyone from the United Nations Security Council straight through to the G7 to the Israelis & Netanyahu himself have endorsed the plan I put forward",
+      "context": "Biden claiming international endorsement of his Gaza peace plan",
+      "via": "ontheissues",
+      "source": {
+        "url": "https://www.ontheissues.org/2024_1st_Debate.htm",
+        "title": "First Trump-Biden debate, at CNN in Atlanta",
+        "publisher": "ontheissues.org",
+        "date": "2024-06-27"
+      }
+    },
+    {
+      "id": "q61",
+      "text": "It's time once again, to do what I did when I was a senator: ban assault weapons [...] Who, in God's name, needs a magazine which can hold 200 shells?",
+      "context": "June 2024",
+      "via": "wikiquote",
+      "source": {
+        "url": "https://www.nbcnews.com/politics/white-house/biden-deliver-speech-gun-safety-previously-scheduled-event-hours-son-f-rcna156551",
+        "title": "From a speech at Everytown for Gun Safety's annual training conference, Washington, D.C., as cited by Rebecca Shabad in \"Biden talks gun safety at previously scheduled event hours after his son is found guilty on gun charges\", NBC News (11 June 2024)",
+        "publisher": "via wikiquote",
+        "date": "2024-06-11"
+      }
+    },
+    {
+      "id": "q62",
+      "text": "Lincoln Riley, an innocent young woman who was killed by an illegal",
+      "context": "Biden referencing murdered student during State of the Union address",
+      "via": "ontheissues",
+      "source": {
+        "url": "https://www.ontheissues.org/SOTU_2024.htm",
+        "title": "PolitiFact.com on 2024 State of the Union",
+        "publisher": "ontheissues.org",
+        "date": "2024-03-08"
+      }
+    },
+    {
+      "id": "q63",
+      "text": "new emergency authority to temporarily shut down the border when the number of migrants at the border is overwhelming.",
+      "context": "Biden on border security provisions in bipartisan immigration bill",
+      "via": "ontheissues",
+      "source": {
+        "url": "https://www.ontheissues.org/SOTU_2024.htm",
+        "title": "PolitiFact.com on 2024 State of the Union",
+        "publisher": "ontheissues.org",
+        "date": "2024-03-08"
+      }
+    },
+    {
+      "id": "q64",
+      "text": "hire 100 more immigration judges to help tackle the backload of 2 million cases.",
+      "context": "Biden on immigration court staffing in bipartisan bill",
+      "via": "ontheissues",
+      "source": {
+        "url": "https://www.ontheissues.org/SOTU_2024.htm",
+        "title": "PolitiFact.com on 2024 State of the Union",
+        "publisher": "ontheissues.org",
+        "date": "2024-03-08"
+      }
+    },
+    {
+      "id": "q65",
+      "text": "Like most Americans, I believe Roe v. Wade got it right.",
+      "context": "Reproductive rights and Roe v. Wade overturning",
+      "via": "ontheissues",
+      "source": {
+        "url": "https://www.ontheissues.org/SOTU_2024.htm",
+        "title": "2024 State of the Union address",
+        "publisher": "ontheissues.org",
+        "date": "2024-03-07"
+      }
+    },
+    {
+      "id": "q66",
+      "text": "Guarantee the right to IVF. Guarantee it nationwide.",
+      "context": "IVF access and reproductive freedom",
+      "via": "ontheissues",
+      "source": {
+        "url": "https://www.ontheissues.org/SOTU_2024.htm",
+        "title": "2024 State of the Union address",
+        "publisher": "ontheissues.org",
+        "date": "2024-03-07"
+      }
+    },
+    {
+      "id": "q67",
+      "text": "I'm taking the most significant action ever on climate in the history of the world.",
+      "context": "Climate crisis action and carbon emissions",
+      "via": "ontheissues",
+      "source": {
+        "url": "https://www.ontheissues.org/SOTU_2024.htm",
+        "title": "2024 State of the Union address",
+        "publisher": "ontheissues.org",
+        "date": "2024-03-07"
+      }
+    },
+    {
+      "id": "q68",
+      "text": "I'm cutting our carbon emissions in half by 2030, creating tens of thousands of clean energy jobs like the IBEW work is building and installing 500,000 electric vehicle charging stations.",
+      "context": "Climate and clean energy policy goals",
+      "via": "ontheissues",
+      "source": {
+        "url": "https://www.ontheissues.org/SOTU_2024.htm",
+        "title": "2024 State of the Union address",
+        "publisher": "ontheissues.org",
+        "date": "2024-03-07"
+      }
+    },
+    {
+      "id": "q69",
+      "text": "I want to expand high-quality tutoring and summer learning to see that every child learns to read by third grade.",
+      "context": "Education policy and literacy goals",
+      "via": "ontheissues",
+      "source": {
+        "url": "https://www.ontheissues.org/SOTU_2024.htm",
+        "title": "2024 State of the Union address",
+        "publisher": "ontheissues.org",
+        "date": "2024-03-07"
+      }
+    },
+    {
+      "id": "q70",
+      "text": "I'm also connecting local businesses and high schools so students get hands-on experience and a path to a good-paying job whether or not they go to college, and I want to make sure that college more affordable.",
+      "context": "Education workforce development and college affordability",
+      "via": "ontheissues",
+      "source": {
+        "url": "https://www.ontheissues.org/SOTU_2024.htm",
+        "title": "2024 State of the Union address",
+        "publisher": "ontheissues.org",
+        "date": "2024-03-07"
+      }
+    },
+    {
+      "id": "q71",
+      "text": "Pass the Freedom to Vote Act, the John Lewis Voting Right Act.",
+      "context": "Voting rights and election protection",
+      "via": "ontheissues",
+      "source": {
+        "url": "https://www.ontheissues.org/SOTU_2024.htm",
+        "title": "2024 State of the Union address",
+        "publisher": "ontheissues.org",
+        "date": "2024-03-07"
+      }
+    },
+    {
+      "id": "q72",
+      "text": "Banning books, it's wrong. Instead of erasing history, let's make history.",
+      "context": "Book bans and historical preservation",
+      "via": "ontheissues",
+      "source": {
+        "url": "https://www.ontheissues.org/SOTU_2024.htm",
+        "title": "2024 State of the Union address",
+        "publisher": "ontheissues.org",
+        "date": "2024-03-07"
+      }
+    },
+    {
+      "id": "q73",
+      "text": "I did do something by establishing the first ever Office of Gun Violence Prevention in the White House that the vice president is leading the charge.",
+      "context": "Gun violence prevention office establishment",
+      "via": "ontheissues",
+      "source": {
+        "url": "https://www.ontheissues.org/SOTU_2024.htm",
+        "title": "2024 State of the Union address",
+        "publisher": "ontheissues.org",
+        "date": "2024-03-07"
+      }
+    },
+    {
+      "id": "q74",
+      "text": "I'm demanding a ban on assault weapons and high capacity magazines. Pass universal background checks.",
+      "context": "Gun safety legislation demands",
+      "via": "ontheissues",
+      "source": {
+        "url": "https://www.ontheissues.org/SOTU_2024.htm",
+        "title": "2024 State of the Union address",
+        "publisher": "ontheissues.org",
+        "date": "2024-03-07"
+      }
+    },
+    {
+      "id": "q75",
+      "text": "Not since President Lincoln in the Civil War have freedom and democracy been under assault at home as they are today.",
+      "context": "Democracy under threat domestic and overseas",
+      "via": "ontheissues",
+      "source": {
+        "url": "https://www.ontheissues.org/SOTU_2024.htm",
+        "title": "2024 State of the Union address",
+        "publisher": "ontheissues.org",
+        "date": "2024-03-07"
+      }
+    },
+    {
+      "id": "q76",
+      "text": "Before I came to office, the country was hit by the worst pandemic and the worst economic crisis in the century. Now, our economy is literally the envy of the world. 15 million new jobs in just three years, a record.",
+      "context": "Economic performance and job creation during Biden's term",
+      "via": "ontheissues",
+      "source": {
+        "url": "https://www.ontheissues.org/2024_FactCheck.htm",
+        "title": "CNN FactCheck on 2024 State of the Union address",
+        "publisher": "ontheissues.org",
+        "date": "2024-03-07"
+      }
+    },
+    {
+      "id": "q77",
+      "text": "you can't love your country only when you win.",
+      "context": "Democracy and January 6th Capitol riot",
+      "via": "ontheissues",
+      "source": {
+        "url": "https://www.ontheissues.org/January_6th.htm",
+        "title": "2024 State of the Union address on Jan. 6th Capitol Riots",
+        "publisher": "ontheissues.org",
+        "date": "2024-03-07"
+      }
+    },
+    {
+      "id": "q78",
+      "text": "I ask all of you without regard to party, to join together and defend democracy. Respect free and fair elections. Restore trust in our institutions and make clear, political violence has absolutely no place in America.",
+      "context": "Call to defend democracy and reject political violence",
+      "via": "ontheissues",
+      "source": {
+        "url": "https://www.ontheissues.org/January_6th.htm",
+        "title": "2024 State of the Union address on Jan. 6th Capitol Riots",
+        "publisher": "ontheissues.org",
+        "date": "2024-03-07"
+      }
+    },
+    {
+      "id": "q79",
+      "text": "It's my goal to cut the federal deficit $3 trillion by making big corporations & the very wealthy finally beginning to pay their fair share.",
+      "context": "Federal deficit reduction and tax policy",
+      "via": "ontheissues",
+      "source": {
+        "url": "https://www.ontheissues.org/SOTU_2024.htm",
+        "title": "2024 State of the Union address",
+        "publisher": "ontheissues.org",
+        "date": "2024-03-07"
+      }
+    },
+    {
+      "id": "q80",
+      "text": "I'm a capitalist. If you want to make a million of bucks, that's great; just pay your fair share in taxes.",
+      "context": "Capitalism and fair taxation",
+      "via": "ontheissues",
+      "source": {
+        "url": "https://www.ontheissues.org/SOTU_2024.htm",
+        "title": "2024 State of the Union address",
+        "publisher": "ontheissues.org",
+        "date": "2024-03-07"
+      }
+    },
+    {
+      "id": "q81",
+      "text": "Under my plan nobody earning less than $400,000 will pay an additional penny in federal taxes. Nobody. Not one penny, and they haven't yet.",
+      "context": "Tax policy for middle and lower income earners",
+      "via": "ontheissues",
+      "source": {
+        "url": "https://www.ontheissues.org/SOTU_2024.htm",
+        "title": "2024 State of the Union address",
+        "publisher": "ontheissues.org",
+        "date": "2024-03-07"
+      }
+    },
+    {
+      "id": "q82",
+      "text": "Tonight, I'm directing the US military to lead an emergency mission to establish a temporary pier in the Mediterranean on the coast of Gaza that can receive large shipments carrying food, water, medicine and temporary shelters.",
+      "context": "Humanitarian aid to Gaza",
+      "via": "ontheissues",
+      "source": {
+        "url": "https://www.ontheissues.org/SOTU_2024.htm",
+        "title": "2024 State of the Union address",
+        "publisher": "ontheissues.org",
+        "date": "2024-03-07"
+      }
+    },
+    {
+      "id": "q83",
+      "text": "humanitarian assistance cannot be a secondary consideration or a bargaining chip. Protecting and saving innocent lives has to be a priority.",
+      "context": "Humanitarian aid priority in Gaza conflict",
+      "via": "ontheissues",
+      "source": {
+        "url": "https://www.ontheissues.org/SOTU_2024.htm",
+        "title": "2024 State of the Union address",
+        "publisher": "ontheissues.org",
+        "date": "2024-03-07"
+      }
+    },
+    {
+      "id": "q84",
+      "text": "the only real solution to the situation is a two-state solution over time. There is no other path that guarantees Israel's security and democracy. There is no other path that guarantees Palestinian can live in peace with peace and dignity.",
+      "context": "Israeli-Palestinian conflict resolution",
+      "via": "ontheissues",
+      "source": {
+        "url": "https://www.ontheissues.org/SOTU_2024.htm",
+        "title": "2024 State of the Union address",
+        "publisher": "ontheissues.org",
+        "date": "2024-03-07"
+      }
+    },
+    {
+      "id": "q85",
+      "text": "As commander in chief, I will not hesitate to direct further measures to protect our people and our military personnel.",
+      "context": "Military action in Red Sea region",
+      "via": "ontheissues",
+      "source": {
+        "url": "https://www.ontheissues.org/SOTU_2024.htm",
+        "title": "2024 State of the Union address",
+        "publisher": "ontheissues.org",
+        "date": "2024-03-07"
+      }
+    },
+    {
+      "id": "q86",
+      "text": "The truth is: Aid flowing to Gaza is nowhere nearly enough now. It's nowhere nearly enough. Innocent lives are on the line and children's lives are on the line, and we won't stand by … until they — until we get more aid in there. We — we should be getting hundreds of trucks in, not just several. And I won't stand by, we won't let up, and we're … trying to pull out every stop we can to get more assistance in.",
+      "context": "March 2024",
+      "via": "wikiquote",
+      "source": {
+        "url": "https://www.whitehouse.gov/briefing-room/speeches-remarks/2024/03/01/remarks-by-president-biden-and-prime-minister-meloni-of-the-italian-republic/",
+        "title": "Remarks on responding to the crisis in Gaza with US military airdrops of humanitarian supplies, and other possible measures (1 March 2024).",
+        "publisher": "via wikiquote",
+        "date": "2024-03-01"
+      }
+    },
+    {
+      "id": "q87",
+      "text": "It's about how old your ideas are. Look, I mean this is a guy who wants to take us back. He wants to take us back on Roe v. Wade. He wants to take us back on a whole range of issues that are, 50, 60 years, they've been solid American positions.",
+      "context": "February 2024",
+      "via": "wikiquote",
+      "source": {
+        "url": "https://www.youtube.com/watch?v=fxuN3i84FNY",
+        "title": "President Joe Biden Addresses Concerns Over His Age and Shares His 2024 Agenda, Late Night With Seth Meyers (27 February 2024)",
+        "publisher": "via wikiquote",
+        "date": "2024-02-27"
+      }
+    },
+    {
+      "id": "q88",
+      "text": "Make no mistake: Putin is responsible for Navalny's death. What has happened to Navalny is more proof of Putin's brutality.",
+      "context": "February 2024",
+      "via": "wikiquote",
+      "source": {
+        "url": "https://www.politico.com/news/2024/02/16/kamala-harris-russia-navalny-00141888",
+        "title": "\"Biden says there's no mistake: 'Putin is responsible for Navalny's death'\", Politico (16 February 2024)",
+        "publisher": "via wikiquote",
+        "date": "2024-02-16"
+      }
+    },
+    {
+      "id": "q89",
+      "text": "And my uncle, they called him – Ambrose, they called him Bosie… and he became an Army Air Corps, before the Air Force came along, he flew those single engine planes as reconnaissance over war zones.And he got shot down in New Guinea, and they never found the body because there used to be a lot of cannibals – for real – in that part of the New Guinea",
+      "context": "April 2024",
+      "via": "wikiquote",
+      "source": {
+        "url": "https://en.wikiquote.org/wiki/Joe_Biden",
+        "title": "wikiquote: April 2024",
+        "publisher": "wikiquote",
+        "date": "2024"
+      }
+    },
+    {
+      "id": "q90",
+      "text": "As we reflect on the sacrifices made on D-Day, we are reminded that freedom is not free and it has never been guaranteed. Every generation has to earn it, fight for it, and defend it in the battle between autocracy and democracy — between the greed of a few and the rights of many. Eighty years after our Nation’s brave Airmen, Coast Guardsmen, Sailors, Soldiers, and Marines embarked on D-Day — and as Americans everywhere answered the call to prayer and filled their hearts and homes with hope — may we honor the faith they kept in our Nation and their legacy by upholding the future that they died for — one grounded in freedom, democracy, opportunity, and equality for all.",
+      "context": "June 2024",
+      "via": "wikiquote",
+      "source": {
+        "url": "https://en.wikiquote.org/wiki/Joe_Biden",
+        "title": "wikiquote: June 2024",
+        "publisher": "wikiquote",
+        "date": "2024"
+      }
+    },
+    {
+      "id": "q91",
+      "text": "Nothing nefarious, apparently, but they're checking it all out. There's a—they think it's just one—there's a lot of drones authorized to be up there. And I think one started, and they all got—everybody wanted to get in the deal. But I'm—we're following it closely. So far, no sense of a danger.",
+      "context": "Drones sighted over New Jersey",
+      "via": "ucsb",
+      "source": {
+        "url": "https://www.presidency.ucsb.edu/documents/remarks-exchange-with-reporters-prior-departure-for-greenville-delaware-2",
+        "title": "Remarks in an Exchange With Reporters Prior to Departure for Greenville, Delaware",
+        "publisher": "the american presidency project (ucsb)",
+        "date": "2024"
+      }
+    },
+    {
+      "id": "q92",
+      "text": "I've spoken to him, and I'll—we'll speak again.",
+      "context": "Communication with Prime Minister Netanyahu about cease-fire",
+      "via": "ucsb",
+      "source": {
+        "url": "https://www.presidency.ucsb.edu/documents/remarks-exchange-with-reporters-prior-departure-for-greenville-delaware-2",
+        "title": "Remarks in an Exchange With Reporters Prior to Departure for Greenville, Delaware",
+        "publisher": "the american presidency project (ucsb)",
+        "date": "2024"
+      }
+    },
+    {
+      "id": "q93",
+      "text": "I want to thank you, Glenn. And thank you, CeCe, for the introduction and for the leadership you've—you served as the Chair of the—my Council of Economic Advisers.",
+      "context": "Thanking individuals for their roles",
+      "via": "ucsb",
+      "source": {
+        "url": "https://www.presidency.ucsb.edu/documents/remarks-the-national-economy-38",
+        "title": "Remarks on the National Economy",
+        "publisher": "the american presidency project (ucsb)",
+        "date": "2024"
+      }
+    },
+    {
+      "id": "q94",
+      "text": "Last month, I spoke to the Economic Club of Washington D.C. about the pivotal actions we took to rescue the economy from the devastating harm caused by the way the—in my view, the pandemic was handled and how we delivered immediate economic relief to those most in need.",
+      "context": "Economy rescue efforts and pandemic response",
+      "via": "ucsb",
+      "source": {
+        "url": "https://www.presidency.ucsb.edu/documents/remarks-the-national-economy-38",
+        "title": "Remarks on the National Economy",
+        "publisher": "the american presidency project (ucsb)",
+        "date": "2024"
+      }
+    },
+    {
+      "id": "q95",
+      "text": "We got back to full employment, got inflation back down, managed the soft landing that most people thought was not very much likely to happen.",
+      "context": "Economic achievements during his administration",
+      "via": "ucsb",
+      "source": {
+        "url": "https://www.presidency.ucsb.edu/documents/remarks-the-national-economy-38",
+        "title": "Remarks on the National Economy",
+        "publisher": "the american presidency project (ucsb)",
+        "date": "2024"
+      }
+    },
+    {
+      "id": "q96",
+      "text": "And it is my profound hope that the new administration will preserve and build on this progress.",
+      "context": "Hope for future administration's economic policy",
+      "via": "ucsb",
+      "source": {
+        "url": "https://www.presidency.ucsb.edu/documents/remarks-the-national-economy-38",
+        "title": "Remarks on the National Economy",
+        "publisher": "the american presidency project (ucsb)",
+        "date": "2024"
+      }
+    },
+    {
+      "id": "q97",
+      "text": "After decades of trickle-down economics that primarily benefited those at the very top, we've written a new book that's growing the economy—the middle out and the bottom up—that benefits, thus far, everyone.",
+      "context": "Contrast between old and new economic approach",
+      "via": "ucsb",
+      "source": {
+        "url": "https://www.presidency.ucsb.edu/documents/remarks-the-national-economy-38",
+        "title": "Remarks on the National Economy",
+        "publisher": "the american presidency project (ucsb)",
+        "date": "2024"
+      }
+    },
+    {
+      "id": "q98",
+      "text": "Over 16 million new jobs—that's new jobs—the most in any single Presidential term in American history; the lowest average unemployment rate of any administration in the last 50 years; 20 million applications for new business records—I mean, it's—it's for a new business—for—that is a record, I should say; stock market hits record highs.",
+      "context": "Economic statistics and accomplishments",
+      "via": "ucsb",
+      "source": {
+        "url": "https://www.presidency.ucsb.edu/documents/remarks-the-national-economy-38",
+        "title": "Remarks on the National Economy",
+        "publisher": "the american presidency project (ucsb)",
+        "date": "2024"
+      }
+    },
+    {
+      "id": "q99",
+      "text": "For 36 years, I was listed as the poorest man in Congress.",
+      "context": "Personal financial history during Senate career",
+      "via": "ucsb",
+      "source": {
+        "url": "https://www.presidency.ucsb.edu/documents/remarks-the-national-economy-38",
+        "title": "Remarks on the National Economy",
+        "publisher": "the american presidency project (ucsb)",
+        "date": "2024"
+      }
+    },
+    {
+      "id": "q100",
+      "text": "After decades of sending jobs overseas for the cheapest labor possible, companies are coming back to America, investing and building here, and creating jobs here in America, in my view, where they belong.",
+      "context": "Bringing manufacturing jobs back to America",
+      "via": "ucsb",
+      "source": {
+        "url": "https://www.presidency.ucsb.edu/documents/remarks-the-national-economy-38",
+        "title": "Remarks on the National Economy",
+        "publisher": "the american presidency project (ucsb)",
+        "date": "2024"
+      }
+    },
+    {
+      "id": "q101",
+      "text": "We acted quickly to get inflation down with the help of Republicans and Democrats. Inflation came down to prepandemic levels.",
+      "context": "Inflation reduction efforts and bipartisan cooperation",
+      "via": "ucsb",
+      "source": {
+        "url": "https://www.presidency.ucsb.edu/documents/remarks-the-national-economy-38",
+        "title": "Remarks on the National Economy",
+        "publisher": "the american presidency project (ucsb)",
+        "date": "2024"
+      }
+    },
+    {
+      "id": "q102",
+      "text": "With the outcome of this election, we also face an inflection point: We do—[laughter]—do we continue to grow the economy from the middle out and the bottom up, investing in all of America and Americans, supporting unions and working families as we have the past 4 years?",
+      "context": "Choice between two economic philosophies",
+      "via": "ucsb",
+      "source": {
+        "url": "https://www.presidency.ucsb.edu/documents/remarks-the-national-economy-38",
+        "title": "Remarks on the National Economy",
+        "publisher": "the american presidency project (ucsb)",
+        "date": "2024"
+      }
+    },
+    {
+      "id": "q103",
+      "text": "I'm not anticorporation. For 36 years, I represented corporate America. I—my State has more corporations in—registered in my State than every other State in the Union.",
+      "context": "Pro-business stance and Senate representation",
+      "via": "ucsb",
+      "source": {
+        "url": "https://www.presidency.ucsb.edu/documents/remarks-the-national-economy-38",
+        "title": "Remarks on the National Economy",
+        "publisher": "the american presidency project (ucsb)",
+        "date": "2024"
+      }
+    },
+    {
+      "id": "q104",
+      "text": "But, to make the most of the opportunities ahead, I want to share key pages from our middle-out, bottom-up economic playbook and lay down what I believe to be a new set of benchmarks to measure against the next 4 years and see whether this theory is more than just a phenomenon.",
+      "context": "Economic playbook and measuring progress",
+      "via": "ucsb",
+      "source": {
+        "url": "https://www.presidency.ucsb.edu/documents/remarks-the-national-economy-38",
+        "title": "Remarks on the National Economy",
+        "publisher": "the american presidency project (ucsb)",
+        "date": "2024"
+      }
+    },
+    {
+      "id": "q105",
+      "text": "Four years ago, when I came to office, 3,000 Americans were dying per day from the pandemic that infected and the—had profound effect on our economy—not only ours, but around the world.",
+      "context": "Pandemic conditions when taking office",
+      "via": "ucsb",
+      "source": {
+        "url": "https://www.presidency.ucsb.edu/documents/remarks-the-national-economy-38",
+        "title": "Remarks on the National Economy",
+        "publisher": "the american presidency project (ucsb)",
+        "date": "2024"
+      }
+    },
+    {
+      "id": "q106",
+      "text": "The previous administration, quite frankly, had no plan—real plan—to get us through one of the toughest periods in our Nation's history.",
+      "context": "Criticism of previous administration's pandemic response",
+      "via": "ucsb",
+      "source": {
+        "url": "https://www.presidency.ucsb.edu/documents/remarks-the-national-economy-38",
+        "title": "Remarks on the National Economy",
+        "publisher": "the american presidency project (ucsb)",
+        "date": "2024"
+      }
+    },
+    {
+      "id": "q107",
+      "text": "I've never been a big fan of trickle-down economics. The—it was a hammer that was hammering working people.",
+      "context": "Opposition to trickle-down economic theory",
+      "via": "ucsb",
+      "source": {
+        "url": "https://www.presidency.ucsb.edu/documents/remarks-the-national-economy-38",
+        "title": "Remarks on the National Economy",
+        "publisher": "the american presidency project (ucsb)",
+        "date": "2024"
+      }
+    },
+    {
+      "id": "q108",
+      "text": "My dad used to say—my dad was a well-read man who didn't get to—he got accepted to go to Hopkins and—but during the war, he never got to go. But my dad used to talk about—he said, \"Dad\"—\"Joey, not a whole lot trickles down on my kitchen table at the end of the month.\"",
+      "context": "Father's skepticism about trickle-down economics",
+      "via": "ucsb",
+      "source": {
+        "url": "https://www.presidency.ucsb.edu/documents/remarks-the-national-economy-38",
+        "title": "Remarks on the National Economy",
+        "publisher": "the american presidency project (ucsb)",
+        "date": "2024"
+      }
+    },
+    {
+      "id": "q109",
+      "text": "Slashing taxes for the very wealthy and the biggest corporations, diminishing public investment in infrastructure, in education, in research and development.",
+      "context": "Criticism of trickle-down approach effects",
+      "via": "ucsb",
+      "source": {
+        "url": "https://www.presidency.ucsb.edu/documents/remarks-the-national-economy-38",
+        "title": "Remarks on the National Economy",
+        "publisher": "the american presidency project (ucsb)",
+        "date": "2024"
+      }
+    },
+    {
+      "id": "q110",
+      "text": "And despite the mythical reputation to pay for itself, trickle-down economics deeply worsened our fiscal outlook, in my view.",
+      "context": "Trickle-down economics impact on fiscal outlook",
+      "via": "ucsb",
+      "source": {
+        "url": "https://www.presidency.ucsb.edu/documents/remarks-the-national-economy-38",
+        "title": "Remarks on the National Economy",
+        "publisher": "the american presidency project (ucsb)",
+        "date": "2024"
+      }
+    },
+    {
+      "id": "q111",
+      "text": "Remember \"Infrastructure Week\"? We had Infrastructure Week for 4 years. Nothing got built.",
+      "context": "Criticism of previous administration's infrastructure efforts",
+      "via": "ucsb",
+      "source": {
+        "url": "https://www.presidency.ucsb.edu/documents/remarks-the-national-economy-38",
+        "title": "Remarks on the National Economy",
+        "publisher": "the american presidency project (ucsb)",
+        "date": "2024"
+      }
+    },
+    {
+      "id": "q112",
+      "text": "Well, everybody said when I wanted to have an infrastructure bill that mattered—over a trillion three hundred billion dollars—we'd never get it done. We got it done.",
+      "context": "Infrastructure bill accomplishment",
+      "via": "ucsb",
+      "source": {
+        "url": "https://www.presidency.ucsb.edu/documents/remarks-the-national-economy-38",
+        "title": "Remarks on the National Economy",
+        "publisher": "the american presidency project (ucsb)",
+        "date": "2024"
+      }
+    },
+    {
+      "id": "q113",
+      "text": "The next President has a game plan I laid out. And by the way, he's going to find, since I made a promise I'd invest as much in red States as blue, he's going to have a trouble not doing it.",
+      "context": "Investment commitment to red and blue states",
+      "via": "ucsb",
+      "source": {
+        "url": "https://www.presidency.ucsb.edu/documents/remarks-the-national-economy-38",
+        "title": "Remarks on the National Economy",
+        "publisher": "the american presidency project (ucsb)",
+        "date": "2024"
+      }
+    },
+    {
+      "id": "q114",
+      "text": "The United States invented these computer chips, but over time, we stopped making them. In the very beginning, we had—we produced 40 percent of them in the world. Well, they all went overseas, almost—virtually all.",
+      "context": "Semiconductor manufacturing shift overseas",
+      "via": "ucsb",
+      "source": {
+        "url": "https://www.presidency.ucsb.edu/documents/remarks-the-national-economy-38",
+        "title": "Remarks on the National Economy",
+        "publisher": "the american presidency project (ucsb)",
+        "date": "2024"
+      }
+    },
+    {
+      "id": "q115",
+      "text": "You couldn't get these chips. Prices soared. For example, it takes over 3,000 chips to build an American automobile—3,000.",
+      "context": "Pandemic supply chain impact on chip availability",
+      "via": "ucsb",
+      "source": {
+        "url": "https://www.presidency.ucsb.edu/documents/remarks-the-national-economy-38",
+        "title": "Remarks on the National Economy",
+        "publisher": "the american presidency project (ucsb)",
+        "date": "2024"
+      }
+    },
+    {
+      "id": "q116",
+      "text": "I came into office with a different vision for America that's been consistent with my record—good, bad, or indifferent—since I've been a Senator: grow the economy from the middle out and the bottom up; invest in America and American products.",
+      "context": "Core economic vision and consistency",
+      "via": "ucsb",
+      "source": {
+        "url": "https://www.presidency.ucsb.edu/documents/remarks-the-national-economy-38",
+        "title": "Remarks on the National Economy",
+        "publisher": "the american presidency project (ucsb)",
+        "date": "2024"
+      }
+    },
+    {
+      "id": "q117",
+      "text": "I was determined to restore U.S. leadership in industries of the future.",
+      "context": "Goal to restore American industrial leadership",
+      "via": "ucsb",
+      "source": {
+        "url": "https://www.presidency.ucsb.edu/documents/remarks-the-national-economy-38",
+        "title": "Remarks on the National Economy",
+        "publisher": "the american presidency project (ucsb)",
+        "date": "2024"
+      }
+    },
+    {
+      "id": "q118",
+      "text": "4 years later, we have proof that the playbook is, at least now, working.",
+      "context": "Validation of economic strategy",
+      "via": "ucsb",
+      "source": {
+        "url": "https://www.presidency.ucsb.edu/documents/remarks-the-national-economy-38",
+        "title": "Remarks on the National Economy",
+        "publisher": "the american presidency project (ucsb)",
+        "date": "2024"
+      }
+    },
+    {
+      "id": "q119",
+      "text": "The Inflation Reduction Act alone is the most significant investment in climate and energy ever, ever anywhere in the entire world.",
+      "context": "Climate and energy investment through Inflation Reduction Act",
+      "via": "ucsb",
+      "source": {
+        "url": "https://www.presidency.ucsb.edu/documents/remarks-the-national-economy-38",
+        "title": "Remarks on the National Economy",
+        "publisher": "the american presidency project (ucsb)",
+        "date": "2024"
+      }
+    },
+    {
+      "id": "q120",
+      "text": "I was determined to bring it back so we wouldn't be at the end of the supply chain; we'd be the beginning of the supply chain.",
+      "context": "Semiconductor manufacturing and supply chain strategy",
+      "via": "ucsb",
+      "source": {
+        "url": "https://www.presidency.ucsb.edu/documents/remarks-the-national-economy-38",
+        "title": "Remarks on the National Economy",
+        "publisher": "the american presidency project (ucsb)",
+        "date": "2024"
+      }
+    },
+    {
+      "id": "q121",
+      "text": "I'm a capitalist, but capitalism without competition is not capitalism, it's exploitation.",
+      "context": "Economic philosophy on competition and capitalism",
+      "via": "ucsb",
+      "source": {
+        "url": "https://www.presidency.ucsb.edu/documents/remarks-the-national-economy-38",
+        "title": "Remarks on the National Economy",
+        "publisher": "the american presidency project (ucsb)",
+        "date": "2024"
+      }
+    },
+    {
+      "id": "q122",
+      "text": "My Inflation Reduction Act took on Big Pharma, reduced the price of insulin for seniors with diabetes to pay only 35 bucks a month until the—close to the average of $400 a month.",
+      "context": "Drug price reduction for seniors with insulin costs",
+      "via": "ucsb",
+      "source": {
+        "url": "https://www.presidency.ucsb.edu/documents/remarks-the-national-economy-38",
+        "title": "Remarks on the National Economy",
+        "publisher": "the american presidency project (ucsb)",
+        "date": "2024"
+      }
+    },
+    {
+      "id": "q123",
+      "text": "Starting next month, out-of-pocket prescription drug costs for seniors—total prescription drug costs—will be capped at $2,000 a year no matter how much they spend, no matter how expensive their drugs.",
+      "context": "Senior prescription drug cost cap policy",
+      "via": "ucsb",
+      "source": {
+        "url": "https://www.presidency.ucsb.edu/documents/remarks-the-national-economy-38",
+        "title": "Remarks on the National Economy",
+        "publisher": "the american presidency project (ucsb)",
+        "date": "2024"
+      }
+    },
+    {
+      "id": "q124",
+      "text": "But nobody, nobody, nobody on God’s green Earth can justify what Hamas did. They’re a brutal, ugly, inhumane people, and they have to be eliminated.",
+      "context": "December 2023",
+      "via": "wikiquote",
+      "source": {
+        "url": "https://www.whitehouse.gov/briefing-room/speeches-remarks/2023/12/12/remarks-by-president-biden-at-a-campaign-reception-5/",
+        "title": "Remarks by President Biden at a Campaign Reception (12 December 2023)",
+        "publisher": "via wikiquote",
+        "date": "2023-12-12"
+      }
+    },
+    {
+      "id": "q125",
+      "text": "We're going to see more changes in the next 10 years than we've seen in the last 50 years. That brings me back to the summit and where we go from here. The world is fundamentally different than it was 30 years ago at the first annual APEC Leaders' Meeting at Blake Island in Washington State. --> … The questions we must answer today are not about how much we trade, but about how we build resilience, lift up working people, reduce carbon emissions, and set up our economies to succeed over the long run. How to deliver growth from the bottom up and the middle out so no one gets left behind.",
+      "context": "Remarks in San Francisco (November 2023)",
+      "via": "wikiquote",
+      "source": {
+        "url": "https://www.whitehouse.gov/briefing-room/speeches-remarks/2023/11/16/remarks-by-president-biden-at-the-apec-ceo-summit-san-francisco-ca/",
+        "title": "Remarks at the APEC CEO Summit, San Francisco, California (16 November 2023)",
+        "publisher": "via wikiquote",
+        "date": "2023-11-16"
+      }
+    },
+    {
+      "id": "q126",
+      "text": "I challenge all of us to measure our successes not based on the bottom lines of our balance sheets but by the lives we lift up through our investments, the potential we unleash with our innovation, and the ability to continue to talk with one another. Let's build a global economy where everyone has a chance to succeed and workers have a fair shot, a fair share of the value they create. The United States is stepping up because of many of you in this room. We're not talking the talk; we're backing it up with commitments. And we're going to see us — you're going to see us follow through. So, I want to thank you again for joining us in San Francisco; thank you for your commitment to APEC and the future of the Pacific — Asia-Pacific region; and thank you for everything you've already done to make this summit a success.",
+      "context": "Remarks in San Francisco (November 2023)",
+      "via": "wikiquote",
+      "source": {
+        "url": "https://en.wikiquote.org/wiki/Joe_Biden",
+        "title": "Remarks at the APEC CEO Summit (16 November 2023)",
+        "publisher": "wikiquote",
+        "date": "2023-11-16"
+      }
+    },
+    {
+      "id": "q127",
+      "text": "I had some comments to make to you. I'm not going to make them. I'm going to just summarize this way: You know, tonight, as I met with some of my colleagues that I've worked with from countries all across the region, including earlier today with Xi Jinping of China, you know, there's reason to be optimistic. There's reason to be optimistic. I look at all of you and I see the enthusiasm, I see the sense of possibilities. I was once asked by Xi Jinping in China … spent a lot of time with him, traveled 17,000 miles with him. He said, \"Can you define America for me?\" I said, \"I can in one word, and I mean it: possibilities.\" Anything is possible in this country if we do it together, and we're going to start that now.",
+      "context": "Remarks in San Francisco (November 2023)",
+      "via": "wikiquote",
+      "source": {
+        "url": "https://www.whitehouse.gov/briefing-room/speeches-remarks/2023/11/15/remarks-by-president-biden-and-first-lady-jill-biden-after-a-welcome-reception-for-apec-leaders-san-francisco-ca/",
+        "title": "Remarks after a Welcome Reception for APEC Leaders at The Exploratorium, San Francisco, California (16 November 2023)",
+        "publisher": "via wikiquote",
+        "date": "2023-11-16"
+      }
+    },
+    {
+      "id": "q128",
+      "text": "Today, the people of Israel are under attack, orchestrated by a terrorist organization, Hamas. In this moment of tragedy, I want to say to them and to the world and to terrorists everywhere that the United States stands with Israel. We will not ever fail to have their back. We’ll make sure they have the help their citizens need and they can continue to defend themselves. … Israel has the right to defend itself and its people. Full stop. There is never justification for terrorist acts. And my administration’s support for Israel’s security is rock solid and unwavering. Let me say this as clearly as I can: This is not a moment for any party hostile to Israel to exploit these attacks to seek advantage. The world is watching.",
+      "context": "October 2023",
+      "via": "wikiquote",
+      "source": {
+        "url": "https://www.whitehouse.gov/briefing-room/speeches-remarks/2023/10/07/remarks-by-president-biden-on-the-terrorist-attacks-in-israel/",
+        "title": "Remarks on the Terrorist Attacks in Israel (7 October 2023)",
+        "publisher": "via wikiquote",
+        "date": "2023-10-07"
+      }
+    },
+    {
+      "id": "q129",
+      "text": "building a massive wall that spans the entire southern border is not a serious policy solution.",
+      "context": "Border wall policy position during 2020 campaign",
+      "via": "ontheissues",
+      "source": {
+        "url": "https://www.ontheissues.org/Biden_Promises.htm",
+        "title": "CNBC and Reuters analysis of Biden Promises",
+        "publisher": "ontheissues.org",
+        "date": "2023-10-06"
+      }
+    },
+    {
+      "id": "q130",
+      "text": "We have to continue working to ensure that women and girls enjoy equal rights and equal participation in their societies.",
+      "context": "Women's rights and equality at UN",
+      "via": "ontheissues",
+      "source": {
+        "url": "https://www.ontheissues.org/2024/Joe_Biden_Civil_Rights.htm",
+        "title": "Speech to the United Nations (2023 presidential hopefuls)",
+        "publisher": "ontheissues.org",
+        "date": "2023-09-19"
+      }
+    },
+    {
+      "id": "q131",
+      "text": "That the LGBTQI+ people are not prosecuted or targeted with violence because of who they are.",
+      "context": "LGBTQI+ rights protection",
+      "via": "ontheissues",
+      "source": {
+        "url": "https://www.ontheissues.org/2024/Joe_Biden_Civil_Rights.htm",
+        "title": "Speech to the United Nations (2023 presidential hopefuls)",
+        "publisher": "ontheissues.org",
+        "date": "2023-09-19"
+      }
+    },
+    {
+      "id": "q132",
+      "text": "With a concerted leadership and careful effort, adversaries can become partners, overwhelming challenges can be resolved, and deep wounds can heal.",
+      "context": "US-Vietnam partnership and historical reconciliation",
+      "via": "ontheissues",
+      "source": {
+        "url": "https://www.ontheissues.org/2024/Joe_Biden_Foreign_Policy.htm",
+        "title": "Speech to the United Nations (2023 presidential hopefuls)",
+        "publisher": "ontheissues.org",
+        "date": "2023-09-19"
+      }
+    },
+    {
+      "id": "q133",
+      "text": "Emerging technologies, such as artificial intelligence, hold both enormous potential and enormous peril.",
+      "context": "AI technology risks and opportunities",
+      "via": "ontheissues",
+      "source": {
+        "url": "https://www.ontheissues.org/2024/Joe_Biden_Technology.htm",
+        "title": "Speech to the United Nations (2023 presidential hopefuls)",
+        "publisher": "ontheissues.org",
+        "date": "2023-09-19"
+      }
+    },
+    {
+      "id": "q134",
+      "text": "We need to be sure they are used as tools of opportunity, not as weapons of oppression.",
+      "context": "How AI should be used",
+      "via": "ontheissues",
+      "source": {
+        "url": "https://www.ontheissues.org/2024/Joe_Biden_Technology.htm",
+        "title": "Speech to the United Nations (2023 presidential hopefuls)",
+        "publisher": "ontheissues.org",
+        "date": "2023-09-19"
+      }
+    },
+    {
+      "id": "q135",
+      "text": "the United States is working to strengthen rules and policies so AI technologies are safe before they are released to the public; to make sure we govern this technology--not the other way around, having it govern us.",
+      "context": "AI governance and regulation",
+      "via": "ontheissues",
+      "source": {
+        "url": "https://www.ontheissues.org/2024/Joe_Biden_Technology.htm",
+        "title": "Speech to the United Nations (2023 presidential hopefuls)",
+        "publisher": "ontheissues.org",
+        "date": "2023-09-19"
+      }
+    },
+    {
+      "id": "q136",
+      "text": "a new standard, where colleges take into account the adversity a student has overcome, including racial discrimination that individuals have faced in their own lives.",
+      "context": "College admissions policy after affirmative action ruling",
+      "via": "ontheissues",
+      "source": {
+        "url": "https://www.ontheissues.org/2024_Pres_P_R.htm",
+        "title": "Presidential 2024 hopefuls: Ernst.Senate.Gov press release",
+        "publisher": "ontheissues.org",
+        "date": "2023-09-12"
+      }
+    },
+    {
+      "id": "q137",
+      "text": "I have one job, and that’s to beat Donald Trump. I’m absolutely certain I’m the best person to be able to do that. So, we’re done talking about the debate, it’s time to put Trump in a bullseye...We can’t go another day, another day, without explaining what he’s doing, and we have to go after him.",
+      "context": "July 2024",
+      "via": "wikiquote",
+      "source": {
+        "url": "https://www.rollingstone.com/politics/politics-news/republican-mike-collins-accuses-biden-ordering-trump-shooting-1235059900/",
+        "title": "Statement by Biden during July 8 call with top Democratic donors, quoted in \"Republican Congressman Baselessly Accuses Biden of Ordering Trump Shooting\", Rolling Stone (July 13, 2023)",
+        "publisher": "via wikiquote",
+        "date": "2023-07-13"
+      }
+    },
+    {
+      "id": "q138",
+      "text": "I know bipartisanship is hard and unity is hard, but we can never stop trying, because in moments like this one — the ones we just faced, where the American economy and the world economy is at risk of collapsing — there is no other way. No matter how tough our politics gets, we need to see each other not as adversaries, but as fellow Americans. Treat each other with dignity and respect. To join forces as Americans to stop shouting, lower the temperature, and work together to pursue progress, secure prosperity, and keep the promise of America for everybody.",
+      "context": "June 2023",
+      "via": "wikiquote",
+      "source": {
+        "url": "https://www.whitehouse.gov/briefing-room/speeches-remarks/2023/06/02/remarks-by-president-biden-on-averting-default-and-the-bipartisan-budget-agreement/",
+        "title": "Remarks on Averting Default and the Bipartisan Budget Agreement (2 June 2023)",
+        "publisher": "via wikiquote",
+        "date": "2023-06-02"
+      }
+    },
+    {
+      "id": "q139",
+      "text": "I used to stutter badly when I was a child. And it’s something — if you know anybody who stuttered, it’s a very debilitating thing. If I told you that I used to talk — t- — t- — t- — to talk like that, people will smile. But if I told you I had a clubfoot when I was kid that was fixed, no one would laugh about it.",
+      "context": "April 2023",
+      "via": "wikiquote",
+      "source": {
+        "url": "https://www.whitehouse.gov/briefing-room/speeches-remarks/2023/04/13/remarks-by-president-biden-at-banquet-dinner/",
+        "title": "\"Remarks by President Biden at Banquet Dinner\", Whitehouse.gov, (13 April 2023)",
+        "publisher": "via wikiquote",
+        "date": "2023-04-13"
+      }
+    },
+    {
+      "id": "q140",
+      "text": "Congress must restore the right the Supreme Court took away last year and codify Roe v. Wade to protect every woman's constitutional right to choose.",
+      "context": "abortion rights and reproductive health care",
+      "via": "ontheissues",
+      "source": {
+        "url": "https://www.ontheissues.org/2024/Joe_Biden_Abortion.htm",
+        "title": "2023 State of the Union speech as prepared for delivery",
+        "publisher": "ontheissues.org",
+        "date": "2023-02-07"
+      }
+    },
+    {
+      "id": "q141",
+      "text": "Make no mistake; if Congress passes a national abortion ban, I will veto it.",
+      "context": "abortion ban veto pledge",
+      "via": "ontheissues",
+      "source": {
+        "url": "https://www.ontheissues.org/2024/Joe_Biden_Abortion.htm",
+        "title": "2023 State of the Union speech as prepared for delivery",
+        "publisher": "ontheissues.org",
+        "date": "2023-02-07"
+      }
+    },
+    {
+      "id": "q142",
+      "text": "My economic plan is about investing in places and people that have been forgotten.",
+      "context": "economic plan and forgotten communities",
+      "via": "ontheissues",
+      "source": {
+        "url": "https://www.ontheissues.org/2024/Joe_Biden_Budget_+_Economy.htm",
+        "title": "2023 State of the Union speech as prepared for delivery",
+        "publisher": "ontheissues.org",
+        "date": "2023-02-07"
+      }
+    },
+    {
+      "id": "q143",
+      "text": "That's why we're building an economy where no one is left behind.",
+      "context": "inclusive economy building",
+      "via": "ontheissues",
+      "source": {
+        "url": "https://www.ontheissues.org/2024/Joe_Biden_Budget_+_Economy.htm",
+        "title": "2023 State of the Union speech as prepared for delivery",
+        "publisher": "ontheissues.org",
+        "date": "2023-02-07"
+      }
+    },
+    {
+      "id": "q144",
+      "text": "My administration is taking on \"junk\" fees, those hidden surcharges too many businesses use to make you pay more.",
+      "context": "Junk fees and hidden surcharges",
+      "via": "ontheissues",
+      "source": {
+        "url": "https://www.ontheissues.org/SOTU_2023.htm",
+        "title": "2023 State of the Union speech",
+        "publisher": "ontheissues.org",
+        "date": "2023-02-07"
+      }
+    },
+    {
+      "id": "q145",
+      "text": "Junk fees may not matter to the very wealthy, but they matter to most folks in homes like the one I grew up in.",
+      "context": "Impact of junk fees on working families",
+      "via": "ontheissues",
+      "source": {
+        "url": "https://www.ontheissues.org/SOTU_2023.htm",
+        "title": "2023 State of the Union speech",
+        "publisher": "ontheissues.org",
+        "date": "2023-02-07"
+      }
+    },
+    {
+      "id": "q146",
+      "text": "I know how unfair it feels when a company overcharges you and gets away with it.",
+      "context": "Personal understanding of unfair pricing",
+      "via": "ontheissues",
+      "source": {
+        "url": "https://www.ontheissues.org/SOTU_2023.htm",
+        "title": "2023 State of the Union speech",
+        "publisher": "ontheissues.org",
+        "date": "2023-02-07"
+      }
+    },
+    {
+      "id": "q147",
+      "text": "Let's triple our anti-fraud strike forces going after these criminals, double the statute of limitations on these crimes, and crack down on identity fraud by criminal syndicates stealing billions of dollars from the American people.",
+      "context": "Fighting fraud and protecting taxpayers",
+      "via": "ontheissues",
+      "source": {
+        "url": "https://www.ontheissues.org/2024/Joe_Biden_Crime.htm",
+        "title": "2023 State of the Union speech as prepared for delivery",
+        "publisher": "ontheissues.org",
+        "date": "2023-02-07"
+      }
+    },
+    {
+      "id": "q148",
+      "text": "I've never had to have \"The Talk\" with my children that so many Black and Brown families have had with their children: \"If a police officer pulls you over, turn on your interior lights. Don't reach for your license. Keep your hands on the steering wheel.\"",
+      "context": "Racial disparities in police interactions",
+      "via": "ontheissues",
+      "source": {
+        "url": "https://www.ontheissues.org/SOTU_2023.htm",
+        "title": "2023 State of the Union speech",
+        "publisher": "ontheissues.org",
+        "date": "2023-02-07"
+      }
+    },
+    {
+      "id": "q149",
+      "text": "I know most cops are good. decent people. They risk their lives every time they put on that shield. But what happened to Tyre in Memphis happens too often.",
+      "context": "Police conduct and accountability",
+      "via": "ontheissues",
+      "source": {
+        "url": "https://www.ontheissues.org/SOTU_2023.htm",
+        "title": "2023 State of the Union speech",
+        "publisher": "ontheissues.org",
+        "date": "2023-02-07"
+      }
+    },
+    {
+      "id": "q150",
+      "text": "Let's offer every American the path to a good career whether they go to college or not.",
+      "context": "Career opportunities and education access",
+      "via": "ontheissues",
+      "source": {
+        "url": "https://www.ontheissues.org/2024/Joe_Biden_Education.htm",
+        "title": "2023 State of the Union speech as prepared for delivery",
+        "publisher": "ontheissues.org",
+        "date": "2023-02-07"
+      }
+    },
+    {
+      "id": "q151",
+      "text": "The climate crisis doesn't care if your state is red or blue. It is an existential threat.",
+      "context": "Climate change as existential threat",
+      "via": "ontheissues",
+      "source": {
+        "url": "https://www.ontheissues.org/2024/Joe_Biden_Energy_+_Oil.htm",
+        "title": "2023 State of the Union speech as prepared for delivery",
+        "publisher": "ontheissues.org",
+        "date": "2023-02-07"
+      }
+    },
+    {
+      "id": "q152",
+      "text": "We capped the cost of insulin at $35 a month for seniors on Medicare. But there are millions of other Americans who are not on Medicare. Let's cap the cost of insulin at $35 a month for every American who needs it.",
+      "context": "Prescription drug costs and insulin pricing",
+      "via": "ontheissues",
+      "source": {
+        "url": "https://www.ontheissues.org/2024/Joe_Biden_Health_Care.htm",
+        "title": "2023 State of the Union speech as prepared for delivery",
+        "publisher": "ontheissues.org",
+        "date": "2023-02-07"
+      }
+    },
+    {
+      "id": "q153",
+      "text": "I ran for President to fundamentally change things, to make sure the economy works for everyone so we can all feel pride in what we do.",
+      "context": "Presidential campaign motivation and economic goals",
+      "via": "ontheissues",
+      "source": {
+        "url": "https://www.ontheissues.org/SOTU_2023.htm",
+        "title": "2023 State of the Union speech",
+        "publisher": "ontheissues.org",
+        "date": "2023-02-07"
+      }
+    },
+    {
+      "id": "q154",
+      "text": "To build an economy from the bottom up and the middle out, not from the top down. Because when the middle class does well, the poor have a ladder up and the wealthy still do very well.",
+      "context": "Economic philosophy and approach",
+      "via": "ontheissues",
+      "source": {
+        "url": "https://www.ontheissues.org/SOTU_2023.htm",
+        "title": "2023 State of the Union speech",
+        "publisher": "ontheissues.org",
+        "date": "2023-02-07"
+      }
+    },
+    {
+      "id": "q155",
+      "text": "I signed over 300 bipartisan laws since becoming President.",
+      "context": "Bipartisan legislative achievements",
+      "via": "ontheissues",
+      "source": {
+        "url": "https://www.ontheissues.org/SOTU_2023.htm",
+        "title": "2023 State of the Union speech",
+        "publisher": "ontheissues.org",
+        "date": "2023-02-07"
+      }
+    },
+    {
+      "id": "q156",
+      "text": "The people sent us a clear message. Fighting for the sake of fighting, power for the sake of power, conflict for the sake of conflict, gets us nowhere. And that's always been my vision for our country.",
+      "context": "Political philosophy and message to Congress",
+      "via": "ontheissues",
+      "source": {
+        "url": "https://www.ontheissues.org/SOTU_2023.htm",
+        "title": "2023 State of the Union speech",
+        "publisher": "ontheissues.org",
+        "date": "2023-02-07"
+      }
+    },
+    {
+      "id": "q157",
+      "text": "So folks, as we all apparently agree, Social Security and Medicare is off the books now, right?",
+      "context": "Social Security and Medicare protection",
+      "via": "ontheissues",
+      "source": {
+        "url": "https://www.ontheissues.org/SOTU_2023.htm",
+        "title": "Newsweek Magazine on 2023 State of the Union speech",
+        "publisher": "ontheissues.org",
+        "date": "2023-02-07"
+      }
+    },
+    {
+      "id": "q158",
+      "text": "I promised to be the president for all Americans. We'll fund your projects.",
+      "context": "Infrastructure funding and political unity",
+      "via": "ontheissues",
+      "source": {
+        "url": "https://www.ontheissues.org/SOTU_2023.htm",
+        "title": "2023 State of the Union speech",
+        "publisher": "ontheissues.org",
+        "date": "2023-02-07"
+      }
+    },
+    {
+      "id": "q159",
+      "text": "Today is a ceremony to honor heroes of January sixth.We also recognize the late US Capitol Police Officer Billy Evans. His family is with us today.While they were still cordoning off the Capital because threats by these sick insurrectionists continued to be propagated on the internet.Again, all America saw what happened when Officer Evans was killed defending a checkpoint you had to go through to get up to the Capitol.Because of these godawful sick threats that continue to move forward.And the whole world saw it.It’s just hard to believe, it’s hard to believe it could happen here in America.",
+      "context": "January 2023",
+      "via": "wikiquote",
+      "source": {
+        "url": "https://nypost.com/2023/01/06/biden-blames-sick-insurrectionists-for-murder-of-cop-by-nation-of-islam-radical/",
+        "title": "6 January 2023 via Steven Nelson of New York Post describing William Evans who was murdered by black nationalist Noah Green in April 2021",
+        "publisher": "via wikiquote",
+        "date": "2023-01-06"
+      }
+    },
+    {
+      "id": "q160",
+      "text": "What's going on in Florida is, as my mother would say, \"close to sinful.\"",
+      "context": "April 2023",
+      "via": "wikiquote",
+      "source": {
+        "url": "https://en.wikiquote.org/wiki/Joe_Biden",
+        "title": "wikiquote: April 2023",
+        "publisher": "wikiquote",
+        "date": "2023"
+      }
+    },
+    {
+      "id": "q161",
+      "text": "We don’t need to agree on everything to keep moving forward on issues like arms control — a cornerstone of international security. After more than 50 years of progress under the Non-Proliferation Treaty, Russia is shredding longstanding arms control agreements, including announcing the suspension of New START and withdrawing from the Conventional Forces in Europe Treaty. I view it as irresponsible, and it makes the entire world less safe. The United States is going to continue to pursue good-faith efforts to reduce the threat of weapons of mass destruction and lead by example, no matter what else is happening in the world.",
+      "context": "September 2023",
+      "via": "wikiquote",
+      "source": {
+        "url": "https://en.wikiquote.org/wiki/Joe_Biden",
+        "title": "wikiquote: September 2023",
+        "publisher": "wikiquote",
+        "date": "2023"
+      }
+    },
+    {
+      "id": "q162",
+      "text": "At this inflection point in history, we’re going to be judged by whether or not we live up to the promises we have made to ourselves, to each other, to the most vulnerable, and to all those who will inherit the world we create, because that’s what we’re doing. Will we find within ourselves the courage to do what must be done to preserve the planet, to protect human dignity, to provide opportunity for people everywhere, and to defend the tenets of the United Nations? There can be only one answer to that question: We must, and we will. The road ahead is long and difficult, but if we preserve — persevere and prevail, if we keep the faith in ourselves and show what’s possible. Let’s do this work together. Let’s deliver progress for everyone. Let’s bend the arc of history for the good of the world because it’s within our power to do it.",
+      "context": "September 2023",
+      "via": "wikiquote",
+      "source": {
+        "url": "https://en.wikiquote.org/wiki/Joe_Biden",
+        "title": "wikiquote: September 2023",
+        "publisher": "wikiquote",
+        "date": "2023"
+      }
+    },
+    {
+      "id": "q163",
+      "text": "So, in this moment, we must be crystal clear: We stand with Israel. We stand with Israel. And we will make sure Israel has what it needs to take care of its citizens, defend itself, and respond to this attack. There is no justification for terrorism. There is no excuse. Hamas does not stand for the Palestinian people’s right to dignity and self-determination. Its stated purpose is the annihilation of the State of Israel and the murder of Jewish people. They use Palestinian civilians as human shields. Hamas offers nothing but terror and bloodshed with no regard to who pays the price. The loss of innocent life is heartbreaking. Like every nation in the world, Israel has the right to respond — indeed has a duty to respond — to these vicious attacks.",
+      "context": "October 2023",
+      "via": "wikiquote",
+      "source": {
+        "url": "https://en.wikiquote.org/wiki/Joe_Biden",
+        "title": "wikiquote: October 2023",
+        "publisher": "wikiquote",
+        "date": "2023"
+      }
+    },
+    {
+      "id": "q164",
+      "text": "I just got off the phone with — the third call with Prime Minister Netanyahu. And I told him if the United States experienced what Israel is experiencing, our response would be swift, decisive, and overwhelming. We also discussed how democracies like Israel and the United States are stronger and more secure when we act according to the rule of law. Terrorists … purposefully target civilians, kill them. We uphold the laws of war — the law of war. It matters. There’s a difference.",
+      "context": "October 2023",
+      "via": "wikiquote",
+      "source": {
+        "url": "https://en.wikiquote.org/wiki/Joe_Biden",
+        "title": "wikiquote: October 2023",
+        "publisher": "wikiquote",
+        "date": "2023"
+      }
+    },
+    {
+      "id": "q165",
+      "text": "My team has been in near constant communication with our Israeli partners and partners all across the region and the world from the moment this crisis began. We’re surging additional military assistance, including ammunition and interceptors to replenish Iron Dome. We’re going to make sure that Israel does not run out of these critical assets to defend its cities and its citizens. My administration has consulted closely with Congress throughout this crisis. And when Congress returns, we’re going to ask them to take urgent action to fund the national security requirements of our critical partners. This is not about party or politics. This is about the security of our world, the security of the United States of America.",
+      "context": "October 2023",
+      "via": "wikiquote",
+      "source": {
+        "url": "https://en.wikiquote.org/wiki/Joe_Biden",
+        "title": "wikiquote: October 2023",
+        "publisher": "wikiquote",
+        "date": "2023"
+      }
+    },
+    {
+      "id": "q166",
+      "text": "The Department of Defense has moved the USS Gerald R. Ford Carrier Strike Group to the Eastern Mediterranean and bolstered our fighter aircraft presence. And we stand ready to move in additional assets as needed. Let me say again — to any country, any organization, anyone thinking of taking advantage of this situation, I have one word: Don’t. Don’t. Our hearts may be broken, but our resolve is clear.",
+      "context": "October 2023",
+      "via": "wikiquote",
+      "source": {
+        "url": "https://en.wikiquote.org/wiki/Joe_Biden",
+        "title": "wikiquote: October 2023",
+        "publisher": "wikiquote",
+        "date": "2023"
+      }
+    },
+    {
+      "id": "q167",
+      "text": "Yesterday, I also spoke with the leaders of France, Germany, Italy, and the UK to discuss the latest developments with our European allies and coordinate our united response. This comes on top of days of steady engagement with partners across the region. We’re also taking steps at home. In cities across the United States of America, police departments have stepped up security around centers … of Jewish life. And the Department of Homeland Security and the Federal Bureau of Investigation are working closely with state and local law enforcement and Jewish community partners to identify and disrupt any domestic threat that could emerge in connection with these horrific attacks. This is a moment for the United States to come together, to grieve with those who are mourning.",
+      "context": "October 2023",
+      "via": "wikiquote",
+      "source": {
+        "url": "https://en.wikiquote.org/wiki/Joe_Biden",
+        "title": "wikiquote: October 2023",
+        "publisher": "wikiquote",
+        "date": "2023"
+      }
+    },
+    {
+      "id": "q168",
+      "text": "Let’s be real clear: There is no place for hate in America — not against Jews, not against Muslims, not against anybody. We reject — we reject — what we reject is terrorism. We condemn the indiscriminate evil, just as we’ve always done. That’s what America stands for.",
+      "context": "October 2023",
+      "via": "wikiquote",
+      "source": {
+        "url": "https://en.wikiquote.org/wiki/Joe_Biden",
+        "title": "wikiquote: October 2023",
+        "publisher": "wikiquote",
+        "date": "2023"
+      }
+    },
+    {
+      "id": "q169",
+      "text": "For 75 years, Israel has stood as the ultimate guarantor of security of Jewish people around the world so that the atrocities of the past could never happen again. And let there be no doubt: The United States has Israel’s back. We will make sure the Jewish and democratic State of Israel can defend itself today, tomorrow, as we always have. It’s as simple as that.",
+      "context": "October 2023",
+      "via": "wikiquote",
+      "source": {
+        "url": "https://en.wikiquote.org/wiki/Joe_Biden",
+        "title": "wikiquote: October 2023",
+        "publisher": "wikiquote",
+        "date": "2023"
+      }
+    }
+  ]
+}

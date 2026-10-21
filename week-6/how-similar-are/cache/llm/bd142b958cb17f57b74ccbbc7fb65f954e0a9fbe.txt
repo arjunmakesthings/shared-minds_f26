@@ -1,0 +1,19 @@
+```json
+{"p": 1, "quote": "I warned about China's growing military power, its growing repression at home and aggression abroad, and its growing challenge to American interests and America itself.", "context": "China threat assessment from UN speech"}
+```
+
+```json
+{"p": 1, "quote": "Communist China is the greatest threat to American security and prosperity, by far.", "context": "Central assessment of China as top threat"}
+```
+
+```json
+{"p": 1, "quote": "As President, my top priority will be strengthening America's economy and America's military. We will protect America's prosperity and homeland from Chinese aggression.", "context": "Presidential priorities on China"}
+```
+
+```json
+{"p": 1, "quote": "Communist China is an enemy. It is the most dangerous foreign threat we've faced since the Second World War.", "context": "Characterization of China as enemy"}
+```
+
+```json
+{"p": 1, "quote": "If China wants to start normal trade again, it has to stop killing Americans.", "context": "Condition for normalizing trade relations"}
+```

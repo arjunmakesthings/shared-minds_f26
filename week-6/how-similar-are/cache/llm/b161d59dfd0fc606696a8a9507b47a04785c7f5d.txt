@@ -1,0 +1,43 @@
+```json
+{"p": 19, "quote": "if you're spending billions of dollars of American taxpayer money on solar panels that are made in China, you're going to make the economy dirtier.", "context": "Climate change and energy policy"}
+```
+
+```json
+{"p": 19, "quote": "We built [only one] nuclear facility in the past 40 years. Natural gas--invest more in it.", "context": "Energy production and climate"}
+```
+
+```json
+{"p": 20, "quote": "In Springfield and all across this country, you've got schools and hospitals that are overwhelmed,; you've got housing that is totally unaffordable because we brought in millions of illegal immigrants to compete with Americans for scarce homes.", "context": "Immigration and housing"}
+```
+
+```json
+{"p": 20, "quote": "The people that I'm most worried about in Springfield, Ohio, are the American citizens who have had their lives destroyed by Kamala Harris's open border.", "context": "Immigration policy"}
+```
+
+```json
+{"p": 21, "quote": "We're focused on the future. I believe that we actually do have a threat to democracy in this country, but it is the threat of censorship.", "context": "Democracy and censorship threats"}
+```
+
+```json
+{"p": 21, "quote": "For years in this country, Democrats protested the results of elections. Hillary Clinton in 2016 said that Donald Trump had the election stolen because the Russians bought, like, $500,000 worth of Facebook ads.", "context": "Election protests and Russian interference claims"}
+```
+
+```json
+{"p": 21, "quote": "Did Kamala Harris censor Americans from speaking their mind in the wake of the 2020 COVID situation?", "context": "Censorship and COVID response"}
+```
+
+```json
+{"p": 22, "quote": "A private company that can censor speech, influence elections, and work seamlessly with intelligence services and other federal bureaucrats deserves the scrutiny of the Right, not its support.", "context": "Corporate power and censorship"}
+```
+
+```json
+{"p": 24, "quote": "If these psychos are going to go after our kids we've got to be prepared for it", "context": "School shootings and security"}
+```
+
+```json
+{"p": 24, "quote": "We don't have to like the reality that we live in, but it is the reality we live in. We've got to deal with it.", "context": "School shootings as fact of life"}
+```
+
+```json
+{"p": 24, "quote": "I don't like that this is a fact of life. But if you are a psycho and you want to make headlines, you realize that our schools are soft targets. And we have got to bolster security at our schools.", "context": "School security improvements needed"}
+```

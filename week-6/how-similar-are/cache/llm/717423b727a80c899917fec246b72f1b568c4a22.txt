@@ -1,0 +1,15 @@
+```json
+{"p": 1, "quote": "And we're doing better now as a country than we've ever done before.", "context": "Country's economic performance"}
+```
+
+```json
+{"p": 1, "quote": "We have $19.2 trillion being invested in our country—$19.2 trillion with a \"t.\"", "context": "Investment in the country"}
+```
+
+```json
+{"p": 1, "quote": "Iran—very simple: They can't have a nuclear weapon, and they won't.", "context": "Iran's nuclear weapons capability"}
+```
+
+```json
+{"p": 1, "quote": "She'll always vote to lower your taxes, big paychecks, no amnesty for illegal aliens, and she will always protect your Second Amendment and the right to keep and bear arms.", "context": "Darline Graham's policy positions Trump endorses"}
+```

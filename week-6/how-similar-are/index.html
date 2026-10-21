@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>how similar are</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <script type="importmap">
+        {
+            "imports": {
+                "three": "https://cdn.jsdelivr.net/npm/three@0.170.0/build/three.module.js",
+                "three/addons/": "https://cdn.jsdelivr.net/npm/three@0.170.0/examples/jsm/"
+            }
+        }
+    </script>
+</head>
+
+<body>
+    <header class="top">
+        <div class="ask">
+            <span class="ask-text">how similar are</span>
+            <div id="pick-a"></div>
+            <span class="ask-text">&amp;</span>
+            <div id="pick-b"></div>
+            <button id="go" type="button" disabled>go</button>
+        </div>
+        <p id="pick-error" class="pick-error" role="alert"></p>
+    </header>
+
+    <section id="intro" class="intro">
+        <p class="intro-lead">if two people seem different, how different are they really?</p>
+        <hr>
+        <p class="intro-body">
+            this webpage allows you to view popular us-politicians as vectors in multidimensional space. each
+            'dimension' is a topic that they've both spoken about, and therefore can be assessed for the polarity
+            of stance that they take. dimensions are selectable &amp; represented live; stances are extracted from
+            linked sources (wikiquote, ontheissues.org, the american presidency project); polarity or similarity is
+            assessed by averaging analyses by two different popular large-language-models.
+        </p>
+    </section>
+
+    <main>
+        <section id="loader" class="loader" hidden aria-live="polite"></section>
+
+        <section id="result" class="result" hidden>
+            <div class="main-col">
+                <div id="headline" class="headline" aria-live="polite"></div>
+                <div id="stage" class="stage"></div>
+                <div id="legend" class="legend"></div>
+                <p id="caption" class="caption"></p>
+                <p class="notice">
+                    these placements were made by ai models (claude sonnet and gpt-5) reading the quotes linked in
+                    the sidebar. a person did not check them, and a model's reading of what someone means can be
+                    wrong. open the sources and judge for yourself.
+                </p>
+            </div>
+            <aside id="sidebar" class="sidebar"></aside>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <p>
+            every quote comes from a linked source (wikiquote, ontheissues.org, the american presidency project) and
+            was checked by a script to appear word for word in that source's text. two ai models then placed each
+            person on each topic, so the stances are machine readings, not facts. "x% similar" depends on which
+            topics you look at, which is the point.
+        </p>
+    </footer>
+
+    <script type="module" src="app.js"></script>
+</body>
+
+</html>

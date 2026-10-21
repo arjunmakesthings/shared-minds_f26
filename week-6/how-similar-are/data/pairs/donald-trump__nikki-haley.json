@@ -1,0 +1,150 @@
+{
+  "a": "donald-trump",
+  "b": "nikki-haley",
+  "approved": "2026-10-21",
+  "counts": {
+    "quotesA": 182,
+    "quotesB": 221,
+    "topicsFound": 10,
+    "dimensions": 4
+  },
+  "dims": [
+    {
+      "id": "iran-sanctions-policy",
+      "question": "Should the U.S. maintain strict sanctions on Iran?",
+      "poles": [
+        "Maintain strict sanctions to limit Iran's resources",
+        "Lift sanctions to enable diplomatic engagement"
+      ],
+      "a": {
+        "score": -0.9,
+        "reason": "Trump strongly emphasizes that Iran was broke under his sanctions and criticizes their removal.",
+        "quotes": [
+          "q128",
+          "q2"
+        ]
+      },
+      "b": {
+        "score": -0.8,
+        "reason": "Haley criticizes lifting sanctions on Iran, saying it allowed money to flow to terrorist proxies.",
+        "quotes": [
+          "q6"
+        ]
+      },
+      "models": {
+        "sonnet": {
+          "a": -0.9,
+          "b": -0.8
+        },
+        "gpt5": {
+          "a": -0.9,
+          "b": -0.8
+        }
+      },
+      "edited": false
+    },
+    {
+      "id": "federal-programs-decentralization",
+      "question": "Should federal programs be transferred to state control?",
+      "poles": [
+        "Decentralize programs to state governments",
+        "Keep programs under federal management"
+      ],
+      "a": {
+        "score": -0.9,
+        "reason": "Trump explicitly states he will close federal education programs and send them back to states.",
+        "quotes": [
+          "q162"
+        ]
+      },
+      "b": {
+        "score": -0.85,
+        "reason": "Haley advocates for states' rights and wants to transfer federal programs to state level.",
+        "quotes": [
+          "q8",
+          "q22"
+        ]
+      },
+      "models": {
+        "sonnet": {
+          "a": -0.9,
+          "b": -0.85
+        },
+        "gpt5": {
+          "a": -0.9,
+          "b": -0.85
+        }
+      },
+      "edited": false
+    },
+    {
+      "id": "energy-independence-strategy",
+      "question": "Should the U.S. pursue energy independence through fossil fuels?",
+      "poles": [
+        "Prioritize oil and gas for independence",
+        "Transition away from fossil fuels"
+      ],
+      "a": {
+        "score": -0.9,
+        "reason": "Strongly advocates for oil, gas, and natural gas as cheaper and better energy sources and for regaining energy independence.",
+        "quotes": [
+          "q177",
+          "q178"
+        ]
+      },
+      "b": {
+        "score": -0.1,
+        "reason": "Acknowledges climate change but opposes relying on foreign oil and discusses transitioning, showing mixed position favoring some domestic fossil fuel production.",
+        "quotes": [
+          "q96",
+          "q98"
+        ]
+      },
+      "models": {
+        "sonnet": {
+          "a": -0.9,
+          "b": -0.4
+        },
+        "gpt5": {
+          "a": -0.9,
+          "b": 0.2
+        }
+      },
+      "edited": false
+    },
+    {
+      "id": "border-enforcement-priority",
+      "question": "Should border security be the top immigration priority?",
+      "poles": [
+        "Secure borders is the primary focus",
+        "Address root causes beyond enforcement"
+      ],
+      "a": {
+        "score": -0.92,
+        "reason": "Declares ending border invasion as immediate priority and emphasizes need for walls and borders.",
+        "quotes": [
+          "q61",
+          "q119"
+        ]
+      },
+      "b": {
+        "score": -0.7,
+        "reason": "States securing the border as a top priority with no more excuses as a key voting issue.",
+        "quotes": [
+          "q3"
+        ]
+      },
+      "models": {
+        "sonnet": {
+          "a": -0.95,
+          "b": -0.8
+        },
+        "gpt5": {
+          "a": -0.9,
+          "b": -0.6
+        }
+      },
+      "edited": false
+    }
+  ]
+}

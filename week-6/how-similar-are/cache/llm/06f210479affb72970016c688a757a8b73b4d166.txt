@@ -1,0 +1,39 @@
+```json
+{"p": 1, "quote": "We must look at these sales through a national security lens.", "context": "U.S. company sales to China and national security concerns"}
+```
+
+```json
+{"p": 1, "quote": "This cannot continue.", "context": "Chinese law requiring U.S. companies to transfer technology"}
+```
+
+```json
+{"p": 1, "quote": "We must end the export of sensitive technology to China, full stop.", "context": "Policy on exporting controlled technology to China"}
+```
+
+```json
+{"p": 1, "quote": "We should block any Chinese purchase of an American company specializing in advanced technology.", "context": "Preventing Chinese acquisitions of advanced technology companies"}
+```
+
+```json
+{"p": 1, "quote": "I will protect our investors and our national security.", "context": "Investment in Chinese companies and national security commitment"}
+```
+
+```json
+{"p": 1, "quote": "A stronger military is the linchpin to our national security and to preventing wars.", "context": "Role of military strength in national security"}
+```
+
+```json
+{"p": 1, "quote": "We should stand with Taiwan without apology – because our security is intertwined.", "context": "U.S. support for Taiwan"}
+```
+
+```json
+{"p": 1, "quote": "The United States must help Ukraine defeat the Russian invasion.", "context": "U.S. military support for Ukraine"}
+```
+
+```json
+{"p": 1, "quote": "Our policy should be to help Ukraine reclaim its territory – and bring this war to a quick and decisive end.", "context": "Policy goal for the Ukraine-Russia war"}
+```
+
+```json
+{"p": 1, "quote": "Now is the time to stand up to China.", "context": "Timing for addressing Chinese threats"}
+```

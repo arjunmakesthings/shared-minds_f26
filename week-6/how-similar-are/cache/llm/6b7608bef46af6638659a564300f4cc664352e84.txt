@@ -1,0 +1,39 @@
+```json
+{"p": 43, "quote": "We did a mandatory E-Verify program that made businesses prove that the people they hired were here legally. We will do a national E-Verify program.", "context": "Immigration enforcement policy"}
+```
+```json
+{"p": 43, "quote": "We will defund sanctuary cities once and for all.", "context": "Sanctuary city policy position"}
+```
+```json
+{"p": 43, "quote": "instead of catch and release, we will go to catch and deport.", "context": "Border enforcement approach"}
+```
+```json
+{"p": 44, "quote": "My parents very much taught us the importance of faith and a conscience.", "context": "Personal values and upbringing"}
+```
+```json
+{"p": 44, "quote": "I feel like I've lived my life that way.", "context": "Living by faith and conscience"}
+```
+```json
+{"p": 45, "quote": "We need to understand that Social Security will go bankrupt in 10 years; Medicare will go bankrupt in eight.", "context": "Social Security and Medicare solvency"}
+```
+```json
+{"p": 45, "quote": "Everyone who's been promised should get it.", "context": "Social Security benefit promises"}
+```
+```json
+{"p": 45, "quote": "We're raising the retirement age to reflect life expectancy. We limit benefits on the wealthy. Instead of cost of living increases, let's do increases based on inflation.", "context": "Social Security and Medicare reform proposals"}
+```
+```json
+{"p": 46, "quote": "This is bigger than Ukraine. This is a war about freedom. And it's one we have to win.", "context": "Ukraine conflict significance"}
+```
+```json
+{"p": 46, "quote": "a win for Ukraine is a win for all of us, because tyrants tell us exactly what they're going to do.", "context": "Why supporting Ukraine matters"}
+```
+```json
+{"p": 46, "quote": "You know what I would have done if I was president? Put two drones up there in a fighter jet and put our naval fleet back in the Black Sea because it never should have left in the first place.", "context": "Response to Russian drone incident"}
+```
+```json
+{"p": 47, "quote": "I would defund sanctuary cities. I would go back to remain in Mexico because no one wants to remain in Mexico.", "context": "Immigration policy priorities"}
+```
+```json
+{"p": 47, "quote": "instead of catch and release, let's go to catch and deport.", "context": "Border enforcement approach"}
+```

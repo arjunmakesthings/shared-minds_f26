@@ -1,0 +1,43 @@
+```json
+{"p": 19, "quote": "Like most Americans, I believe Roe v. Wade got it right.", "context": "Reproductive rights and Roe v. Wade overturning"}
+```
+
+```json
+{"p": 19, "quote": "Guarantee the right to IVF. Guarantee it nationwide.", "context": "IVF access and reproductive freedom"}
+```
+
+```json
+{"p": 20, "quote": "I'm taking the most significant action ever on climate in the history of the world.", "context": "Climate crisis action and carbon emissions"}
+```
+
+```json
+{"p": 20, "quote": "I'm cutting our carbon emissions in half by 2030, creating tens of thousands of clean energy jobs like the IBEW work is building and installing 500,000 electric vehicle charging stations.", "context": "Climate and clean energy policy goals"}
+```
+
+```json
+{"p": 21, "quote": "I want to expand high-quality tutoring and summer learning to see that every child learns to read by third grade.", "context": "Education policy and literacy goals"}
+```
+
+```json
+{"p": 21, "quote": "I'm also connecting local businesses and high schools so students get hands-on experience and a path to a good-paying job whether or not they go to college, and I want to make sure that college more affordable.", "context": "Education workforce development and college affordability"}
+```
+
+```json
+{"p": 22, "quote": "Pass the Freedom to Vote Act, the John Lewis Voting Right Act.", "context": "Voting rights and election protection"}
+```
+
+```json
+{"p": 22, "quote": "Banning books, it's wrong. Instead of erasing history, let's make history.", "context": "Book bans and historical preservation"}
+```
+
+```json
+{"p": 23, "quote": "I did do something by establishing the first ever Office of Gun Violence Prevention in the White House that the vice president is leading the charge.", "context": "Gun violence prevention office establishment"}
+```
+
+```json
+{"p": 23, "quote": "I'm demanding a ban on assault weapons and high capacity magazines. Pass universal background checks.", "context": "Gun safety legislation demands"}
+```
+
+```json
+{"p": 24, "quote": "Not since President Lincoln in the Civil War have freedom and democracy been under assault at home as they are today.", "context": "Democracy under threat domestic and overseas"}
+```

@@ -1,0 +1,27 @@
+```json
+{"p": 1, "quote": "our strong view is that the continuation of this conflict is bad for us, it's bad for Europe, it's bad for Russia, and it's bad for Ukraine.", "context": "Ukraine-Russia conflict continuation effects"}
+```
+
+```json
+{"p": 1, "quote": "We think that if cool heads prevail here, we can bring this thing to a durable peace that will be economically beneficial for both the Ukrainians and the Russians and, most importantly, will stop the end of the -- of the destruction of human lives.", "context": "Path to peace in Ukraine conflict"}
+```
+
+```json
+{"p": 1, "quote": "We cannot absorb the producer surplus of the entire world.", "context": "Global economic trade imbalance"}
+```
+
+```json
+{"p": 1, "quote": "we cannot absorb hundreds of billions of dollars -- close to a trillion dollars per year in annual surplus, most of it coming from the People's Republic of China.", "context": "Trade deficit with China"}
+```
+
+```json
+{"p": 1, "quote": "we want to rebalance trade in the interests of American workers, in the interests of American manufacturers.", "context": "Trade policy goals"}
+```
+
+```json
+{"p": 1, "quote": "America wants its exporters and, by implication, its workers to be treated much more fairly.", "context": "Fair treatment of American exporters"}
+```
+
+```json
+{"p": 1, "quote": "We just want a little bit more fairness or, to use the president's favorite word, \"reciprocity.\"", "context": "Trade fairness principle with Europe"}
+```

@@ -1,0 +1,79 @@
+```json
+{"id": "israel-hamas-ceasefire", "question": "should the united states prioritize negotiating a ceasefire in the israel-hamas conflict?", "poleA": "prioritize diplomatic negotiations for ceasefire", "poleB": "prioritize israel's military response first", "a": ["q1", "q6", "q7"], "b": ["q149"]}
+```
+
+```json
+{"id": "gaza-humanitarian-aid", "question": "should the us take direct action to deliver humanitarian aid to gaza?", "poleA": "us should establish aid delivery mechanisms", "poleB": "aid delivery is not us responsibility", "a": ["q82"], "b": []}
+```
+
+```json
+{"id": "palestinian-equality", "question": "should palestinians have equal security and dignity as israelis?", "poleA": "palestinians deserve equal security and dignity", "poleB": "israeli security takes priority", "a": ["q11", "q12"], "b": ["q33", "q89"]}
+```
+
+```json
+{"id": "two-state-solution", "question": "is a two-state solution the best path forward for israel-palestine?", "poleA": "two-state solution is essential long-term", "poleB": "two-state solution is not viable", "a": ["q84"], "b": ["q33"]}
+```
+
+```json
+{"id": "border-security-bill", "question": "should congress pass comprehensive border security legislation?", "poleA": "comprehensive border security bill needed", "poleB": "border security bill unnecessary or inadequate", "a": ["q63"], "b": ["q21", "q62"]}
+```
+
+```json
+{"id": "immigration-citizenship-path", "question": "should immigrants have an earned path to citizenship?", "poleA": "earned citizenship pathway for immigrants", "poleB": "restrict immigration without citizenship path", "a": [], "b": ["q8", "q63"]}
+```
+
+```json
+{"id": "assault-weapons-ban", "question": "should the us ban assault weapons and high-capacity magazines?", "poleA": "ban assault weapons and high-capacity magazines", "poleB": "protect access to all firearms", "a": ["q74"], "b": ["q93", "q82"]}
+```
+
+```json
+{"id": "background-checks", "question": "should universal background checks be required for all gun purchases?", "poleA": "universal background checks mandatory", "poleB": "background checks not needed", "a": ["q74"], "b": ["q93"]}
+```
+
+```json
+{"id": "reproductive-freedom", "question": "should the federal government protect abortion access nationwide?", "poleA": "federal law should protect abortion access", "poleB": "states should decide abortion policy", "a": ["q45", "q47"], "b": ["q23", "q118", "q136"]}
+```
+
+```json
+{"id": "climate-action-priority", "question": "should climate action be a top federal priority?", "poleA": "climate action is urgent priority", "poleB": "climate action should not restrict economy", "a": ["q2", "q67"], "b": ["q51", "q29"]}
+```
+
+```json
+{"id": "fracking-energy-policy", "question": "should the us support natural gas fracking development?", "poleA": "fracking acceptable for energy independence", "poleB": "fracking should be phased out", "a": [], "b": ["q28"]}
+```
+
+```json
+{"id": "infrastructure-investment", "question": "should the federal government invest heavily in infrastructure?", "poleA": "major federal infrastructure investment needed", "poleB": "infrastructure spending should be limited", "a": ["q35"], "b": []}
+```
+
+```json
+{"id": "middle-class-focus", "question": "should economic policy prioritize middle-class benefit?", "poleA": "middle-class should be policy priority", "poleB": "market-driven approach regardless of class", "a": ["q104", "q108", "q116"], "b": ["q71", "q110"]}
+```
+
+```json
+{"id": "corporate-tax-rates", "question": "should wealthy individuals and corporations pay higher taxes?", "poleA": "raise taxes on wealthy and corporations", "poleB": "maintain or lower tax rates", "a": ["q57", "q80"], "b": ["q48"]}
+```
+
+```json
+{"id": "prescription-drug-prices", "question": "should the federal government lower prescription drug prices?", "poleA": "government should reduce drug prices", "poleB": "market should determine drug prices", "a": ["q122", "q123"], "b": []}
+```
+
+```json
+{"id": "labor-union-rights", "question": "should federal law strengthen labor union organizing rights?", "poleA": "strengthen union rights and protections", "poleB": "limit union power and organizing", "a": [], "b": ["q47", "q106", "q113"]}
+```
+
+```json
+{"id": "minimum-wage-increase", "question": "should the federal government raise the minimum wage?", "poleA": "minimum wage should be increased", "poleB": "minimum wage should not be raised", "a": [], "b": ["q140"]}
+```
+
+```json
+{"id": "home-health-care-coverage", "question": "should medicare cover home health care for seniors?", "poleA": "medicare should cover home health care", "poleB": "home care should not be covered", "a": [], "b": ["q15", "q131"]}
+```
+
+```json
+{"id": "democracy-defense-priority", "question": "should defending democracy be a central political priority?", "poleA": "democracy defense is urgent priority", "poleB": "democracy issues are overstated", "a": ["q33", "q38", "q78"], "b": ["q68", "q99", "q115"]}
+```
+
+```json
+{"id": "nato-alliance-support", "question": "should the us maintain strong nato alliance commitments?", "poleA": "maintain and strengthen nato alliance", "poleB": "reduce nato involvement", "a": [], "b": ["q5", "q35", "q43"]}
+```

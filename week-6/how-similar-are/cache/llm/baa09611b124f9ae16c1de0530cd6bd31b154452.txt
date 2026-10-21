@@ -1,0 +1,19 @@
+```json
+{"p": 1, "quote": "this is the most solemn occasion that I participated in in my 4 years every time we do this event", "context": "Medal of Honor ceremony significance"}
+```
+
+```json
+{"p": 1, "quote": "Today is the final time as Commander in Chief and I'm deeply privileged to honor seven American—seven American heroes.", "context": "Presenting Medal of Honor on final day as Commander in Chief"}
+```
+
+```json
+{"p": 1, "quote": "It's been the greatest honor of my life to be entrusted with the greatest fighting force in the history of the world.", "context": "Service as Commander in Chief and military"}
+```
+
+```json
+{"p": 1, "quote": "We are the only nation in the world built on an idea. Every other nation is built based on geography, ethnicity, or religion.", "context": "American founding principle and national identity"}
+```
+
+```json
+{"p": 1, "quote": "We never, ever, ever will.", "context": "Commitment to American ideals of equality"}
+```

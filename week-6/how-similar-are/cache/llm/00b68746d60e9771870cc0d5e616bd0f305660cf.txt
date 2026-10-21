@@ -1,0 +1,5 @@
+```json
+{"p": 1, "quote": "We're going to use Scott. We're going to use Howard. We're going to use a lot of our Secretaries.", "context": "Plans for using Secretaries in administration"}
+{"p": 1, "quote": "Linda McMahon is so great.", "context": "Praise for Linda McMahon"}
+{"p": 1, "quote": "We'll do Marco next. I will.", "context": "Plans to do something with Marco next"}
+```

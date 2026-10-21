@@ -1,0 +1,9 @@
+{"topic": "iran-sanctions-policy", "a": {"score": -0.9, "confidence": 0.85, "reason": "Trump strongly emphasizes that Iran was broke under his sanctions and criticizes their removal.", "quotes": ["q128", "q2"]}, "b": {"score": -0.8, "confidence": 0.75, "reason": "Haley criticizes lifting sanctions on Iran, saying it allowed money to flow to terrorist proxies.", "quotes": ["q6"]}}
+
+{"topic": "israel-palestine-solution", "a": {"score": 0.0, "confidence": 0.1, "reason": "Quote about Strait of Hormuz and Iranian Navy does not address two-state solution viability.", "quotes": ["q18"]}, "b": {"score": 0.9, "confidence": 0.95, "reason": "Haley explicitly states a two-state solution was not possible because Palestinians wouldn't come to the table.", "quotes": ["q31"]}}
+
+{"topic": "abortion-restrictions", "a": {"score": 0.0, "confidence": 0.3, "reason": "Trump mentions exceptions but doesn't specifically address late-term abortion bans.", "quotes": ["q112"]}, "b": {"score": -0.85, "confidence": 0.9, "reason": "Haley explicitly asks if everyone can agree to ban late-term abortions and challenges opponents on their position.", "quotes": ["q88", "q94"]}}
+
+{"topic": "federal-programs-decentralization", "a": {"score": -0.9, "confidence": 0.95, "reason": "Trump explicitly states he will close federal education programs and send them back to states.", "quotes": ["q162"]}, "b": {"score": -0.85, "confidence": 0.9, "reason": "Haley advocates for states' rights and wants to transfer federal programs to state level.", "quotes": ["q8", "q22"]}}
+
+{"topic": "china-existential-threat", "a": {"score": 0.0, "confidence": 0.1, "reason": "Quote about stock market does not address China as a threat.", "quotes": ["q155"]}, "b": {"score": -0.6, "confidence": 0.65, "reason": "Haley criticizes Trump for focusing only on trade with China, implying China is important but safety focus is needed.", "quotes": ["q84"]}}

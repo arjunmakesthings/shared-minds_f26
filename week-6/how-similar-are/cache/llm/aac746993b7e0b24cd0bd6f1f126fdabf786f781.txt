@@ -1,0 +1,31 @@
+```json
+{"p": 1, "quote": "I think the polls are fake. My approval rating in Ireland is good. My approval rating in the U.S. is great.", "context": "Approval ratings in Ireland and US"}
+```
+
+```json
+{"p": 1, "quote": "We don't want to have deficits with nations. We want to have surpluses or at least break-evens.", "context": "Trade policy with nations running deficits"}
+```
+
+```json
+{"p": 1, "quote": "I think it's terrible. It's not a place to be laughing, especially in that case.", "context": "AOC and Mamdani laughing at 9/11 ceremony"}
+```
+
+```json
+{"p": 1, "quote": "I think he's tied or leading now. I think he got—he picked up a lot. I hear that the convention helped Ken Paxton a lot.", "context": "Ken Paxton's Texas senatorial race performance"}
+```
+
+```json
+{"p": 1, "quote": "I think J.B. Pritzker is a disaster as a Governor. You know, you look at what's happening with crime, and J.B. Pritzker should lose.", "context": "Illinois governor J.B. Pritzker's performance"}
+```
+
+```json
+{"p": 1, "quote": "The $5,000's going to happen, 100 percent. And the reason is because our country has taken in trillions and trillions of dollars, and it's going to happen, because the people deserve it because it was treated so badly by the Democrats and by Biden.", "context": "$5,000 checks policy"}
+```
+
+```json
+{"p": 1, "quote": "I got a record vote, the highest vote in the history of the Republican Party. And if those voters would go out, we will win everything, just like I did.", "context": "Republican voter turnout for midterm elections"}
+```
+
+```json
+{"p": 1, "quote": "If they get out and vote, we win in a landslide.", "context": "Republican voters and midterm election outcomes"}
+```

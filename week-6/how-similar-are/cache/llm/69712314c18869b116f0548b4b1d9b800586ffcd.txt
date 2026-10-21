@@ -1,0 +1,23 @@
+```json
+{"p": 43, "quote": "the biggest threat", "context": "China as threat to US"}
+```
+
+```json
+{"p": 45, "quote": "a massive racket to enrich Wall Street and enrich the financial sector of the country, at the expense of the industries that actually employ a lot of Ohio's workers for middle-class jobs.", "context": "ESG investing criticism"}
+```
+
+```json
+{"p": 46, "quote": "The Inflation Reduction Act is mostly a lot of green energy stuff. It's also added a lot of costs out there and a lot of federal spending that's forced the inflation prices. And I also think that it's sort of hastening a transition away from things like the gas driven cars that most Americans don't want. So I think there's a lot of bad policy in there. And I'd like to see a lot of it gotten rid of.", "context": "Inflation Reduction Act criticism"}
+```
+
+```json
+{"p": 47, "quote": "seem to think any public safety enhancements for the rail industry is somehow a violation of the free market.", "context": "Railway Safety Act hearing statement"}
+```
+
+```json
+{"p": 48, "quote": "If the argument here is we have to cut Social Security, then what you're effectively saying is we just have to privatize what is currently a public problem of who pays for the older generation. And I don't know why people think that you solve many problems by taking a bunch of elderly people and saying, 'You're on your own.'", "context": "Social Security position"}
+```
+
+```json
+{"p": 48, "quote": "I don't support cuts to social security or Medicare and think privatizing social security is a bad idea.", "context": "Social Security and Medicare stance"}
+```

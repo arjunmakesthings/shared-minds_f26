@@ -1,0 +1,149 @@
+{
+  "a": "jd-vance",
+  "b": "joe-biden",
+  "approved": "2026-10-21",
+  "counts": {
+    "quotesA": 181,
+    "quotesB": 169,
+    "topicsFound": 11,
+    "dimensions": 4
+  },
+  "dims": [
+    {
+      "id": "energy-independence",
+      "question": "should the us prioritize cheap energy over climate concerns?",
+      "poles": [
+        "cheap energy is essential for economic independence",
+        "climate action must not be sacrificed for cheaper energy"
+      ],
+      "a": {
+        "score": -0.77,
+        "reason": "He emphasizes cheap dependable energy as essential for economic independence and making things.",
+        "quotes": [
+          "q1",
+          "q40"
+        ]
+      },
+      "b": {
+        "score": 0.85,
+        "reason": "He explicitly rejects choosing cheap energy over environmental protection and insists climate action must not be sacrificed.",
+        "quotes": [
+          "q2",
+          "q67"
+        ]
+      },
+      "models": {
+        "sonnet": {
+          "a": -0.85,
+          "b": 0.9
+        },
+        "gpt5": {
+          "a": -0.7,
+          "b": 0.8
+        }
+      },
+      "edited": false
+    },
+    {
+      "id": "border-control",
+      "question": "should the us limit immigration to protect workers?",
+      "poles": [
+        "immigration harms american workers and communities",
+        "border closures are not serious policy solutions"
+      ],
+      "a": {
+        "score": -0.75,
+        "reason": "He describes illegal immigration as harming communities through overwhelmed services and competing with Americans for housing.",
+        "quotes": [
+          "q111",
+          "q117"
+        ]
+      },
+      "b": {
+        "score": 0.63,
+        "reason": "He dismisses border walls as not serious policy, suggesting opposition to restrictive immigration controls.",
+        "quotes": [
+          "q129"
+        ]
+      },
+      "models": {
+        "sonnet": {
+          "a": -0.8,
+          "b": 0.65
+        },
+        "gpt5": {
+          "a": -0.7,
+          "b": 0.6
+        }
+      },
+      "edited": false
+    },
+    {
+      "id": "democracy-threat",
+      "question": "is censorship the primary threat to democracy?",
+      "poles": [
+        "censorship threatens american democracy most",
+        "political violence threatens democracy most"
+      ],
+      "a": {
+        "score": -0.9,
+        "reason": "He explicitly states censorship is the threat to democracy in this country.",
+        "quotes": [
+          "q119"
+        ]
+      },
+      "b": {
+        "score": 0.85,
+        "reason": "He explicitly calls political violence the primary threat with absolutely no place in America.",
+        "quotes": [
+          "q78"
+        ]
+      },
+      "models": {
+        "sonnet": {
+          "a": -0.9,
+          "b": 0.8
+        },
+        "gpt5": {
+          "a": -0.9,
+          "b": 0.9
+        }
+      },
+      "edited": false
+    },
+    {
+      "id": "corporate-regulation",
+      "question": "should corporations face more government restrictions?",
+      "poles": [
+        "corporations need more regulation and oversight",
+        "corporations should operate with less government intervention"
+      ],
+      "a": {
+        "score": -0.55,
+        "reason": "He argues private companies like tech platforms deserve scrutiny and regulation for their power.",
+        "quotes": [
+          "q123",
+          "q144"
+        ]
+      },
+      "b": {
+        "score": 0.55,
+        "reason": "He explicitly states he is not anticorporation and has represented corporate interests.",
+        "quotes": [
+          "q103"
+        ]
+      },
+      "models": {
+        "sonnet": {
+          "a": -0.6,
+          "b": 0.5
+        },
+        "gpt5": {
+          "a": -0.5,
+          "b": 0.6
+        }
+      },
+      "edited": false
+    }
+  ]
+}

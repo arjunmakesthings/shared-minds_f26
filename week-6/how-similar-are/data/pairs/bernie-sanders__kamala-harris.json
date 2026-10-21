@@ -1,0 +1,80 @@
+{
+  "a": "bernie-sanders",
+  "b": "kamala-harris",
+  "approved": "2026-10-21",
+  "counts": {
+    "quotesA": 11,
+    "quotesB": 157,
+    "topicsFound": 4,
+    "dimensions": 2
+  },
+  "dims": [
+    {
+      "id": "democracy-threat",
+      "question": "Is Donald Trump a threat to American democracy?",
+      "poles": [
+        "Trump threatens democracy and must be opposed",
+        "Trump respects democratic principles and governance"
+      ],
+      "a": {
+        "score": -1,
+        "reason": "Sanders explicitly calls Trump a pathological liar who waged insurrection and is moving against democracy, calling him an authoritarian and very dangerous person.",
+        "quotes": [
+          "q5",
+          "q6"
+        ]
+      },
+      "b": {
+        "score": -1,
+        "reason": "Harris states Trump wants unchecked power, wants a military loyal to him not the Constitution, and is unhinged and unstable.",
+        "quotes": [
+          "q12"
+        ]
+      },
+      "models": {
+        "sonnet": {
+          "a": -1,
+          "b": -1
+        },
+        "gpt5": {
+          "a": -1,
+          "b": -1
+        }
+      },
+      "edited": false
+    },
+    {
+      "id": "climate-action",
+      "question": "Is climate change an existential threat requiring urgent action?",
+      "poles": [
+        "Climate change is existential and demands priority",
+        "Climate concerns can be balanced with other goals"
+      ],
+      "a": {
+        "score": -0.97,
+        "reason": "Sanders explicitly calls climate change an existential threat and says he would feel awful if we turned our back on it.",
+        "quotes": [
+          "q1"
+        ]
+      },
+      "b": {
+        "score": -0.65,
+        "reason": "Harris calls climate a clear crisis that must be taken seriously, though the quote lacks detail on urgency or prioritization.",
+        "quotes": [
+          "q51"
+        ]
+      },
+      "models": {
+        "sonnet": {
+          "a": -1,
+          "b": -0.6
+        },
+        "gpt5": {
+          "a": -0.95,
+          "b": -0.7
+        }
+      },
+      "edited": false
+    }
+  ]
+}

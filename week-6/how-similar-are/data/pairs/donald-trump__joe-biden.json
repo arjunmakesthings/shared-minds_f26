@@ -1,0 +1,359 @@
+{
+  "a": "donald-trump",
+  "b": "joe-biden",
+  "approved": "2026-10-21",
+  "counts": {
+    "quotesA": 182,
+    "quotesB": 169,
+    "topicsFound": 14,
+    "dimensions": 10
+  },
+  "dims": [
+    {
+      "id": "iran-policy-approach",
+      "question": "should the US pursue diplomatic negotiation or military confrontation with Iran?",
+      "poles": [
+        "pursue military action and containment",
+        "pursue diplomacy and deal-making"
+      ],
+      "a": {
+        "score": -0.6,
+        "reason": "Presents choice between deal-making or annihilation, emphasizes military options and shows of force over diplomatic engagement.",
+        "quotes": [
+          "q2",
+          "q14",
+          "q18"
+        ]
+      },
+      "b": {
+        "score": 0.7,
+        "reason": "Emphasizes relentless pursuit of diplomacy while maintaining firm support, states diplomacy avoided wider war.",
+        "quotes": [
+          "q1",
+          "q6"
+        ]
+      },
+      "models": {
+        "sonnet": {
+          "a": -0.6,
+          "b": 0.7
+        },
+        "gpt5": {
+          "a": -0.6,
+          "b": 0.7
+        }
+      },
+      "edited": false
+    },
+    {
+      "id": "border-immigration-policy",
+      "question": "should the US enforce strict border enforcement and deportations?",
+      "poles": [
+        "enforce strict border security and mass deportation",
+        "allow managed immigration with humanitarian concerns"
+      ],
+      "a": {
+        "score": -0.85,
+        "reason": "Describes ending border invasion and prioritizing deportation of illegals back home.",
+        "quotes": [
+          "q61",
+          "q153"
+        ]
+      },
+      "b": {
+        "score": -0.1,
+        "reason": "Supports emergency authority to shut down border when overwhelming but rejects wall as serious solution.",
+        "quotes": [
+          "q63",
+          "q129"
+        ]
+      },
+      "models": {
+        "sonnet": {
+          "a": -0.9,
+          "b": -0.4
+        },
+        "gpt5": {
+          "a": -0.8,
+          "b": 0.2
+        }
+      },
+      "edited": false
+    },
+    {
+      "id": "abortion-policy",
+      "question": "should abortion policy be decided federally or by states?",
+      "poles": [
+        "leave abortion decisions to individual states",
+        "protect abortion rights at federal level"
+      ],
+      "a": {
+        "score": -0.9,
+        "reason": "Emphatically states would not support federal ban and believes decisions should be left to states based on voters' will.",
+        "quotes": [
+          "q109",
+          "q112"
+        ]
+      },
+      "b": {
+        "score": 0.75,
+        "reason": "Criticizes state-by-state approach, compares it to turning back civil rights, implies federal protection needed.",
+        "quotes": [
+          "q45",
+          "q47"
+        ]
+      },
+      "models": {
+        "sonnet": {
+          "a": -0.9,
+          "b": 0.8
+        },
+        "gpt5": {
+          "a": -0.9,
+          "b": 0.7
+        }
+      },
+      "edited": false
+    },
+    {
+      "id": "law-enforcement-support",
+      "question": "should the government strongly support police operations?",
+      "poles": [
+        "strongly support police with few restrictions",
+        "reform police with accountability measures"
+      ],
+      "a": {
+        "score": -0.9,
+        "reason": "Strongly supports police with backing and harsh penalties for crimes against officers without mentioning accountability measures.",
+        "quotes": [
+          "q66",
+          "q91"
+        ]
+      },
+      "b": {
+        "score": 0.5,
+        "reason": "Acknowledges police brutality concerns and racial disparities while noting most cops are good, suggesting reform orientation.",
+        "quotes": [
+          "q148",
+          "q149"
+        ]
+      },
+      "models": {
+        "sonnet": {
+          "a": -0.9,
+          "b": 0.6
+        },
+        "gpt5": {
+          "a": -0.9,
+          "b": 0.4
+        }
+      },
+      "edited": false
+    },
+    {
+      "id": "climate-policy",
+      "question": "should climate action be prioritized over economic concerns?",
+      "poles": [
+        "prioritize fossil fuels and energy independence",
+        "prioritize climate action and clean energy"
+      ],
+      "a": {
+        "score": -0.92,
+        "reason": "Prioritizes fossil fuels as cheaper and better, focuses on energy independence over climate concerns.",
+        "quotes": [
+          "q177",
+          "q178"
+        ]
+      },
+      "b": {
+        "score": 0.88,
+        "reason": "Explicitly prioritizes climate action as most significant ever while rejecting economic tradeoffs and opposing fossil fuel interests.",
+        "quotes": [
+          "q2",
+          "q67"
+        ]
+      },
+      "models": {
+        "sonnet": {
+          "a": -0.95,
+          "b": 0.85
+        },
+        "gpt5": {
+          "a": -0.9,
+          "b": 0.9
+        }
+      },
+      "edited": false
+    },
+    {
+      "id": "us-alliances-nato",
+      "question": "should the US maintain strong NATO and international alliances?",
+      "poles": [
+        "reduce reliance on NATO and alliances",
+        "strengthen NATO and international partnerships"
+      ],
+      "a": {
+        "score": -0.72,
+        "reason": "States US needs nothing from NATO and emphasizes unilateral American dominance over alliance cooperation.",
+        "quotes": [
+          "q15",
+          "q22"
+        ]
+      },
+      "b": {
+        "score": 0.65,
+        "reason": "Emphasizes keeping commitments to allies and expresses concern about NATO countries' security.",
+        "quotes": [
+          "q54",
+          "q59"
+        ]
+      },
+      "models": {
+        "sonnet": {
+          "a": -0.75,
+          "b": 0.7
+        },
+        "gpt5": {
+          "a": -0.7,
+          "b": 0.6
+        }
+      },
+      "edited": false
+    },
+    {
+      "id": "gun-policy",
+      "question": "should the US implement stricter gun control measures?",
+      "poles": [
+        "protect gun rights without restrictions",
+        "implement assault weapon bans and background checks"
+      ],
+      "a": {
+        "score": -0.77,
+        "reason": "Explicitly rejects gun control measures, calling it a mental health and cultural problem rather than a gun problem.",
+        "quotes": [
+          "q172"
+        ]
+      },
+      "b": {
+        "score": 0.93,
+        "reason": "Demands assault weapon bans, high capacity magazine bans, and universal background checks.",
+        "quotes": [
+          "q74"
+        ]
+      },
+      "models": {
+        "sonnet": {
+          "a": -0.85,
+          "b": 0.9
+        },
+        "gpt5": {
+          "a": -0.7,
+          "b": 0.95
+        }
+      },
+      "edited": false
+    },
+    {
+      "id": "election-integrity",
+      "question": "should election security be treated as a urgent priority?",
+      "poles": [
+        "elections are fundamentally compromised and rigged",
+        "protect election integrity through fair processes"
+      ],
+      "a": {
+        "score": -0.75,
+        "reason": "Claims elections are bad and fraudulent with allegations about illegal immigrants voting.",
+        "quotes": [
+          "q119",
+          "q120"
+        ]
+      },
+      "b": {
+        "score": 0.78,
+        "reason": "Emphasizes defending democracy through fair elections and rejecting political violence while calling for trust in institutions.",
+        "quotes": [
+          "q38",
+          "q78"
+        ]
+      },
+      "models": {
+        "sonnet": {
+          "a": -0.7,
+          "b": 0.75
+        },
+        "gpt5": {
+          "a": -0.8,
+          "b": 0.8
+        }
+      },
+      "edited": false
+    },
+    {
+      "id": "pandemic-response",
+      "question": "did the US handle the pandemic response effectively?",
+      "poles": [
+        "pandemic response was handled well",
+        "pandemic response was inadequate"
+      ],
+      "a": {
+        "score": -0.9,
+        "reason": "Trump states they did a phenomenal job with the pandemic and left the country in strong condition.",
+        "quotes": [
+          "q123"
+        ]
+      },
+      "b": {
+        "score": 0.8,
+        "reason": "Biden states the previous administration had no real plan through one of the toughest periods.",
+        "quotes": [
+          "q106"
+        ]
+      },
+      "models": {
+        "sonnet": {
+          "a": -0.9,
+          "b": 0.7
+        },
+        "gpt5": {
+          "a": -0.9,
+          "b": 0.9
+        }
+      },
+      "edited": false
+    },
+    {
+      "id": "employment-economy",
+      "question": "has the economy created sufficient job opportunities?",
+      "poles": [
+        "economy is weak with inadequate jobs",
+        "economy achieved record job creation"
+      ],
+      "a": {
+        "score": 0.05,
+        "reason": "Trump describes the nation as failing, in serious decline, and being laughed at worldwide.",
+        "quotes": [
+          "q125"
+        ]
+      },
+      "b": {
+        "score": 0.95,
+        "reason": "Biden claims record job creation with 15-16 million new jobs, lowest unemployment in 50 years, and economy as envy of the world.",
+        "quotes": [
+          "q76",
+          "q98"
+        ]
+      },
+      "models": {
+        "sonnet": {
+          "a": 0.8,
+          "b": 0.95
+        },
+        "gpt5": {
+          "a": -0.7,
+          "b": 0.95
+        }
+      },
+      "edited": false
+    }
+  ]
+}

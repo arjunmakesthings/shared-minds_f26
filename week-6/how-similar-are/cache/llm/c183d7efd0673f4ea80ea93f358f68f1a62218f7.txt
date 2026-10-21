@@ -1,0 +1,3 @@
+```json
+{"p": 1, "quote": "Science: A New Golden Age\" was born of a three-fold tasking from President Trump: to maintain and extend American technological leadership; to ensure all Americans enjoy the benefits of rapidly advancing emerging technologies; and to revitalize America's research enterprise by empowering America's scientists to do their best work.", "context": "Trump's tasking for science initiative"}
+```

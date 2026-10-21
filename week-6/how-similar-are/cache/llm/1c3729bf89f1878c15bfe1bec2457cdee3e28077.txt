@@ -1,0 +1,71 @@
+```json
+{"id": "iran-sanctions-policy", "question": "Should the U.S. maintain strict sanctions on Iran?", "poleA": "Maintain strict sanctions to limit Iran's resources", "poleB": "Lift sanctions to enable diplomatic engagement", "a": ["q2", "q128"], "b": ["q6"]}
+```
+
+```json
+{"id": "ukraine-support-level", "question": "Should the U.S. provide military aid to Ukraine?", "poleA": "Provide military aid to help Ukraine defend itself", "poleB": "Avoid military involvement in the Ukraine conflict", "a": ["q1", "q27"], "b": ["q17"]}
+```
+
+```json
+{"id": "israel-palestine-solution", "question": "Is a two-state solution viable for Israel and Palestine?", "poleA": "Two-state solution is possible with negotiation", "poleB": "Two-state solution is not achievable", "a": ["q18"], "b": ["q31"]}
+```
+
+```json
+{"id": "abortion-restrictions", "question": "Should late-term abortions be banned?", "poleA": "Ban late-term abortions", "poleB": "Keep late-term abortion access available", "a": ["q112"], "b": ["q88", "q94"]}
+```
+
+```json
+{"id": "federal-programs-decentralization", "question": "Should federal programs be transferred to state control?", "poleA": "Decentralize programs to state governments", "poleB": "Keep programs under federal management", "a": ["q162"], "b": ["q8", "q22"]}
+```
+
+```json
+{"id": "china-existential-threat", "question": "Is China the primary threat to U.S. national security?", "poleA": "China is the foremost strategic threat", "poleB": "Other threats are equally or more pressing", "a": ["q155", "q210", "q212"], "b": ["q84"]}
+```
+
+```json
+{"id": "national-debt-severity", "question": "Is the U.S. national debt a critical problem?", "poleA": "Runaway debt poses existential danger", "poleB": "Debt is manageable at current levels", "a": ["q77", "q113", "q170"], "b": ["q35"]}
+```
+
+```json
+{"id": "energy-independence-strategy", "question": "Should the U.S. pursue energy independence through fossil fuels?", "poleA": "Prioritize oil and gas for independence", "poleB": "Transition away from fossil fuels", "a": ["q177", "q178"], "b": ["q96", "q98"]}
+```
+
+```json
+{"id": "border-enforcement-priority", "question": "Should border security be the top immigration priority?", "poleA": "Secure borders is the primary focus", "poleB": "Address root causes beyond enforcement", "a": ["q61", "q119"], "b": ["q3"]}
+```
+
+```json
+{"id": "trade-leverage-tariffs", "question": "Should the U.S. use tariffs as trade leverage?", "poleA": "Use tariffs to enforce trade terms", "poleB": "Avoid tariffs to maintain free trade", "a": ["q28", "q92", "q106"], "b": ["q107"]}
+```
+
+```json
+{"id": "school-gender-curriculum", "question": "Should schools teach children about gender identity?", "poleA": "Schools should not teach about gender", "poleB": "Schools should include gender education", "a": ["q103"], "b": ["q64"]}
+```
+
+```json
+{"id": "pro-life-framing", "question": "Should the pro-life position avoid divisive rhetoric?", "poleA": "Seek common ground on abortion limits", "poleB": "Take absolute pro-life stances", "a": ["q92", "q94"], "b": ["q112"]}
+```
+
+```json
+{"id": "antisemitism-campus-response", "question": "Should universities face consequences for tolerating antisemitism?", "poleA": "Hold universities accountable for antisemitism", "poleB": "Avoid mandates on campus speech", "a": ["q69", "q71"], "b": []}
+```
+
+```json
+{"id": "middle-class-economic-focus", "question": "Is revitalizing the middle class the central economic goal?", "poleA": "Prioritize rebuilding the middle class", "poleB": "Focus on overall economic growth", "a": ["q81", "q161", "q164"], "b": ["q46"]}
+```
+
+```json
+{"id": "military-readiness-commitment", "question": "Should military strength be the foundation of security?", "poleA": "Strong military prevents wars", "poleB": "Diplomacy reduces need for military buildup", "a": ["q218"], "b": ["q27"]}
+```
+
+```json
+{"id": "regulatory-burden-reduction", "question": "Should regulations be drastically reduced?", "poleA": "Cut regulations to lower costs", "poleB": "Maintain necessary regulatory frameworks", "a": ["q191", "q193"], "b": ["q13"]}
+```
+
+```json
+{"id": "pakistan-military-aid", "question": "Should the U.S. provide military aid to Pakistan?", "poleA": "Withhold aid due to terrorist connections", "poleB": "Provide aid to maintain alliance", "a": ["q126"], "b": []}
+```
+
+```json
+{"id": "country-decline-assessment", "question": "Is the United States currently in decline?", "poleA": "America is failing and declining", "poleB": "America remains strong and vibrant", "a": ["q125"], "b": ["q40", "q45"]}
+```

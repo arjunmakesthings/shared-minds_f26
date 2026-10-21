@@ -1,0 +1,63 @@
+```json
+{"p": 1, "quote": "Don't just sit around and complain about injustice.", "context": "Lesson from mother about taking action against injustice"}
+```
+
+```json
+{"p": 1, "quote": "I took on perpetrators of all kinds: predators, fraudsters, and repeat offenders. I took them on, and I won.", "context": "Career record as prosecutor and attorney general"}
+```
+
+```json
+{"p": 1, "quote": "Hard work is good work. Hard work is joyful work. And make no mistake, we will win.", "context": "Campaign messaging about effort and victory"}
+```
+
+```json
+{"p": 1, "quote": "on the topic of Gaza, we must end that war. And we must end the war and bring the hostages home.", "context": "Position on Gaza conflict and hostages"}
+```
+
+```json
+{"p": 1, "quote": "There is a yearning in our country for a president who sees the people, not just looking in the mirror all the time — but sees the people, who gets you, and who will fight for you.", "context": "Type of leadership needed in America"}
+```
+
+```json
+{"p": 1, "quote": "I have put the people above partisanship. I never asked somebody, \"Are you a Democrat or a Republican\" before I offered help. Instead, the first and only thing I asked is, \"How can I help you?\"", "context": "Career approach to helping people regardless of party"}
+```
+
+```json
+{"p": 1, "quote": "I come from the middle class, and I will never forget where I come from.", "context": "Personal background and connection to middle-class experience"}
+```
+
+```json
+{"p": 1, "quote": "my commonsense plan is about lowering the prices you pay on everything from prescription medication to groceries to housing.", "context": "Economic policy focus on cost of living"}
+```
+
+```json
+{"p": 1, "quote": "I will take on an issue like corporate price gouging. I've done it before, and I will do it again.", "context": "Policy on corporate price gouging"}
+```
+
+```json
+{"p": 1, "quote": "I will give middle-class tax cuts to 100 million Americans, including $6,000 during the first year of a child's life that will also lift America's children out of poverty.", "context": "Tax cut and child poverty policy"}
+```
+
+```json
+{"p": 1, "quote": "We believe that our seniors should be able to retire with dignity, not worried about whether they're going to have a roof over their head.", "context": "Senior retirement and security"}
+```
+
+```json
+{"p": 1, "quote": "It's about their dignity. But we have a lot of people right now living in what we call the \"sandwich generation,\" who are taking care of your kids while you're taking care of your parents.", "context": "Challenges facing sandwich generation caregivers"}
+```
+
+```json
+{"p": 1, "quote": "we're going to make sure that Medicare covers the cost of home health care for our seniors.", "context": "Medicare expansion for home health care"}
+```
+
+```json
+{"p": 1, "quote": "I want you to be able to get ahead.", "context": "Vision beyond basic subsistence for Americans"}
+```
+
+```json
+{"p": 1, "quote": "I believe health care should be a right and not just a privilege of those who have the money to afford it.", "context": "Health care as fundamental right"}
+```
+
+```json
+{"p": 1, "quote": "it is a fight for freedom, like the fundamental freedom of a woman to be able to make decisions about her own body and not have her government tell her what to do.", "context": "Reproductive freedom and bodily autonomy"}
+```

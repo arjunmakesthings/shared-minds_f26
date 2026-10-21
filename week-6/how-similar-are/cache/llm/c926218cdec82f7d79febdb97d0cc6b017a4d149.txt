@@ -1,0 +1,31 @@
+```json
+{"p": 55, "quote": "We capped the cost of insulin at $35 a month for seniors on Medicare. But there are millions of other Americans who are not on Medicare. Let's cap the cost of insulin at $35 a month for every American who needs it.", "context": "Prescription drug costs and insulin pricing"}
+```
+
+```json
+{"p": 56, "quote": "I ran for President to fundamentally change things, to make sure the economy works for everyone so we can all feel pride in what we do.", "context": "Presidential campaign motivation and economic goals"}
+```
+
+```json
+{"p": 56, "quote": "To build an economy from the bottom up and the middle out, not from the top down. Because when the middle class does well, the poor have a ladder up and the wealthy still do very well.", "context": "Economic philosophy and approach"}
+```
+
+```json
+{"p": 57, "quote": "I signed over 300 bipartisan laws since becoming President.", "context": "Bipartisan legislative achievements"}
+```
+
+```json
+{"p": 57, "quote": "The people sent us a clear message. Fighting for the sake of fighting, power for the sake of power, conflict for the sake of conflict, gets us nowhere. And that's always been my vision for our country.", "context": "Political philosophy and message to Congress"}
+```
+
+```json
+{"p": 58, "quote": "I'll give you a copy of the proposal.", "context": "Response to criticism on Social Security and Medicare"}
+```
+
+```json
+{"p": 58, "quote": "So folks, as we all apparently agree, Social Security and Medicare is off the books now, right?", "context": "Social Security and Medicare protection"}
+```
+
+```json
+{"p": 60, "quote": "I promised to be the president for all Americans. We'll fund your projects.", "context": "Infrastructure funding and political unity"}
+```

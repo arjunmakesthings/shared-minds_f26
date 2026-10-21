@@ -1,0 +1,1 @@
+{"topic":"ai-governance","a":{"score":0.0,"confidence":0.2,"reason":"No quote addresses AI regulation or innovation barriers.","quotes":["q135"]},"b":{"score":0.0,"confidence":0.2,"reason":"No quote addresses AI regulation or innovation barriers.","quotes":["q52"]}}

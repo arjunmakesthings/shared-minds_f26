@@ -1,0 +1,23 @@
+```json
+{"p": 1, "quote": "I am so proud of our team. And this is a team that spans many years of doing extraordinary work on behalf of the people.", "context": "Pride in her team's work for the American people"}
+```
+
+```json
+{"p": 1, "quote": "I am fully aware that I am the public face of a lot of our work.", "context": "Her role as public representative of team's work"}
+```
+
+```json
+{"p": 1, "quote": "We have each taken on a life and a calling that is about doing work in the service of others and doing it in a way that is fueled, yes, with ambition; yes, with a sense of almost stubbornness about not hearing no; and knowing we can make a difference.", "context": "Values regarding public service and determination"}
+```
+
+```json
+{"p": 1, "quote": "It is not my nature to go quietly into the night.", "context": "Her character and determination going forward"}
+```
+
+```json
+{"p": 1, "quote": "It is the work of caring about our country. It is the work of understanding we hold these offices in the public trust with the duty and the responsibility to uphold the oath we take to respect, to defend the Constitution of the United States, to do our work on behalf of the people of the United States.", "context": "Definition of public service duty and constitutional responsibility"}
+```
+
+```json
+{"p": 1, "quote": "We're going to continue getting work done until Monday, and then I'll keep you posted.", "context": "Plans for continuing work"}
+```

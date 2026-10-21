@@ -1,0 +1,27 @@
+```json
+{"p": 37, "quote": "there's no question I'm in favor of banning fracking", "context": "Position on fracking ban from 2019"}
+```
+
+```json
+{"p": 40, "quote": "Sonya Massey deserved to be safe.", "context": "Death of Sonya Massey at hands of police officer"}
+```
+
+```json
+{"p": 40, "quote": "I call on Congress to pass the George Floyd Justice in Policing Act, a bill that I coauthored in the Senate.", "context": "Police reform legislation"}
+```
+
+```json
+{"p": 40, "quote": "we have much work to do to ensure that our justice system fully lives up to its name.", "context": "Justice system reform needed"}
+```
+
+```json
+{"p": 41, "quote": "People throughout our Nation should be able to count on their government to ensure that our air and water are clean, health care is accessible and affordable, financial markets are sound, products are safe, and workers are not exploited on the job.", "context": "Role of government in protecting Americans"}
+```
+
+```json
+{"p": 41, "quote": "Unfortunately, today's Supreme Court decision sides with powerful special interests who want to roll back commonsense rules that protect Americans.", "context": "Loper Bright Supreme Court decision"}
+```
+
+```json
+{"p": 41, "quote": "President Biden and I will continue to do everything in our power to protect the American people and ensure that every person in our country can thrive.", "context": "Commitment to protecting Americans"}
+```

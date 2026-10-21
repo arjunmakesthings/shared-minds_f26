@@ -1,0 +1,39 @@
+```json
+{"p": 1, "quote": "This race is far from over. There are dozens of states left to go.", "context": "Response to race being called over after New Hampshire primary"}
+```
+
+```json
+{"p": 1, "quote": "I'm a fighter. Now, we're the last one standing next to Donald Trump, and today we got close to half of the vote.", "context": "Campaign performance and positioning"}
+```
+
+```json
+{"p": 1, "quote": "I decided to run because I'm worried about the future of our country, and because it's time to put the negativity and chaos behind us.", "context": "Reason for running for president"}
+```
+
+```json
+{"p": 1, "quote": "We have an economy that is crushing middle class Americans. We have a border that is totally open and dangerous, creating a disaster in our country. We have schools that are failing too many of our children. And we have a world on fire, with war in Europe and the Middle East, and a huge and growing threat from China.", "context": "Major domestic and foreign policy challenges facing country"}
+```
+
+```json
+{"p": 1, "quote": "A Trump nomination is a Biden win and a Kamala Harris presidency.", "context": "Electoral viability of Trump nomination"}
+```
+
+```json
+{"p": 1, "quote": "I defeat Biden handily.", "context": "Electability against Biden"}
+```
+
+```json
+{"p": 1, "quote": "You can't fix Joe Biden's chaos with Republican chaos.", "context": "Criticizing Trump as solution to Biden administration problems"}
+```
+
+```json
+{"p": 1, "quote": "I've long called for mental competency tests for politicians over the age of 75.", "context": "Position on age and fitness for office"}
+```
+
+```json
+{"p": 1, "quote": "The first party to retire its 80-year-old candidate is going to win this election. I say it should be the Republicans!", "context": "Position on age of candidates in 2024 election"}
+```
+
+```json
+{"p": 1, "quote": "When we get to South Carolina, Donald Trump is going to have a harder time falsely attacking me. The great people of South Carolina know I cut their taxes. They know I signed the toughest immigration bill in the country. They know we passed voter ID, and tort reform, and ethics reform, and they know we moved 35,000 people from welfare to work.", "context": "South Carolina record as governor"}
+```

@@ -1,0 +1,27 @@
+```json
+{"p": 1, "quote": "And the idea that somebody who survives a crime of a violation to their body would not have the right to make a decision about what happens to their body next, that is immoral.", "context": "Abortion access after rape or incest"}
+```
+
+```json
+{"p": 1, "quote": "If she chooses, she will talk with her priest, her pastor, her rabbi, her imam, but not the government.", "context": "Government should not dictate reproductive decisions"}
+```
+
+```json
+{"p": 1, "quote": "I pledge to you, when Congress passes a bill to restore reproductive freedom nationwide, as president of the United States, I will proudly sign it into law.", "context": "Commitment to sign reproductive freedom legislation"}
+```
+
+```json
+{"p": 1, "quote": "I do believe Donald Trump to be an unserious man, but the consequences of him ever being president again are brutally serious — brutally serious.", "context": "Assessment of Trump and stakes of election"}
+```
+
+```json
+{"p": 1, "quote": "It's either Donald Trump in there stewing over his enemies list, or me, working for you, checking off my to-do list.", "context": "Contrast between Trump and herself as president"}
+```
+
+```json
+{"p": 1, "quote": "one of the highest forms of patriotism, I believe, is to then fight for the ideals of our country.", "context": "Definition of patriotism and duty"}
+```
+
+```json
+{"p": 1, "quote": "Your vote is your voice, and your voice is your power.", "context": "Importance of voting"}
+```

@@ -1,0 +1,809 @@
+{
+  "a": "jd-vance",
+  "b": "kamala-harris",
+  "counts": {
+    "quotesA": 181,
+    "quotesB": 157,
+    "topicsFound": 17
+  },
+  "rows": [
+    {
+      "id": "border-security-approach",
+      "question": "Should the U.S. prioritize securing the border before addressing immigration reform?",
+      "poles": [
+        "Secure border first, then address immigration",
+        "Reform immigration system while securing border"
+      ],
+      "quotesA": [
+        "q111",
+        "q117"
+      ],
+      "quotesB": [
+        "q8",
+        "q21",
+        "q62",
+        "q63"
+      ],
+      "status": "clear",
+      "note": "",
+      "flags": [],
+      "a": {
+        "score": -0.77,
+        "confidence": 0.6,
+        "reason": "Focuses on removing illegal immigrants and addressing border impacts first without mentioning simultaneous reform.",
+        "quotes": [
+          "q111",
+          "q117"
+        ]
+      },
+      "b": {
+        "score": 0.65,
+        "confidence": 0.8,
+        "reason": "Explicitly advocates for both securing the border and passing immigration reform including pathway to citizenship simultaneously.",
+        "quotes": [
+          "q8",
+          "q62",
+          "q63"
+        ]
+      },
+      "models": {
+        "sonnet": {
+          "a": -0.85,
+          "b": 0.7
+        },
+        "gpt5": {
+          "a": -0.7,
+          "b": 0.6
+        }
+      }
+    },
+    {
+      "id": "ukraine-us-involvement",
+      "question": "Should the U.S. continue substantial military support for Ukraine?",
+      "poles": [
+        "Continue robust support for Ukrainian defense",
+        "Reduce U.S. involvement, let Europe lead"
+      ],
+      "quotesA": [
+        "q26",
+        "q173"
+      ],
+      "quotesB": [
+        "q35",
+        "q43",
+        "q63"
+      ],
+      "status": "clear",
+      "note": "",
+      "flags": [],
+      "a": {
+        "score": 0.68,
+        "confidence": 0.7,
+        "reason": "Views conflict continuation as bad for US and argues Europe should stand on its own feet rather than rely on America.",
+        "quotes": [
+          "q26",
+          "q173"
+        ]
+      },
+      "b": {
+        "score": -0.7,
+        "confidence": 0.6,
+        "reason": "Met with Zelenskyy before invasion, rallied 50 countries to support Ukraine's defense, and emphasizes strengthening alliances.",
+        "quotes": [
+          "q35",
+          "q43",
+          "q63"
+        ]
+      },
+      "models": {
+        "sonnet": {
+          "a": 0.75,
+          "b": -0.8
+        },
+        "gpt5": {
+          "a": 0.6,
+          "b": -0.6
+        }
+      }
+    },
+    {
+      "id": "energy-independence-strategy",
+      "question": "Should the U.S. prioritize fossil fuels to ensure energy independence?",
+      "poles": [
+        "Prioritize cheap fossil fuels for independence",
+        "Invest in diverse renewable energy sources"
+      ],
+      "quotesA": [
+        "q1",
+        "q40",
+        "q115"
+      ],
+      "quotesB": [
+        "q28",
+        "q29"
+      ],
+      "status": "clear",
+      "note": "",
+      "flags": [],
+      "a": {
+        "score": -0.57,
+        "confidence": 0.6,
+        "reason": "Emphasizes cheap dependable energy and criticizes renewable investments that rely on Chinese manufacturing.",
+        "quotes": [
+          "q1",
+          "q40",
+          "q115"
+        ]
+      },
+      "b": {
+        "score": 0.55,
+        "confidence": 0.7,
+        "reason": "Advocates investing in diverse energy sources to reduce foreign oil reliance while also supporting fracking.",
+        "quotes": [
+          "q28",
+          "q29"
+        ]
+      },
+      "models": {
+        "sonnet": {
+          "a": -0.75,
+          "b": 0.6
+        },
+        "gpt5": {
+          "a": -0.4,
+          "b": 0.5
+        }
+      }
+    },
+    {
+      "id": "trade-reciprocity-focus",
+      "question": "Should U.S. trade policy emphasize reciprocity and fair bilateral deals?",
+      "poles": [
+        "Pursue reciprocal trade deals with fairness",
+        "Maintain current multilateral trade frameworks"
+      ],
+      "quotesA": [
+        "q28",
+        "q30",
+        "q33"
+      ],
+      "quotesB": [
+        "q5"
+      ],
+      "status": "unclear",
+      "note": "confidence a 0.9, b 0.2 (needs 0.6)",
+      "flags": [],
+      "a": {
+        "score": -0.8,
+        "confidence": 0.9,
+        "reason": "Explicitly seeks to rebalance trade with fairness and reciprocity in interests of American workers and manufacturers.",
+        "quotes": [
+          "q28",
+          "q30",
+          "q33"
+        ]
+      },
+      "b": {
+        "score": 0.1,
+        "confidence": 0.2,
+        "reason": "Only mentions alliances generally without specific discussion of trade frameworks or reciprocity approaches.",
+        "quotes": [
+          "q5"
+        ]
+      },
+      "models": {
+        "sonnet": {
+          "a": -0.8,
+          "b": 0
+        },
+        "gpt5": {
+          "a": -0.8,
+          "b": 0.2
+        }
+      }
+    },
+    {
+      "id": "tech-innovation-stance",
+      "question": "Should government support AI and technology innovation with optimism?",
+      "poles": [
+        "Embrace AI innovation with enthusiasm",
+        "Approach cautiously with safety-first regulations"
+      ],
+      "quotesA": [
+        "q46",
+        "q48",
+        "q50",
+        "q52"
+      ],
+      "quotesB": [
+        "q90"
+      ],
+      "status": "unclear",
+      "note": "confidence a 0.9, b 0.25 (needs 0.6)",
+      "flags": [],
+      "a": {
+        "score": -0.82,
+        "confidence": 0.9,
+        "reason": "Advocates facilitating innovation over regulation, embracing AI with optimism and hope, and viewing tech advancement positively.",
+        "quotes": [
+          "q46",
+          "q48",
+          "q50"
+        ]
+      },
+      "b": {
+        "score": -0.05,
+        "confidence": 0.25,
+        "reason": "Makes general positive statement about space exploration benefiting humanity but lacks specific stance on AI regulation approach.",
+        "quotes": [
+          "q90"
+        ]
+      },
+      "models": {
+        "sonnet": {
+          "a": -0.85,
+          "b": 0
+        },
+        "gpt5": {
+          "a": -0.8,
+          "b": -0.1
+        }
+      }
+    },
+    {
+      "id": "middle-class-wages",
+      "question": "Is innovation more effective than cheap labor for raising worker wages?",
+      "poles": [
+        "Innovation, not cheap labor, raises wages",
+        "Multiple approaches needed for wage growth"
+      ],
+      "quotesA": [
+        "q50",
+        "q61",
+        "q64",
+        "q69"
+      ],
+      "quotesB": [
+        "q110",
+        "q140"
+      ],
+      "status": "unclear",
+      "note": "confidence a 0.95, b 0.4 (needs 0.6)",
+      "flags": [],
+      "a": {
+        "score": -0.92,
+        "confidence": 0.95,
+        "reason": "Strongly and repeatedly emphasizes innovation alone raises wages and cheap labor inhibits this.",
+        "quotes": [
+          "q50",
+          "q61",
+          "q64"
+        ]
+      },
+      "b": {
+        "score": 0.25,
+        "confidence": 0.4,
+        "reason": "Focuses on lowering costs and raising minimum wage but doesn't directly address innovation versus labor approaches.",
+        "quotes": [
+          "q110",
+          "q140"
+        ]
+      },
+      "models": {
+        "sonnet": {
+          "a": -0.9,
+          "b": 0.3
+        },
+        "gpt5": {
+          "a": -0.95,
+          "b": 0.2
+        }
+      }
+    },
+    {
+      "id": "reproductive-rights-policy",
+      "question": "Should abortion access be protected as a fundamental right?",
+      "poles": [
+        "Protect abortion as a constitutional right",
+        "Balance life and autonomy interests carefully"
+      ],
+      "quotesA": [
+        "q60",
+        "q133"
+      ],
+      "quotesB": [
+        "q89"
+      ],
+      "status": "unclear",
+      "note": "confidence a 0, b 0 (needs 0.6)",
+      "flags": [],
+      "a": {
+        "score": 0,
+        "confidence": 0,
+        "reason": "No relevant quotes provided on abortion or reproductive rights.",
+        "quotes": [
+          "q60",
+          "q133"
+        ]
+      },
+      "b": {
+        "score": 0,
+        "confidence": 0,
+        "reason": "No relevant quotes provided on abortion or reproductive rights.",
+        "quotes": [
+          "q89"
+        ]
+      },
+      "models": {
+        "sonnet": {
+          "a": 0,
+          "b": 0
+        },
+        "gpt5": {
+          "a": 0,
+          "b": 0
+        }
+      }
+    },
+    {
+      "id": "social-security-protection",
+      "question": "Should Social Security remain public rather than privatized?",
+      "poles": [
+        "Keep Social Security as public program",
+        "Allow privatization and market-based options"
+      ],
+      "quotesA": [
+        "q162"
+      ],
+      "quotesB": [
+        "q57"
+      ],
+      "status": "clear",
+      "note": "",
+      "flags": [],
+      "a": {
+        "score": -0.85,
+        "confidence": 0.8,
+        "reason": "Explicitly rejects privatization and argues against making elderly people fend for themselves.",
+        "quotes": [
+          "q162"
+        ]
+      },
+      "b": {
+        "score": -0.67,
+        "confidence": 0.6,
+        "reason": "Opposes cuts to Social Security and promises to protect it but doesn't directly address privatization.",
+        "quotes": [
+          "q57"
+        ]
+      },
+      "models": {
+        "sonnet": {
+          "a": -0.85,
+          "b": -0.75
+        },
+        "gpt5": {
+          "a": -0.85,
+          "b": -0.6
+        }
+      }
+    },
+    {
+      "id": "foreign-policy-focus",
+      "question": "Should the U.S. reduce its global military commitments?",
+      "poles": [
+        "Reduce global military commitments and costs",
+        "Maintain robust international security presence"
+      ],
+      "quotesA": [
+        "q99",
+        "q101",
+        "q169",
+        "q171"
+      ],
+      "quotesB": [
+        "q5",
+        "q6",
+        "q20",
+        "q63"
+      ],
+      "status": "clear",
+      "note": "",
+      "flags": [],
+      "a": {
+        "score": -0.8,
+        "confidence": 0.9,
+        "reason": "Advocates for reducing American global policing, empowering regional powers, and focusing on Asia rather than worldwide commitments.",
+        "quotes": [
+          "q99",
+          "q101",
+          "q169"
+        ]
+      },
+      "b": {
+        "score": 0.7,
+        "confidence": 0.8,
+        "reason": "Emphasizes alliances, global leadership role, being a champion of liberty worldwide, and maintaining strong security presence.",
+        "quotes": [
+          "q5",
+          "q6",
+          "q20"
+        ]
+      },
+      "models": {
+        "sonnet": {
+          "a": -0.8,
+          "b": 0.7
+        },
+        "gpt5": {
+          "a": -0.8,
+          "b": 0.7
+        }
+      }
+    },
+    {
+      "id": "addressing-inequality",
+      "question": "Should wealthy individuals pay higher tax rates?",
+      "poles": [
+        "Raise taxes on high earners significantly",
+        "Keep tax rates low across income levels"
+      ],
+      "quotesA": [
+        "q48"
+      ],
+      "quotesB": [
+        "q146"
+      ],
+      "status": "unclear",
+      "note": "confidence a 0, b 0 (needs 0.6)",
+      "flags": [],
+      "a": {
+        "score": 0,
+        "confidence": 0,
+        "reason": "No relevant quotes provided on tax rates for wealthy individuals.",
+        "quotes": [
+          "q48"
+        ]
+      },
+      "b": {
+        "score": 0,
+        "confidence": 0,
+        "reason": "No relevant quotes provided on tax rates for wealthy individuals.",
+        "quotes": [
+          "q146"
+        ]
+      },
+      "models": {
+        "sonnet": {
+          "a": 0,
+          "b": 0
+        },
+        "gpt5": {
+          "a": 0,
+          "b": 0
+        }
+      }
+    },
+    {
+      "id": "union-organizing-rights",
+      "question": "Should workers have strong legal rights to organize unions?",
+      "poles": [
+        "Protect and expand union organizing rights",
+        "Limit union power and organizing ability"
+      ],
+      "quotesA": [
+        "q113"
+      ],
+      "quotesB": [
+        "q113"
+      ],
+      "status": "unclear",
+      "note": "confidence a 0.1, b 0.6 (needs 0.6)",
+      "flags": [],
+      "a": {
+        "score": 0,
+        "confidence": 0.1,
+        "reason": "Quote discusses economic policies but does not address union organizing rights.",
+        "quotes": [
+          "q113"
+        ]
+      },
+      "b": {
+        "score": -0.75,
+        "confidence": 0.6,
+        "reason": "Strongly opposes attacks on unions and supports freedom to organize and public-sector unions.",
+        "quotes": [
+          "q113"
+        ]
+      },
+      "models": {
+        "sonnet": {
+          "a": 0,
+          "b": -0.9
+        },
+        "gpt5": {
+          "a": 0,
+          "b": -0.6
+        }
+      }
+    },
+    {
+      "id": "gun-regulation-scope",
+      "question": "Should assault weapons and high-capacity magazines be banned?",
+      "poles": [
+        "Ban assault weapons and high-capacity magazines",
+        "Protect broad gun ownership rights"
+      ],
+      "quotesA": [
+        "q93"
+      ],
+      "quotesB": [
+        "q82"
+      ],
+      "status": "unclear",
+      "note": "confidence a 0.05, b 0.6 (needs 0.6)",
+      "flags": [],
+      "a": {
+        "score": 0,
+        "confidence": 0.05,
+        "reason": "Quote about political focus on distractions is too vague to determine gun policy stance.",
+        "quotes": [
+          "q93"
+        ]
+      },
+      "b": {
+        "score": -0.6,
+        "confidence": 0.6,
+        "reason": "Supports regulation of devices that increase firing capacity, indicating favor for gun control measures.",
+        "quotes": [
+          "q82"
+        ]
+      },
+      "models": {
+        "sonnet": {
+          "a": 0,
+          "b": -0.7
+        },
+        "gpt5": {
+          "a": 0,
+          "b": -0.5
+        }
+      }
+    },
+    {
+      "id": "healthcare-access",
+      "question": "Should healthcare be a universal right rather than privilege?",
+      "poles": [
+        "Healthcare should be a guaranteed right",
+        "Market-based healthcare with targeted help"
+      ],
+      "quotesA": [
+        "q15",
+        "q117"
+      ],
+      "quotesB": [
+        "q57",
+        "q117"
+      ],
+      "status": "unclear",
+      "note": "confidence a 0.15, b 0.8 (needs 0.6)",
+      "flags": [],
+      "a": {
+        "score": 0.15,
+        "confidence": 0.15,
+        "reason": "Quote mentions overwhelmed hospitals but in context of immigration, not healthcare policy stance.",
+        "quotes": [
+          "q117"
+        ]
+      },
+      "b": {
+        "score": -0.85,
+        "confidence": 0.8,
+        "reason": "Explicitly states healthcare should be a right, opposes cutting ACA and supports universal access.",
+        "quotes": [
+          "q57",
+          "q117"
+        ]
+      },
+      "models": {
+        "sonnet": {
+          "a": 0,
+          "b": -0.9
+        },
+        "gpt5": {
+          "a": 0.3,
+          "b": -0.8
+        }
+      }
+    },
+    {
+      "id": "israel-palestine-approach",
+      "question": "Should U.S. support equal security and dignity for both Israelis and Palestinians?",
+      "poles": [
+        "Ensure equal security for both peoples",
+        "Prioritize Israeli security interests"
+      ],
+      "quotesA": [
+        "q33",
+        "q89"
+      ],
+      "quotesB": [
+        "q149"
+      ],
+      "status": "unclear",
+      "note": "confidence a 0.1, b 0.85 (needs 0.6)",
+      "flags": [],
+      "a": {
+        "score": 0,
+        "confidence": 0.1,
+        "reason": "Quotes discuss fairness and autonomy generally but not Israel-Palestine policy specifically.",
+        "quotes": [
+          "q33",
+          "q89"
+        ]
+      },
+      "b": {
+        "score": -0.7,
+        "confidence": 0.85,
+        "reason": "Clearly states Palestinians deserve equal safety, security, self-determination and dignity alongside Israeli defense rights.",
+        "quotes": [
+          "q149"
+        ]
+      },
+      "models": {
+        "sonnet": {
+          "a": 0,
+          "b": -0.8
+        },
+        "gpt5": {
+          "a": 0,
+          "b": -0.6
+        }
+      }
+    },
+    {
+      "id": "family-structure-values",
+      "question": "Should policy emphasize traditional family structures and values?",
+      "poles": [
+        "Promote traditional family and children-bearing",
+        "Support diverse family structures equally"
+      ],
+      "quotesA": [
+        "q142",
+        "q148",
+        "q150",
+        "q152"
+      ],
+      "quotesB": [
+        "q71"
+      ],
+      "status": "unclear",
+      "note": "confidence a 0.9, b 0.2 (needs 0.6)",
+      "flags": [],
+      "a": {
+        "score": -0.82,
+        "confidence": 0.9,
+        "reason": "Strongly promotes traditional family structures as sacred, emphasizes importance of having children, and values fertility.",
+        "quotes": [
+          "q142",
+          "q148",
+          "q150"
+        ]
+      },
+      "b": {
+        "score": 0.1,
+        "confidence": 0.2,
+        "reason": "Quote discusses middle class support including child care but does not address family structure preferences.",
+        "quotes": [
+          "q71"
+        ]
+      },
+      "models": {
+        "sonnet": {
+          "a": -0.85,
+          "b": 0
+        },
+        "gpt5": {
+          "a": -0.8,
+          "b": 0.2
+        }
+      }
+    },
+    {
+      "id": "trump-presidency-assessment",
+      "question": "Has Trump's record demonstrated strong leadership or danger?",
+      "poles": [
+        "Trump demonstrates effective leadership record",
+        "Trump poses serious danger to democracy"
+      ],
+      "quotesA": [
+        "q4",
+        "q16",
+        "q77",
+        "q103"
+      ],
+      "quotesB": [
+        "q12",
+        "q137",
+        "q142",
+        "q143"
+      ],
+      "status": "clear",
+      "note": "",
+      "flags": [],
+      "a": {
+        "score": -0.92,
+        "confidence": 0.9,
+        "reason": "Vance praises Trump's intelligence, leadership, trustworthiness, and peace record consistently across multiple quotes.",
+        "quotes": [
+          "q4",
+          "q16",
+          "q77"
+        ]
+      },
+      "b": {
+        "score": 0.95,
+        "confidence": 0.9,
+        "reason": "Harris characterizes Trump as seeking unchecked power, comparing him to Hitler, calling him unhinged and a threat to democracy.",
+        "quotes": [
+          "q12",
+          "q137",
+          "q142"
+        ]
+      },
+      "models": {
+        "sonnet": {
+          "a": -0.9,
+          "b": 0.95
+        },
+        "gpt5": {
+          "a": -0.95,
+          "b": 0.95
+        }
+      }
+    },
+    {
+      "id": "minimum-wage-increase",
+      "question": "Should the federal minimum wage be substantially raised?",
+      "poles": [
+        "Raise minimum wage significantly",
+        "Keep minimum wage at current levels"
+      ],
+      "quotesA": [
+        "q140"
+      ],
+      "quotesB": [
+        "q140"
+      ],
+      "status": "unclear",
+      "note": "confidence a 0.1, b 0.8 (needs 0.6)",
+      "flags": [],
+      "a": {
+        "score": 0,
+        "confidence": 0.1,
+        "reason": "Quote discusses conservative approaches to black Americans' concerns but does not mention minimum wage policy.",
+        "quotes": [
+          "q140"
+        ]
+      },
+      "b": {
+        "score": -0.9,
+        "confidence": 0.8,
+        "reason": "Harris explicitly states belief in raising minimum wage so workers can sustain their needs and care for families.",
+        "quotes": [
+          "q140"
+        ]
+      },
+      "models": {
+        "sonnet": {
+          "a": 0,
+          "b": -0.9
+        },
+        "gpt5": {
+          "a": 0,
+          "b": -0.9
+        }
+      }
+    }
+  ]
+}

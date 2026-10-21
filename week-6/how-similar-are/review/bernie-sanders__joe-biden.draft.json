@@ -1,0 +1,423 @@
+{
+  "a": "bernie-sanders",
+  "b": "joe-biden",
+  "counts": {
+    "quotesA": 11,
+    "quotesB": 169,
+    "topicsFound": 9
+  },
+  "rows": [
+    {
+      "id": "democracy-threat",
+      "question": "Is democracy currently facing an existential threat?",
+      "poles": [
+        "Democracy faces serious, immediate threat",
+        "Democracy is resilient and prevailing"
+      ],
+      "quotesA": [
+        "q1",
+        "q5",
+        "q6"
+      ],
+      "quotesB": [
+        "q33",
+        "q38"
+      ],
+      "status": "clear",
+      "note": "",
+      "flags": [],
+      "a": {
+        "score": -0.9,
+        "confidence": 0.9,
+        "reason": "Sanders repeatedly describes democracy as under serious threat from Trump's authoritarianism and denialism.",
+        "quotes": [
+          "q1",
+          "q5",
+          "q6"
+        ]
+      },
+      "b": {
+        "score": -0.6,
+        "confidence": 0.7,
+        "reason": "Biden frames democracy as both prevailing and needing to be saved again, suggesting ongoing serious threat.",
+        "quotes": [
+          "q33",
+          "q38"
+        ]
+      },
+      "models": {
+        "sonnet": {
+          "a": -0.9,
+          "b": -0.6
+        },
+        "gpt5": {
+          "a": -0.9,
+          "b": -0.6
+        }
+      }
+    },
+    {
+      "id": "political-system-corruption",
+      "question": "Does money in politics corrupt the system?",
+      "poles": [
+        "Money corrupts political system fundamentally",
+        "Money is acceptable in politics"
+      ],
+      "quotesA": [
+        "q2",
+        "q11"
+      ],
+      "quotesB": [
+        "q103"
+      ],
+      "status": "unclear",
+      "note": "confidence a 0.85, b 0.4 (needs 0.6)",
+      "flags": [],
+      "a": {
+        "score": -0.92,
+        "confidence": 0.85,
+        "reason": "Sanders explicitly calls the political system corrupt and says money impacts everything Congress does.",
+        "quotes": [
+          "q2",
+          "q11"
+        ]
+      },
+      "b": {
+        "score": 0.3,
+        "confidence": 0.4,
+        "reason": "Biden states he is not anticorporation and represented corporate America for decades, but quote doesn't directly address money corrupting politics.",
+        "quotes": [
+          "q103"
+        ]
+      },
+      "models": {
+        "sonnet": {
+          "a": -0.95,
+          "b": 0.3
+        },
+        "gpt5": {
+          "a": -0.9,
+          "b": 0.3
+        }
+      }
+    },
+    {
+      "id": "israel-defense-rights",
+      "question": "Does Israel have the right to defend itself militarily?",
+      "poles": [
+        "Israel has right to defend itself",
+        "Israel should not use military force"
+      ],
+      "quotesA": [
+        "q4"
+      ],
+      "quotesB": [
+        "q1",
+        "q6",
+        "q163",
+        "q164"
+      ],
+      "status": "clear",
+      "note": "",
+      "flags": [],
+      "a": {
+        "score": -0.7,
+        "confidence": 0.8,
+        "reason": "Sanders says Israel is well within its rights to defend itself in keeping with international law.",
+        "quotes": [
+          "q4"
+        ]
+      },
+      "b": {
+        "score": -0.87,
+        "confidence": 0.9,
+        "reason": "Biden firmly stands with Israel, supports its right to defend itself and respond decisively, comparing to how the US would respond.",
+        "quotes": [
+          "q1",
+          "q6",
+          "q163"
+        ]
+      },
+      "models": {
+        "sonnet": {
+          "a": -0.7,
+          "b": -0.85
+        },
+        "gpt5": {
+          "a": -0.7,
+          "b": -0.9
+        }
+      }
+    },
+    {
+      "id": "climate-action",
+      "question": "Should government take major climate action?",
+      "poles": [
+        "Climate action is existential priority",
+        "Climate action harms the economy"
+      ],
+      "quotesA": [
+        "q1"
+      ],
+      "quotesB": [
+        "q2",
+        "q67",
+        "q151"
+      ],
+      "status": "clear",
+      "note": "",
+      "flags": [],
+      "a": {
+        "score": -0.92,
+        "confidence": 0.7,
+        "reason": "Sanders describes climate change as an existential threat that would be awful to turn our back on.",
+        "quotes": [
+          "q1"
+        ]
+      },
+      "b": {
+        "score": -0.9,
+        "confidence": 0.9,
+        "reason": "Biden calls climate crisis existential, claims historic climate action, and says there's no time to waste in pushing forward.",
+        "quotes": [
+          "q2",
+          "q67",
+          "q151"
+        ]
+      },
+      "models": {
+        "sonnet": {
+          "a": -0.95,
+          "b": -0.9
+        },
+        "gpt5": {
+          "a": -0.9,
+          "b": -0.9
+        }
+      }
+    },
+    {
+      "id": "police-reform",
+      "question": "Should police departments be abolished or reformed?",
+      "poles": [
+        "Reform police with better training",
+        "Abolish all police departments"
+      ],
+      "quotesA": [
+        "q7",
+        "q8",
+        "q9"
+      ],
+      "quotesB": [
+        "q149"
+      ],
+      "status": "unclear",
+      "note": "confidence a 0.95, b 0.3 (needs 0.6)",
+      "flags": [],
+      "a": {
+        "score": -0.9,
+        "confidence": 0.95,
+        "reason": "Sanders explicitly opposes abolishing police, favors redefining roles and improving training and pay for professionals.",
+        "quotes": [
+          "q7",
+          "q8",
+          "q9"
+        ]
+      },
+      "b": {
+        "score": -0.45,
+        "confidence": 0.3,
+        "reason": "Biden acknowledges most cops are good but problem happens too often, doesn't clearly indicate reform vs abolish position.",
+        "quotes": [
+          "q149"
+        ]
+      },
+      "models": {
+        "sonnet": {
+          "a": -0.9,
+          "b": -0.3
+        },
+        "gpt5": {
+          "a": -0.9,
+          "b": -0.6
+        }
+      }
+    },
+    {
+      "id": "wealth-inequality",
+      "question": "Is income inequality a major problem?",
+      "poles": [
+        "Inequality is urgent crisis",
+        "Inequality is acceptable outcome"
+      ],
+      "quotesA": [
+        "q10"
+      ],
+      "quotesB": [
+        "q57",
+        "q80"
+      ],
+      "status": "clear",
+      "note": "",
+      "flags": [],
+      "a": {
+        "score": -0.95,
+        "confidence": 0.95,
+        "reason": "Describes inequality as at historic highs and frames it as an urgent crisis requiring action.",
+        "quotes": [
+          "q10"
+        ]
+      },
+      "b": {
+        "score": -0.6,
+        "confidence": 0.65,
+        "reason": "Points to low billionaire tax rates as a problem requiring correction but frames it more moderately than as a crisis.",
+        "quotes": [
+          "q57",
+          "q80"
+        ]
+      },
+      "models": {
+        "sonnet": {
+          "a": -0.95,
+          "b": -0.6
+        },
+        "gpt5": {
+          "a": -0.95,
+          "b": -0.6
+        }
+      }
+    },
+    {
+      "id": "billionaire-taxes",
+      "question": "Should billionaires pay higher tax rates?",
+      "poles": [
+        "Billionaires should pay more taxes",
+        "Billionaires should pay fewer taxes"
+      ],
+      "quotesA": [
+        "q10"
+      ],
+      "quotesB": [
+        "q57",
+        "q80"
+      ],
+      "status": "unclear",
+      "note": "confidence a 0.55, b 0.9 (needs 0.6)",
+      "flags": [],
+      "a": {
+        "score": -0.72,
+        "confidence": 0.55,
+        "reason": "Criticizes wealth concentration at the top and implies need for redistribution, though doesn't explicitly state tax policy.",
+        "quotes": [
+          "q10"
+        ]
+      },
+      "b": {
+        "score": -0.85,
+        "confidence": 0.9,
+        "reason": "Explicitly states billionaires should pay higher tax rates, proposing specific increases from 8.2% to 24-25%.",
+        "quotes": [
+          "q57",
+          "q80"
+        ]
+      },
+      "models": {
+        "sonnet": {
+          "a": -0.85,
+          "b": -0.75
+        },
+        "gpt5": {
+          "a": -0.6,
+          "b": -0.95
+        }
+      }
+    },
+    {
+      "id": "two-state-solution",
+      "question": "Should Israel and Palestine have two separate states?",
+      "poles": [
+        "Two-state solution is necessary path",
+        "One-state solution is preferable"
+      ],
+      "quotesA": [
+        "q4"
+      ],
+      "quotesB": [
+        "q84"
+      ],
+      "status": "unclear",
+      "note": "confidence a 0.35, b 0.95 (needs 0.6)",
+      "flags": [],
+      "a": {
+        "score": -0.2,
+        "confidence": 0.35,
+        "reason": "Emphasizes Israel's right to defend itself with concerns about civilian protection, but doesn't address state solution preferences.",
+        "quotes": [
+          "q4"
+        ]
+      },
+      "b": {
+        "score": -0.92,
+        "confidence": 0.95,
+        "reason": "Explicitly states two-state solution is the only real path to guarantee both Israeli security and Palestinian dignity.",
+        "quotes": [
+          "q84"
+        ]
+      },
+      "models": {
+        "sonnet": {
+          "a": -0.3,
+          "b": -0.9
+        },
+        "gpt5": {
+          "a": -0.1,
+          "b": -0.95
+        }
+      }
+    },
+    {
+      "id": "despair-vs-hope",
+      "question": "Should Americans maintain hope during difficult times?",
+      "poles": [
+        "Hope and determination are essential",
+        "Despair is a rational response"
+      ],
+      "quotesA": [
+        "q3"
+      ],
+      "quotesB": [
+        "q42"
+      ],
+      "status": "clear",
+      "note": "",
+      "flags": [],
+      "a": {
+        "score": -0.95,
+        "confidence": 0.9,
+        "reason": "Directly states despair is not an option at this moment in history.",
+        "quotes": [
+          "q3"
+        ]
+      },
+      "b": {
+        "score": -0.82,
+        "confidence": 0.8,
+        "reason": "Expresses faith in American people and belief that America can accomplish anything together.",
+        "quotes": [
+          "q42"
+        ]
+      },
+      "models": {
+        "sonnet": {
+          "a": -0.95,
+          "b": -0.85
+        },
+        "gpt5": {
+          "a": -0.95,
+          "b": -0.8
+        }
+      }
+    }
+  ]
+}

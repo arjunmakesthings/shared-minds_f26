@@ -1,0 +1,59 @@
+```json
+{"p": 13, "quote": "I believe in the exceptions for rape, incest and life of the mother. I believe strongly in it.", "context": "Abortion policy exceptions"}
+```
+
+```json
+{"p": 13, "quote": "It's the vote of the people now. It's not tied up in the federal government.", "context": "Abortion decisions by states"}
+```
+
+```json
+{"p": 13, "quote": "I did a great service in doing it. It took courage to do it.", "context": "Supreme Court abortion decision"}
+```
+
+```json
+{"p": 14, "quote": "They pled guilty. They killed a person, ultimately.", "context": "Central Park Five case"}
+```
+
+```json
+{"p": 15, "quote": "First of all, I have no sales tax. That's an incorrect statement.", "context": "Sales tax policy claim"}
+```
+
+```json
+{"p": 15, "quote": "We're doing tariffs on other countries. Other countries are going to finally, after 75 years, pay us back for all that we've done for the world.", "context": "Tariff policy"}
+```
+
+```json
+{"p": 15, "quote": "I had tariffs and yet I had no inflation.", "context": "Tariffs and inflation"}
+```
+
+```json
+{"p": 16, "quote": "The election, people should never be thinking about an election as fraudulent. We need two things. We need walls. We have to have borders. And we have to have good elections.", "context": "Elections and borders"}
+```
+
+```json
+{"p": 16, "quote": "Our elections are bad. And a lot of these illegal immigrants coming in, they're trying to get them to vote.", "context": "Election security and immigration"}
+```
+
+```json
+{"p": 17, "quote": "Cut taxes very substantially. And create a great economy like I did before.", "context": "Tax and economic policy"}
+```
+
+```json
+{"p": 17, "quote": "We had the greatest economy. We got hit with a pandemic. And the pandemic was, not since 1917 where 100 million people died has there been anything like it?", "context": "Economy and pandemic"}
+```
+
+```json
+{"p": 17, "quote": "We did a phenomenal job with the pandemic. We handed them over a country where the economy and where the stock market was higher than it was before the pandemic came in.", "context": "Pandemic response"}
+```
+
+```json
+{"p": 18, "quote": "Why hasn't she done it? She's been there for 3 1/2 years. You haven't done it. And you won't do it.", "context": "Opponent's record"}
+```
+
+```json
+{"p": 18, "quote": "We're a failing nation. We're a nation that's in serious decline. We're being laughed at all over the world.", "context": "National condition"}
+```
+
+```json
+{"p": 18, "quote": "What these people have done to our country, and maybe toughest of all is allowing millions of people to come into our country, and they're destroying our country.", "context": "Immigration impact"}
+```

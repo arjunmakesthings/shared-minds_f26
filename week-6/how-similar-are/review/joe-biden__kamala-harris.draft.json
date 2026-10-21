@@ -1,0 +1,522 @@
+{
+  "a": "joe-biden",
+  "b": "kamala-harris",
+  "counts": {
+    "quotesA": 169,
+    "quotesB": 157,
+    "topicsFound": 11
+  },
+  "rows": [
+    {
+      "id": "israel-hamas-ceasefire",
+      "question": "should the united states prioritize negotiating a ceasefire in the israel-hamas conflict?",
+      "poles": [
+        "prioritize diplomatic negotiations for ceasefire",
+        "prioritize israel's military response first"
+      ],
+      "quotesA": [
+        "q1",
+        "q6",
+        "q7"
+      ],
+      "quotesB": [
+        "q149"
+      ],
+      "status": "unclear",
+      "note": "confidence a 0.8, b 0.3 (needs 0.6)",
+      "flags": [],
+      "a": {
+        "score": -0.7,
+        "confidence": 0.8,
+        "reason": "Biden emphasized months of continuous negotiation and diplomacy to achieve the ceasefire deal",
+        "quotes": [
+          "q1",
+          "q6",
+          "q7"
+        ]
+      },
+      "b": {
+        "score": 0.1,
+        "confidence": 0.3,
+        "reason": "Harris acknowledged Israel's right to self-defense but only generally mentioned humanitarian concerns without specific ceasefire position",
+        "quotes": [
+          "q149"
+        ]
+      },
+      "models": {
+        "sonnet": {
+          "a": -0.6,
+          "b": 0
+        },
+        "gpt5": {
+          "a": -0.8,
+          "b": 0.2
+        }
+      }
+    },
+    {
+      "id": "palestinian-equality",
+      "question": "should palestinians have equal security and dignity as israelis?",
+      "poles": [
+        "palestinians deserve equal security and dignity",
+        "israeli security takes priority"
+      ],
+      "quotesA": [
+        "q11",
+        "q12"
+      ],
+      "quotesB": [
+        "q33",
+        "q89"
+      ],
+      "status": "clear",
+      "note": "",
+      "flags": [],
+      "a": {
+        "score": -0.65,
+        "confidence": 0.63,
+        "reason": "Biden expressed deep concern for Palestinian suffering and described their devastation as unimaginable",
+        "quotes": [
+          "q11",
+          "q12"
+        ]
+      },
+      "b": {
+        "score": -0.9,
+        "confidence": 0.85,
+        "reason": "Harris explicitly stated Palestinians are entitled to equal amounts of security and dignity as Israelis",
+        "quotes": [
+          "q33",
+          "q89"
+        ]
+      },
+      "models": {
+        "sonnet": {
+          "a": -0.7,
+          "b": -0.9
+        },
+        "gpt5": {
+          "a": -0.6,
+          "b": -0.9
+        }
+      }
+    },
+    {
+      "id": "two-state-solution",
+      "question": "is a two-state solution the best path forward for israel-palestine?",
+      "poles": [
+        "two-state solution is essential long-term",
+        "two-state solution is not viable"
+      ],
+      "quotesA": [
+        "q84"
+      ],
+      "quotesB": [
+        "q33"
+      ],
+      "status": "clear",
+      "note": "",
+      "flags": [],
+      "a": {
+        "score": -0.95,
+        "confidence": 0.9,
+        "reason": "Biden stated the two-state solution is the only real path guaranteeing both Israeli security and Palestinian peace",
+        "quotes": [
+          "q84"
+        ]
+      },
+      "b": {
+        "score": -0.85,
+        "confidence": 0.8,
+        "reason": "Harris called for charting a course toward two-state solution with equal security for both sides",
+        "quotes": [
+          "q33"
+        ]
+      },
+      "models": {
+        "sonnet": {
+          "a": -0.9,
+          "b": -0.8
+        },
+        "gpt5": {
+          "a": -1,
+          "b": -0.9
+        }
+      }
+    },
+    {
+      "id": "border-security-bill",
+      "question": "should congress pass comprehensive border security legislation?",
+      "poles": [
+        "comprehensive border security bill needed",
+        "border security bill unnecessary or inadequate"
+      ],
+      "quotesA": [
+        "q63"
+      ],
+      "quotesB": [
+        "q21",
+        "q62"
+      ],
+      "status": "unclear",
+      "note": "confidence a 0.5, b 0.9 (needs 0.6)",
+      "flags": [],
+      "a": {
+        "score": -0.55,
+        "confidence": 0.5,
+        "reason": "Biden mentioned new emergency authority to shut down the border during overwhelming migration",
+        "quotes": [
+          "q63"
+        ]
+      },
+      "b": {
+        "score": -0.87,
+        "confidence": 0.9,
+        "reason": "Harris strongly advocated for the border security bill, calling it the strongest in years and pledging to bring it back",
+        "quotes": [
+          "q21",
+          "q62"
+        ]
+      },
+      "models": {
+        "sonnet": {
+          "a": -0.5,
+          "b": -0.8
+        },
+        "gpt5": {
+          "a": -0.6,
+          "b": -0.95
+        }
+      }
+    },
+    {
+      "id": "assault-weapons-ban",
+      "question": "should the us ban assault weapons and high-capacity magazines?",
+      "poles": [
+        "ban assault weapons and high-capacity magazines",
+        "protect access to all firearms"
+      ],
+      "quotesA": [
+        "q74"
+      ],
+      "quotesB": [
+        "q93",
+        "q82"
+      ],
+      "status": "clear",
+      "note": "",
+      "flags": [],
+      "a": {
+        "score": -1,
+        "confidence": 0.95,
+        "reason": "Biden explicitly demanded a ban on assault weapons and high-capacity magazines with universal background checks",
+        "quotes": [
+          "q74"
+        ]
+      },
+      "b": {
+        "score": -0.97,
+        "confidence": 0.9,
+        "reason": "Harris called on Congress to ban assault weapons and high-capacity magazines and criticized court rulings weakening gun regulations",
+        "quotes": [
+          "q93",
+          "q82"
+        ]
+      },
+      "models": {
+        "sonnet": {
+          "a": -1,
+          "b": -1
+        },
+        "gpt5": {
+          "a": -1,
+          "b": -0.95
+        }
+      }
+    },
+    {
+      "id": "background-checks",
+      "question": "should universal background checks be required for all gun purchases?",
+      "poles": [
+        "universal background checks mandatory",
+        "background checks not needed"
+      ],
+      "quotesA": [
+        "q74"
+      ],
+      "quotesB": [
+        "q93"
+      ],
+      "status": "clear",
+      "note": "",
+      "flags": [],
+      "a": {
+        "score": -1,
+        "confidence": 0.95,
+        "reason": "Biden explicitly demands universal background checks be passed.",
+        "quotes": [
+          "q74"
+        ]
+      },
+      "b": {
+        "score": -1,
+        "confidence": 0.95,
+        "reason": "Harris calls for making background checks universal.",
+        "quotes": [
+          "q93"
+        ]
+      },
+      "models": {
+        "sonnet": {
+          "a": -1,
+          "b": -1
+        },
+        "gpt5": {
+          "a": -1,
+          "b": -1
+        }
+      }
+    },
+    {
+      "id": "reproductive-freedom",
+      "question": "should the federal government protect abortion access nationwide?",
+      "poles": [
+        "federal law should protect abortion access",
+        "states should decide abortion policy"
+      ],
+      "quotesA": [
+        "q45",
+        "q47"
+      ],
+      "quotesB": [
+        "q23",
+        "q118",
+        "q136"
+      ],
+      "status": "clear",
+      "note": "",
+      "flags": [],
+      "a": {
+        "score": -0.82,
+        "confidence": 0.8,
+        "reason": "Biden opposes states deciding abortion policy and compares it to turning back civil rights to states.",
+        "quotes": [
+          "q45",
+          "q47"
+        ]
+      },
+      "b": {
+        "score": -1,
+        "confidence": 0.95,
+        "reason": "Harris pledges to sign federal legislation restoring reproductive freedom nationwide.",
+        "quotes": [
+          "q118",
+          "q136",
+          "q23"
+        ]
+      },
+      "models": {
+        "sonnet": {
+          "a": -0.85,
+          "b": -1
+        },
+        "gpt5": {
+          "a": -0.8,
+          "b": -1
+        }
+      }
+    },
+    {
+      "id": "climate-action-priority",
+      "question": "should climate action be a top federal priority?",
+      "poles": [
+        "climate action is urgent priority",
+        "climate action should not restrict economy"
+      ],
+      "quotesA": [
+        "q2",
+        "q67"
+      ],
+      "quotesB": [
+        "q51",
+        "q29"
+      ],
+      "status": "clear",
+      "note": "",
+      "flags": [],
+      "a": {
+        "score": -0.95,
+        "confidence": 0.9,
+        "reason": "Biden states climate action must push forward faster with no time to waste and calls it the most significant action in world history.",
+        "quotes": [
+          "q2",
+          "q67"
+        ]
+      },
+      "b": {
+        "score": -0.65,
+        "confidence": 0.65,
+        "reason": "Harris describes climate as a clear crisis requiring serious action but also emphasizes diverse energy sources and reducing foreign oil reliance.",
+        "quotes": [
+          "q51",
+          "q29"
+        ]
+      },
+      "models": {
+        "sonnet": {
+          "a": -0.95,
+          "b": -0.6
+        },
+        "gpt5": {
+          "a": -0.95,
+          "b": -0.7
+        }
+      }
+    },
+    {
+      "id": "middle-class-focus",
+      "question": "should economic policy prioritize middle-class benefit?",
+      "poles": [
+        "middle-class should be policy priority",
+        "market-driven approach regardless of class"
+      ],
+      "quotesA": [
+        "q104",
+        "q108",
+        "q116"
+      ],
+      "quotesB": [
+        "q71",
+        "q110"
+      ],
+      "status": "clear",
+      "note": "",
+      "flags": [],
+      "a": {
+        "score": -0.92,
+        "confidence": 0.85,
+        "reason": "Biden explicitly prioritizes middle-out and bottom-up economics as his consistent governing approach.",
+        "quotes": [
+          "q104",
+          "q108",
+          "q116"
+        ]
+      },
+      "b": {
+        "score": -0.95,
+        "confidence": 0.9,
+        "reason": "Harris states building up the middle class will be a defining goal and her focus every single day as president.",
+        "quotes": [
+          "q71",
+          "q110"
+        ]
+      },
+      "models": {
+        "sonnet": {
+          "a": -0.95,
+          "b": -0.95
+        },
+        "gpt5": {
+          "a": -0.9,
+          "b": -0.95
+        }
+      }
+    },
+    {
+      "id": "corporate-tax-rates",
+      "question": "should wealthy individuals and corporations pay higher taxes?",
+      "poles": [
+        "raise taxes on wealthy and corporations",
+        "maintain or lower tax rates"
+      ],
+      "quotesA": [
+        "q57",
+        "q80"
+      ],
+      "quotesB": [
+        "q48"
+      ],
+      "status": "unclear",
+      "note": "confidence a 0.85, b 0.55 (needs 0.6)",
+      "flags": [],
+      "a": {
+        "score": -0.87,
+        "confidence": 0.85,
+        "reason": "Biden advocates for billionaires paying significantly higher tax rates, from 8.2% to 24-25%, emphasizing fair share.",
+        "quotes": [
+          "q57",
+          "q80"
+        ]
+      },
+      "b": {
+        "score": -0.55,
+        "confidence": 0.55,
+        "reason": "Harris proposes 28% capital gains tax for high earners, which is higher taxation but presented in context of encouraging investment.",
+        "quotes": [
+          "q48"
+        ]
+      },
+      "models": {
+        "sonnet": {
+          "a": -0.85,
+          "b": -0.5
+        },
+        "gpt5": {
+          "a": -0.9,
+          "b": -0.6
+        }
+      }
+    },
+    {
+      "id": "democracy-defense-priority",
+      "question": "should defending democracy be a central political priority?",
+      "poles": [
+        "democracy defense is urgent priority",
+        "democracy issues are overstated"
+      ],
+      "quotesA": [
+        "q33",
+        "q38",
+        "q78"
+      ],
+      "quotesB": [
+        "q68",
+        "q99",
+        "q115"
+      ],
+      "status": "clear",
+      "note": "",
+      "flags": [],
+      "a": {
+        "score": -0.95,
+        "confidence": 0.92,
+        "reason": "Biden repeatedly emphasizes democracy as an urgent priority requiring preservation and defense, calling it an inflection point determining the nation's fate.",
+        "quotes": [
+          "q33",
+          "q38",
+          "q78"
+        ]
+      },
+      "b": {
+        "score": -0.82,
+        "confidence": 0.75,
+        "reason": "Harris emphasizes defending democracy as a responsibility worthy of sacrifice and a fundamental duty, though with somewhat less urgency than Biden's framing.",
+        "quotes": [
+          "q68",
+          "q99",
+          "q115"
+        ]
+      },
+      "models": {
+        "sonnet": {
+          "a": -0.95,
+          "b": -0.85
+        },
+        "gpt5": {
+          "a": -0.95,
+          "b": -0.8
+        }
+      }
+    }
+  ]
+}

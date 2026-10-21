@@ -1,0 +1,42 @@
+
+== donald-trump
+  wikiquote: 60 quotes
+  ontheissues: 60 passages -> 10 calls
+  ucsb: 6 documents
+  ontheissues 1/10: +8  ontheissues 2/10: +9  ontheissues 3/10: +15  ontheissues 4/10: +4  ontheissues 5/10: +3  ontheissues 6/10: +5  ontheissues 7/10: +11  ontheissues 8/10: +5  ontheissues 9/10: +5  ontheissues 10/10: +9
+  ucsb: 1 so far  ucsb: 9 so far  ucsb: 12 so far  ucsb: 23 so far  ucsb: 27 so far  ucsb: 48 so far
+  kept 182 quotes; the model proposed 133, 11 dropped as not found in the source
+
+== nikki-haley
+  wikiquote: 20 quotes
+  ontheissues: 60 passages -> 10 calls
+  ucsb: 6 documents
+  ontheissues 1/10: +12  ontheissues 2/10: +10  ontheissues 3/10: +9  ontheissues 4/10: +14  ontheissues 5/10: +9  ontheissues 6/10: +14  ontheissues 7/10: +9  ontheissues 8/10: +11  ontheissues 9/10: +2  ontheissues 10/10: +4
+  ucsb: 7 so far  ucsb: 14 so far  ucsb: 23 so far  ucsb: 39 so far  ucsb: 94 so far  ucsb: 107 so far
+  kept 221 quotes; the model proposed 219, 18 dropped as not found in the source
+
+== kamala-harris
+  wikiquote: 35 quotes
+  ontheissues: 60 passages -> 10 calls
+  ucsb: 6 documents
+  ontheissues 1/10: +10  ontheissues 2/10: +6  ontheissues 3/10: +14  ontheissues 4/10: +7  ontheissues 5/10: +5  ontheissues 6/10: +5  ontheissues 7/10: +6  ontheissues 8/10: +9  ontheissues 9/10: +5  ontheissues 10/10: +6
+  ucsb: 3 so far  ucsb: 8 so far  ucsb: 18 so far  ucsb: 25 so far  ucsb: 42 so far  ucsb: 49 so far
+  kept 157 quotes; the model proposed 156, 34 dropped as not found in the source
+
+== joe-biden
+  wikiquote: 49 quotes
+  ontheissues: 60 passages -> 10 calls
+  ucsb: 6 documents
+  ontheissues 1/10: +0  ontheissues 2/10: +10  ontheissues 3/10: +9  ontheissues 4/10: +11  ontheissues 5/10: +10  ontheissues 6/10: +4  ontheissues 7/10: +4  ontheissues 8/10: +4  ontheissues 9/10: +8  ontheissues 10/10: +7
+  ucsb: 5 so far  ucsb: 13 so far  ucsb: 17 so far  ucsb: 20 so far  ucsb: 22 so far  ucsb: 53 so far
+  kept 169 quotes; the model proposed 135, 15 dropped as not found in the source
+
+== bernie-sanders
+  wikiquote: 7 quotes
+  ontheissues: 4 passages -> 1 calls
+  ucsb: 0 documents
+  ontheissues 1/1: +4
+
+  kept 11 quotes; the model proposed 4, 0 dropped as not found in the source
+
+done. live llm calls this run: 75

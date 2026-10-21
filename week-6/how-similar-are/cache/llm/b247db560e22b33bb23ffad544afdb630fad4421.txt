@@ -1,0 +1,39 @@
+```json
+{"p": 25, "quote": "Before I came to office, the country was hit by the worst pandemic and the worst economic crisis in the century. Now, our economy is literally the envy of the world. 15 million new jobs in just three years, a record.", "context": "Economic performance and job creation during Biden's term"}
+```
+
+```json
+{"p": 26, "quote": "you can't love your country only when you win.", "context": "Democracy and January 6th Capitol riot"}
+```
+
+```json
+{"p": 26, "quote": "I ask all of you without regard to party, to join together and defend democracy. Respect free and fair elections. Restore trust in our institutions and make clear, political violence has absolutely no place in America.", "context": "Call to defend democracy and reject political violence"}
+```
+
+```json
+{"p": 27, "quote": "It's my goal to cut the federal deficit $3 trillion by making big corporations & the very wealthy finally beginning to pay their fair share.", "context": "Federal deficit reduction and tax policy"}
+```
+
+```json
+{"p": 27, "quote": "I'm a capitalist. If you want to make a million of bucks, that's great; just pay your fair share in taxes.", "context": "Capitalism and fair taxation"}
+```
+
+```json
+{"p": 27, "quote": "Under my plan nobody earning less than $400,000 will pay an additional penny in federal taxes. Nobody. Not one penny, and they haven't yet.", "context": "Tax policy for middle and lower income earners"}
+```
+
+```json
+{"p": 28, "quote": "Tonight, I'm directing the US military to lead an emergency mission to establish a temporary pier in the Mediterranean on the coast of Gaza that can receive large shipments carrying food, water, medicine and temporary shelters.", "context": "Humanitarian aid to Gaza"}
+```
+
+```json
+{"p": 28, "quote": "humanitarian assistance cannot be a secondary consideration or a bargaining chip. Protecting and saving innocent lives has to be a priority.", "context": "Humanitarian aid priority in Gaza conflict"}
+```
+
+```json
+{"p": 29, "quote": "the only real solution to the situation is a two-state solution over time. There is no other path that guarantees Israel's security and democracy. There is no other path that guarantees Palestinian can live in peace with peace and dignity.", "context": "Israeli-Palestinian conflict resolution"}
+```
+
+```json
+{"p": 29, "quote": "As commander in chief, I will not hesitate to direct further measures to protect our people and our military personnel.", "context": "Military action in Red Sea region"}
+```

@@ -1,0 +1,35 @@
+```json
+{"p": 7, "quote": "I was raised Christian, became an atheist, came back to Christianity, got baptized Catholic like five or six years ago.", "context": "Personal religious journey and experience"}
+```
+
+```json
+{"p": 8, "quote": "I don't really care about Russia. I just don't think we should have a nuclear war. Like, writ large, I'm very anti-nuclear war.", "context": "Foreign policy position on Russia and nuclear war"}
+```
+
+```json
+{"p": 9, "quote": "I don't think that we should be taking assets out of the Middle East at a time when our most important ally in the region is coming under significant attack.", "context": "Middle East military presence policy"}
+```
+
+```json
+{"p": 9, "quote": "I think we should set American foreign policy based on what's in our best interest.", "context": "Foreign policy approach and priorities"}
+```
+
+```json
+{"p": 10, "quote": "A person with a bachelor's degree lives seven years longer than a person without a bachelor's degree.", "context": "Education and health outcomes statistic"}
+```
+
+```json
+{"p": 11, "quote": "I believe Donald Trump is the candidate of peace. I think the record supports that.", "context": "Trump foreign policy assessment"}
+```
+
+```json
+{"p": 11, "quote": "The entire point that I'm making about Trump's foreign policy is, this is a guy who wants to use American troops sparingly. He wants peace through strength.", "context": "Trump military strategy and foreign policy philosophy"}
+```
+
+```json
+{"p": 12, "quote": "The biggest thing that we can do and the biggest and most important thing that Donald Trump I think wants to do to lower prices for Pennsylvania families is very simple: we're going to drill, baby, drill.", "context": "Energy policy to lower prices"}
+```
+
+```json
+{"p": 12, "quote": "She'll stand up in front of crowds without a hint of shamelessness, say 'on day one, we are going to fix the inflation crisis affecting American families, on day one we are going to fix the price of groceries, on day one we are going to secure that southern border' and anyone with a lick of common sense would say, 'Kamala, day one was 1,400 days ago, what the hell have you been doing that whole time?'", "context": "Criticism of Harris on inflation and border policy"}
+```

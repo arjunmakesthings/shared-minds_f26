@@ -1,0 +1,255 @@
+{
+  "a": "joe-biden",
+  "b": "nikki-haley",
+  "approved": "2026-10-21",
+  "counts": {
+    "quotesA": 169,
+    "quotesB": 221,
+    "topicsFound": 17,
+    "dimensions": 7
+  },
+  "dims": [
+    {
+      "id": "israel-two-state-solution",
+      "question": "Is a two-state solution the best path forward for Israel and Palestine?",
+      "poles": [
+        "Two-state solution is viable and necessary for security",
+        "Two-state solution is not achievable or advisable"
+      ],
+      "a": {
+        "score": -1,
+        "reason": "Biden clearly states two-state solution is the only real solution guaranteeing Israel's security and Palestinian dignity.",
+        "quotes": [
+          "q84"
+        ]
+      },
+      "b": {
+        "score": 0.88,
+        "reason": "Haley explicitly states two-state solution is not possible because Palestinians won't come to the table.",
+        "quotes": [
+          "q18",
+          "q31"
+        ]
+      },
+      "models": {
+        "sonnet": {
+          "a": -1,
+          "b": 0.85
+        },
+        "gpt5": {
+          "a": -1,
+          "b": 0.9
+        }
+      },
+      "edited": false
+    },
+    {
+      "id": "ukraine-support-priority",
+      "question": "Should the US make supporting Ukraine a key foreign policy priority?",
+      "poles": [
+        "Strong US support for Ukraine is essential",
+        "Ukraine support diverts from other priorities"
+      ],
+      "a": {
+        "score": -0.7,
+        "reason": "Biden emphasizes regional security consequences of not supporting Ukraine, implying it's a priority.",
+        "quotes": [
+          "q59"
+        ]
+      },
+      "b": {
+        "score": -0.97,
+        "reason": "Haley strongly advocates supporting Ukraine to prevent war and deter aggression, calling it only 3.5% of defense budget.",
+        "quotes": [
+          "q1",
+          "q27"
+        ]
+      },
+      "models": {
+        "sonnet": {
+          "a": -0.8,
+          "b": -0.95
+        },
+        "gpt5": {
+          "a": -0.6,
+          "b": -1
+        }
+      },
+      "edited": false
+    },
+    {
+      "id": "energy-independence-approach",
+      "question": "Should America prioritize energy independence through increased fossil fuel production?",
+      "poles": [
+        "Expand domestic oil and gas drilling",
+        "Transition away from fossil fuels"
+      ],
+      "a": {
+        "score": 0.73,
+        "reason": "Biden emphasizes climate action over energy production and warns against sacrificing environmental future for profit.",
+        "quotes": [
+          "q2",
+          "q67"
+        ]
+      },
+      "b": {
+        "score": -0.55,
+        "reason": "Haley supports partnering with producers and promises to drill extensively for oil and gas, though acknowledges climate change is real.",
+        "quotes": [
+          "q13",
+          "q96",
+          "q197"
+        ]
+      },
+      "models": {
+        "sonnet": {
+          "a": 0.85,
+          "b": -0.4
+        },
+        "gpt5": {
+          "a": 0.6,
+          "b": -0.7
+        }
+      },
+      "edited": false
+    },
+    {
+      "id": "abortion-policy-decision-level",
+      "question": "Should abortion policy be decided by states or the federal government?",
+      "poles": [
+        "States should decide abortion policy",
+        "Federal government should set policy"
+      ],
+      "a": {
+        "score": 0.7,
+        "reason": "Biden criticizes state control of abortion, comparing it negatively to turning civil rights back to states.",
+        "quotes": [
+          "q45",
+          "q47"
+        ]
+      },
+      "b": {
+        "score": -0.85,
+        "reason": "Haley explicitly states she wants states to decide abortion policy as close to the people as possible.",
+        "quotes": [
+          "q10"
+        ]
+      },
+      "models": {
+        "sonnet": {
+          "a": 0.7,
+          "b": -0.8
+        },
+        "gpt5": {
+          "a": 0.7,
+          "b": -0.9
+        }
+      },
+      "edited": false
+    },
+    {
+      "id": "government-decentralization",
+      "question": "Should federal programs be transferred to state control?",
+      "poles": [
+        "Devolve power to states and local government",
+        "Maintain federal government responsibility"
+      ],
+      "a": {
+        "score": 0.75,
+        "reason": "Biden emphasizes federal government staying and providing what people need.",
+        "quotes": [
+          "q19"
+        ]
+      },
+      "b": {
+        "score": -0.87,
+        "reason": "Haley explicitly wants to transfer federal programs to state level and emphasizes states' rights.",
+        "quotes": [
+          "q8",
+          "q22"
+        ]
+      },
+      "models": {
+        "sonnet": {
+          "a": 0.7,
+          "b": -0.8
+        },
+        "gpt5": {
+          "a": 0.8,
+          "b": -0.95
+        }
+      },
+      "edited": false
+    },
+    {
+      "id": "reading-proficiency-priority",
+      "question": "Is ensuring children read proficiently by third grade a critical priority?",
+      "poles": [
+        "Reading by third grade is essential focus",
+        "Reading is important but not primary focus"
+      ],
+      "a": {
+        "score": -0.9,
+        "reason": "Explicitly wants to expand tutoring and summer learning to ensure every child reads by third grade",
+        "quotes": [
+          "q69"
+        ]
+      },
+      "b": {
+        "score": -0.92,
+        "reason": "Emphasizes reading by third grade as critical need with specific consequence cited and calls for national reading remediation",
+        "quotes": [
+          "q90"
+        ]
+      },
+      "models": {
+        "sonnet": {
+          "a": -0.9,
+          "b": -0.95
+        },
+        "gpt5": {
+          "a": -0.9,
+          "b": -0.9
+        }
+      },
+      "edited": false
+    },
+    {
+      "id": "middle-class-economic-focus",
+      "question": "Should economic policy prioritize strengthening the middle class?",
+      "poles": [
+        "Prioritize middle-class economic support",
+        "Focus on growth broadly"
+      ],
+      "a": {
+        "score": -0.9,
+        "reason": "Explicitly centers economic policy on middle-out bottom-up approach with personal anecdotes emphasizing middle class focus",
+        "quotes": [
+          "q104",
+          "q108",
+          "q116"
+        ]
+      },
+      "b": {
+        "score": -0.77,
+        "reason": "Explicitly states need to beef up middle class and promises tax relief to middle-class families",
+        "quotes": [
+          "q81",
+          "q164",
+          "q39"
+        ]
+      },
+      "models": {
+        "sonnet": {
+          "a": -0.95,
+          "b": -0.85
+        },
+        "gpt5": {
+          "a": -0.85,
+          "b": -0.7
+        }
+      },
+      "edited": false
+    }
+  ]
+}

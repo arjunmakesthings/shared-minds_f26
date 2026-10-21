@@ -1,0 +1,79 @@
+```json
+{"id": "wealth-inequality", "question": "should the federal government address wealth inequality between rich and poor?", "poleA": "government must reduce extreme wealth inequality", "poleB": "wealth inequality is not government's responsibility", "a": ["q10"], "b": ["q81"]}
+```
+
+```json
+{"id": "democracy-threat", "question": "is democracy itself under serious threat in america?", "poleA": "democracy faces existential threat requiring action", "poleB": "democracy concerns are overstated", "a": ["q1", "q5"], "b": ["q51"]}
+```
+
+```json
+{"id": "police-reform", "question": "should police departments be reformed rather than abolished?", "poleA": "reform and improve police departments", "poleB": "abolish or drastically reduce police", "a": ["q7", "q8"], "b": []}
+```
+
+```json
+{"id": "israel-hamas", "question": "should israel focus on eliminating hamas militarily?", "poleA": "eliminate hamas as primary goal", "poleB": "prioritize protecting palestinian civilians over hamas elimination", "a": ["q4"], "b": ["q79", "q139"]}
+```
+
+```json
+{"id": "ukraine-support", "question": "should the united states support ukraine against russia?", "poleA": "strongly support ukraine's defense", "poleB": "reduce or condition ukraine support", "a": [], "b": ["q1", "q27", "q116"]}
+```
+
+```json
+{"id": "states-vs-federal", "question": "should power shift from federal government to states?", "poleA": "devolve power to state governments", "poleB": "maintain strong federal authority", "a": [], "b": ["q8", "q10", "q22"]}
+```
+
+```json
+{"id": "national-debt", "question": "is the national debt a critical urgent problem?", "poleA": "national debt is crisis requiring action", "poleB": "national debt is manageable concern", "a": [], "b": ["q77", "q113", "q170", "q175"]}
+```
+
+```json
+{"id": "climate-action", "question": "should the us lead aggressive climate change action?", "poleA": "us must lead on climate change", "poleB": "focus on other nations first", "a": ["q1"], "b": ["q96", "q98"]}
+```
+
+```json
+{"id": "political-money", "question": "is money in politics corrupting government?", "poleA": "money in politics is major corruption source", "poleB": "campaign finance not primary government problem", "a": ["q2"], "b": []}
+```
+
+```json
+{"id": "late-term-abortion", "question": "should late-term abortions be banned?", "poleA": "ban late-term abortions", "poleB": "allow late-term abortions", "a": [], "b": ["q88", "q92", "q94"]}
+```
+
+```json
+{"id": "middle-class-focus", "question": "should economic policy prioritize the middle class?", "poleA": "strengthen and support middle class", "poleB": "focus on other economic priorities", "a": [], "b": ["q81", "q164"]}
+```
+
+```json
+{"id": "tax-relief", "question": "should families receive significant tax relief?", "poleA": "provide substantial tax relief to families", "poleB": "maintain current tax levels", "a": [], "b": ["q164", "q166"]}
+```
+
+```json
+{"id": "federal-programs", "question": "should federal programs be transferred to states?", "poleA": "shift federal programs to state level", "poleB": "keep programs at federal level", "a": [], "b": ["q22"]}
+```
+
+```json
+{"id": "china-threat", "question": "is communist china the primary us security threat?", "poleA": "china is greatest security threat", "poleB": "other threats are equally pressing", "a": [], "b": ["q155", "q210", "q212"]}
+```
+
+```json
+{"id": "energy-independence", "question": "should us pursue energy independence through drilling?", "poleA": "prioritize oil and gas independence", "poleB": "transition away from fossil fuels", "a": [], "b": ["q197"]}
+```
+
+```json
+{"id": "iran-sanctions", "question": "should us maintain sanctions on iran?", "poleA": "maintain strict iran sanctions", "poleB": "rejoin iran nuclear deal", "a": [], "b": ["q6"]}
+```
+
+```json
+{"id": "border-security", "question": "should the us secure its southern border?", "poleA": "secure border is priority", "poleB": "border security is lower priority", "a": [], "b": ["q3", "q118"]}
+```
+
+```json
+{"id": "school-choice", "question": "should families have school choice options?", "poleA": "expand school choice for families", "poleB": "maintain public school system as is", "a": [], "b": ["q131"]}
+```
+
+```json
+{"id": "social-security-reform", "question": "do social security and medicare need reform?", "poleA": "reform entitlements to ensure solvency", "poleB": "maintain current entitlement structure", "a": [], "b": ["q113", "q180", "q183"]}
+```
+
+```json
+{"id": "military-strength", "question": "should the us maintain strongest military capability?", "poleA": "prioritize military superiority", "poleB": "reduce military spending", "a": [], "b": ["q218"]}
+```

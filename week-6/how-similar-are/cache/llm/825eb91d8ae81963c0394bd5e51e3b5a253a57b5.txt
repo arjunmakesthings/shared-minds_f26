@@ -1,0 +1,39 @@
+```json
+{"p": 1, "quote": "I know that our alliances keep American people safe and make America stronger and more secure.", "context": "Foreign policy and national security alliances"}
+```
+
+```json
+{"p": 1, "quote": "I will always uphold our security, advance our national interest, and ensure that the United States of America remains as we must forever be a champion of liberty around the world.", "context": "National security and global leadership"}
+```
+
+```json
+{"p": 2, "quote": "When I am president, we will quickly remove those who arrive here unlawfully, prosecute the cartels, and give border patrol the support they so desperately need.", "context": "Border enforcement and immigration enforcement"}
+```
+
+```json
+{"p": 2, "quote": "At the same time, we must acknowledge we are a nation of immigrants and I'll work with Congress to pass immigration reform including an earned path to citizenship for hardworking immigrants like farm workers and our dreamers.", "context": "Immigration reform and pathway to citizenship"}
+```
+
+```json
+{"p": 3, "quote": "I will work every day to build consensus and reach compromise to get things done.", "context": "Bipartisan cooperation and governance approach"}
+```
+
+```json
+{"p": 3, "quote": "When elected, I will walk in with a to-do list full of priorities of what I will get done for the American people, and I will work with everyone, Democrats, Republicans, and independents to help Americans who are working hard and still struggling to get ahead.", "context": "Working with all parties to help struggling Americans"}
+```
+
+```json
+{"p": 3, "quote": "The United States of America is the greatest idea humanity ever devised. A nation big enough to encompass all our dreams, strong enough to withstand any fracture or fissure between us and fearless enough to imagine a future of possibilities.", "context": "American values and national identity"}
+```
+
+```json
+{"p": 5, "quote": "We have seen a rise in anti-Semitism. It is something that we have to be honest about and we have to deal with.", "context": "Addressing rise in anti-Semitism"}
+```
+
+```json
+{"p": 5, "quote": "We need to have laws in place that make those who would commit crimes on behalf of anti-Semitism and hate that they pay a serious consequence.", "context": "Legal consequences for hate crimes"}
+```
+
+```json
+{"p": 6, "quote": "And so my plan is to have and allow Medicare to cover the cost of home health care for our seniors.", "context": "Healthcare policy for elderly care"}
+```

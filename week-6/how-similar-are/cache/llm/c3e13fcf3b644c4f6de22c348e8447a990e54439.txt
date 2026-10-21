@@ -1,0 +1,42 @@
+```json
+{"p": 31, "quote": "Special operations is how we deal with our terrorists. Mexico's not being a good partner if they're letting the cartels get away with what they're getting away with. We will send in our special operations and we will take out the cartels; we'll take out their operations; we'll take out anything that's doing it.", "context": "Military response to Mexican drug cartels"}
+```
+```json
+{"p": 31, "quote": "But we're going to go after China because China is the one sending the Fentanyl in the first place. And we will end all normal trade relations until China stops sending Fentanyl.", "context": "China fentanyl policy and trade relations"}
+```
+```json
+{"p": 31, "quote": "This is where President Trump went wrong. He focused on trade with China. We need to start focusing on what keeps Americans safe.", "context": "Criticism of Trump's China approach"}
+```
+```json
+{"p": 32, "quote": "How can we be the best country in the world, and have the most expensive health care in the world?", "context": "Healthcare costs in America"}
+```
+```json
+{"p": 32, "quote": "When I am President, we will break all of it, from the insurance companies, to the hospitals, to the doctor's offices, to the PBMs, to the pharmaceutical companies. We will make it all transparent.", "context": "Healthcare reform and transparency"}
+```
+```json
+{"p": 32, "quote": "We have to put the patient in the driver's seat. They've been in the backseat, for way too long. And once we give the patient the ability to decide their health care, deciding which plan they want, that is when we will see magic happen.", "context": "Patient choice in healthcare"}
+```
+```json
+{"p": 33, "quote": "I am unapologetically pro-life. Having said that, we need to stop demonizing this issue.", "context": "Abortion stance and tone"}
+```
+```json
+{"p": 33, "quote": "Let's be honest with the American people and say it will take 60 Senate votes & a majority of the House. So in order to do that, let's find consensus.", "context": "Federal abortion ban legislative reality"}
+```
+```json
+{"p": 33, "quote": "Can't we all agree that we should ban late term abortions? Can't we all agree that we should encourage adoptions? Can't we all agree that doctors and nurses who don't believe in abortion shouldn't have to perform them?", "context": "Abortion common ground proposals"}
+```
+```json
+{"p": 34, "quote": "The truth is that Biden didn't do this to us. Our Republicans did this to us too. When they passed that $2.2 trillion COVID stimulus bill, they left us with 90 million people on Medicaid, 42 million people on food stamps.", "context": "Republican responsibility for spending and entitlements"}
+```
+```json
+{"p": 35, "quote": "Is climate change real? Yes, it is. But if you want to really change the environment, then we need to start telling China and India that they have to lower their emissions.", "context": "Climate change and international emissions"}
+```
+```json
+{"p": 35, "quote": "And these green subsidies that Biden has put in, all he's done is help China because he doesn't understand all these electric vehicles that he's done, half of the batteries for electric vehicles are made in China.", "context": "Critique of Biden's green energy subsidies"}
+```
+```json
+{"p": 36, "quote": "What we don't want to do is go hat in hand to Saudi Arabia or get dirty oil from Iran or Venezuela. What we do want to do is look at what does transitioning look like.", "context": "Energy policy and avoiding foreign oil dependence"}
+```
+```json
+{"p": 36, "quote": "You can't do it tomorrow, but what you can do is transition and that's where we say that let's do an all-of-the-above energy approach. Yes, there can be solar. Yes, there can be wind, but you can't do it tomorrow.", "context": "All-of-the-above energy transition approach"}
+```

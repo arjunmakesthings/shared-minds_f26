@@ -1,0 +1,39 @@
+```json
+{"id": "democracy-threat", "question": "Is democratic governance under serious threat in America?", "poleA": "Democracy faces existential threats requiring urgent action", "poleB": "Democracy remains fundamentally sound and resilient", "a": ["q1", "q5", "q6"], "b": ["q119"]}
+```
+
+```json
+{"id": "money-politics", "question": "Does money from wealthy interests corrupt the political system?", "poleA": "Money corrupts politics and must be controlled", "poleB": "Money in politics reflects legitimate influence and choice", "a": ["q2", "q11"], "b": ["q108"]}
+```
+
+```json
+{"id": "iran-policy", "question": "Should the U.S. pursue military confrontation with Iran?", "poleA": "Pursue military options against Iran", "poleB": "Pursue diplomatic deals with Iran instead", "a": [], "b": ["q2", "q87"]}
+```
+
+```json
+{"id": "police-support", "question": "Should police departments be strengthened and supported?", "poleA": "Police need better training, pay and support", "poleB": "Police departments should be defunded or abolished", "a": ["q7", "q8", "q9"], "b": ["q66"]}
+```
+
+```json
+{"id": "wealth-inequality", "question": "Is wealth inequality a major problem requiring action?", "poleA": "Extreme inequality harms society and needs addressing", "poleB": "Wealth distribution reflects natural market outcomes", "a": ["q10"], "b": ["q155"]}
+```
+
+```json
+{"id": "border-enforcement", "question": "Should immigration enforcement be dramatically increased?", "poleA": "Enforce borders strictly and deport illegal immigrants", "poleB": "Allow more flexible immigration policies", "a": [], "b": ["q61", "q126", "q151", "q153"]}
+```
+
+```json
+{"id": "election-integrity", "question": "Are U.S. elections significantly compromised by fraud?", "poleA": "Elections are rigged and fraud is widespread", "poleB": "Elections are generally fair and secure", "a": [], "b": ["q119", "q120"]}
+```
+
+```json
+{"id": "trade-policy", "question": "Should the U.S. use high tariffs in trade negotiations?", "poleA": "Use tariffs to protect American interests", "poleB": "Maintain free trade relationships", "a": [], "b": ["q92", "q106"]}
+```
+
+```json
+{"id": "energy-independence", "question": "Should America prioritize fossil fuel energy over alternatives?", "poleA": "Pursue oil, gas and natural energy independence", "poleB": "Transition away from fossil fuels", "a": ["q1"], "b": ["q177", "q178"]}
+```
+
+```json
+{"id": "pandemic-response", "question": "Was the federal pandemic response successful?", "poleA": "Pandemic response was phenomenal and effective", "poleB": "Pandemic response was inadequate and harmful", "a": [], "b": ["q123"]}
+```

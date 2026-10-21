@@ -1,0 +1,79 @@
+```json
+{"id": "border-security-approach", "question": "Should the U.S. prioritize securing the border before addressing immigration reform?", "poleA": "Secure border first, then address immigration", "poleB": "Reform immigration system while securing border", "a": ["q111", "q117"], "b": ["q8", "q21", "q62", "q63"]}
+```
+
+```json
+{"id": "ukraine-us-involvement", "question": "Should the U.S. continue substantial military support for Ukraine?", "poleA": "Continue robust support for Ukrainian defense", "poleB": "Reduce U.S. involvement, let Europe lead", "a": ["q26", "q173"], "b": ["q35", "q43", "q63"]}
+```
+
+```json
+{"id": "energy-independence-strategy", "question": "Should the U.S. prioritize fossil fuels to ensure energy independence?", "poleA": "Prioritize cheap fossil fuels for independence", "poleB": "Invest in diverse renewable energy sources", "a": ["q1", "q40", "q115"], "b": ["q28", "q29"]}
+```
+
+```json
+{"id": "trade-reciprocity-focus", "question": "Should U.S. trade policy emphasize reciprocity and fair bilateral deals?", "poleA": "Pursue reciprocal trade deals with fairness", "poleB": "Maintain current multilateral trade frameworks", "a": ["q28", "q30", "q33"], "b": ["q5"]}
+```
+
+```json
+{"id": "tech-innovation-stance", "question": "Should government support AI and technology innovation with optimism?", "poleA": "Embrace AI innovation with enthusiasm", "poleB": "Approach cautiously with safety-first regulations", "a": ["q46", "q48", "q50", "q52"], "b": ["q90"]}
+```
+
+```json
+{"id": "middle-class-wages", "question": "Is innovation more effective than cheap labor for raising worker wages?", "poleA": "Innovation, not cheap labor, raises wages", "poleB": "Multiple approaches needed for wage growth", "a": ["q50", "q61", "q64", "q69"], "b": ["q110", "q140"]}
+```
+
+```json
+{"id": "reproductive-rights-policy", "question": "Should abortion access be protected as a fundamental right?", "poleA": "Protect abortion as a constitutional right", "poleB": "Balance life and autonomy interests carefully", "a": ["q23", "q60", "q84", "q118", "q133", "q136"], "b": ["q89"]}
+```
+
+```json
+{"id": "social-security-protection", "question": "Should Social Security remain public rather than privatized?", "poleA": "Keep Social Security as public program", "poleB": "Allow privatization and market-based options", "a": ["q57", "q162"], "b": ["q57"]}
+```
+
+```json
+{"id": "foreign-policy-focus", "question": "Should the U.S. reduce its global military commitments?", "poleA": "Reduce global military commitments and costs", "poleB": "Maintain robust international security presence", "a": ["q99", "q101", "q169", "q171"], "b": ["q5", "q6", "q20", "q63"]}
+```
+
+```json
+{"id": "addressing-inequality", "question": "Should wealthy individuals pay higher tax rates?", "poleA": "Raise taxes on high earners significantly", "poleB": "Keep tax rates low across income levels", "a": ["q48"], "b": ["q146"]}
+```
+
+```json
+{"id": "union-organizing-rights", "question": "Should workers have strong legal rights to organize unions?", "poleA": "Protect and expand union organizing rights", "poleB": "Limit union power and organizing ability", "a": ["q47", "q106", "q113"], "b": ["q113"]}
+```
+
+```json
+{"id": "gun-regulation-scope", "question": "Should assault weapons and high-capacity magazines be banned?", "poleA": "Ban assault weapons and high-capacity magazines", "poleB": "Protect broad gun ownership rights", "a": ["q82", "q93"], "b": ["q82"]}
+```
+
+```json
+{"id": "family-support-policies", "question": "Should government expand affordable childcare and family support?", "poleA": "Expand public childcare and family support", "poleB": "Promote private choice in family services", "a": ["q15", "q71", "q131"], "b": ["q108"]}
+```
+
+```json
+{"id": "housing-affordability-action", "question": "Should government directly help first-time homebuyers?", "poleA": "Provide direct down payment assistance", "poleB": "Address supply-side constraints primarily", "a": ["q41"], "b": ["q117"]}
+```
+
+```json
+{"id": "healthcare-access", "question": "Should healthcare be a universal right rather than privilege?", "poleA": "Healthcare should be a guaranteed right", "poleB": "Market-based healthcare with targeted help", "a": ["q15", "q117"], "b": ["q57", "q117"]}
+```
+
+```json
+{"id": "israel-palestine-approach", "question": "Should U.S. support equal security and dignity for both Israelis and Palestinians?", "poleA": "Ensure equal security for both peoples", "poleB": "Prioritize Israeli security interests", "a": ["q33", "q89"], "b": ["q149"]}
+```
+
+```json
+{"id": "census-censorship-focus", "question": "Is government censorship or misinformation the bigger threat to democracy?", "poleA": "Censorship is the primary democracy threat", "poleB": "Misinformation is the primary threat", "a": ["q119", "q121", "q123"], "b": ["q119"]}
+```
+
+```json
+{"id": "family-structure-values", "question": "Should policy emphasize traditional family structures and values?", "poleA": "Promote traditional family and children-bearing", "poleB": "Support diverse family structures equally", "a": ["q142", "q148", "q150", "q152", "q153"], "b": ["q71"]}
+```
+
+```json
+{"id": "trump-presidency-assessment", "question": "Has Trump's record demonstrated strong leadership or danger?", "poleA": "Trump demonstrates effective leadership record", "poleB": "Trump poses serious danger to democracy", "a": ["q4", "q16", "q77", "q103", "q129", "q133"], "b": ["q12", "q137", "q142", "q143"]}
+```
+
+```json
+{"id": "minimum-wage-increase", "question": "Should the federal minimum wage be substantially raised?", "poleA": "Raise minimum wage significantly", "poleB": "Keep minimum wage at current levels", "a": ["q140"], "b": ["q140"]}
+```

@@ -1,0 +1,27 @@
+```json
+{"p": 43, "quote": "Except for day one", "context": "Whether he would be a dictator if elected president"}
+```
+
+```json
+{"p": 44, "quote": "We're going to end education coming out of Washington, DC. We're going to close it up--all those buildings all over the place and people that in many cases hate our children. We're going to send it all back to the states.", "context": "Closing Department of Education and returning education control to states"}
+```
+
+```json
+{"p": 45, "quote": "They actually control the Panama Canal. They run it, they control it, and we shouldn't let that happen.", "context": "China's control of the Panama Canal"}
+```
+
+```json
+{"p": 45, "quote": "If I'm president, they'll get out. Because I had a very good relationship with President Xi. He respected this country. He respected me and he'll get out.", "context": "Removing China from Cuba and the Panama Canal"}
+```
+
+```json
+{"p": 46, "quote": "Go to BankYourVote.com to sign up and commit to voting early", "context": "Encouraging early voting"}
+```
+
+```json
+{"p": 47, "quote": "I think I came up with that term. I hope I did. It's a good one.", "context": "The term \"fake news\""}
+```
+
+```json
+{"p": 48, "quote": "Canada has gone all that way [with legalization], and other countries have gone all that way. Some countries won't do it. But I am going to take a look at some final results. But indications are that is not exactly helpful.", "context": "Cannabis legalization effects"}
+```

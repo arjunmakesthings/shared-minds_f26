@@ -1,0 +1,15 @@
+```json
+{"p": 1, "quote": "We will never, ever forget. That's why we fight today. We don't have a choice. There can only be victory. We fight hard. We fight to win.", "context": "September 11 remembrance, commitment to fighting terrorism"}
+```
+
+```json
+{"p": 1, "quote": "We have to be strong, and we have to be smart. And Americans are made of a goodness and spirit that can transcend any earthly force, and that's what we're doing better than anyone else has ever been able to do it, because we are sustained by a supreme strength far more powerful than steel alone.", "context": "American character and strength after 9/11"}
+```
+
+```json
+{"p": 1, "quote": "We were all New Yorkers that day. Every one of us. We were all New Yorkers. But we were also all Americans. We were all family. We were all patriots.", "context": "American unity after September 11 attacks"}
+```
+
+```json
+{"p": 1, "quote": "And today, our country is stronger than it has ever been before. It has never been as strong as it is right now.", "context": "Current state of American strength"}
+```

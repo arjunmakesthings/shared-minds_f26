@@ -1,0 +1,19 @@
+```json
+{"p": 57, "quote": "We need our military to be stronger than ever. But what does Joe Biden have our troops doing? Taking gender pronoun classes. I am the wife of a combat veteran and that disgusts me.", "context": "Military readiness and gender pronoun training criticism"}
+```
+
+```json
+{"p": 58, "quote": "When I'm president, we will stop giving money to countries that hate America.", "context": "Foreign aid policy position"}
+```
+
+```json
+{"p": 59, "quote": "Wokeness is a virus more dangerous than any pandemic found.", "context": "Criticism of wokeness"}
+```
+
+```json
+{"p": 59, "quote": "America is not perfect but the principles at the heart of America are perfect. Take it from me, the first minority female governor in history, America is not a racist country.", "context": "America not racist, defending country values"}
+```
+
+```json
+{"p": 60, "quote": "It's time for us to stop being reactionary to China and start actually being aggressive and letting China know what we expect of them.", "context": "China policy approach"}
+```

@@ -1,0 +1,63 @@
+```json
+{"p": 1, "quote": "as of a couple of months ago, you have an administration that's working with you and facilitating your hard work instead of making it harder to innovate", "context": "Administration support for innovation versus previous administration"}
+```
+
+```json
+{"p": 1, "quote": "we should embrace the future head-on. We shouldn't be afraid of artificial intelligence and that, particularly for those of us lucky enough to be Americans, we shouldn't be fearful of productive new technologies. In fact, we should seek to dominate them.", "context": "Position on AI and technological advancement"}
+```
+
+```json
+{"p": 1, "quote": "While this is a well-intentioned concern, I think it's based on a faulty premise. This idea that tech-forward people and the populists are somehow inevitably going to come to a loggerheads is wrong.", "context": "View on tension between tech optimists and populists"}
+```
+
+```json
+{"p": 1, "quote": "in a healthy economy, technology should be something that enhances, rather than supplants, the value of labor.", "context": "Economic philosophy regarding technology and labor"}
+```
+
+```json
+{"p": 1, "quote": "Real innovation makes us more productive, but it also, I think, dignifies our workers. It boosts our standard of living. It strengthens our workforce and the relative value of its labor.", "context": "Benefits of innovation for workers and economy"}
+```
+
+```json
+{"p": 1, "quote": "It should be no surprise that when we send so much of our industrial base to other countries, we stop making interesting new things right here at home.", "context": "Deindustrialization and manufacturing"}
+```
+
+```json
+{"p": 1, "quote": "we have to be leaning into the AI future with optimism and hope, because I think real technological innovation is going to make our country stronger.", "context": "Commitment to AI advancement for national strength"}
+```
+
+```json
+{"p": 1, "quote": "deindustrialization poses risks both to our national security and our workforce. It's important because it affects both. And the net result is dispossession, for many in this country, of any part of the productive process.", "context": "Risks of deindustrialization"}
+```
+
+```json
+{"p": 1, "quote": "American workers are faced not only with financial insecurity, they're also faced with a profound loss of personal and communal identity.", "context": "Impact of job loss on worker identity and community"}
+```
+
+```json
+{"p": 1, "quote": "I think the populists, when they look at the future, and when they compare it to what's happened in the past, I think a lot of them see alienation of workers from their jobs, from their communities, from their sense of solidarity.", "context": "Understanding populist concerns about worker alienation"}
+```
+
+```json
+{"p": 1, "quote": "America could no longer support middle-class families working on middle-class wages", "context": "Concern about economic support for middle class"}
+```
+
+```json
+{"p": 1, "quote": "even if you replace the financial element of their jobs, you would destroy something that was dignified and purposeful about work itself.", "context": "Value of work beyond financial compensation"}
+```
+
+```json
+{"p": 1, "quote": "a lot of the workers, based on what they've seen in the past, are very worried about the future, because, frankly, their leadership has failed to serve them.", "context": "Assessment of leadership failure toward workers"}
+```
+
+```json
+{"p": 1, "quote": "each group -- our workers, the populace on the one hand, the tech optimists on the other -- have been failed by this government -- not just the government of the last administration but the government, in some ways, of the last 40 years", "context": "Government failure to serve workers and tech builders"}
+```
+
+```json
+{"p": 1, "quote": "The first is assuming that we can separate the making of things from the design of things.", "context": "Critique of globalization assumption"}
+```
+
+```json
+{"p": 1, "quote": "it turns out that the geographies that do the manufacturing get awfully good at the designing of things. There are network effects, as you all well understand.", "context": "How manufacturing nations develop design capabilities"}
+```

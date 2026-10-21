@@ -1,0 +1,15 @@
+```json
+{"p": 1, "quote": "Well, the Governor asked for a declaration that provides for everything the Federal Government can do, and I'm prepared to sign it today.", "context": "Wildfire federal assistance and declaration"}
+```
+
+```json
+{"p": 1, "quote": "I've directed DOD—the Department of Defense—to rapidly provide additional firefighting personnel and capabilities.", "context": "Directing Department of Defense wildfire response"}
+```
+
+```json
+{"p": 1, "quote": "We're prepared to do anything and everything as long as it takes to contain these fires and to help reconstruct and make sure we get back to normal.", "context": "Federal commitment to wildfire containment and recovery"}
+```
+
+```json
+{"p": 1, "quote": "The Federal Government is here to stay as long as you need us and everything you need.", "context": "Long-term federal support for wildfire recovery"}
+```

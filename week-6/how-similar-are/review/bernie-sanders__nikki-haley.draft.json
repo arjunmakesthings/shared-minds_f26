@@ -1,0 +1,189 @@
+{
+  "a": "bernie-sanders",
+  "b": "nikki-haley",
+  "counts": {
+    "quotesA": 11,
+    "quotesB": 221,
+    "topicsFound": 4
+  },
+  "rows": [
+    {
+      "id": "wealth-inequality",
+      "question": "should the federal government address wealth inequality between rich and poor?",
+      "poles": [
+        "government must reduce extreme wealth inequality",
+        "wealth inequality is not government's responsibility"
+      ],
+      "quotesA": [
+        "q10"
+      ],
+      "quotesB": [
+        "q81"
+      ],
+      "status": "unclear",
+      "note": "confidence a 0.8, b 0.5 (needs 0.6)",
+      "flags": [],
+      "a": {
+        "score": -0.92,
+        "confidence": 0.8,
+        "reason": "Emphasizes extreme wealth inequality as a critical problem requiring federal action including raising minimum wage.",
+        "quotes": [
+          "q10"
+        ]
+      },
+      "b": {
+        "score": -0.4,
+        "confidence": 0.5,
+        "reason": "Acknowledges rich getting richer and poor getting poorer but proposes limited tax relief rather than systemic redistribution.",
+        "quotes": [
+          "q81"
+        ]
+      },
+      "models": {
+        "sonnet": {
+          "a": -0.95,
+          "b": -0.4
+        },
+        "gpt5": {
+          "a": -0.9,
+          "b": -0.4
+        }
+      }
+    },
+    {
+      "id": "democracy-threat",
+      "question": "is democracy itself under serious threat in america?",
+      "poles": [
+        "democracy faces existential threat requiring action",
+        "democracy concerns are overstated"
+      ],
+      "quotesA": [
+        "q1",
+        "q5"
+      ],
+      "quotesB": [
+        "q51"
+      ],
+      "status": "unclear",
+      "note": "confidence a 0.9, b 0.25 (needs 0.6)",
+      "flags": [],
+      "a": {
+        "score": -0.92,
+        "confidence": 0.9,
+        "reason": "Describes Trump as threatening American democracy through insurrection and denial, calling it unprecedented moment requiring progressive unity.",
+        "quotes": [
+          "q1",
+          "q5"
+        ]
+      },
+      "b": {
+        "score": 0.1,
+        "confidence": 0.25,
+        "reason": "Quote questions whether Biden or Trump can unite country but doesn't directly address whether democracy faces existential threat.",
+        "quotes": [
+          "q51"
+        ]
+      },
+      "models": {
+        "sonnet": {
+          "a": -0.95,
+          "b": 0
+        },
+        "gpt5": {
+          "a": -0.9,
+          "b": 0.2
+        }
+      }
+    },
+    {
+      "id": "israel-hamas",
+      "question": "should israel focus on eliminating hamas militarily?",
+      "poles": [
+        "eliminate hamas as primary goal",
+        "prioritize protecting palestinian civilians over hamas elimination"
+      ],
+      "quotesA": [
+        "q4"
+      ],
+      "quotesB": [
+        "q79",
+        "q139"
+      ],
+      "status": "clear",
+      "note": "",
+      "flags": [],
+      "a": {
+        "score": 0.35,
+        "confidence": 0.6,
+        "reason": "Affirms Israel's right to defend itself but emphasizes protection of civilians and expresses concerns about ground invasion risks.",
+        "quotes": [
+          "q4"
+        ]
+      },
+      "b": {
+        "score": -0.95,
+        "confidence": 0.95,
+        "reason": "Explicitly supports giving Israel everything needed to destroy Hamas completely as primary goal.",
+        "quotes": [
+          "q79",
+          "q139"
+        ]
+      },
+      "models": {
+        "sonnet": {
+          "a": 0.3,
+          "b": -0.9
+        },
+        "gpt5": {
+          "a": 0.4,
+          "b": -1
+        }
+      }
+    },
+    {
+      "id": "climate-action",
+      "question": "should the us lead aggressive climate change action?",
+      "poles": [
+        "us must lead on climate change",
+        "focus on other nations first"
+      ],
+      "quotesA": [
+        "q1"
+      ],
+      "quotesB": [
+        "q96",
+        "q98"
+      ],
+      "status": "clear",
+      "note": "",
+      "flags": [],
+      "a": {
+        "score": -0.85,
+        "confidence": 0.7,
+        "reason": "Calls climate change an existential threat that cannot be turned back on, indicating urgent US action needed.",
+        "quotes": [
+          "q1"
+        ]
+      },
+      "b": {
+        "score": 0.55,
+        "confidence": 0.7,
+        "reason": "Acknowledges climate change is real but prioritizes getting China and India to lower emissions before US action.",
+        "quotes": [
+          "q96",
+          "q98"
+        ]
+      },
+      "models": {
+        "sonnet": {
+          "a": -0.9,
+          "b": 0.6
+        },
+        "gpt5": {
+          "a": -0.8,
+          "b": 0.5
+        }
+      }
+    }
+  ]
+}

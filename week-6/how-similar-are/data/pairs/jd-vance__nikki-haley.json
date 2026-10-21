@@ -1,0 +1,218 @@
+{
+  "a": "jd-vance",
+  "b": "nikki-haley",
+  "approved": "2026-10-21",
+  "counts": {
+    "quotesA": 181,
+    "quotesB": 221,
+    "topicsFound": 11,
+    "dimensions": 6
+  },
+  "dims": [
+    {
+      "id": "china-threat",
+      "question": "is china the primary strategic competitor for the united states?",
+      "poles": [
+        "china is the top priority threat",
+        "multiple threats require balanced focus"
+      ],
+      "a": {
+        "score": -0.75,
+        "reason": "Identifies China as most powerful competitor US has had and calls for pivoting to Asia with Europeans handling Europe.",
+        "quotes": [
+          "q43",
+          "q169"
+        ]
+      },
+      "b": {
+        "score": -0.95,
+        "reason": "Calls China an existential threat, enemy, and most dangerous foreign threat since WWII in explicit terms.",
+        "quotes": [
+          "q155",
+          "q210",
+          "q212"
+        ]
+      },
+      "models": {
+        "sonnet": {
+          "a": -0.7,
+          "b": -0.9
+        },
+        "gpt5": {
+          "a": -0.8,
+          "b": -1
+        }
+      },
+      "edited": false
+    },
+    {
+      "id": "domestic-energy",
+      "question": "should the us prioritize domestic energy production and independence?",
+      "poles": [
+        "maximize domestic oil and gas production",
+        "transition away from fossil fuels"
+      ],
+      "a": {
+        "score": -0.6,
+        "reason": "Emphasizes preventing energy crisis and importance of cheap dependable energy for economic independence.",
+        "quotes": [
+          "q1",
+          "q40"
+        ]
+      },
+      "b": {
+        "score": -0.72,
+        "reason": "Advocates drilling oil and gas extensively for energy independence and dominance while avoiding foreign sources.",
+        "quotes": [
+          "q98",
+          "q197"
+        ]
+      },
+      "models": {
+        "sonnet": {
+          "a": -0.7,
+          "b": -0.75
+        },
+        "gpt5": {
+          "a": -0.5,
+          "b": -0.7
+        }
+      },
+      "edited": false
+    },
+    {
+      "id": "green-subsidies",
+      "question": "should the federal government fund green energy subsidies?",
+      "poles": [
+        "eliminate green energy subsidies",
+        "support green energy investments"
+      ],
+      "a": {
+        "score": -0.65,
+        "reason": "Criticizes spending taxpayer money on solar panels made in China as making economy dirtier.",
+        "quotes": [
+          "q115"
+        ]
+      },
+      "b": {
+        "score": -0.85,
+        "reason": "Explicitly calls for eliminating Biden's green energy subsidies, characterizing them as cash windfalls for China.",
+        "quotes": [
+          "q168"
+        ]
+      },
+      "models": {
+        "sonnet": {
+          "a": -0.7,
+          "b": -0.8
+        },
+        "gpt5": {
+          "a": -0.6,
+          "b": -0.9
+        }
+      },
+      "edited": false
+    },
+    {
+      "id": "immigration-enforcement",
+      "question": "should the us enforce stricter immigration policies?",
+      "poles": [
+        "enforce strict immigration controls",
+        "maintain current immigration levels"
+      ],
+      "a": {
+        "score": -0.87,
+        "reason": "Strongly advocates for strict enforcement focusing on deporting illegal aliens and blames them for overwhelming public services.",
+        "quotes": [
+          "q111",
+          "q117"
+        ]
+      },
+      "b": {
+        "score": -0.87,
+        "reason": "Supports defunding sanctuary cities and remain in Mexico policy, indicating strict enforcement preferences.",
+        "quotes": [
+          "q118"
+        ]
+      },
+      "models": {
+        "sonnet": {
+          "a": -0.9,
+          "b": -0.85
+        },
+        "gpt5": {
+          "a": -0.85,
+          "b": -0.9
+        }
+      },
+      "edited": false
+    },
+    {
+      "id": "regulatory-burden",
+      "question": "should the us reduce federal regulations on business?",
+      "poles": [
+        "reduce federal regulatory burden",
+        "maintain regulatory protections"
+      ],
+      "a": {
+        "score": -0.75,
+        "reason": "Criticizes federal administration for making it harder to build and develop through excessive regulation.",
+        "quotes": [
+          "q109"
+        ]
+      },
+      "b": {
+        "score": -0.87,
+        "reason": "Strongly criticizes regulatory costs and proposes forcing congressional votes on all regulations to reduce them.",
+        "quotes": [
+          "q191",
+          "q193"
+        ]
+      },
+      "models": {
+        "sonnet": {
+          "a": -0.8,
+          "b": -0.9
+        },
+        "gpt5": {
+          "a": -0.7,
+          "b": -0.85
+        }
+      },
+      "edited": false
+    },
+    {
+      "id": "gender-ideology",
+      "question": "should schools teach gender ideology to students?",
+      "poles": [
+        "prevent schools from teaching gender topics",
+        "allow gender curriculum in schools"
+      ],
+      "a": {
+        "score": -0.82,
+        "reason": "Strongly opposes what he characterizes as sexualization in schools and supports bills preventing gender-related content.",
+        "quotes": [
+          "q158"
+        ]
+      },
+      "b": {
+        "score": -0.95,
+        "reason": "Explicitly states schools should not talk to kids about gender at all, reserving this entirely for parents.",
+        "quotes": [
+          "q103"
+        ]
+      },
+      "models": {
+        "sonnet": {
+          "a": -0.85,
+          "b": -0.9
+        },
+        "gpt5": {
+          "a": -0.8,
+          "b": -1
+        }
+      },
+      "edited": false
+    }
+  ]
+}

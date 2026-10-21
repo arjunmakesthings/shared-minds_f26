@@ -1,0 +1,79 @@
+```json
+{"id": "iran-nuclear-program", "question": "Should the US pursue diplomatic deals to limit Iran's nuclear program?", "poleA": "Pursue diplomatic negotiations with Iran", "poleB": "Take military action against Iran", "a": ["q2", "q87"], "b": ["q65"]}
+```
+
+```json
+{"id": "border-security-policy", "question": "Should the US prioritize stricter border enforcement and deportations?", "poleA": "Strengthen enforcement and deport undocumented immigrants", "poleB": "Pursue comprehensive immigration reform with pathways to citizenship", "a": ["q61", "q153"], "b": ["q8", "q21", "q62", "q63"]}
+```
+
+```json
+{"id": "israel-palestine-conflict", "question": "Should the US support a two-state solution with equal security for both sides?", "poleA": "Support Israeli military operations without restrictions", "poleB": "Advocate for two-state solution with equal Palestinian security", "a": ["q18"], "b": ["q33", "q89", "q149"]}
+```
+
+```json
+{"id": "reproductive-rights", "question": "Should abortion access be decided by states or protected federally?", "poleA": "Allow states to decide abortion policy", "poleB": "Protect abortion rights at the federal level", "a": ["q109", "q112"], "b": ["q23", "q60", "q84", "q118", "q136"]}
+```
+
+```json
+{"id": "energy-independence", "question": "Should the US prioritize fossil fuels for energy independence?", "poleA": "Prioritize oil, gas, and natural gas development", "poleB": "Invest in diverse renewable energy sources", "a": ["q177", "q178"], "b": ["q29"]}
+```
+
+```json
+{"id": "nato-alliances", "question": "Are NATO alliances essential for US national security?", "poleA": "NATO alliances are unnecessary for US security", "poleB": "Strong alliances keep America safe and secure", "a": ["q15"], "b": ["q5"]}
+```
+
+```json
+{"id": "election-integrity", "question": "Are recent US elections secure and legitimate?", "poleA": "Elections are rigged and fraudulent", "poleB": "Elections are secure and must be accepted", "a": ["q30", "q119", "q120"], "b": ["q98", "q99"]}
+```
+
+```json
+{"id": "immigration-reform", "question": "Should undocumented immigrants have a pathway to citizenship?", "poleA": "No amnesty for illegal immigrants", "poleB": "Create earned pathway to citizenship for immigrants", "a": ["q55"], "b": ["q8", "q63"]}
+```
+
+```json
+{"id": "trade-policy", "question": "Should the US use tariffs to protect domestic markets?", "poleA": "Use tariffs to keep foreign goods out", "poleB": "Maintain open international trade", "a": ["q92", "q106"], "b": []}
+```
+
+```json
+{"id": "gun-policy", "question": "Should the US implement stricter gun control measures?", "poleA": "Gun violence is a cultural problem, not guns", "poleB": "Ban assault weapons and implement gun restrictions", "a": ["q172"], "b": ["q82", "q93"]}
+```
+
+```json
+{"id": "social-security-medicare", "question": "Should Social Security and Medicare be protected from cuts?", "poleA": "Reform entitlements through cuts and restructuring", "poleB": "Protect and expand Social Security and Medicare", "a": ["q150"], "b": ["q57"]}
+```
+
+```json
+{"id": "law-enforcement-support", "question": "Should government support and expand police authority?", "poleA": "Support police with expanded law enforcement authority", "poleB": "Reform justice system and hold officials accountable", "a": ["q66", "q70"], "b": ["q44", "q73"]}
+```
+
+```json
+{"id": "democratic-norms", "question": "Should former presidents be immune from criminal prosecution?", "poleA": "Former presidents should have immunity from prosecution", "poleB": "No one is above the law regardless of office", "a": ["q167"], "b": ["q44"]}
+```
+
+```json
+{"id": "housing-affordability", "question": "Should government provide down payment assistance for first-time homebuyers?", "poleA": "Market should determine housing without government assistance", "poleB": "Government should help with down payment assistance", "a": [], "b": ["q41"]}
+```
+
+```json
+{"id": "teacher-compensation", "question": "Should teachers receive higher compensation?", "poleA": "Education funding should be reduced", "poleB": "Teachers deserve higher pay for their work", "a": [], "b": ["q18"]}
+```
+
+```json
+{"id": "middle-class-economic-policy", "question": "Should economic policy prioritize the middle class?", "poleA": "Tax breaks for wealthy create broad economic growth", "poleB": "Prioritize affordability and support for middle class", "a": [], "b": ["q59", "q71", "q110"]}
+```
+
+```json
+{"id": "minimum-wage-policy", "question": "Should the federal minimum wage be increased?", "poleA": "Minimum wage should remain unchanged", "poleB": "Raise minimum wage so workers can support families", "a": [], "b": ["q140"]}
+```
+
+```json
+{"id": "union-rights", "question": "Should workers have the right to organize and unionize?", "poleA": "Restrict public sector unions and organizing", "poleB": "Protect and expand workers' right to unionize", "a": [], "b": ["q47", "q106", "q113"]}
+```
+
+```json
+{"id": "election-results-acceptance", "question": "Should losing candidates accept and respect election results?", "poleA": "Election losses may be contested and challenged", "poleB": "Election results must be accepted peacefully", "a": [], "b": ["q98", "q99"]}
+```
+
+```json
+{"id": "long-term-capital-gains-tax", "question": "Should capital gains taxes be raised on high earners?", "poleA": "Keep capital gains taxes low", "poleB": "Raise capital gains tax rate for top earners", "a": [], "b": ["q48"]}
+```

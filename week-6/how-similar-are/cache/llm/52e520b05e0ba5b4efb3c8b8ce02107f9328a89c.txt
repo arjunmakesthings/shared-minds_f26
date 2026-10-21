@@ -1,0 +1,19 @@
+```json
+{"topic": "law-enforcement-support", "a": {"score": -0.9, "confidence": 0.9, "reason": "Strongly supports police with backing and harsh penalties for crimes against officers without mentioning accountability measures.", "quotes": ["q66", "q91"]}, "b": {"score": 0.6, "confidence": 0.7, "reason": "Acknowledges police brutality concerns and racial disparities while noting most cops are good, suggesting reform orientation.", "quotes": ["q148", "q149"]}}
+```
+
+```json
+{"topic": "climate-policy", "a": {"score": -0.95, "confidence": 0.95, "reason": "Prioritizes fossil fuels as cheaper and better, focuses on energy independence over climate concerns.", "quotes": ["q177", "q178"]}, "b": {"score": 0.85, "confidence": 0.9, "reason": "Explicitly prioritizes climate action as most significant ever while rejecting economic tradeoffs and opposing fossil fuel interests.", "quotes": ["q2", "q67"]}}
+```
+
+```json
+{"topic": "us-alliances-nato", "a": {"score": -0.75, "confidence": 0.8, "reason": "States US needs nothing from NATO and emphasizes unilateral American dominance over alliance cooperation.", "quotes": ["q15", "q22"]}, "b": {"score": 0.7, "confidence": 0.7, "reason": "Emphasizes keeping commitments to allies and expresses concern about NATO countries' security.", "quotes": ["q54", "q59"]}}
+```
+
+```json
+{"topic": "gun-policy", "a": {"score": -0.85, "confidence": 0.85, "reason": "Explicitly rejects gun control measures, calling it a mental health and cultural problem rather than a gun problem.", "quotes": ["q172"]}, "b": {"score": 0.9, "confidence": 0.95, "reason": "Demands assault weapon bans, high capacity magazine bans, and universal background checks.", "quotes": ["q74"]}}
+```
+
+```json
+{"topic": "election-integrity", "a": {"score": -0.7, "confidence": 0.75, "reason": "Claims elections are bad and fraudulent with allegations about illegal immigrants voting.", "quotes": ["q119", "q120"]}, "b": {"score": 0.75, "confidence": 0.8, "reason": "Emphasizes defending democracy through fair elections and rejecting political violence while calling for trust in institutions.", "quotes": ["q38", "q78"]}}
+```

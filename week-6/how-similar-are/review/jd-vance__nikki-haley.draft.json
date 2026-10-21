@@ -1,0 +1,517 @@
+{
+  "a": "jd-vance",
+  "b": "nikki-haley",
+  "counts": {
+    "quotesA": 181,
+    "quotesB": 221,
+    "topicsFound": 11
+  },
+  "rows": [
+    {
+      "id": "ukraine-support",
+      "question": "should the united states provide military aid to ukraine against russia?",
+      "poles": [
+        "provide aid to help ukraine defend itself",
+        "end aid and let europe handle it"
+      ],
+      "quotesA": [
+        "q26",
+        "q38"
+      ],
+      "quotesB": [
+        "q1",
+        "q27"
+      ],
+      "status": "unclear",
+      "note": "confidence a 0.4, b 0.9 (needs 0.6)",
+      "flags": [],
+      "a": {
+        "score": 0.4,
+        "confidence": 0.4,
+        "reason": "Views continuation of conflict as bad and seeks peace, suggesting preference for ending rather than continuing aid.",
+        "quotes": [
+          "q26",
+          "q38"
+        ]
+      },
+      "b": {
+        "score": -0.85,
+        "confidence": 0.9,
+        "reason": "Strongly advocates supporting Ukraine as preventing war and standing up for democracies, characterizing it as small portion of defense budget.",
+        "quotes": [
+          "q1",
+          "q27"
+        ]
+      },
+      "models": {
+        "sonnet": {
+          "a": 0.6,
+          "b": -0.8
+        },
+        "gpt5": {
+          "a": 0.2,
+          "b": -0.9
+        }
+      }
+    },
+    {
+      "id": "china-threat",
+      "question": "is china the primary strategic competitor for the united states?",
+      "poles": [
+        "china is the top priority threat",
+        "multiple threats require balanced focus"
+      ],
+      "quotesA": [
+        "q43",
+        "q169"
+      ],
+      "quotesB": [
+        "q155",
+        "q210",
+        "q212"
+      ],
+      "status": "clear",
+      "note": "",
+      "flags": [],
+      "a": {
+        "score": -0.75,
+        "confidence": 0.8,
+        "reason": "Identifies China as most powerful competitor US has had and calls for pivoting to Asia with Europeans handling Europe.",
+        "quotes": [
+          "q43",
+          "q169"
+        ]
+      },
+      "b": {
+        "score": -0.95,
+        "confidence": 0.95,
+        "reason": "Calls China an existential threat, enemy, and most dangerous foreign threat since WWII in explicit terms.",
+        "quotes": [
+          "q155",
+          "q210",
+          "q212"
+        ]
+      },
+      "models": {
+        "sonnet": {
+          "a": -0.7,
+          "b": -0.9
+        },
+        "gpt5": {
+          "a": -0.8,
+          "b": -1
+        }
+      }
+    },
+    {
+      "id": "trade-fairness",
+      "question": "should the us pursue more reciprocal trade agreements?",
+      "poles": [
+        "demand reciprocal and fair trade terms",
+        "maintain current trade arrangements"
+      ],
+      "quotesA": [
+        "q28",
+        "q30",
+        "q33"
+      ],
+      "quotesB": [
+        "q107"
+      ],
+      "status": "unclear",
+      "note": "confidence a 0.9, b 0.3 (needs 0.6)",
+      "flags": [],
+      "a": {
+        "score": -0.85,
+        "confidence": 0.9,
+        "reason": "Explicitly calls for rebalancing trade for American workers and manufacturers using fairness and reciprocity.",
+        "quotes": [
+          "q28",
+          "q30",
+          "q33"
+        ]
+      },
+      "b": {
+        "score": -0.1,
+        "confidence": 0.3,
+        "reason": "Only mentions selling to various countries including China but doesn't address reciprocity or fairness of trade terms.",
+        "quotes": [
+          "q107"
+        ]
+      },
+      "models": {
+        "sonnet": {
+          "a": -0.8,
+          "b": 0
+        },
+        "gpt5": {
+          "a": -0.9,
+          "b": -0.2
+        }
+      }
+    },
+    {
+      "id": "domestic-energy",
+      "question": "should the us prioritize domestic energy production and independence?",
+      "poles": [
+        "maximize domestic oil and gas production",
+        "transition away from fossil fuels"
+      ],
+      "quotesA": [
+        "q1",
+        "q40"
+      ],
+      "quotesB": [
+        "q96",
+        "q98",
+        "q197"
+      ],
+      "status": "clear",
+      "note": "",
+      "flags": [],
+      "a": {
+        "score": -0.6,
+        "confidence": 0.6,
+        "reason": "Emphasizes preventing energy crisis and importance of cheap dependable energy for economic independence.",
+        "quotes": [
+          "q1",
+          "q40"
+        ]
+      },
+      "b": {
+        "score": -0.72,
+        "confidence": 0.8,
+        "reason": "Advocates drilling oil and gas extensively for energy independence and dominance while avoiding foreign sources.",
+        "quotes": [
+          "q98",
+          "q197"
+        ]
+      },
+      "models": {
+        "sonnet": {
+          "a": -0.7,
+          "b": -0.75
+        },
+        "gpt5": {
+          "a": -0.5,
+          "b": -0.7
+        }
+      }
+    },
+    {
+      "id": "green-subsidies",
+      "question": "should the federal government fund green energy subsidies?",
+      "poles": [
+        "eliminate green energy subsidies",
+        "support green energy investments"
+      ],
+      "quotesA": [
+        "q115"
+      ],
+      "quotesB": [
+        "q168"
+      ],
+      "status": "clear",
+      "note": "",
+      "flags": [],
+      "a": {
+        "score": -0.65,
+        "confidence": 0.7,
+        "reason": "Criticizes spending taxpayer money on solar panels made in China as making economy dirtier.",
+        "quotes": [
+          "q115"
+        ]
+      },
+      "b": {
+        "score": -0.85,
+        "confidence": 0.85,
+        "reason": "Explicitly calls for eliminating Biden's green energy subsidies, characterizing them as cash windfalls for China.",
+        "quotes": [
+          "q168"
+        ]
+      },
+      "models": {
+        "sonnet": {
+          "a": -0.7,
+          "b": -0.8
+        },
+        "gpt5": {
+          "a": -0.6,
+          "b": -0.9
+        }
+      }
+    },
+    {
+      "id": "immigration-enforcement",
+      "question": "should the us enforce stricter immigration policies?",
+      "poles": [
+        "enforce strict immigration controls",
+        "maintain current immigration levels"
+      ],
+      "quotesA": [
+        "q111",
+        "q117"
+      ],
+      "quotesB": [
+        "q118"
+      ],
+      "status": "clear",
+      "note": "",
+      "flags": [],
+      "a": {
+        "score": -0.87,
+        "confidence": 0.78,
+        "reason": "Strongly advocates for strict enforcement focusing on deporting illegal aliens and blames them for overwhelming public services.",
+        "quotes": [
+          "q111",
+          "q117"
+        ]
+      },
+      "b": {
+        "score": -0.87,
+        "confidence": 0.75,
+        "reason": "Supports defunding sanctuary cities and remain in Mexico policy, indicating strict enforcement preferences.",
+        "quotes": [
+          "q118"
+        ]
+      },
+      "models": {
+        "sonnet": {
+          "a": -0.9,
+          "b": -0.85
+        },
+        "gpt5": {
+          "a": -0.85,
+          "b": -0.9
+        }
+      }
+    },
+    {
+      "id": "abortion-policy",
+      "question": "what should be the us policy on abortion?",
+      "poles": [
+        "restrict abortion with some exceptions",
+        "allow unrestricted abortion access"
+      ],
+      "quotesA": [
+        "q89"
+      ],
+      "quotesB": [
+        "q88",
+        "q92",
+        "q94"
+      ],
+      "status": "unclear",
+      "note": "confidence a 0.45, b 0.75 (needs 0.6)",
+      "flags": [],
+      "a": {
+        "score": -0.2,
+        "confidence": 0.45,
+        "reason": "Attempts to balance autonomy with life, suggesting moderate restrictions rather than extreme position.",
+        "quotes": [
+          "q89"
+        ]
+      },
+      "b": {
+        "score": -0.65,
+        "confidence": 0.75,
+        "reason": "Identifies as unapologetically pro-life and advocates for banning late-term abortions, indicating restrictive stance.",
+        "quotes": [
+          "q88",
+          "q92",
+          "q94"
+        ]
+      },
+      "models": {
+        "sonnet": {
+          "a": -0.3,
+          "b": -0.6
+        },
+        "gpt5": {
+          "a": -0.1,
+          "b": -0.7
+        }
+      }
+    },
+    {
+      "id": "foreign-aid",
+      "question": "should the us reduce its global military commitments?",
+      "poles": [
+        "reduce global military commitments",
+        "maintain strong global military presence"
+      ],
+      "quotesA": [
+        "q99",
+        "q171"
+      ],
+      "quotesB": [
+        "q141"
+      ],
+      "status": "unclear",
+      "note": "confidence a 0.8, b 0.55 (needs 0.6)",
+      "flags": [],
+      "a": {
+        "score": -0.75,
+        "confidence": 0.8,
+        "reason": "Explicitly opposes America being the policeman of the world and wants to empower regional self-policing.",
+        "quotes": [
+          "q99",
+          "q171"
+        ]
+      },
+      "b": {
+        "score": 0.55,
+        "confidence": 0.55,
+        "reason": "Advocates for America actively siding with good over evil globally, suggesting maintaining strong international engagement.",
+        "quotes": [
+          "q141"
+        ]
+      },
+      "models": {
+        "sonnet": {
+          "a": -0.8,
+          "b": 0.7
+        },
+        "gpt5": {
+          "a": -0.7,
+          "b": 0.4
+        }
+      }
+    },
+    {
+      "id": "middle-class-focus",
+      "question": "should policy prioritize helping the middle class?",
+      "poles": [
+        "focus on middle-class economic relief",
+        "general economic growth for all"
+      ],
+      "quotesA": [
+        "q54",
+        "q56"
+      ],
+      "quotesB": [
+        "q81",
+        "q164"
+      ],
+      "status": "unclear",
+      "note": "confidence a 0.55, b 0.85 (needs 0.6)",
+      "flags": [],
+      "a": {
+        "score": -0.55,
+        "confidence": 0.55,
+        "reason": "Emphasizes financial insecurity and loss of identity for middle-class workers, indicating focus on their specific challenges.",
+        "quotes": [
+          "q54",
+          "q56"
+        ]
+      },
+      "b": {
+        "score": -0.77,
+        "confidence": 0.85,
+        "reason": "Explicitly states need to beef up the middle class and proposes targeted tax relief for middle-class families.",
+        "quotes": [
+          "q81",
+          "q164"
+        ]
+      },
+      "models": {
+        "sonnet": {
+          "a": -0.7,
+          "b": -0.75
+        },
+        "gpt5": {
+          "a": -0.4,
+          "b": -0.8
+        }
+      }
+    },
+    {
+      "id": "regulatory-burden",
+      "question": "should the us reduce federal regulations on business?",
+      "poles": [
+        "reduce federal regulatory burden",
+        "maintain regulatory protections"
+      ],
+      "quotesA": [
+        "q109"
+      ],
+      "quotesB": [
+        "q191",
+        "q193"
+      ],
+      "status": "clear",
+      "note": "",
+      "flags": [],
+      "a": {
+        "score": -0.75,
+        "confidence": 0.7,
+        "reason": "Criticizes federal administration for making it harder to build and develop through excessive regulation.",
+        "quotes": [
+          "q109"
+        ]
+      },
+      "b": {
+        "score": -0.87,
+        "confidence": 0.85,
+        "reason": "Strongly criticizes regulatory costs and proposes forcing congressional votes on all regulations to reduce them.",
+        "quotes": [
+          "q191",
+          "q193"
+        ]
+      },
+      "models": {
+        "sonnet": {
+          "a": -0.8,
+          "b": -0.9
+        },
+        "gpt5": {
+          "a": -0.7,
+          "b": -0.85
+        }
+      }
+    },
+    {
+      "id": "gender-ideology",
+      "question": "should schools teach gender ideology to students?",
+      "poles": [
+        "prevent schools from teaching gender topics",
+        "allow gender curriculum in schools"
+      ],
+      "quotesA": [
+        "q158"
+      ],
+      "quotesB": [
+        "q103"
+      ],
+      "status": "clear",
+      "note": "",
+      "flags": [],
+      "a": {
+        "score": -0.82,
+        "confidence": 0.7,
+        "reason": "Strongly opposes what he characterizes as sexualization in schools and supports bills preventing gender-related content.",
+        "quotes": [
+          "q158"
+        ]
+      },
+      "b": {
+        "score": -0.95,
+        "confidence": 0.85,
+        "reason": "Explicitly states schools should not talk to kids about gender at all, reserving this entirely for parents.",
+        "quotes": [
+          "q103"
+        ]
+      },
+      "models": {
+        "sonnet": {
+          "a": -0.85,
+          "b": -0.9
+        },
+        "gpt5": {
+          "a": -0.8,
+          "b": -1
+        }
+      }
+    }
+  ]
+}

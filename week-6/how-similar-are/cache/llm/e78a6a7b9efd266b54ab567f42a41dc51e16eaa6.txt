@@ -1,0 +1,27 @@
+```json
+{"p": 49, "quote": "My administration is taking on \"junk\" fees, those hidden surcharges too many businesses use to make you pay more.", "context": "Junk fees and hidden surcharges"}
+```
+```json
+{"p": 49, "quote": "Junk fees may not matter to the very wealthy, but they matter to most folks in homes like the one I grew up in.", "context": "Impact of junk fees on working families"}
+```
+```json
+{"p": 49, "quote": "I know how unfair it feels when a company overcharges you and gets away with it.", "context": "Personal understanding of unfair pricing"}
+```
+```json
+{"p": 50, "quote": "Let's triple our anti-fraud strike forces going after these criminals, double the statute of limitations on these crimes, and crack down on identity fraud by criminal syndicates stealing billions of dollars from the American people.", "context": "Fighting fraud and protecting taxpayers"}
+```
+```json
+{"p": 51, "quote": "I've never had to have \"The Talk\" with my children that so many Black and Brown families have had with their children: \"If a police officer pulls you over, turn on your interior lights. Don't reach for your license. Keep your hands on the steering wheel.\"", "context": "Racial disparities in police interactions"}
+```
+```json
+{"p": 51, "quote": "I know most cops are good. decent people. They risk their lives every time they put on that shield. But what happened to Tyre in Memphis happens too often.", "context": "Police conduct and accountability"}
+```
+```json
+{"p": 52, "quote": "Let's offer every American the path to a good career whether they go to college or not.", "context": "Career opportunities and education access"}
+```
+```json
+{"p": 53, "quote": "The climate crisis doesn't care if your state is red or blue. It is an existential threat.", "context": "Climate change as existential threat"}
+```
+```json
+{"p": 54, "quote": "On my watch, American roads, American bridges, and American highways will be made with American products.", "context": "Buy American policy for infrastructure"}
+```

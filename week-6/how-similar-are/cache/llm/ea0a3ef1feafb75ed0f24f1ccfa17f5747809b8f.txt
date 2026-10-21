@@ -1,0 +1,39 @@
+```json
+{"p": 1, "quote": "at long last, I can announce a cease-fire and a hostage deal has been reached between Israel and Hamas.", "context": "announcing Israel-Hamas cease-fire and hostage deal"}
+```
+
+```json
+{"p": 1, "quote": "fighting in Gaza will stop, and soon the hostages will return home to their families.", "context": "describing outcome of cease-fire agreement"}
+```
+
+```json
+{"p": 1, "quote": "The elements of this deal were what I laid out in detail this past May, which was embraced by countries around the world and endorsed overwhelmingly by the U.N. Security Council.", "context": "describing origin of deal framework"}
+```
+
+```json
+{"p": 1, "quote": "I'm deeply satisfied this day has come—finally come for the sake of the people of Israel and the families waiting in agony and for the sake of the innocent people in Gaza who suffered unimaginable devastation because of the war.", "context": "expressing satisfaction about cease-fire agreement"}
+```
+
+```json
+{"p": 1, "quote": "The Palestinian people have gone through hell. Too many innocent people have died. Too many communities have been destroyed.", "context": "describing suffering of Palestinian people"}
+```
+
+```json
+{"p": 1, "quote": "In this deal, the people of Gaza can finally recover and rebuild. They can look to a future without Hamas in power.", "context": "describing future prospects for Gaza under deal"}
+```
+
+```json
+{"p": 1, "quote": "as I prepare to leave office, our friends are strong, our enemies are weak, and there's a—genuine opportunities for a new future.", "context": "assessing state of Middle East upon leaving office"}
+```
+
+```json
+{"p": 1, "quote": "Well, you know, this is the exact framework of the deal I proposed back in May—exact—and we got the world to endorse it.", "context": "responding to question about Trump credit for deal"}
+```
+
+```json
+{"p": 1, "quote": "It's America's support for Israel that helped them badly weaken Hamas and its backers and create the conditions for this deal.", "context": "explaining US role in enabling deal"}
+```
+
+```json
+{"p": 1, "quote": "I'm confident.", "context": "expressing confidence deal will hold"}
+```

@@ -1,0 +1,15 @@
+```json
+{"p": 19, "quote": "She hates Israel. She wouldn't even meet with Netanyahu when he went to Congress to make a very important speech. She hates Israel.", "context": "Harris's stance on Israel and Netanyahu meeting"}
+```
+
+```json
+{"p": 19, "quote": "Iran was broke under Donald Trump. Now Iran has $300 billion because they took off all the sanctions that I had.", "context": "Iran sanctions and funding of terrorist groups"}
+```
+
+```json
+{"p": 23, "quote": "I don't know. Is she Indian or is she Black?", "context": "Questioning Kamala Harris's racial identity"}
+```
+
+```json
+{"p": 23, "quote": "I respect either one, but she obviously doesn't because she was Indian all the way and then all of the sudden she made a turn and she went, she became a Black person.", "context": "Harris's multicultural background and identity"}
+```

@@ -1,0 +1,15 @@
+```json
+{"topic": "reading-proficiency-priority", "a": {"score": -0.9, "confidence": 0.85, "reason": "Explicitly wants to expand tutoring and summer learning to ensure every child reads by third grade", "quotes": ["q69"]}, "b": {"score": -0.95, "confidence": 0.9, "reason": "Emphasizes reading by third grade as critical need with specific consequence cited and calls for national reading remediation", "quotes": ["q90"]}}
+```
+```json
+{"topic": "prescription-drug-price-control", "a": {"score": -0.95, "confidence": 0.95, "reason": "Directly enacted government caps on insulin costs and total prescription drug spending for seniors", "quotes": ["q122", "q123"]}, "b": {"score": -0.3, "confidence": 0.5, "reason": "Advocates breaking up and making healthcare transparent but doesn't specifically mention government price caps", "quotes": ["q86"]}}
+```
+```json
+{"topic": "trade-policy-china-focus", "a": {"score": 0.0, "confidence": 0.3, "reason": "Discusses general economic vision but doesn't specifically address China trade or security priorities", "quotes": ["q116"]}, "b": {"score": 0.8, "confidence": 0.9, "reason": "Explicitly states trade with China was wrong focus and security concerns should be prioritized instead", "quotes": ["q84"]}}
+```
+```json
+{"topic": "wealthy-tax-burden", "a": {"score": -0.9, "confidence": 0.95, "reason": "Specifically advocates raising billionaire tax rates from 8.2% to 24-25% to generate revenue", "quotes": ["q57"]}, "b": {"score": -0.4, "confidence": 0.6, "reason": "Acknowledges rich getting richer as problem and focuses on middle class relief but doesn't explicitly call for higher wealthy taxes", "quotes": ["q81"]}}
+```
+```json
+{"topic": "middle-class-economic-focus", "a": {"score": -0.95, "confidence": 0.95, "reason": "Explicitly centers economic policy on middle-out bottom-up approach with personal anecdotes emphasizing middle class focus", "quotes": ["q104", "q108", "q116"]}, "b": {"score": -0.85, "confidence": 0.85, "reason": "Explicitly states need to beef up middle class and promises tax relief to middle-class families", "quotes": ["q81", "q164"]}}
+```

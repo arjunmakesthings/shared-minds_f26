@@ -1,0 +1,15 @@
+```json
+{"p": 37, "quote": "Emerging technologies, such as artificial intelligence, hold both enormous potential and enormous peril.", "context": "AI technology risks and opportunities"}
+```
+
+```json
+{"p": 37, "quote": "We need to be sure they are used as tools of opportunity, not as weapons of oppression.", "context": "How AI should be used"}
+```
+
+```json
+{"p": 37, "quote": "the United States is working to strengthen rules and policies so AI technologies are safe before they are released to the public; to make sure we govern this technology--not the other way around, having it govern us.", "context": "AI governance and regulation"}
+```
+
+```json
+{"p": 38, "quote": "a new standard, where colleges take into account the adversity a student has overcome, including racial discrimination that individuals have faced in their own lives.", "context": "College admissions policy after affirmative action ruling"}
+```

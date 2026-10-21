@@ -1,0 +1,115 @@
+```json
+{"p": 1, "quote": "Well, this is only a 400-page speech.", "context": "Opening remark about length of his speech"}
+```
+
+```json
+{"p": 1, "quote": "I want to thank you, Glenn. And thank you, CeCe, for the introduction and for the leadership you've—you served as the Chair of the—my Council of Economic Advisers.", "context": "Thanking individuals for their roles"}
+```
+
+```json
+{"p": 1, "quote": "Last month, I spoke to the Economic Club of Washington D.C. about the pivotal actions we took to rescue the economy from the devastating harm caused by the way the—in my view, the pandemic was handled and how we delivered immediate economic relief to those most in need.", "context": "Economy rescue efforts and pandemic response"}
+```
+
+```json
+{"p": 1, "quote": "We got back to full employment, got inflation back down, managed the soft landing that most people thought was not very much likely to happen.", "context": "Economic achievements during his administration"}
+```
+
+```json
+{"p": 1, "quote": "And it is my profound hope that the new administration will preserve and build on this progress.", "context": "Hope for future administration's economic policy"}
+```
+
+```json
+{"p": 1, "quote": "After decades of trickle-down economics that primarily benefited those at the very top, we've written a new book that's growing the economy—the middle out and the bottom up—that benefits, thus far, everyone.", "context": "Contrast between old and new economic approach"}
+```
+
+```json
+{"p": 1, "quote": "Over 16 million new jobs—that's new jobs—the most in any single Presidential term in American history; the lowest average unemployment rate of any administration in the last 50 years; 20 million applications for new business records—I mean, it's—it's for a new business—for—that is a record, I should say; stock market hits record highs.", "context": "Economic statistics and accomplishments"}
+```
+
+```json
+{"p": 1, "quote": "For 36 years, I was listed as the poorest man in Congress.", "context": "Personal financial history during Senate career"}
+```
+
+```json
+{"p": 1, "quote": "After decades of sending jobs overseas for the cheapest labor possible, companies are coming back to America, investing and building here, and creating jobs here in America, in my view, where they belong.", "context": "Bringing manufacturing jobs back to America"}
+```
+
+```json
+{"p": 1, "quote": "We acted quickly to get inflation down with the help of Republicans and Democrats. Inflation came down to prepandemic levels.", "context": "Inflation reduction efforts and bipartisan cooperation"}
+```
+
+```json
+{"p": 1, "quote": "With the outcome of this election, we also face an inflection point: We do—[laughter]—do we continue to grow the economy from the middle out and the bottom up, investing in all of America and Americans, supporting unions and working families as we have the past 4 years?", "context": "Choice between two economic philosophies"}
+```
+
+```json
+{"p": 1, "quote": "I'm not anticorporation. For 36 years, I represented corporate America. I—my State has more corporations in—registered in my State than every other State in the Union.", "context": "Pro-business stance and Senate representation"}
+```
+
+```json
+{"p": 1, "quote": "But, to make the most of the opportunities ahead, I want to share key pages from our middle-out, bottom-up economic playbook and lay down what I believe to be a new set of benchmarks to measure against the next 4 years and see whether this theory is more than just a phenomenon.", "context": "Economic playbook and measuring progress"}
+```
+
+```json
+{"p": 1, "quote": "Four years ago, when I came to office, 3,000 Americans were dying per day from the pandemic that infected and the—had profound effect on our economy—not only ours, but around the world.", "context": "Pandemic conditions when taking office"}
+```
+
+```json
+{"p": 1, "quote": "The previous administration, quite frankly, had no plan—real plan—to get us through one of the toughest periods in our Nation's history.", "context": "Criticism of previous administration's pandemic response"}
+```
+
+```json
+{"p": 1, "quote": "I've never been a big fan of trickle-down economics. The—it was a hammer that was hammering working people.", "context": "Opposition to trickle-down economic theory"}
+```
+
+```json
+{"p": 1, "quote": "My dad used to say—my dad was a well-read man who didn't get to—he got accepted to go to Hopkins and—but during the war, he never got to go. But my dad used to talk about—he said, \"Dad\"—\"Joey, not a whole lot trickles down on my kitchen table at the end of the month.\"", "context": "Father's skepticism about trickle-down economics"}
+```
+
+```json
+{"p": 1, "quote": "Slashing taxes for the very wealthy and the biggest corporations, diminishing public investment in infrastructure, in education, in research and development.", "context": "Criticism of trickle-down approach effects"}
+```
+
+```json
+{"p": 1, "quote": "And despite the mythical reputation to pay for itself, trickle-down economics deeply worsened our fiscal outlook, in my view.", "context": "Trickle-down economics impact on fiscal outlook"}
+```
+
+```json
+{"p": 1, "quote": "By the way, I'm all for the very wealthy. I'm not joking. If you can make as much money as you can, good for you. But everybody's got to be—pay their fair share.", "context": "View on wealth and fair taxation"}
+```
+
+```json
+{"p": 1, "quote": "Remember \"Infrastructure Week\"? We had Infrastructure Week for 4 years. Nothing got built.", "context": "Criticism of previous administration's infrastructure efforts"}
+```
+
+```json
+{"p": 1, "quote": "Well, everybody said when I wanted to have an infrastructure bill that mattered—over a trillion three hundred billion dollars—we'd never get it done. We got it done.", "context": "Infrastructure bill accomplishment"}
+```
+
+```json
+{"p": 1, "quote": "The next President has a game plan I laid out. And by the way, he's going to find, since I made a promise I'd invest as much in red States as blue, he's going to have a trouble not doing it.", "context": "Investment commitment to red and blue states"}
+```
+
+```json
+{"p": 1, "quote": "The United States invented these computer chips, but over time, we stopped making them. In the very beginning, we had—we produced 40 percent of them in the world. Well, they all went overseas, almost—virtually all.", "context": "Semiconductor manufacturing shift overseas"}
+```
+
+```json
+{"p": 1, "quote": "You couldn't get these chips. Prices soared. For example, it takes over 3,000 chips to build an American automobile—3,000.", "context": "Pandemic supply chain impact on chip availability"}
+```
+
+```json
+{"p": 1, "quote": "I came into office with a different vision for America that's been consistent with my record—good, bad, or indifferent—since I've been a Senator: grow the economy from the middle out and the bottom up; invest in America and American products.", "context": "Core economic vision and consistency"}
+```
+
+```json
+{"p": 1, "quote": "I was determined to restore U.S. leadership in industries of the future.", "context": "Goal to restore American industrial leadership"}
+```
+
+```json
+{"p": 1, "quote": "4 years later, we have proof that the playbook is, at least now, working.", "context": "Validation of economic strategy"}
+```
+
+```json
+{"p": 1, "quote": "Within the first 2 months of office, I signed the American Rescue Plan—the most significant economic recovery package in our history—and I also learned something from Donald Trump.", "context": "American Rescue Plan implementation"}
+```

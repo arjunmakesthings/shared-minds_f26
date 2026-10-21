@@ -1,0 +1,43 @@
+```json
+{"p": 25, "quote": "All of a sudden, Hamas goes and invades Israel and butchers those people on Putin's birthday. There is no one happier right now than Putin because all of the attention America had on Ukraine suddenly went to Israel.", "context": "Connection between Ukraine war, Israel-Hamas conflict, and Putin's interests"}
+```
+
+```json
+{"p": 25, "quote": "But what wins all of that is a strong America, not a weak America, and that's what Joe Biden's given us.", "context": "Strong America needed to address global conflicts"}
+```
+
+```json
+{"p": 26, "quote": "When it comes to China and Taiwan, the one way that we keep China from going into Taiwan is, one, make sure that we win in Ukraine, that we protect our friends, but also let China know that there'll be hell to pay if they go into Taiwan.", "context": "Strategy to deter China from invading Taiwan"}
+```
+
+```json
+{"p": 26, "quote": "We have to make sure that we are not relying on China for anything related to our national security, which means let's start focusing on doing deals with our friends now.", "context": "Reducing dependence on China for national security"}
+```
+
+```json
+{"p": 27, "quote": "We're almost $34 trillion in debt. 60% of Americans are living paycheck to paycheck, 50% of American families can't afford diapers. One in six American families can't pay their utility bills.", "context": "Economic hardship facing Americans"}
+```
+
+```json
+{"p": 27, "quote": "I can tell you that I think he was the right president at the right time. I don't think he's the right president now. I think that he put us $8 trillion in debt and our kids are never going to forgive us for that.", "context": "View on Trump's presidency and debt impact"}
+```
+
+```json
+{"p": 28, "quote": "The only thing we should be doing is supporting them in eliminating Hamas. It is not that Israel needs America, America needs Israel.", "context": "US support for Israel against Hamas"}
+```
+
+```json
+{"p": 29, "quote": "The world is on fire. We have a war in Europe. We've got a war in the Middle East. We've got China on the march.", "context": "Global security threats"}
+```
+
+```json
+{"p": 29, "quote": "A strong America doesn't start wars, a strong America prevents wars.", "context": "US military strength and conflict prevention"}
+```
+
+```json
+{"p": 30, "quote": "I can tell you what we're seeing now in America is the rich are getting richer and the poor are getting poorer. We have to go and start beefing up the middle class and the first thing I would do is I'll eliminate the federal gas and diesel tax in this country.", "context": "Income inequality and middle class tax relief"}
+```
+
+```json
+{"p": 30, "quote": "We have to stop the spending binge that's happening by Republicans and Democrats in Congress.", "context": "Congressional spending"}
+```

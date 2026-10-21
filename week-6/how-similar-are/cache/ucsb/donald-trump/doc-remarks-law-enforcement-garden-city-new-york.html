@@ -1,0 +1,658 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML+RDFa 1.0//EN"
+  "http://www.w3.org/MarkUp/DTD/xhtml-rdfa-1.dtd">
+<html lang="en" dir="ltr" prefix="content: http://purl.org/rss/1.0/modules/content/ dc: http://purl.org/dc/terms/ foaf: http://xmlns.com/foaf/0.1/ og: http://ogp.me/ns# rdfs: http://www.w3.org/2000/01/rdf-schema# sioc: http://rdfs.org/sioc/ns# sioct: http://rdfs.org/sioc/types# skos: http://www.w3.org/2004/02/skos/core# xsd: http://www.w3.org/2001/XMLSchema#">
+<head profile="http://www.w3.org/1999/xhtml/vocab">
+  <meta charset="utf-8"><script type="text/javascript">(window.NREUM||(NREUM={})).init={ajax:{deny_list:["bam.nr-data.net"]}};(window.NREUM||(NREUM={})).loader_config={licenseKey:"dee899de70",applicationID:"80106271",browserID:"133825811"};;/*! For license information please see nr-loader-rum-1.324.0.min.js.LICENSE.txt */
+(()=>{var e={8122(e,t,r){"use strict";r.d(t,{a:()=>i});var n=r(944);function i(e,t){try{if(!e||"object"!=typeof e)return(0,n.R)(3);if(!t||"object"!=typeof t)return(0,n.R)(4);const r=Object.create(Object.getPrototypeOf(t),Object.getOwnPropertyDescriptors(t)),a=0===Object.keys(r).length?e:r;for(let s in a)if(void 0!==e[s])try{if(null===e[s]){r[s]=null;continue}Array.isArray(e[s])&&Array.isArray(t[s])?r[s]=Array.from(new Set([...e[s],...t[s]])):e[s]instanceof Map||e[s]instanceof Set||e[s]instanceof Date||e[s]instanceof RegExp?r[s]=e[s]:"object"==typeof e[s]&&null!==t[s]&&"object"==typeof t[s]?r[s]=i(e[s],t[s]):r[s]=e[s]}catch(e){r[s]||(0,n.R)(1,e)}return r}catch(e){(0,n.R)(2,e)}}},2555(e,t,r){"use strict";r.d(t,{f:()=>s});var n=r(384),i=r(8122);const a={beacon:n.NT.beacon,errorBeacon:n.NT.errorBeacon,licenseKey:void 0,applicationID:void 0,sa:void 0,queueTime:void 0,applicationTime:void 0,ttGuid:void 0,user:void 0,account:void 0,product:void 0,extra:void 0,jsAttributes:{},userAttributes:void 0,atts:void 0,transactionName:void 0,tNamePlain:void 0};function s(e){try{return!!e.licenseKey&&!!e.errorBeacon&&!!e.applicationID}catch(e){return!1}}r.d(t,["D",0,e=>(0,i.a)(e,a)])},7699(e,t,r){"use strict";var n=r(860);const i=1e6,a={[n.K7.logging]:!0,[n.K7.genericEvents]:!0,[n.K7.jserrors]:!0,[n.K7.ajax]:!0};r.d(t,["It",0,i,"KC",0,a,"qh",0,"SESSION_ERROR","zd",0,5e5])},9324(e,t,r){"use strict";r.d(t,["xv",0,"1.324.0"])},981(e,t,r){"use strict";r.d(t,["R",0,{AJAX:"AjaxRequest",PA:"PageAction",UA:"UserAction",BP:"BrowserPerformance",WS:"WebSocket",SPV:"SecurityPolicyViolation",JSE:"JavaScriptError",LOG:"Log",PVE:"PageView",PVT:"PageViewTiming",SR:"SessionReplay",ST:"SessionTrace",BI:"BrowserInteraction"}])},6154(e,t,r){"use strict";var n=r(1863);const i="undefined"!=typeof window&&!!window.document,a="undefined"!=typeof WorkerGlobalScope&&("undefined"!=typeof self&&self instanceof WorkerGlobalScope&&self.navigator instanceof WorkerNavigator||"undefined"!=typeof globalThis&&globalThis instanceof WorkerGlobalScope&&globalThis.navigator instanceof WorkerNavigator),s=i?window:"undefined"!=typeof WorkerGlobalScope&&("undefined"!=typeof self&&self instanceof WorkerGlobalScope&&self||"undefined"!=typeof globalThis&&globalThis instanceof WorkerGlobalScope&&globalThis),o=Boolean("hidden"===s?.document?.visibilityState),c=""+s?.location,u=/iPad|iPhone|iPod/.test(s.navigator?.userAgent),d=u&&"undefined"==typeof SharedWorker,l=((()=>{const e=s.navigator?.userAgent?.match(/Firefox[/\s](\d+\.\d+)/);Array.isArray(e)&&e.length>=2&&e[1]})(),Date.now()-(0,n.t)());r.d(t,["OF",0,u,"RI",0,i,"WN",0,l,"bv",0,a,"gm",0,s,"m",0,c,"mw",0,o,"sb",0,d,"zk",0,()=>{const e=s?.performance?.getEntriesByType?.("navigation")?.[0];if(e&&e.responseStart>0&&e.responseStart<s.performance.now())return e}])},3241(e,t,r){"use strict";r.d(t,{W:()=>i});var n=r(6154);function i(e={}){try{n.gm.dispatchEvent(new CustomEvent("newrelic",{detail:e}))}catch(e){}}},1687(e,t,r){"use strict";r.d(t,{Ak:()=>o,Ze:()=>u,x3:()=>c});var n=r(3241),i=r(3606),a=r(860),s=r(2646);function o(e,t){if(!e)return;const r={staged:!1,priority:a.P3[t]||0};e.runtime.drainRegistry.get(t)||e.runtime.drainRegistry.set(t,r)}function c(e,t){if(!e)return;const r=e.runtime.drainRegistry;r&&(r.get(t)&&r.delete(t),l(e,t,!1),r.size&&d(e))}function u(e,t="feature",r=!1){if(e){if(!e.runtime.drainRegistry.get(t)||r)return l(e,t);e.runtime.drainRegistry.get(t).staged=!0,d(e)}}function d(e){if(!e)return;const t=Array.from(e.runtime.drainRegistry);t.every(([e,t])=>t.staged)&&(t.sort((e,t)=>e[1].priority-t[1].priority),t.forEach(([t])=>{e.runtime.drainRegistry.delete(t),l(e,t)}))}function l(e,t,r=!0){if(!e)return;const a=e.ee,o=i.i.handlers;if(a&&!a.aborted&&a.backlog&&o){if((0,n.W)({type:"lifecycle",name:"drain",feature:t}),r){const e=a.backlog[t],r=o[t];if(r){for(let t=0;e&&t<e.length;++t)f(e[t],r);Object.entries(r).forEach(([e,t])=>{Object.values(t||{}).forEach(t=>{t[0]?.on&&t[0].context()instanceof s.y&&!t[0].listeners(e).includes(t[1])&&t[0].on(e,t[1])})})}}a.isolatedBacklog||delete o[t],a.backlog[t]=null,a.emit("drain-"+t,[])}}function f(e,t){var r=e[1];Object.values(t[r]||{}).forEach(t=>{var r=e[0];if(t[0]===r){var n=t[1],i=e[3],a=e[2];n.apply(i,a)}})}},7836(e,t,r){"use strict";var n=r(384),i=r(8990),a=r(2646),s=r(5607);const o="nr@context:".concat(s.W),c=function e(t,r){var n={},s={},d={},l=!1;try{l=16===r.length&&u.initializedAgents?.[r]?.runtime.isolatedBacklog}catch(e){}var f={on:p,addEventListener:p,removeEventListener:function(e,t){var r=n[e];if(!r)return;for(var i=0;i<r.length;i++)r[i]===t&&r.splice(i,1)},emit:function(e,r,n,i,a){!1!==a&&(a=!0);if(c.aborted&&!i)return;t&&a&&t.emit(e,r,n);var o=g(n);m(e).forEach(e=>{e.apply(o,r)});var u=v()[s[e]];u&&u.push([f,e,r,o]);return o},get:h,listeners:m,context:g,buffer:function(e,t){const r=v();if(t=t||"feature",f.aborted)return;Object.entries(e||{}).forEach(([e,n])=>{s[n]=t,t in r||(r[t]=[])})},abort:function(){f._aborted=!0,Object.keys(f.backlog).forEach(e=>{delete f.backlog[e]})},isBuffering:function(e){return!!v()[s[e]]},debugId:r,backlog:l?{}:t&&"object"==typeof t.backlog?t.backlog:{},isolatedBacklog:l};return Object.defineProperty(f,"aborted",{get:()=>{let e=f._aborted||!1;return e||(t&&(e=t.aborted),e)}}),f;function g(e){return e&&e instanceof a.y?e:e?(0,i.I)(e,o,()=>new a.y(o)):new a.y(o)}function p(e,t){n[e]=m(e).concat(t)}function m(e){return n[e]||[]}function h(t){return d[t]=d[t]||e(f,t)}function v(){return f.backlog}}(void 0,"globalEE"),u=(0,n.Zm)();u.ee||(u.ee=c),r.d(t,["P",0,o,"ee",0,c])},2646(e,t,r){"use strict";r.d(t,{y:()=>n});class n{constructor(e){this.contextId=e}}},9908(e,t,r){"use strict";r.d(t,{d:()=>n,p:()=>i});var n=r(7836).ee.get("handle");function i(e,t,r,i,a){a?(a.buffer([e],i),a.emit(e,t,r)):(n.buffer([e],i),n.emit(e,t,r))}},3606(e,t,r){"use strict";r.d(t,{i:()=>a});var n=r(9908);a.on=s;var i=a.handlers={};function a(e,t,r,a){s(a||n.d,i,e,t,r)}function s(e,t,r,i,a){a||(a="feature"),e||(e=n.d);var s=t[a]=t[a]||{};(s[r]=s[r]||[]).push([e,i])}},3878(e,t,r){"use strict";function n(e,t){return{capture:e,passive:!1,signal:t}}function i(e,t,r=!1,i){window.addEventListener(e,t,n(r,i))}function a(e,t,r=!1,i){document.addEventListener(e,t,n(r,i))}r.d(t,{DD:()=>a,jT:()=>n,sp:()=>i})},5607(e,t,r){"use strict";const n=(0,r(9566).bz)();r.d(t,["W",0,n])},9566(e,t,r){"use strict";r.d(t,{LA:()=>s,bz:()=>a});var n=r(6154);function i(e,t){return e?15&e[t]:16*Math.random()|0}function a(){const e=n.gm?.crypto||n.gm?.msCrypto;let t,r=0;return e&&e.getRandomValues&&(t=e.getRandomValues(new Uint8Array(30))),"xxxxxxxx-xxxx-4xxx-yxxx-xxxxxxxxxxxx".split("").map(e=>"x"===e?i(t,r++).toString(16):"y"===e?(3&i()|8).toString(16):e).join("")}function s(e){const t=n.gm?.crypto||n.gm?.msCrypto;let r,a=0;t&&t.getRandomValues&&(r=t.getRandomValues(new Uint8Array(e)));const s=[];for(var o=0;o<e;o++)s.push(i(r,a++).toString(16));return s.join("")}},2614(e,t,r){"use strict";r.d(t,["BB",0,18e5,"Wt",0,"NRBA_SESSION::","iL",0,{SAME_TAB:"same-tab",CROSS_TAB:"cross-tab"},"tS",0,{STARTED:"session-started",PAUSE:"session-pause",RESET:"session-reset",RESUME:"session-resume",UPDATE:"session-update"},"wk",0,144e5])},1863(e,t,r){"use strict";function n(){return Math.floor(performance.now())}r.d(t,{t:()=>n})},944(e,t,r){"use strict";r.d(t,{R:()=>i});var n=r(3241);function i(e,t){"function"==typeof console.debug&&(console.debug("New Relic Warning: https://github.com/newrelic/newrelic-browser-agent/blob/main/docs/warning-codes.md#".concat(e),t),(0,n.W)({drained:null,type:"data",name:"warn",feature:"warn",data:{code:e,secondary:t}}))}},8990(e,t,r){"use strict";r.d(t,{I:()=>i});var n=Object.prototype.hasOwnProperty;function i(e,t,r){if(n.call(e,t))return e[t];var i=r();if(Object.defineProperty&&Object.keys)try{return Object.defineProperty(e,t,{value:i,writable:!0,enumerable:!1}),i}catch(e){}return e[t]=i,i}},6389(e,t,r){"use strict";function n(e,t=500,r={}){const n=r?.leading||!1;let i;return(...r)=>{n&&void 0===i&&(e.apply(this,r),i=setTimeout(()=>{i=clearTimeout(i)},t)),n||(clearTimeout(i),i=setTimeout(()=>{e.apply(this,r)},t))}}function i(e){let t=!1;return(...r)=>{t||(t=!0,e.apply(this,r))}}r.d(t,{J:()=>i,s:()=>n})},1910(e,t,r){"use strict";r.d(t,{i:()=>a});var n=r(944);const i=new Map;function a(...e){return e.every(e=>{if(i.has(e))return i.get(e);const t="function"==typeof e?e.toString():"",r=t.includes("[native code]"),a=t.includes("nrWrapper");return r||a||(0,n.R)(64,e?.name||t),i.set(e,r),r})}},5289(e,t,r){"use strict";r.d(t,{GG:()=>s,Qr:()=>c,sB:()=>o});var n=r(3878),i=r(6389);function a(){return"undefined"==typeof document||"complete"===document.readyState}function s(e,t){if(a())return e();const r=(0,i.J)(e),s=setInterval(()=>{a()&&(clearInterval(s),r())},500);(0,n.sp)("load",r,t)}function o(e){if(a())return e();(0,n.DD)("DOMContentLoaded",e)}function c(e){if(a())return e();(0,n.sp)("popstate",e)}},384(e,t,r){"use strict";r.d(t,{Zm:()=>c,bQ:()=>d,dV:()=>u,pV:()=>l});var n=r(6154),i=r(1863),a=r(944),s=r(1910);const o={beacon:"bam.nr-data.net",errorBeacon:"bam.nr-data.net"};function c(){return n.gm.NREUM||(n.gm.NREUM={}),void 0===n.gm.newrelic&&(n.gm.newrelic=n.gm.NREUM),n.gm.NREUM}function u(){let e=c();return e.o||(e.o={ST:n.gm.setTimeout,SI:n.gm.setImmediate||n.gm.setInterval,CT:n.gm.clearTimeout,XHR:n.gm.XMLHttpRequest,REQ:n.gm.Request,EV:n.gm.Event,PR:n.gm.Promise,MO:n.gm.MutationObserver,FETCH:n.gm.fetch,WS:n.gm.WebSocket},(0,s.i)(...Object.values(e.o))),e}function d(e,t){let r=c();r.initializedAgents??={},t.initializedAt={ms:(0,i.t)(),date:new Date},r.initializedAgents[e]=t,2===Object.keys(r.initializedAgents).length&&(0,a.R)(69)}function l(){return function(){let e=c();const t=e.info||{};e.info={beacon:o.beacon,errorBeacon:o.errorBeacon,...t}}(),function(){let e=c();const t=e.init||{};e.init={...t}}(),u(),function(){let e=c();const t=e.loader_config||{};e.loader_config={...t}}(),c()}r.d(t,["NT",0,o])},2843(e,t,r){"use strict";r.d(t,{G:()=>a,u:()=>i});var n=r(3878);function i(e,t=!1,r,i){(0,n.DD)("visibilitychange",function(){if(t)return void("hidden"===document.visibilityState&&e());e(document.visibilityState)},r,i)}function a(e,t,r){(0,n.sp)("pagehide",e,t,r)}},9300(e,t,r){"use strict";r(860).K7.ajax;r.d(t,["mo",0,{NONE:"none",FAILURES:"failures",ALL:"all"}])},3969(e,t,r){"use strict";const n=r(860).K7.metrics;r.d(t,["TZ",0,n,"XG",0,"storeEventMetrics","xV",0,"storeSupportabilityMetrics"])},6630(e,t,r){"use strict";const n=r(860).K7.pageViewEvent;r.d(t,["T",0,n])},782(e,t,r){"use strict";const n=r(860).K7.pageViewTiming;r.d(t,["T",0,n])},4234(e,t,r){"use strict";r.d(t,{W:()=>i});var n=r(1687);class i{constructor(e,t){this.agentRef=e,this.ee=e?.ee,this.featureName=t,this.blocked=!1}deregisterDrain(){(0,n.x3)(this.agentRef,this.featureName)}}},7767(e,t,r){"use strict";var n=r(6154);r.d(t,["V",0,e=>n.RI&&!0===e?.privacy.cookies_enabled])},8362(e,t,r){"use strict";r.d(t,{d:()=>a});var n=r(9566),i=r(1741);class a extends i.W{agentIdentifier=(0,n.LA)(16)}},1741(e,t,r){"use strict";r.d(t,{W:()=>a});var n=r(944),i=r(4261);class a{#e(e,...t){if(this[e]!==a.prototype[e])return this[e](...t);(0,n.R)(35,e)}addPageAction(e,t){return this.#e(i.hG,e,t)}register(e){return this.#e(i.eY,e)}recordCustomEvent(e,t){return this.#e(i.fF,e,t)}setPageViewName(e,t){return this.#e(i.Fw,e,t)}setCustomAttribute(e,t,r){return this.#e(i.cD,e,t,r)}noticeError(e,t){return this.#e(i.o5,e,t)}setUserId(e,t=!1){return this.#e(i.Dl,e,t)}setApplicationVersion(e){return this.#e(i.nb,e)}setErrorHandler(e){return this.#e(i.bt,e)}addRelease(e,t){return this.#e(i.k6,e,t)}log(e,t){return this.#e("log",e,t)}start(){return this.#e("start")}finished(e){return this.#e(i.BL,e)}recordReplay(){return this.#e(i.CH)}pauseReplay(){return this.#e(i.Tb)}addToTrace(e){return this.#e(i.U2,e)}setCurrentRouteName(e){return this.#e(i.PA,e)}interaction(e){return this.#e(i.dT,e)}wrapLogger(e,t,r){return this.#e(i.Wb,e,t,r)}measure(e,t){return this.#e(i.V1,e,t)}consent(e){return this.#e(i.Pv,e)}}},4261(e,t,r){"use strict";r.d(t,["BL",0,"finished","CH",0,"recordReplay","Dl",0,"setUserId","Fw",0,"setPageViewName","PA",0,"setCurrentRouteName","Pv",0,"consent","Tb",0,"pauseReplay","U2",0,"addToTrace","V1",0,"measure","Wb",0,"wrapLogger","bt",0,"setErrorHandler","cD",0,"setCustomAttribute","dT",0,"interaction","eY",0,"register","fF",0,"recordCustomEvent","hG",0,"addPageAction","k6",0,"addRelease","nb",0,"setApplicationVersion","o5",0,"noticeError"])},1738(e,t,r){"use strict";r.d(t,{U:()=>l,Y:()=>d});var n=r(3241),i=r(9908),a=r(1863),s=r(944),o=r(3969),c=r(8362),u=r(860);function d(e,t,r,a){const d=a||r;!d||d[e]&&d[e]!==c.d.prototype[e]||(d[e]=function(){(0,i.p)(o.xV,["API/"+e+"/called"],void 0,u.K7.metrics,r.ee),(0,n.W)({drained:!!r.runtime?.activatedFeatures,type:"data",name:"api",feature:"api-"+e,data:{}});try{return t.apply(this,arguments)}catch(e){(0,s.R)(23,e)}})}function l(e,t,r,n,s){const o=e.info;null===r?delete o.jsAttributes[t]:o.jsAttributes[t]=r,(s||null===r)&&(0,i.p)("api-"+n,[(0,a.t)(),t,r],void 0,"session",e.ee)}},8374(e,t,r){r.nc=(()=>{try{return document?.currentScript?.nonce}catch(e){}return""})()},860(e,t,r){"use strict";const n="events",i="jserrors",a="browser/blobs",s="browser/logs",o={ajax:"ajax",genericEvents:"generic_events",jserrors:i,logging:"logging",metrics:"metrics",pageAction:"page_action",pageViewEvent:"page_view_event",pageViewTiming:"page_view_timing",sessionReplay:"session_replay",sessionTrace:"session_trace",softNav:"soft_navigations"},c={[o.pageViewEvent]:1,[o.pageViewTiming]:2,[o.metrics]:3,[o.jserrors]:4,[o.softNav]:5,[o.ajax]:6,[o.sessionTrace]:7,[o.sessionReplay]:8,[o.logging]:9,[o.genericEvents]:10},u={[o.pageViewEvent]:"rum",[o.pageViewTiming]:n,[o.ajax]:n,[o.softNav]:n,[o.metrics]:i,[o.jserrors]:i,[o.sessionTrace]:a,[o.sessionReplay]:a,[o.logging]:s,[o.genericEvents]:"ins"};r.d(t,["$J",0,u,"K7",0,o,"P3",0,c,"XX",0,i,"Yy",0,s,"df",0,a,"hg",0,"connect"])}};const t={};function r(n){const i=t[n];if(void 0!==i)return i.exports;const a=t[n]={exports:{}};return e[n](a,a.exports,r),a.exports}r.m=e,r.d=(e,t)=>{if(Array.isArray(t))for(var n=0;n<t.length;){var i=t[n++],a=t[n++];r.o(e,i)?0===a&&n++:0===a?Object.defineProperty(e,i,{enumerable:!0,value:t[n++]}):Object.defineProperty(e,i,{enumerable:!0,get:a})}else for(var i in t)r.o(t,i)&&!r.o(e,i)&&Object.defineProperty(e,i,{enumerable:!0,get:t[i]})},r.f={},r.e=e=>Promise.all(Object.keys(r.f).reduce((t,n)=>(r.f[n](e,t),t),[])),r.u=e=>"nr-rum-1.324.0.min.js",r.o=(e,t)=>Object.prototype.hasOwnProperty.call(e,t),(()=>{const e={},t="NRBA-1.324.0.PROD:";r.l=(n,i,a,s)=>{if(e[n])return void e[n].push(i);let o,c;if(void 0!==a){const e=document.getElementsByTagName("script");for(var u=0;u<e.length;u++){const r=e[u];if(r.getAttribute("src")==n||r.getAttribute("data-webpack")==t+a){o=r;break}}}if(!o){c=!0;var d={296:"sha512-Pjy0Jxmo6oAG6oGKLKrf8x8xyaSM1NuL7vLGv9xRLEw0hrpERDruLI5RxlCHNy0NpMyEPWhlC34zujXIR3qJPQ=="};o=document.createElement("script"),o.charset="utf-8",r.nc&&o.setAttribute("nonce",r.nc),o.setAttribute("data-webpack",t+a),o.src=n,0!==o.src.indexOf(window.location.origin+"/")&&(o.crossOrigin="anonymous"),d[s]&&(o.integrity=d[s])}e[n]=[i];const l=(t,r)=>{o.onerror=o.onload=null,clearTimeout(f);const i=e[n];if(delete e[n],o.parentNode?.removeChild(o),i?.forEach(e=>e(r)),t)return t(r)},f=setTimeout(l.bind(null,void 0,{type:"timeout",target:o}),12e4);o.onerror=l.bind(null,o.onerror),o.onload=l.bind(null,o.onload),c&&document.head.appendChild(o)}})(),r.r=e=>{Symbol.toStringTag&&Object.defineProperty(e,Symbol.toStringTag,{value:"Module"}),Object.defineProperty(e,"__esModule",{value:!0})},r.p="https://js-agent.newrelic.com/",(()=>{const e={374:0,840:0};r.f.j=(t,n)=>{let i=r.o(e,t)?e[t]:void 0;if(0!==i)if(i)n.push(i[2]);else{const a=new Promise((r,n)=>i=e[t]=[r,n]);n.push(i[2]=a);const s=r.p+r.u(t),o=new Error,c=n=>{if(r.o(e,t)&&(i=e[t],0!==i&&(e[t]=void 0),i)){const e=n&&("load"===n.type?"missing":n.type),r=n&&n.target&&n.target.src;o.message="Loading chunk "+t+" failed: ("+e+": "+r+")",o.name="ChunkLoadError",o.type=e,o.request=r,i[1](o)}};r.l(s,c,"chunk-"+t,t)}};const t=(t,n)=>{let[i,a,s]=n;var o,c,u=0;if(i.some(t=>0!==e[t])){for(o in a)r.o(a,o)&&(r.m[o]=a[o]);if(s)s(r)}for(t&&t(n);u<i.length;u++)c=i[u],r.o(e,c)&&e[c]&&e[c][0](),e[c]=0},n=self["webpackChunk:NRBA-1.324.0.PROD"]=self["webpackChunk:NRBA-1.324.0.PROD"]||[];n.forEach(t.bind(null,0)),n.push=t.bind(null,n.push.bind(n))})(),(()=>{"use strict";r(8374);var e=r(8362),t=r(860);const n=Object.values(t.K7);var i=r(384),a=r(1741);var s=r(2555),o=r(981);t.K7.genericEvents,o.R.PA,o.R.UA,o.R.BP;const c={RESOURCES:"experimental.resources",REGISTER:"register"};var u=r(9300);const d=e=>{if(!e||"string"!=typeof e)return!1;try{document.createDocumentFragment().querySelector(e)}catch{return!1}return!0};var l=r(2614),f=r(944),g=r(8122);const p="[data-nr-mask]",m=e=>(0,g.a)(e,(()=>{const e={feature_flags:[],experimental:{register:!1,resources:!1,iframe_bridge:!1,iframe_domains:[]},mask_selector:"*",block_selector:"[data-nr-block]",mask_input_options:{color:!1,date:!1,"datetime-local":!1,email:!1,month:!1,number:!1,range:!1,search:!1,tel:!1,text:!1,time:!1,url:!1,week:!1,textarea:!1,select:!1,password:!0}};return{ajax:{deny_list:void 0,block_internal:!0,enabled:!0,autoStart:!0,capture_payloads:u.mo.NONE},api:{register:{get enabled(){return e.feature_flags.includes(c.REGISTER)||e.experimental.register},set enabled(t){e.experimental.register=t},duplicate_data_to_container:!1,get allow_iframe_bridge(){return e.feature_flags.includes(c.IFRAME_BRIDGE)||e.experimental.iframe_bridge},set allow_iframe_bridge(t){e.experimental.iframe_bridge=t},get iframe_domains(){return e.experimental.iframe_domains},set iframe_domains(t){Array.isArray(t)?e.experimental.iframe_domains=t:(0,f.R)(1,t)}}},browser_consent_mode:{enabled:!1},distributed_tracing:{enabled:void 0,exclude_newrelic_header:void 0,cors_use_newrelic_header:void 0,cors_use_tracecontext_headers:void 0,allowed_origins:void 0},get feature_flags(){return e.feature_flags},set feature_flags(t){e.feature_flags=t},generic_events:{enabled:!0,autoStart:!0},harvest:{interval:30},jserrors:{enabled:!0,autoStart:!0},logging:{enabled:!0,autoStart:!0},metrics:{enabled:!0,autoStart:!0},obfuscate:void 0,page_action:{enabled:!0},page_view_event:{enabled:!0,autoStart:!0},page_view_timing:{enabled:!0,autoStart:!0},performance:{capture_marks:!1,capture_measures:!1,capture_detail:!0,resources:{get enabled(){return e.feature_flags.includes(c.RESOURCES)||e.experimental.resources},set enabled(t){e.experimental.resources=t},asset_types:[],first_party_domains:[],ignore_newrelic:!0}},privacy:{cookies_enabled:!0},proxy:{assets:void 0,beacon:void 0},session:{expiresMs:l.wk,inactiveMs:l.BB},session_replay:{autoStart:!0,enabled:!1,preload:!1,sampling_rate:10,error_sampling_rate:100,collect_fonts:!1,inline_images:!1,fix_stylesheets:!0,mask_all_inputs:!0,get mask_text_selector(){return e.mask_selector},set mask_text_selector(t){d(t)?e.mask_selector="".concat(t,",").concat(p):""===t||null===t?e.mask_selector=p:(0,f.R)(5,t)},get block_class(){return"nr-block"},get ignore_class(){return"nr-ignore"},get mask_text_class(){return"nr-mask"},get block_selector(){return e.block_selector},set block_selector(t){d(t)?e.block_selector+=",".concat(t):""!==t&&(0,f.R)(6,t)},get mask_input_options(){return e.mask_input_options},set mask_input_options(t){t&&"object"==typeof t?e.mask_input_options={...t,password:!0}:(0,f.R)(7,t)}},session_trace:{enabled:!0,autoStart:!0},soft_navigations:{enabled:!0,autoStart:!0},ssl:void 0,user_actions:{enabled:!0,elementAttributes:["id","className","tagName","type"]},web_sockets:{enabled:!1}}})());var h=r(6154),v=r(9324);let b=0;const y={buildEnv:"PROD",distMethod:"CDN",version:v.xv,originTime:h.WN},_={consented:!1},w={activatedFeatures:void 0,appMetadata:{},configured:!1,get consented(){return this.session?.state?.consent||_.consented},set consented(e){_.consented=e},customTransaction:void 0,denyList:[],disabled:!1,drainRegistry:new Map,connector:void 0,harvester:void 0,v2Target:void 0,isolatedBacklog:!1,isRecording:!1,loaderType:void 0,maxBytes:3e4,obfuscator:void 0,onerror:void 0,ptid:void 0,releaseIds:{},session:void 0,timeKeeper:void 0,registeredEntities:[],jsAttributesMetadata:{bytes:0},get harvestCount(){return++b},listeningForIframeMessages:!1},R="BA";var A=r(7836),x=r(3241);const E={accountID:void 0,trustKey:void 0,agentID:void 0,licenseKey:void 0,applicationID:void 0,xpid:void 0};var S=r(9908);const k="newrelic-iframe-";function T(e,t={},n,o){let{init:c,info:u,loader_config:d,runtime:l={},exposed:f=!0}=t;if(!u){const e=(0,i.pV)();c=e.init,u=e.info,d=e.loader_config}var p;e.init=m(c||{}),e.loader_config=(p=d||{},(0,g.a)(p,E)),u.jsAttributes??={},h.bv&&(u.jsAttributes.isWorker=!0),e.info=(0,s.D)(u);const v=e.init;e.runtime??=(e=>{const t=(0,g.a)(e,w),r=Object.keys(y).reduce((e,t)=>(e[t]={value:y[t],writable:!1,configurable:!0,enumerable:!0},e),{});return Object.defineProperties(t,r)})(l),e.runtime.v2Target??={type:R,instance:e.agentIdentifier,get id(){return e.runtime.appMetadata?.agents?.[0]?.entityGuid},get attributes(){return{"entity.guid":this.id,appId:e.info.applicationID}}},v.proxy.assets&&(e=>{const t=e.startsWith("http");e+="/",r.p=t?e:"https://"+e})(v.proxy.assets),e.runtime.configured||(Object.defineProperty(e,"beacons",{get:()=>[e.info.beacon,e.info.errorBeacon,e.init.proxy.assets,e.init.proxy.beacon].filter(Boolean)}),Object.defineProperty(e.runtime,"denyList",{get:()=>[...e.init.ajax.deny_list||[],...e.init.ajax.block_internal?e.beacons:[]]}),e.runtime.ptid=e.agentIdentifier,function(e){const t=(0,i.pV)();Object.getOwnPropertyNames(a.W.prototype).forEach(r=>{const n=a.W.prototype[r];if("function"!=typeof n||"constructor"===n)return;let i=t[r];e[r]&&!1!==e.exposed&&"micro-agent"!==e.runtime?.loaderType&&(t[r]=(...t)=>{const n=e[r](...t);return i?i(...t):n})})}(e),e.runtime.loaderType=n,e.ee=A.ee.get(e.agentIdentifier),e.exposed=f,(0,x.W)({drained:!!e.runtime.activatedFeatures,type:"lifecycle",name:"initialize",feature:void 0,data:e.config}),e.init.api.register.allow_iframe_bridge&&h.gm.addEventListener("message",t=>{"string"==typeof t.data?.type&&t.data.type.startsWith(k)&&(0,S.p)("iframe-message",[t],void 0,"IFRAME",e.ee)}),e.runtime.configured=!0)}var j=r(1863),P=r(4261),N=r(1738);var O=r(1687),M=r(4234),I=r(5289),D=r(7767);function V(e){return!!(0,i.dV)().o.MO&&(0,D.V)(e)&&!0===e?.session_trace.enabled}var W=r(6389),B=r(7699);const C=new WeakSet,K=new WeakMap;class U extends M.W{constructor(e,t){super(e,t),this.abortHandler=void 0,this.featAggregate=void 0,this.loadedSuccessfully=void 0,this.onAggregateImported=new Promise(e=>{this.loadedSuccessfully=e}),this.deferred=Promise.resolve(),!1===e.init[this.featureName].autoStart?this.deferred=new Promise((t,r)=>{this.ee.on("manual-start-all",(0,W.J)(()=>{(0,O.Ak)(e,this.featureName),t()}))}):(0,O.Ak)(e,t)}importAggregator(e,t,n={}){if(this.featAggregate)return;const i=async()=>{if(await this.deferred,this.#t(e),!(0,s.f)(e.info))return(0,f.R)(43),e.ee.abort(),void this.loadedSuccessfully(!1);try{await async function(e,t,n){if(K.has(e))return K.get(e);const i=(async()=>{if((0,D.V)(e.init))try{const{setupAgentSession:t}=await r.e(296).then(r.bind(r,1768));t(e)}catch(e){(0,f.R)(20,e),t.emit("internal-error",[e]),(0,S.p)(B.qh,[e],void 0,n,t)}if(e.init.api.register.allow_iframe_bridge)try{const{setupIframeMFEMessageListener:t}=await Promise.resolve().then(function(){const e=new Error("Cannot find module '../../loaders/configure/iframe-message-handler'");throw e.code="MODULE_NOT_FOUND",e});t(e)}catch(e){(0,f.R)(23,e)}const[{Connector:i},{Harvester:a}]=await Promise.all([r.e(296).then(r.bind(r,6589)),r.e(296).then(r.bind(r,5237))]);e.runtime.connector=new i(e),e.runtime.harvester=new a(e);const s=Object.values(e.features).filter(t=>e.runtime.drainRegistry.has(t.featureName));Promise.all(s.map(e=>e.onAggregateImported)).then(()=>e.runtime.harvester.startTimer())})();K.set(e,i),await i}(e,this.ee,this.featureName)}catch(e){return(0,f.R)(79,e),this.ee.abort(),void this.loadedSuccessfully(!1)}try{if(!this.#r(this.featureName,e.runtime.session,e.init))return this.abortHandler?.(),(0,O.Ze)(this.agentRef,this.featureName),void this.loadedSuccessfully(!1);const{Aggregate:r}=await t();this.featAggregate=new r(e,n),e.runtime.harvester.initializedAggregates.push(this.featAggregate),this.loadedSuccessfully(!0)}catch(e){(0,f.R)(34,e),this.abortHandler?.(),(0,O.Ze)(this.agentRef,this.featureName,!0),this.loadedSuccessfully(!1)}};h.RI?(0,I.GG)(()=>i(),!0):i()}#r(e,r,n){if(this.blocked)return!1;switch(e){case t.K7.sessionReplay:return V(n)&&!!r;case t.K7.sessionTrace:return!!r;default:return!0}}#t(e){if(!C.has(e)&&(C.add(e),!(0,s.f)(e.info))){const t=(0,i.pV)();let r={...t.info?.jsAttributes};try{r={...r,...e.info?.jsAttributes}}catch(e){}T(e,{...t,info:{...t.info,jsAttributes:r},runtime:e.runtime},e.runtime.loaderType)}}}var L=r(6630);class F extends U{static featureName=L.T;constructor(e){var t;super(e,L.T),this.setupInspectionEvents(),t=e,(0,N.Y)(P.Fw,function(e,r){"string"==typeof e&&("/"!==e.charAt(0)&&(e="/"+e),t.runtime.customTransaction=(r||"http://custom.transaction")+e,(0,S.p)("api-"+P.Fw,[(0,j.t)()],void 0,void 0,t.ee))},t),this.importAggregator(e,()=>e.init.feature_flags.includes("rum_v2")?r.e(296).then(r.bind(r,908)):r.e(296).then(r.bind(r,7927)))}setupInspectionEvents(){const e=(e,t)=>{e&&(0,x.W)({timeStamp:e.timeStamp,loaded:"complete"===e.target.readyState,type:"window",name:t,data:e.target.location+""})};(0,I.sB)(t=>{e(t,"DOMContentLoaded")}),(0,I.GG)(t=>{e(t,"load")}),(0,I.Qr)(t=>{e(t,"navigate")}),this.ee.on(l.tS.UPDATE,(e,t)=>{(0,x.W)({type:"lifecycle",name:"session",data:t})})}}class G extends e.d{constructor(e){var t;(super(),h.gm)?(this.features={},(0,i.bQ)(this.agentIdentifier,this),this.desiredFeatures=new Set(e.features||[]),this.desiredFeatures.add(F),T(this,e,e.loaderType||"agent"),t=this,(0,N.Y)(P.cD,function(e,r,n=!1){if("string"==typeof e){if(["string","number","boolean"].includes(typeof r)||null===r)return(0,N.U)(t,e,r,P.cD,n);(0,f.R)(40,typeof r)}else(0,f.R)(39,typeof e)},t),function(e){(0,N.Y)(P.Dl,function(t,r=!1){if("string"!=typeof t&&null!==t)return void(0,f.R)(41,typeof t);const n=e.info.jsAttributes["enduser.id"];r&&null!=n&&n!==t?(0,S.p)("api-setUserIdAndResetSession",[t],void 0,"session",e.ee):(0,N.U)(e,"enduser.id",t,P.Dl,!0)},e)}(this),function(e){(0,N.Y)(P.nb,function(t){if("string"==typeof t||null===t)return(0,N.U)(e,"application.version",t,P.nb,!1);(0,f.R)(42,typeof t)},e)}(this),function(e){(0,N.Y)("start",function(){e.ee.emit("manual-start-all")},e)}(this),function(e){(0,N.Y)(P.Pv,function(t=!0){if("boolean"==typeof t){if((0,S.p)("api-"+P.Pv,[t],void 0,"session",e.ee),e.runtime.consented=t,t){const t=e.features.page_view_event;t.onAggregateImported.then(e=>{const r=t.featAggregate;e&&!r.sentRum&&r.sendRum?.()})}}else(0,f.R)(65,typeof t)},e)}(this),this.run()):(0,f.R)(21)}get config(){return{info:this.info,init:this.init,loader_config:this.loader_config,runtime:this.runtime}}get api(){return this}run(){try{const e=function(e){const t={};return n.forEach(r=>{t[r]=!!e[r]?.enabled}),t}(this.init),r=[...this.desiredFeatures],i=this.init.feature_flags.includes("rum_v2");r.sort((e,r)=>t.P3[e.featureName]-t.P3[r.featureName]),r.forEach(r=>{if(!e[r.featureName]&&(i||r.featureName!==t.K7.pageViewEvent))return;const n=function(e){switch(e){case t.K7.ajax:return[t.K7.jserrors];case t.K7.sessionTrace:return[t.K7.ajax,t.K7.pageViewEvent];case t.K7.sessionReplay:return[t.K7.sessionTrace];case t.K7.pageViewTiming:return[t.K7.pageViewEvent];default:return[]}}(r.featureName).filter(e=>!(e in this.features));n.length>0&&(0,f.R)(36,{targetFeature:r.featureName,missingDependencies:n}),this.features[r.featureName]=new r(this)})}catch(e){(0,f.R)(22,e);for(const e in this.features)this.features[e].abortHandler?.();const t=(0,i.Zm)();delete t.initializedAgents[this.agentIdentifier]?.features,delete this.sharedAggregator;return t.ee.get(this.agentIdentifier).abort(),!1}}}var H=r(2843),z=r(782);class Y extends U{static featureName=z.T;constructor(e){super(e,z.T),h.RI&&((0,H.u)(()=>(0,S.p)("docHidden",[(0,j.t)()],void 0,z.T,this.ee),!0),(0,H.G)(()=>(0,S.p)("winPagehide",[(0,j.t)()],void 0,z.T,this.ee)),this.importAggregator(e,()=>r.e(296).then(r.bind(r,9981))))}}var Z=r(3969);class q extends U{static featureName=Z.TZ;constructor(e){super(e,Z.TZ),this.importAggregator(e,()=>r.e(296).then(r.bind(r,9623)))}}new G({features:[F,Y,q],loaderType:"lite"})})()})();</script>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="Generator" content="Drupal 7 (http://drupal.org)" />
+<link rel="canonical" href="/documents/remarks-law-enforcement-garden-city-new-york" />
+<link rel="shortlink" href="/node/396668" />
+<link rel="shortcut icon" href="https://www.presidency.ucsb.edu/sites/default/files/favicon-app_0.png" type="image/png" />
+  <title>Remarks on Law Enforcement in Garden City, New York | The American Presidency Project</title>
+  <link href='//fonts.googleapis.com/css?family=Open+Sans:400,400italic,800,700,600,300|Dosis:400,200,300,500,600,700,800' rel='stylesheet' type='text/css'>
+  <link href="//netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css" rel="stylesheet">
+  <link type="text/css" rel="stylesheet" href="https://www.presidency.ucsb.edu/sites/default/files/css/css_lQaZfjVpwP_oGNqdtWCSpJT1EMqXdMiU84ekLLxQnc4.css" media="all" />
+<link type="text/css" rel="stylesheet" href="https://www.presidency.ucsb.edu/sites/default/files/css/css_uuQd0L7qawhKpY0MHO8pVG2W6LSQqS5w9XHZMk3vO2U.css" media="all" />
+<link type="text/css" rel="stylesheet" href="https://www.presidency.ucsb.edu/sites/default/files/css/css_vbEgx2XLR7Zv4cooqCR003JQm8ctJxS8MDvX_FsFGUs.css" media="all" />
+<link type="text/css" rel="stylesheet" href="https://www.presidency.ucsb.edu/sites/default/files/css/css_oeHWMYUNGpyVpvA5OI5WFwKyBOcHdcrAoQuKZFMe0ng.css" media="all" />
+<link type="text/css" rel="stylesheet" href="https://www.presidency.ucsb.edu/sites/default/files/css/css_1cMLkzIU-HroF2SDTi9FvBd5lDl10ohMXkEVkqMZYXY.css" media="all" />
+<link type="text/css" rel="stylesheet" href="https://www.presidency.ucsb.edu/sites/default/files/css/css_DW59q6nX-P3-D4cA08_V2iLlMJIaFdPFYT8X6nSFpV8.css" media="print" />
+  <!-- HTML5 element support for IE6-8 -->
+  <!--[if lt IE 9]>
+    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+  <![endif]-->
+  <script src="//ajax.aspnetcdn.com/ajax/jQuery/jquery-1.12.4.min.js"></script>
+<script>window.jQuery || document.write("<script src='/sites/default/modules/contrib/jquery_update/replace/jquery/1.12/jquery.min.js'>\x3C/script>")</script>
+<script src="https://www.presidency.ucsb.edu/sites/default/files/js/js_GOikDsJOX04Aww72M-XK1hkq4qiL_1XgGsRdkL0XlDo.js"></script>
+<script src="//ajax.aspnetcdn.com/ajax/jquery.ui/1.13.3/jquery-ui.min.js"></script>
+<script>window.jQuery.ui || document.write("<script src='/sites/default/modules/contrib/jquery_update/replace/ui/ui/minified/jquery-ui.min.js'>\x3C/script>")</script>
+<script src="https://www.presidency.ucsb.edu/sites/default/files/js/js_onbE0n0cQY6KTDQtHO_E27UBymFC-RuqypZZ6Zxez-o.js"></script>
+<script src="https://www.presidency.ucsb.edu/sites/default/files/js/js_gHk2gWJ_Qw_jU2qRiUmSl7d8oly1Cx7lQFrqcp3RXcI.js"></script>
+<script src="https://www.presidency.ucsb.edu/sites/default/files/js/js_OnsvYlQ_LTosJ-SxmHIq3Rw7eH2XmXi69Q68wgclccA.js"></script>
+<script src="https://www.googletagmanager.com/gtag/js?id=UA-86410002-1"></script>
+<script>window.dataLayer = window.dataLayer || [];function gtag(){dataLayer.push(arguments)};gtag("js", new Date());gtag("set", "developer_id.dMDhkMT", true);gtag("config", "UA-86410002-1", {"groups":"default","linker":{"domains":["dev-wwwpresidencyucsbedu.pantheonsite.io","www.presidency.ucsb.edu"]},"anonymize_ip":true});gtag("config", "G-86B9KEYGFJ", {"groups":"default","linker":{"domains":["dev-wwwpresidencyucsbedu.pantheonsite.io","www.presidency.ucsb.edu"]},"anonymize_ip":true});</script>
+<script src="https://www.presidency.ucsb.edu/sites/default/files/js/js_lcTf447kIisJfwJMjtPrAFuGvKNH6t_RbNx-yD768P0.js"></script>
+<script src="https://www.presidency.ucsb.edu/sites/default/files/js/js_gvpxcPEErmaiJn8qGSGx2O87lReivTR09hs10gIG3Yg.js"></script>
+<script>jQuery.extend(Drupal.settings, {"basePath":"\/","pathPrefix":"","setHasJsCookie":0,"ajaxPageState":{"theme":"app","theme_token":"eiEwQ8X1hbt3nHRyQqLlEtuRr2DOutfSVeLpJo7JVVM","js":{"sites\/default\/libraries\/jquery-ui-multiselect-widget\/src\/jquery.multiselect.js":1,"sites\/default\/libraries\/jquery-ui-multiselect-widget\/src\/jquery.multiselect.filter.js":1,"sites\/default\/modules\/contrib\/jquery_ui_multiselect_widget\/jquery_ui_multiselect_widget.js":1,"modules\/statistics\/statistics.js":1,"sites\/default\/themes\/bootstrap\/js\/bootstrap.js":1,"\/\/ajax.aspnetcdn.com\/ajax\/jQuery\/jquery-1.12.4.min.js":1,"0":1,"misc\/jquery-extend-3.4.0.js":1,"misc\/jquery-html-prefilter-3.5.0-backport.js":1,"misc\/jquery.once.js":1,"misc\/drupal.js":1,"sites\/default\/modules\/contrib\/jquery_update\/js\/jquery_browser.js":1,"\/\/ajax.aspnetcdn.com\/ajax\/jquery.ui\/1.13.3\/jquery-ui.min.js":1,"1":1,"misc\/form-single-submit.js":1,"sites\/default\/modules\/contrib\/entityreference\/js\/entityreference.js":1,"sites\/default\/modules\/contrib\/better_exposed_filters\/better_exposed_filters.js":1,"sites\/default\/modules\/contrib\/google_analytics\/googleanalytics.js":1,"https:\/\/www.googletagmanager.com\/gtag\/js?id=UA-86410002-1":1,"2":1,"sites\/default\/modules\/contrib\/field_group\/field_group.js":1,"sites\/default\/modules\/contrib\/rrssb\/rrssb.init.js":1,"sites\/default\/libraries\/rrssb-plus\/js\/rrssb.min.js":1,"sites\/default\/modules\/contrib\/extlink\/js\/extlink.js":1,"sites\/default\/themes\/app\/bootstrap\/js\/affix.js":1,"sites\/default\/themes\/app\/bootstrap\/js\/alert.js":1,"sites\/default\/themes\/app\/bootstrap\/js\/button.js":1,"sites\/default\/themes\/app\/bootstrap\/js\/carousel.js":1,"sites\/default\/themes\/app\/bootstrap\/js\/collapse.js":1,"sites\/default\/themes\/app\/bootstrap\/js\/dropdown.js":1,"sites\/default\/themes\/app\/bootstrap\/js\/modal.js":1,"sites\/default\/themes\/app\/bootstrap\/js\/tooltip.js":1,"sites\/default\/themes\/app\/bootstrap\/js\/popover.js":1,"sites\/default\/themes\/app\/bootstrap\/js\/scrollspy.js":1,"sites\/default\/themes\/app\/bootstrap\/js\/tab.js":1,"sites\/default\/themes\/app\/bootstrap\/js\/transition.js":1,"sites\/default\/themes\/app\/scripts\/scripts.js":1},"css":{"modules\/system\/system.base.css":1,"misc\/ui\/jquery.ui.core.css":1,"misc\/ui\/jquery.ui.theme.css":1,"misc\/ui\/jquery.ui.accordion.css":1,"sites\/default\/modules\/contrib\/date\/date_repeat_field\/date_repeat_field.css":1,"modules\/field\/theme\/field.css":1,"modules\/node\/node.css":1,"sites\/default\/modules\/contrib\/extlink\/css\/extlink.css":1,"sites\/default\/modules\/contrib\/views\/css\/views.css":1,"sites\/default\/modules\/contrib\/ctools\/css\/ctools.css":1,"sites\/default\/libraries\/jquery-ui-multiselect-widget\/jquery.multiselect.css":1,"sites\/default\/libraries\/jquery-ui-multiselect-widget\/jquery.multiselect.filter.css":1,"sites\/default\/modules\/contrib\/jquery_ui_multiselect_widget\/jquery_ui_multiselect_widget.css":1,"sites\/default\/modules\/contrib\/vefl\/css\/vefl-layouts.css":1,"sites\/default\/modules\/contrib\/date\/date_api\/date.css":1,"public:\/\/rrssb\/rrssb.163e8a0c.css":1,"sites\/default\/libraries\/rrssb-plus\/css\/rrssb.css":1,"sites\/default\/themes\/app\/css\/style.css":1,"sites\/default\/themes\/app\/css\/oog.css":1,"sites\/default\/themes\/app\/css\/print.css":1}},"jquery_ui_multiselect_widget":{"module_path":"sites\/default\/modules\/contrib\/jquery_ui_multiselect_widget","multiple":1,"filter":1,"subselector":"#edit-category2","selectedlist":"4","autoOpen":0,"header":1,"height":"auto","classes":"app-uberselect","filter_auto_reset":1,"filter_width":"auto","jquery_ui_multiselect_widget_path_match_exclude":"admin\/*\r\nmedia\/*\r\nfile\/*\r\nsystem\/ajax"},"better_exposed_filters":{"datepicker":false,"slider":false,"settings":[],"autosubmit":false,"views":{"dpg_docs_media":{"displays":{"block_2":{"filters":[]}}},"report_a_typo":{"displays":{"block":{"filters":[]}}},"document_attached_files":{"displays":{"block":{"filters":[]},"block_1":{"filters":[]}}}}},"urlIsAjaxTrusted":{"\/advanced-search":true},"googleanalytics":{"account":["UA-86410002-1","G-86B9KEYGFJ"],"trackOutbound":1,"trackMailto":1,"trackDownload":1,"trackDownloadExtensions":"7z|aac|arc|arj|asf|asx|avi|bin|csv|doc(x|m)?|dot(x|m)?|exe|flv|gif|gz|gzip|hqx|jar|jpe?g|js|mp(2|3|4|e?g)|mov(ie)?|msi|msp|pdf|phps|png|ppt(x|m)?|pot(x|m)?|pps(x|m)?|ppam|sld(x|m)?|thmx|qtm?|ra(m|r)?|sea|sit|tar|tgz|torrent|txt|wav|wma|wmv|wpd|xls(x|m|b)?|xlt(x|m)|xlam|xml|z|zip","trackDomainMode":2,"trackCrossDomains":["dev-wwwpresidencyucsbedu.pantheonsite.io","www.presidency.ucsb.edu"]},"statistics":{"data":{"nid":"396668"},"url":"\/modules\/statistics\/statistics.php"},"field_group":{"div":"full"},"rrssb":{"size":"1","shrink":"1","regrow":"","minRows":"1","maxRows":"1","prefixReserve":"1em","prefixHide":"1em","alignRight":0},"extlink":{"extTarget":"_blank","extClass":0,"extLabel":"(link is external)","extImgClass":0,"extIconPlacement":"append","extSubdomains":1,"extExclude":"","extInclude":"","extCssExclude":"","extCssExplicit":"","extAlert":0,"extAlertText":"This link will take you to an external web site.","mailtoClass":0,"mailtoLabel":"(link sends e-mail)","extUseFontAwesome":false},"bootstrap":{"anchorsFix":1,"anchorsSmoothScrolling":1,"formHasError":1,"popoverEnabled":0,"popoverOptions":{"animation":1,"html":0,"placement":"right","selector":"","trigger":"click","triggerAutoclose":1,"title":"","content":"","delay":0,"container":"body"},"tooltipEnabled":1,"tooltipOptions":{"animation":1,"html":0,"placement":"auto left","selector":"","trigger":"hover focus","delay":0,"container":"body"}}});</script>
+</head>
+<body class="html not-front not-logged-in one-sidebar sidebar-first page-node page-node- page-node-396668 node-type-documents" >
+  <div id="skip-link">
+    <a href="#main-content" class="element-invisible element-focusable">Skip to main content</a>
+  </div>
+    <div class="wrapper"> <!-- Wrapper for Sticky Footer -->
+
+      <div class="branding-region">
+      <div class="container">
+                  <div class="region region-branding">
+    <section id="block-block-1" class="block block-block site-title-block clearfix">
+
+      
+  <div class="site-title"><a href="https://www.presidency.ucsb.edu/">The American Presidency Project</a></div>
+
+</section>
+<section id="block-block-2" class="block block-block top-link-buttons clearfix">
+
+      
+  <p><a class="btn btn-default" href="https://www.presidency.ucsb.edu/about">About</a><a class="btn btn-default" href="/advanced-search"><span class="glyphicon glyphicon-search"></span> Search</a></p>
+<p id="ucScript"><a href="https://www.ucsb.edu/" target="_blank"><img alt="ucsb wordmark black" src="https://www.presidency.ucsb.edu/sites/default/files/pictures/uc_santa_barbara_wordmark_black_rgb.svg" style="width: 175px; height: 13px;" /></a></p>
+
+</section>
+  </div>
+      </div>
+    </div>
+  
+  <div id="navbar" role="banner" class="navbar navbar-default"><!-- Only way to remove "container" class -->
+    <div class="container">
+      <div class="navbar-header">
+
+        <!-- .btn-navbar is used as the toggle for collapsed navbar content -->
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+      </div>
+
+              <div class="navbar-collapse collapse">
+          <nav role="navigation">
+                          <ul class="menu nav navbar-nav"><li class="first expanded active-trail active dropdown"><a href="/documents" class="active-trail dropdown-toggle" data-toggle="dropdown">Documents <span class="caret"></span></a><ul class="dropdown-menu"><li class="first leaf"><a href="/documents/presidential-documents-archive-guidebook">Guidebook</a></li>
+<li class="last leaf"><a href="/documents/category-attributes">Category Attributes</a></li>
+</ul></li>
+<li class="collapsed"><a href="/statistics">Statistics</a></li>
+<li class="leaf"><a href="/media" title="">Media Archive</a></li>
+<li class="leaf"><a href="/presidents" title="">Presidents</a></li>
+<li class="leaf"><a href="/analyses" title="">Analyses</a></li>
+<li class="last leaf"><a href="https://give.ucsb.edu/campaigns/58728/donations/new" title="">GIVE</a></li>
+</ul>                                              </nav>
+        </div>
+          </div>
+  </div>
+
+  <div role="banner" id="page-header" class="site-header">
+      </div>
+
+  <div class="main-container container">
+    <div class="row">
+
+          <aside class="col-sm-3 no-print" role="complementary">
+            <div class="region region-sidebar-first well">
+    <section id="block-menu-block-8" class="block block-menu-block doc-sub clearfix">
+
+        <h2 class="block-title">Documents</h2>
+    
+  <div class="menu-block-wrapper menu-block-8 menu-name-menu-documents parent-mlid-0 menu-level-1">
+  <ul class="menu nav"><li class="first leaf menu-mlid-10329"><a href="/documents/presidential-documents-archive-guidebook" title="">Archive Guidebook</a></li>
+<li class="leaf active-trail menu-mlid-10330 active"><a href="/documents" title="" class="active-trail">Categories</a></li>
+<li class="last leaf menu-mlid-10791"><a href="/documents/category-attributes" title="">Attributes</a></li>
+</ul></div>
+
+</section>
+<section id="block-menu-block-7" class="block block-menu-block dropdown clearfix">
+
+        <h2 class="block-title">Categories</h2>
+    
+  <div class="menu-block-wrapper menu-block-7 menu-name-menu-doc-cat-menu parent-mlid-0 menu-level-1">
+    <ul class="menu nav"><li class="first expanded menu-mlid-10954 dropdown"><a href="/documents/app-categories/presidential" title="Presidential (73842)" class="dropdown-toggle" data-toggle="dropdown">Presidential (255798) <span class="caret"></span></a><ul class="dropdown-menu"><li class="first leaf menu-mlid-10910"><a href="/documents/app-categories/spoken-addresses-and-remarks/presidential/eulogies" title="Eulogies (55)">Eulogies (71)</a></li>
+<li class="leaf menu-mlid-10930"><a href="/documents/app-categories/written-presidential-orders/presidential/executive-orders" title="Executive Orders (5885)">Executive Orders (10878)</a></li>
+<li class="leaf menu-mlid-10912"><a href="/documents/app-categories/spoken-addresses-and-remarks/presidential/fireside-chats" title="Fireside Chats (27)">Fireside Chats (27)</a></li>
+<li class="leaf menu-mlid-10906"><a href="/documents/app-categories/presidential/interviews" title="Interviews (950)">Interviews (1038)</a></li>
+<li class="leaf menu-mlid-10894"><a href="/documents/app-categories/presidential/letters" title="Letters (4363)">Letters (4795)</a></li>
+<li class="leaf menu-mlid-10899"><a href="/documents/app-categories/presidential/miscellaneous-written" title="Miscellaneous Written (741)">Miscellaneous Written (112)</a></li>
+<li class="leaf menu-mlid-10907"><a href="/documents/app-categories/presidential/news-conferences" title="News Conferences (2096)">News Conferences (2530)</a></li>
+<li class="collapsed menu-mlid-10909"><a href="/documents/app-categories/presidential/spoken-addresses-and-remarks" title="Spoken Addresses and Remarks (5428)">Spoken Addresses and Remarks (35624)</a></li>
+<li class="leaf menu-mlid-10911"><a href="/documents/app-categories/spoken-addresses-and-remarks/presidential/farewell-addresses" title="Farewell Address (10)">Farewell Addresses (12)</a></li>
+<li class="leaf menu-mlid-10913"><a href="/documents/app-categories/spoken-addresses-and-remarks/presidential/inaugural-addresses" title="Inaugural Addresses (61)">Inaugural Addresses (63)</a></li>
+<li class="leaf menu-mlid-10895"><a href="/documents/app-categories/presidential/memoranda" title="Memoranda (1828)">Memoranda (3504)</a></li>
+<li class="leaf menu-mlid-10927"><a href="/documents/app-categories/citations/presidential/messages" title="Messages (11049)">Messages (12873)</a></li>
+<li class="leaf menu-mlid-10931"><a href="/documents/app-categories/written-presidential-orders/presidential/proclamations" title="Proclamations (7974)">Proclamations (11159)</a></li>
+<li class="leaf menu-mlid-10919"><a href="/documents/app-categories/spoken-addresses-and-remarks/presidential/saturday-weekly-addresses" title="Saturday Addresses (Radio and Webcast) (1629)">Saturday Weekly Addresses (1639)</a></li>
+<li class="leaf menu-mlid-10920"><a href="/documents/app-categories/spoken-addresses-and-remarks/presidential/state-dinners" title="State Dinners (953)">State Dinners (266)</a></li>
+<li class="leaf menu-mlid-10921"><a href="/documents/app-categories/spoken-addresses-and-remarks/presidential/state-the-union-addresses" title="State of the Union Addresses (98)">State of the Union Addresses (101)</a></li>
+<li class="leaf menu-mlid-10928"><a href="/documents/app-categories/citations/presidential/state-the-union-written-messages" title="State of the Union Messages (1)">State of the Union Written Messages (140)</a></li>
+<li class="expanded menu-mlid-10934"><a href="/documents/app-categories/statements" title="Statements (8647)">Statements (14723)</a></li>
+<li class="leaf menu-mlid-10924"><a href="/documents/app-categories/presidential/vetoes" title="Vetoes (266)">Vetoes (1230)</a></li>
+<li class="collapsed menu-mlid-10925"><a href="/documents/app-categories/presidential/citations" title="Written Messages (11021)">Citations (13241)</a></li>
+<li class="last expanded menu-mlid-10929"><a href="/documents/app-categories/presidential/written-presidential-orders" title="Written Presidential Orders (13858)">Written Presidential Orders (50874)</a></li>
+</ul></li>
+<li class="leaf menu-mlid-10897"><a href="/documents/app-categories/remarks-administration-officials" title="Miscellaneous Press Secretary (23298)">Remarks by Administration Officials (190)</a></li>
+<li class="expanded menu-mlid-10887 dropdown"><a href="/documents/app-categories/elections-and-transitions" title="Elections and Transitions (16448)" class="dropdown-toggle" data-toggle="dropdown">Elections and Transitions (50266) <span class="caret"></span></a><ul class="dropdown-menu"><li class="first leaf menu-mlid-10888"><a href="/documents/app-categories/elections-and-transitions/campaign-documents" title="Campaign Documents (2747)">Campaign Documents (23622)</a></li>
+<li class="expanded menu-mlid-10889"><a href="/documents/app-categories/elections-and-transitions/convention-speeches" title="Convention Speeches (50)">Convention Speeches (128)</a></li>
+<li class="expanded menu-mlid-10890"><a href="/documents/app-categories/elections-and-transitions/debates" title="Debates (152)">Debates (191)</a></li>
+<li class="leaf menu-mlid-10892"><a href="/documents/app-categories/elections-and-transitions/party-platforms" title="Party Platforms (98)">Party Platforms (105)</a></li>
+<li class="last leaf menu-mlid-10893"><a href="/documents/app-categories/elections-and-transitions/transition-documents" title="Transition Documents (346)">Transition Documents (744)</a></li>
+</ul></li>
+<li class="last leaf menu-mlid-10883"><a href="/documents/app-categories/congressional" title="Congressional (3)">Congressional (13)</a></li>
+</ul></div>
+
+</section>
+  </div>
+        </aside>  <!-- /#sidebar-first -->
+      
+      <section class="col-sm-9">
+                        <a id="main-content"></a>
+                
+                          
+                          <div class="region region-content">
+    <section id="block-system-main" class="block block-system clearfix">
+
+      
+  
+
+<div  about="/documents/remarks-law-enforcement-garden-city-new-york" typeof="sioc:Item foaf:Document" class="node node-documents view-mode-full ">
+    <div class="row">
+    <div class="col-sm-8 ">
+      
+  <div class="field-docs-person">
+    <div  about="/people/president/donald-j-trump-2nd-term" typeof="sioc:Item foaf:Document" class="ds-1col node node-prez-diet view-mode-for_documents  clearfix">
+
+  
+  
+  <div class="field-diet-pictures">
+    <img typeof="foaf:Image" class="img-responsive" src="https://www.presidency.ucsb.edu/sites/default/files/styles/doc_img/public/people/donald-j-trump-2nd-term.jpg?itok=art4cp6c" width="170" height="230" alt="Photo of Donald Trump" />  </div>
+
+  <div class="field-title">
+    <h3 class="diet-title"><a href="/people/president/donald-j-trump-2nd-term">Donald J. Trump (2nd Term)</a></h3>  </div>
+
+  <div class="field-ds-byline">
+    
+  <div class="field-resuable-byline">
+    <div class="diet-by-line president">47th President of the United States: 2025—present</div>
+  </div>
+  </div>
+
+  <div class="field-ds-doc-title">
+    <h1>Remarks on Law Enforcement in Garden City, New York</h1>
+  </div>
+</div>
+
+  </div>
+
+  <div class="field-docs-start-date-time">
+    <span  property="dc:date" datatype="xsd:dateTime" content="2026-08-14T00:00:00+00:00" class="date-display-single">August 14, 2026</span>  </div>
+
+  <div class="field-docs-content">
+    <p><i>The President. </i>Thank you. Thank you very much. Wow. There's a lot of people outside trying to get in. A lot of people outside.</p>
+<p>But I just want to say a very special hello to New York and a very, very special hello, Long Island. I love Long Island.</p>
+<p>I'm thrilled to be back in the State I love. And I do love it. I'm so proud of it. But it's going in a bad direction. We're going to change it around. We'll get Bruce in there. We'll change it around. We're going to change it around.</p>
+<p><i>Audience members. </i>Bruce! [<i>Laughter</i>]</p>
+<p><i>The President. </i>You watch. He's going to do well.</p>
+<p>But to be with the hard-working patriots of Nassau County, appreciate it.</p>
+<p>And we're especially grateful to be joined by the incredible men and women of Nassau County Police Department and a lot of other law enforcement.</p>
+<p>I've known them a long time. There's never any problems. I'll tell you, they're winners. They're just winners, pure and simple.</p>
+<p>And thanks as well to your brothers and sisters in New York's Finest, the New York PD. We love our New York PD.</p>
+<p>And we're here today to celebrate the historic progress our administration is making together with law enforcement partners nationwide to restore law and order in America. Very simple. A very simple phrase, isn't it?</p>
+<p>And with these professionals, it's a very easy thing to do. You have to give them—you have to let them do their job. That's all there is. You won't have any problem.</p>
+<p>That includes, right here on Long Island, where, under the leadership of your county executive—a great person, a friend of mine for a long time. A great political leader. A great politician, but I don't want to say that negatively. It's a—he's a great politician. He wins all the time. He won in a big surprise like 8 or 9 years ago. I remember. I said, "Man, that's tough for you to win in that location." And then he's won in landslides ever since, and he's a winner: Bruce Blakeman.</p>
+<p><i>Audience members. </i>Bruce! Bruce! Bruce!</p>
+<p><i>The President. </i>And I said it. I said, when Bruce is—when Bruce's name got up, I said, "You know, if they give that guy just a little bit of a chance, just a little bit of fair treatment from the fake news and everyone else, he's going to win." No, he's going to win. I mean it.</p>
+<p>But under Bruce—think of this—Nassau County has been rated the number-one safest county in the United States of America. That's not bad. That's not bad.</p>
+<p>Think of that: the number-one safest county in the United States of America. There's, I think, 6,700 counties. That's not bad, Bruce. Keep it up. Do a little bit better next time. [<i>Laughter</i>] How do you top that?</p>
+<p>U.S. News and World Report gives you a perfect score in terms of crime: 100 out of 100.</p>
+<p>And under the Trump administration, we're working every day with leaders like Bruce and local police like we have here. We have some of the greatest police officers in the world in this room, and a lot of them, unfortunately, they're standing outside trying to get in. Should we let them in? I don't know. We don't have any room, but let's let them in anyway. Who the hell cares? [<i>Laughter</i>]</p>
+<p>Who cares? Let's let them in anyway.</p>
+<p>But dangerous offenders off our streets. And they've taken them, they've brought them off our streets, put savage criminals behind bars. And you know what they're doing? They're making America safe again. They've done a fantastic job.</p>
+<p>And, in the past 4 years, before I took office, our country was overrun by violent criminals. I mean, you remember just a couple of years ago how bad it was, right? It was really bad. Foreign gangs. Savage thugs with Biden.</p>
+<p>Sleepy Joe. [<i>Laughter</i>]</p>
+<p><i>Audience members. </i>Boo!</p>
+<p><i>The President. </i>What a horrible 4 years. That was 4 years in hell. [<i>Laughter</i>] We lived in hell.</p>
+<p>With Biden and the radical-left "Dumocrats"—we call them "Dumocrats" now because their policies are so dumb—fighting to defund the police—does that play well in this room?</p>
+<p><i>Audience members. </i>No!</p>
+<p><i>The President. </i>Is there anybody that's in favor of defunding the police in this particular——</p>
+<p><i>Audience members. </i>No!</p>
+<p><i>The President. </i>You'd be afraid to say it if you were. [<i>Laughter</i>]</p>
+<p>And wide-open borders with millions and millions of people pouring in from all over the world, including prisons and jails and mental institutions, insane asylum. You know what that is? That's a mental institution on steroids. You know that. They come from both.</p>
+<p>Including 11,888 murderers, many of whom have killed more than one person. More than 50 percent killed more than one person. And we took them in with open arms. How stupid could we be?</p>
+<p>But we're getting them the hell out. They're moving out fast. We're getting them out, and you're helping.</p>
+<p>And the biggest problem we have, the biggest impediment we have are sanctuary cities, you know, where they protect criminals. It's called a sanctuary for criminal. We ought to change the name: "a sanctuary for criminals."</p>
+<p>But the day I took the oath of office as your 47th President, we ended the border invasion.</p>
+<p>By the way, we have the best border now in the history of our country. We ended the war on police, and we declared a very strong war on crime. It's been really amazing.</p>
+<p>We've led our outstanding new Attorney General—happens to be with us—I was surprised to see him; he just got sworn in 2 days ago—Todd Blanche. He's going to be a legend. Where is Todd?</p>
+<p>I know him very well. I know him very—[<i>laughter</i>]—for a long time. He's going to be the greatest maybe ever. And we had some good ones in the country. I think he's going to go down. He's got a shot at being the greatest ever, if he remains tough and strong. He'll never change. Are you going to change your ways? [<i>Laughter</i>] I don't think so. If he doesn't change his ways, he's going to go down as the best.</p>
+<p>So I want to thank Todd even for being here. He just got sworn in.</p>
+<p>As well as a Long Island native born right here—and he's doing a good job, and those numbers are the best numbers anybody has ever seen—FBI Director Kash Patel. Best numbers anybody has ever seen on crime.</p>
+<p>And with your help, last year we achieved the largest drop in murder rate ever recorded, the lowest level in 125 years. That's since the year 1900. That was before my father was born. He would not have liked me saying that because he always liked to say he's quite young, but he wouldn't have liked that.</p>
+<p>Think of it: 125 years ago. We broke the record, which is amazing. It's amazing. So, I just want to thank all of the people—all of the people in this room.</p>
+<p>And today I'm thrilled to announce that the FBI has just released a new Uniform Crime Report showing that in 2025 we achieved the single largest reduction in violent crime in American history. [<i>Applause</i>] Pretty amazing. Pretty amazing.</p>
+<p>And last year, there were over 3,100 fewer murders than the year before I took off-—remember this, though. And we allowed, through this stupid open borders policy, 25 million people to come into our country. Many of them are now gone, but 25 million people—that's the number; that's the real number—to come into our country. Many of them, the people I just said: drug dealers, prisoners from all over the world. They came in from the Congo. They came in from South America.</p>
+<p>They were in—and despite that, we have the best crime record in recorded history. Two thousand—think of this—rapes. Ten thousand fewer. We had 10,000 fewer rapes than the year before. Tier—1 million fewer assaults, robberies, burglaries, thefts. The numbers—every single number—it's the first time it's ever happened. Every single number is the lowest number in recorded history.</p>
+<p>And according to the latest data, crime has continued to plummet under our leadership in 2026, with robberies down another 20 percent and murders down another 23 percent. So the numbers you just heard, the preliminary numbers for just now are even lower than the record numbers that you just heard. So it's a great tribute to all of the people in this room.</p>
+<p>Together, we're showing what is possible when you finally have a President in the White House who supports our police, who lets you do your jobs, and who always backs the blue. We back the blue.</p>
+<p>And—you know, and I have been from the beginning, long before I ran for office. Who would have thought 10 years ago? I've been doing this for now a long time, but not that long if you think I'm President. If you think. It was a pretty quick trip. But I'm with you, and always was, 100 percent. One hundred percent.</p>
+<p>And my administration is proving billions—and we're giving you billions and billions of dollars to hire, equip, and train new police officers. We're giving you more money than you've ever been given in history. More money. And you're going out and you're buying the best equipment you can buy.</p>
+<p>As President, I will always protect our qualified immunity. Would you like qualified immunity, everybody? Qualified immunity. It's always very important.</p>
+<p>I also deployed the National Guard and Federal law enforcement to restore public safety in our Nation's Capital, Washington, DC. And in DC, Memphis, and New Orleans, we've removed over 30,000 criminals from the streets in a single year. In Memphis, crime is down 71 percent. In New Orleans, crime is down 75 percent. And in DC, crime is down 81 percent.</p>
+<p>I'll tell you, because DC is very personal for me, but in DC, crime is now—it was so bad when I got there. A year and a half ago, people were being murdered 3 a week, on average. We have very few murders anymore. We have very little crime anymore. We've taken it from the worst, one of the most dangerous cities. Can you imagine, our Nation's Capital, one of the most dangerous cities in the country? We've taken it to one of the safest cities of the country—in the country.</p>
+<p>And we moved them out. We moved almost 5,000 people out of DC.</p>
+<p>And you know, it's a very interesting stat: 2 percent of the people create 91 percent of the crime. I love that stat because we can handle 2 percent of the people. If it was 60 percent of the people, we got problems. It's 2 percent. They're repeat criminals. Sometimes three, four times a day with this cashless bail stuff, they repeat. They go into court. The judge says, "Oh, you can go," and they go out and create another crime. But think of it: 2 percent create 91 percent of the crime, and it's—that's something we handled very well.</p>
+<p>We moved out, in Washington, almost 5,000, in many cases, career criminals. They're not there anymore. And every day I come to the White House, people are thanking me, "Thank you, sir. Thank you. Thank you, sir."</p>
+<p>No, these young, beautiful girls—these young, beautiful girls—these young, beautiful girls in the White House, you know, they come in—now I'm not supposed to say "beautiful," but what the hell? [<i>Laughter</i>] These young—these gorgeous, beautiful girls, they want to be safe, and they come, "Mr. President, may I speak to you?" "Yes." "Thank you, sir. Thank you." I said, "Why are you thanking me?" "Because a year and a half ago, I was afraid to leave—I was afraid to open the door of my apartment, and now I walk to the White House every morning, and I have absolutely no fear. Thank you, sir."</p>
+<p>No, I get it all the time. Men, women, older men, younger men, and older women and younger women, they're all saying thank you, and I know exactly what they mean.</p>
+<p>We lived in a hellhole. Two years ago, we were in a hellhole, and now we have one of the safest cities. And it should be safe. It's our Nation's Capital. We represent the whole universe, frankly, because there's nothing like the United States. Look at what we've done.</p>
+<p><i>Audience members. </i>U.S.A.! U.S.A.! U.S.A.!</p>
+<p><i>The President. </i>Thank you.</p>
+<p>And you know, for other cities like New York, Chicago, L.A., all they have to do is call us, and we will stop that crime. We'll stop that horrible crime. We come in with the right people. We come in with the power to move people out of the country if they're here illegally, and a lot of them are criminals that were let in through that open border—that horrible—remember the scene? Remember the scene?</p>
+<p>Well, you saw it the other day in Spain, right? Okay. Now envision that—they allowed 65,000 people in. Now, you—remember, 25 million people. We were worse. That was like that every single day in our country, and that went on for months and months.</p>
+<p>And then we had a border czar, as you remember—Kamala. She was the border czar. She never went to the border.</p>
+<p><i>Audience members. </i>Boo!</p>
+<p><i>The President. </i>And she never once called Border Patrol. Other than that, she did an excellent job. She did. [<i>Laughter</i>] She was a great candidate. I think they should run her again. She was a great candidate. [<i>Laughter</i>]</p>
+<p>But since I took office, Federal law enforcement has arrested, incredibly, 1.2 million criminals nationwide and bad ones. We want to make sure we get the bad ones.</p>
+<p>And we've increased Federal criminal prosecutions by over 50 percent.</p>
+<p>And under the Trump administration, the FBI has nearly doubled its arrests for violent crime. The violent criminals are being arrested, and that's why you see the good crime numbers. I mean, you're seeing crime numbers even in places that do not do—let's say they don't have good leadership. Like Chicago has very bad leadership. But we have the numbers down because of what the Federal Government is doing. We get no credit for it because they say, "Well, they get"—they—we get no credit for it. They like to take all the credit, but everyone knows we've done an amazing job.</p>
+<p>The U.S. attorneys and the FBI, all the people—Kash, and Todd has been unbelievable. They get all the credit.</p>
+<p>And as of this week, we've captured 9 out of 10 fugitives on the FBI's Most Wanted List, and that's a virtual record. We have a list. We have a list of 10 not-nice people.</p>
+<p>These are not nice people, David Mack. You know, you—hi, David. Stand up, David. One of the wealthiest guys. He's got so much cash. He's got so much cash, he doesn't know what to do with it. [<i>Laughter</i>] And he wants to be safe. They save your ass, David, I'll tell you. [<i>Laughter</i>] You have no idea, David.</p>
+<p>Anyway, I—it's good to see. I haven't seen you in a long time. He's a real estate man—a very good real estate man, and he used to be my enemy, but now he's very nice to me. [<i>Laughter</i>] Now he's very nice. He used to be my competitor, but he's a good man. He's a great, brilliant real estate person too. It's good to have you, David.</p>
+<p>Shortly after taking office, I signed a historic Executive order directing that anyone convicted of killing a police officer should face the death penalty.</p>
+<p>And last year, deaths of law enforcement—well, think of this: Deaths of law enforcement officers in the line of duty fell to an 80-year low. That means people aren't playing games anymore. It's an 80-year low. Still too many, but it's an 80-year low.</p>
+<p>Despite all of our extraordinary progress to restore safety to every community in our land, the radical-left Marxists, the Communists—they're Communists. These aren't Socialists. Socialists are no good, but Communists—remember, I said at the State of the Union speech, the last one, "We will not be a socialist country." I was right. They want to make us a communist country. They've skipped socialism. They skipped socialism. Can you believe it?</p>
+<p>So at least I was right. I like being right. [<i>Laughter</i>]</p>
+<p>But they continue their war on police and their destruction of the rule of law. The Communists want to turn America into a third-world country, into a hellhole of crime and filth.</p>
+<p>You ever notice—I said it a week ago for the first time: The first thing you see, I see—before you even see the crime, the crime becomes staggering—is the streets become filthy dirty? They're disgusting. They smell. They rot. But everything becomes dirty, and then you see the crime and you see all the other things.</p>
+<p>But I don't know, I'm not sure you've ever heard that said by anybody else. Most people wouldn't say it. But it's true.</p>
+<p>And squalor—and, you know, it just becomes so bad. And then the death comes, and it becomes really a true hellhole.</p>
+<p>And we're not going to let that happen to New York, New York State. And that's why we have to get Bruce into office. We've got to get Bruce in there.</p>
+<p>Nowhere is the communist attack on American society more clear than here in New York State. The radical-left Governor Kathy Hochul has been——</p>
+<p><i>Audience members. </i>Boo!</p>
+<p><i>The President. </i>——has been very, very bad on crime—a nightmare for crime. She supports New York's disastrous no-cash bail law. You know, it all started, if you think about it—because I've been here for a long time. I love this place, but it gets harder to love. It really does.</p>
+<p>But if you think, it really started with the no-cash bail. Remember that? That was a Cuomo beauty, right? That was a Cuomo beauty.</p>
+<p>In other words, no cash. Don't worry about it. You kill somebody. "Oh, that's okay. Go ahead." Then you go and kill two, three people a day. It's the craziest thing I've ever heard. And you can't—</p>
+<p>It's like men playing in women's sports. It's so crazy. You can't believe it.</p>
+<p><i>Audience members. </i>Boo!</p>
+<p><i>The President. </i>It's like transgender mutilization of your children.</p>
+<p><i>Audience members. </i>Boo!</p>
+<p><i>The President. </i>And all these people believe in all this stuff. But they came out with that one with the no-cash bail. Just think of it: no cash. You kill somebody, you rob a store, you go right back out on the streets. It is the craziest thing I've ever seen.</p>
+<p>And I don't know, from its political standpoint, I guess it's good, —because, Bruce, how the hell can you lose to that? Can you—you're going to be ashamed. If you lose, you're going to be ashamed for the rest of your life. [<i>Laughter</i>] You'll be ashamed. Bruce would say, "How did I lose to that?" [<i>Laughter</i>]</p>
+<p>No, I mean, think of it. Open borders. "Let's have open borders. Have the entire world pour into our country." Twenty-five million people in 4 years.</p>
+<p>She supported the release of convicted murderers who killed New York City police officers. She wanted people that killed our great police officers. One in particular, in Long Island, where I went to the funeral. And I just met the people that gave this—law enforcement chapels, rabbis, and met a whole group. And they were there, and they gave the most beautiful sermon.</p>
+<p>But they kill. These are absolute killers. And then you're not going to change them. You've got to get them the hell out, or you've got to put them away. And if you don't do that, you're just wasting a lot of time.</p>
+<p>This whole concept of what they do—the only thing is, from a political standpoint, it's so easy to run against because it's just common sense.</p>
+<p>You know, I guess I'm a conservative guy, but I'm a commonsense guy more than a conservative guy. It's all about—politics is all about common sense. Bruce is a commonsense guy. Bruce is a commonsense guy.</p>
+<p>All of our Congresspeople that are here—you know, we have all our Congresspeople here. That's a big deal. I think I'm all—I—if I—if you said, "Would you rather have Bruce Blakeman win or all of your Congresspeople," I don't know, Bruce. I think I'm going to have to give you up. I want to—[<i>laughter</i>]—I might have to take the Congresspeople. It's so important. Okay? They're very happy.</p>
+<p>She signed a law weakening the parole enforcement for convicted felons, really weakening it. She spent millions and millions of dollars providing taxpayer-funded lawyers to illegal aliens. If you didn't—if you weren't an illegal alien, you didn't get a lawyer, but if you were an illegal alien, you got lawyers, and they were very good. They were radical-left lunatics, but they were very good, very effective.</p>
+<p>She's in favor of the sanctuary city. She thinks the sanctuary cities are wonderful, which are killing our country.</p>
+<p>And less than 3 months ago, Kathy Hochul signed a deadly and seditious new law, making New York a so-called "sanctuary State."</p>
+<p><i>Audience members. </i>Boo!</p>
+<p><i>The President. </i>So she took it from the city to the State, meaning Kathy Hochul wants to release migrant criminals from jail and set them loose on innocent New Yorkers all over. Every street has people that are not supposed to be here, and the reason they left their country is a lot of bad reasons.</p>
+<p>You know, I know a lot of the leaders of these countries. They're very smart. More than smart, they're street smart. Very street smart. And they don't want these people. So what they did is they sent them into the United States of America through the open border.</p>
+<p>And people like Kathy Hochul, they want to keep them in New York. We don't want to keep them in New York. We don't want them. We don't want to take a chance. Yes, maybe they'll get better. You know what the chances are? About 2 percent. Maybe they'll get better.</p>
+<p>But Hochul and the radical left stand with the gang members, child predators, violent felons.</p>
+<p>We stand with hard-working New Yorkers. We stand with the great people of law enforcement.</p>
+<p>And Hochul and Mayor Mandami—[Mamdani; White House correction]——</p>
+<p><i>Audience members. </i>Boo!</p>
+<p><i>The President. </i>——were against securing our border. They were against our massive tax cuts. They were against no tax on tips, no tax on overtime, and no tax on Social Security for our seniors. They were against all of that. They were—they fought it like hell.</p>
+<p>Is that right, Congressman? Am I right? Nick, right? They fought like crazy. I mean, we didn't get one vote.</p>
+<p>We have no tax on tips, no tax on overtime. And you cops get a lot of overtime. I'm just being—you get a lot of overtime. [<i>Laughter</i>] I made you a lot of money. But you deserve it.</p>
+<p>But—and no tax on—for Social Security—think of it—for the seniors, and a lot of seniors—is anybody happy about that? Seniors, are you happy about it?</p>
+<p>Who—let me do a quick poll. If you had your choice of only having one, clap for the one you like best.</p>
+<p>No tax on tips. [<i>Applause</i>]</p>
+<p>No tax on Social Security for our seniors. [<i>Applause</i>]</p>
+<p>No tax on overtime. [<i>Applause</i>]</p>
+<p>I know. —[<i>laughter</i>]—I knew the one they'd like the best. [<i>Laughter</i>]</p>
+<p>But she wants to raise your taxes. Think of it. She and all these people are against these things. And if they get in, they're going to take them all away. They're all going away.</p>
+<p><i>Audience member. </i>How about the income tax? [<i>Laughter</i>]</p>
+<p><i>The President. </i>Yes, that will be next. Yes. [<i>Laughter</i>] That could happen, actually.</p>
+<p>If we keep making money like we're making—we're the hottest nation anywhere in the world right now. Hottest. We're building more plants and factories than any country anywhere in the world in history. Think of it. We're building, and the jobs are going to be fantastic.</p>
+<p>You know, in a couple of years, 2½ years, somebody is going to be elected, and will you please—will you please remember one thing? Trump is the one that did it. These factories are all going to be opening up. They're going to be all opening up. They're going to be opening up, and they're going to say how brilliant they were. Right, Todd? They're going to be saying "brilliant."</p>
+<p>Think of it. We have $19.2 trillion being invested in our country. You know why? Tariffs. We're making a fortune with tariffs. They like to say, "Oh, tariffs." They have no idea what they are. Basically, if you build your plant here, if you make your product here, you don't pay tariffs. If you make your product in another country, I say, "I want you to pay 50 percent." We don't want your product if you make it—so they're all moving in, and they're building—they're spending $19.2 trillion so far. It's actually more than that because that's as of the first 13, 14 months, and it's been a little bit longer than that.</p>
+<p>But think of the next Governor and think of the next—for your State. But think of—more importantly, think of the next President. Your Governor, your next Governor, is going to say, "What a great job."</p>
+<p>Do you know how many—you know how many factories and places are being built in all of the States? And your next President is going to say, "What a great job I did." He'll be sitting around watching television, a real stiff. [<i>Laughter</i>] Unless you vote Republican, of course.</p>
+<p>But no, you'll—they'll be sitting, say: "Darling, look at the great job I did. I don't know what the hell is happening, but this country is going"—I'm telling you, we have the hottest country anywhere in the world. Nineteen-point-two trillion is more than invested ever in history in any country.</p>
+<p>And another little stat. I love these stats. I love these. I hate reading these boring speeches because—be honest with you. [<i>Laughter</i>] So most—isn't it nice to have a President that doesn't have to read a teleprompter? Isn't it?</p>
+<p>Teleprompters are easy. They're—bored—you get a little bored with teleprompters.</p>
+<p>But here's a stat that they never write down, but I think it's one of the most—at this moment right now, there are more people working in the United States of America than ever before. We've never had anywhere—not even close.</p>
+<p>Think of that stuff, right? Think of that stuff. And one other thing I have to say. You know, they keep talking about affordability. "Affordability." You know, I walk in, I'm in office one day, and those fake—look at all that press back there. Wow. Fake news. [<i>Laughter</i>] But——</p>
+<p><i>Audience members. </i>Boo!</p>
+<p><i>The President. </i>But they keep talking about affordability.</p>
+<p>When I got in, you remember the first news conference? It was 1 day. They started screaming: "What about eggs? What about eggs? Eggs." I said, "Tell me about eggs. What's the problem?" [<i>Laughter</i>] "They're up five times higher than they were just a year ago." I said, "I've just been here 1 day." [<i>Laughter</i>]</p>
+<p>And then they started screaming, "Affordability." And you know, I made the statement, but they always misread it and everything else because—but I said the Democrats saying that is a hoax because they're the ones that caused the affordability—we're bringing the prices way down. Look at what's happening: coming way down.</p>
+<p>And after we finish defeating Iran, which is being very badly defeated—pretty soon I'll be declaring the Hormuz Strait a territory of the United States. [<i>Laughter</i>] Soon. Soon.</p>
+<p>Essentially, that's what it—we have the blockade. No ships get through unless we want them to.</p>
+<p>But—and how about Venezuela? Venezuela was a 1-day war, and now we work great with them. We've taken in millions and millions of barrels of oil. But we're doing really good. We're doing good in every way.</p>
+<p>You know, I built the military, and now I used it a little bit more than I wanted to, frankly, but that's okay because we cannot let Iran have a nuclear weapon. Do we agree? Can't let it.</p>
+<p>So most things are down, and I had—you know, before I started that, I had to make a journey. I said to my guys, I said to Howard, Scott, Marco—they're all fantastic—what a great group we have. But I said, "Fellas"—we had just had the best month ever—anyone has ever had as President. The numbers had just come out. I just got back. I was in Iowa helping some people. And I was in office, and we're looking at the pump, and it's $1.95 a gallon, and another one was $1.85. I was at $1.85 a gallon.</p>
+<p>And I meet them the following day. I said: "I have bad news for you guys. We have to make a little journey to the Middle East because we have to put out a potential disaster, a potential very big fire, fire like you've never seen. We can't let Iran keep going." They would have had a nuclear—if we didn't hit—the B–2 bombers, if we didn't hit them, you would have had a nuclear weapon, and it would have been a very sad day for this country and for the entire world.</p>
+<p>So I said, "We're going to have to put out the fire in the Middle East," and we've done that. They're never going to have a nuclear weapon. We have loaded up.</p>
+<p>So I just say this. So for you to pay a tiny, little bit more for your gasoline, just remember you're doing it so that a very evil country cannot have—a country—really, it's the number one State sponsor of terror in the world. We don't want to have them have a nuclear weapon. So remember that when you have to pay a little bit more. You're at $4. It's okay. I mean, it's—I'm not—I'm not—I'll never apologize. I did the right thing.</p>
+<p>But you could—you know, if you didn't have, you'd be at—I mean, I had it down to below $2 in many States, but—and California you can't include because they keep taxing, taxing, taxing. You lower the oil price, and they end up taxing you more than what you lower it.</p>
+<p>But you just have to remember that what we're doing is a great service for the world—not only for ourselves; for the world. And we're really doing a great job. Our military is unbelievable. The blockade is unstoppable. It's a wall of steel. The blockade is a wall of steel.</p>
+<p>But the policies of Hochul and the Democrat colleagues, like crooked—oh, she's the worst. Is she the worst? Crooked Attorney General Letitia James.</p>
+<p><i>Audience members. </i>Boo!</p>
+<p><i>The President. </i>She is the most dishonest. A real—slob. A real slob. [<i>Laughter</i>] You know, they had her. She got off on a technicality. They had her, but she got off on a technicality. But let's see what happens.</p>
+<p>You remember when she was campaigning and—"We will stop Donald Trump"? She's not supposed to say that. She's the attorney general. "We will stop"—she didn't know anything about me, but she campaigned on "We will stop Donald Trump."</p>
+<p>Well, I think I'm here as—am I here as President? Yes, I am, right? That's nice.</p>
+<p>She's—by the way, Letitia James is a disgrace to law, order, law enforcement. She's a disgrace. She's a dishonest person. Very dishonest. Very crooked person.</p>
+<p>Remember, I used to say that about James Comey. I was right. These are dishonest—these are dirty cops. You know the expression? You've got dirty cops too. Letitia James is essentially a dirty cop.</p>
+<p>And you have a person running, who I just met today for the first time, and I've endorsed her—running for attorney general. Where the hell are you, ma'am? Where are you? And I'm hearing you have a hell of a shot. Her resumé is unbelievable.</p>
+<p>But the reason that all of the products in New York pharmacies and convenience stores are all locked behind glass—how do you do that? You know, I used to go—you go into a drugstore. You go into a store. You buy something. You buy a toothbrush. You buy some toothpaste. Now you have to open up glass. They—it's no way to run a business. I don't know how the hell they can make money. They can charge you a lot. I don't care how much they charge; they can't be making any money.</p>
+<p>Actually, I have a store on Wall Street, and they said: "Sir, we're not going to make it. We're not going to make it." I go into the store. This is before I left. I go into this—it's a drugstore. Well-known, big brand. Good store. Beautiful store. Right across on the New York Stock Exchange in a building. And beautiful everything. Everything is beautiful.</p>
+<p>There's only one problem. I walk into the store. I said, "What's going on here?" Every shelf has glass on it, and it's got a lock and a key. I said: "Why do you do that? How do you live like that?"</p>
+<p>You want a piece of—you want a toothbrush or you want a little toothpaste or a—you want to get a little Dove soap. You know, you have nice skin. [<i>Laughter</i>] You want Dove. You can pour it gently on your face, keep your skin very nice. [<i>Laughter</i>] You want a little of that good hair that can puff up your hair a little bit more—[<i>laughter</i>]—so it makes you look like you have 4 percent more hair than you had, and they charge you a fortune. [<i>Laughter</i>] And you have to call a clerk. "Sir, would you please help me?" "Yes, sir, I will." And they open up a door, a glass door, and they give you a bottle of shampoo. Give me a break.</p>
+<p>And that's because nothing happens to these criminals. Nothing happens to them. It's not like that in other places. It's like that in other blue States, but it's not like that in Republican States. I can tell you that.</p>
+<p>But 3 weeks ago, in Kathy Hochul's New York, a demented criminal with 14 prior arrests threw an elderly woman—you know; you saw it—onto the subway tracks. Almost died. It was a miracle. Barely lived. I mean, what's your definition of "live"?</p>
+<p>Two weeks ago, a wonderful 12-year-old boy named Jacob Freytes—you read about this one—was tragically shot and killed by a stray bullet fired by a repeat offender in a gun battle. He was having a gun battle with his friend, shooting bullets all over the place. Jacob was the son of a loving mom and a retired New York City police detective, and they are incredible people. And I think—I heard that they may be with us today.</p>
+<p>Are you with us? May I introduce you?</p>
+<p><i>Audience member. </i>Stand up. Stand up.</p>
+<p><i>The President. </i>Please.</p>
+<p>[<i>At this point, the President left the stage to greet the family members of New York City stray-bullet shooting victim Jacob Freytes</i>.]</p>
+<p>Incredible, horrible story. What a horrible thing.</p>
+<p>But we're—we're going after them. I just said, "We're going after." These are bad, sick—they're sick people. They're sick people.</p>
+<p>Also with us is former New York PD Officer Ethan Curreri—where is Ethan—Ethan Curreri?—who 3 years ago arrested an illegal alien criminal in New York City. Oh, that's the guy. I remember. [<i>Laughter</i>] I remember him. He arrested someone for endangering a child, only to watch that migrant criminal be released under the sanctuary laws that Kathy Hochul so fervently supports.</p>
+<p>And just imagine the anguish that Ethan felt when he learned that that same monster was arrested for murder—and murdering a beautiful, young nursing student who became a very famous person after her death, unfortunately—Laken Riley—in Georgia.</p>
+<p>Now, if they had the proper laws—you did your job. You did it, but they just released this animal into the world. I just want to thank Ethan Curreri. Please accept our congratulations and our love. Thank you. Thank you, Ethan.</p>
+<p>And he was devastated. He was devastated. I—we've been together twice, but he was devastated because he had the guy, it was all done, and they released him. And he said: "Don't release him! Don't release him!" Begged them, but they released him, and he went on—the following couple of days later, he killed Laken Riley.</p>
+<p>Thanks to our Republican majorities in Congress last year, it was my honor to sign the Laken Rilen Act—Laken Riley Act into law—helping us ensure migrant criminals are swiftly deported. It's been held up too. It's been—it's been—people are following it very closely. But—and we named it after Laken for a very good reason.</p>
+<p>The family was devastated.</p>
+<p>And I want to thank Bruce Blakeman for working closely with Federal law enforcement to remove——</p>
+<p><i>Audience members. </i>Bruce!</p>
+<p><i>The President. </i>——more than 2,000 migrant criminals from Nassau County. Thank you.</p>
+<p>He removed 2,000 absolute, total criminals. That's why your records are so good. That's why you're number one in the whole country. I got to check that, Bruce. I don't know about that. [<i>Laughter</i>] But that's why you're number one in the country.</p>
+<p>It's time for the people of New York to remind your politicians that their job is not to protect the criminals. Their job is to protect the good, hard-working people of New York.</p>
+<p>And that's why, right here in Nassau County, Bruce Blakeman hired over 700 new police and correctional officers to keep New Yorkers safe.</p>
+<p>I don't know. Should we do this? Come on up, Bruce. Come on. Should we do it? Come up, Bruce.</p>
+<p><i>Audience members. </i>Bruce! Bruce! Bruce!</p>
+<p><i>County Executive Bruce Blakeman of Nassau County, NY</i>. You got it.</p>
+<p>Thank you very much, Mr. President.</p>
+<p>I see Sid Rosenberg is here. What are you doing? You're supposed to be on radio. [<i>Laughter</i>]</p>
+<p>Listen, we are so honored to have President Trump join with us here today in these magnificent facilities that we have here in Nassau County to honor the men and women of our law enforcement professionals and firefighters.</p>
+<p>And especially, we want to thank President Trump. And I mean this from the bottom of my heart because I meet moms and dads everywhere I go throughout the State. Thank you, Mr. President, for sealing our borders. There are less and less—[<i>applause</i>]—there are less and less—less and less moms and dads that are burying their children from fentanyl and the illegal drugs that came through our poorest borders during Biden-Harris.</p>
+<p>Thank you, President Trump, and God bless you for everything you do! We appreciate you! Keep going!</p>
+<p>Amazing. Amazing.</p>
+<p><i>Audience members. </i>Bruce! Bruce! Bruce!</p>
+<p><i>The President. </i>That's what you need. That's what you need. He'll be great. I have no doubt about it.</p>
+<p>A lot of times, I'm with people and I'm sort of not very sure. [<i>Laughter</i>] I'm sure of this one. He's going to be great.</p>
+<p>The official communist platform calls for abolishing the police, abolishing prisons, abolishing qualified immunity, abolishing all immigration enforcement, and giving full amnesty to 50 million illegal aliens. How about that?</p>
+<p>One of Mayor Mandami's [Mamdani's; White House correction] closest allies in New York, Darializa Avila—haves you—I've never heard of her. Who the hell is she?</p>
+<p><i>Audience members. </i>Boo!</p>
+<p><i>The President. </i>——called police "pigs." They're "pigs." She said they're "pigs," and she said that—"end policing, full stop." That was her. That's her campaign. That's what she—says: "End policing, full stop."</p>
+<p>The radical extremist has not been disavowed by Chuck Schumer, who's a Palestinian. He's a full-fledged Palestine. In fact, I'm looking for Palestinian garb. I'm going to send it to him for his birthday. [<i>Laughter</i>] I know him very well.</p>
+<p>Or Crazy Nancy Pelosi. She's totally crazy. If you got to know her, you'd say she's crazy.</p>
+<p>Or Kathy Hochul, who's done such a poor job in New York. In fact——</p>
+<p><i>Audience members. </i>Boo!</p>
+<p><i>The President. </i>——she has the congressional Democrats full of—I mean full support. Think of it: Every Democrat—not the people; the people are going to vote for Bruce Blakeman. But the politicians, they're all for her. Begrudgingly, I have to tell you. They came in—the mayor came in very late for her, if you remember.</p>
+<p>Communism is the greatest threat to our country in history, including World War I, World War II, Pearl Harbor, or even 9/11.</p>
+<p>Today we declare again that America is going to be greater than ever before. It's going to be great. You know, I had a little expression that I came up with called "Make America Great Again"—MAGA. Who thought that was going to happen when we first said it 10 years ago? Right? First said it—I came up, I said, "That's a good sound." Who would have thought?</p>
+<p>But we're joined today by some of the warriors in Congress who are standing up for our values, including Representatives Nick LaLota, Andrew Garbarino, Nicole Malliotakis, and your former Congressman, a friend of mine, Anthony D'Esposito—Anthony.</p>
+<p>And thanks as well to Sheriff Todd Hood, a fantastic guy, Kailee Buller, who's running; Anthony Constantino, who's running for Congress; Jeanine Driscoll; and Mike LiPetri.</p>
+<p>Come on up. Come on up, fellas. Come on up. We got to get them in office. Come on up. Get up here. Come on up here.</p>
+<p>What the hell? It's late in the week. We have—[<i>laughter</i>]—say a couple of words, darling.</p>
+<p><i>Receiver of Taxes Jeanine C. Driscoll of Hempstead, NY</i>. Wow, we are so excited. Thank you, President Trump, for lighting this room on fire. We love the work you've done to make Nassau County the best county in New York. We appreciate every—all the devotion.</p>
+<p>And thank you for coming here today to support us, to keep the Republican agenda going in Washington.</p>
+<p><i>The President. </i>Thank you, darling. Thank you.</p>
+<p><i>Former New York State Assemblyman Michael J. LiPetri</i>. Thank you, Mr. President. America is the hottest nation because of you, sir. America's swagger is back. Our enemies fear us. Our allies respect us.</p>
+<p>And, Mr. President, you are here because you know we choose common sense over chaos, and we 100 percent back the blue.</p>
+<p>God bless you, Mr. President. Thank you so much.</p>
+<p><i>Representative Nick LaLota</i>. Long Island, are you fired up?</p>
+<p>Hey, listen here. Mr. President, thank you for being with us here on Long Island.</p>
+<p>Listen, Suffolk County, we're pretty safe too. Any Suffolk County folks in the house? God bless Suffolk County too.</p>
+<p>Now, listen, we Long Islanders, we want two things. We don't want to be able to move to Florida or North Carolina. We want to stay here. And we need two things to stay here, and you're helping us a lot, Mr. President. We want to make it more affordable, and you cutting our taxes helps us stay here on Long Island, but also making us safer.</p>
+<p>And we've got our cops here too. We love that you're supporting the blue. We love that you're here in Long Island. God bless you, Mr. President.</p>
+<p><i>Representative Nicole Malliotakis. </i>Hello, Long Island. How are we doing?</p>
+<p>All right. Are we ready to elect Bruce Blakeman the next Governor so the entire state can be safe?</p>
+<p><i>Audience members. </i>Bruce! Bruce! Bruce!</p>
+<p><i>Rep. Malliotakis. </i>Well, I'm proud to represent Staten Island and Brooklyn. Sadly, it's part of Mamdani's New York City. But we are going to change the tide in New York City and across America, and we're doing it already because of our Republican majority and this great President, Donald J. Trump.</p>
+<p>My mother fled communist Cuba, and we will never allow that to happen here in the United States, the greatest and freest country in the world. Thank you, and God bless.</p>
+<p><i>New York Republican congressional candidate Anthony Constantino</i>. I just want to say thank you very quickly to President Trump for inspiring me to be here. I wasn't a politician until very recently. I saw what he did for our country, stepping aside from his incredible business, and I decided I wanted to do the same thing because of him.</p>
+<p>And I tell you this—I think I'm still an objective person. Bruce Blakeman called me an anti-politician, so I have a clear message to everybody in New York State: Democrat, Republican, independent, you have no choice anymore but to vote Republican, vote Bruce Blakeman, vote every Republican you can find because the Democrats are destroying our State.</p>
+<p><i>Representative Andrew R. Garbarino</i>. Thank you again, everybody. One thing we didn't mention today but we have to—This would not have happened without the President: Let's thank him for getting our SALT deduction back. Thank you very much, Mr. President.</p>
+<p><i>The President. </i>Thank you. Thank you, everybody.</p>
+<p>Come on. Please. Can't forget this one here. [<i>Laughter </i></p>
+<p><i>New York Republican congressional candidate Kailee Buller</i>. Thank you, Mr. President. You let me serve you in term one. I helped on your transition team, and you let me serve you in term two. And we are going to keep the House and keep enacting your agenda. Woo!</p>
+<p>Thank you, sir. I appreciate it.</p>
+<p><i>The President. </i>Thank you very much. They're fighters. What you need is fighters.</p>
+<p>Also with us is New York Republican Party chair, Ed Cox. Where's Ed? Thank you, Ed. Good job. You've got a hot one going, Ed. A friend of mine for a long time, Nassau County chair, Joe Cairo. A longtime friend of mine, Senator Al D'Amato, I see is in the audience. Thank you, Al.</p>
+<p>And another friend of mine, another great politician, Peter King. Thanks, Peter. Thank you, Peter. Great. Great.</p>
+<p>We also have a fearless advocate for victims of crime who spoke at the 2024 Republican National Convention about the murder of her son Hason. And I tell you, this was a big moment. Madeline Brame. Where are you, Madeline? Where are you, Madeline?</p>
+<p>What a job that was. What a—what—she got the biggest ovation of anybody in the place, including me. Including me.</p>
+<p>Thank you, Madeline. Thank you very much. You got—she got a hand for 5 minutes. They were applauding you on the job, because they got to know you on television, talking about your great son, and I appreciate it.</p>
+<p>Along with another passionate advocate for crime victims and a survivor of very violent crime, Jasmine Robles. Thank you. Thank you, Jasmine.</p>
+<p>And finally—and I have to tell you, he's become a friend of mine because I think he's just great. I used to watch him on television in a slightly different mode. He was a comedian, I guess; an actor. He was a—he's sort of everything, and now he does some of the best commentary of anybody anywhere in the world, talking about the Civil War, talking about everything having to do with patriotism: Kelsey Grammer.</p>
+<p>Thank you, Kelsey.</p>
+<p>I don't know what it is. You know, originally, he made me laugh. [<i>Laughter</i>] Now, that doesn't easily go into civil wars and all the other wars he talks about. But you are really amazing—maybe it's the voice; maybe it's the look. Probably the voice. [<i>Laughter</i>] Must be the voice. But he's a great guy. There's nobody like him.</p>
+<p>Under the Trump administration, America is winning again, and America is respected again all over the world. We're respected like never before, and that's because I put America first. We're first. And we're first in terms of many countries.</p>
+<p>When they need help, they call America. I don't always give it because sometimes they haven't been very good to us.</p>
+<p>You know, NATO wasn't there for us, by the way. You know, NATO——</p>
+<p><i>Audience members. </i>Boo!</p>
+<p><i>The President. </i>NATO was not there for us. We pay all that money for so many decades—money, money, money. We say, "Yes, give us a hand." "Well, sir, we'd rather not." [<i>Laughter</i>] But we remember.</p>
+<p>We inherited the worst border in the history of the United States, and we quickly turned it into the most secure border in the history of our country. We took the worst border, and within a 60-day period, we turned it into the best—and I did it twice. If you remember, I did it in 2016——and then they let it go.</p>
+<p>But the 2016 border was nothing compared to the border we just had. That border was horrible. What they let into this country—the 2016 was like a secure border by comparison, what we just had to go through. And we did it fast.</p>
+<p>Remember they said you couldn't do it; you couldn't secure the border? I did it in, really, 30 days. Sixty days became perfect but, really, 30 days.</p>
+<p>And you know the only difference? Because they said you have to go back to Congress. Yes, I didn't go back to Congress. [<i>Laughter</i>] The only difference is you had a different President. That's the only difference.</p>
+<p>In the past 15 months, a historic record of zero illegal aliens have been admitted into the United States. And we take people in, but they have to come in legally. They have to come in legally.</p>
+<p>And it was just announced that the total number of attempted illegal border crossings is down by 94 percent. And by the way, water crossing—you know, for the drugs—97 percent down. Ninety-seven percent.</p>
+<p>You know, for years we've been interdicting, they like to say. But for years we've been grabbing those boats, bringing them into Miami and different places. They'd be let go in a matter of minutes. Always had good lawyers. And they'd be back sailing sometimes that night.</p>
+<p>They don't sail anymore. They don't sail. [<i>Laughter</i>]</p>
+<p>And the 97 percent—in fact, we're going to give probably medals to some of the 3 percent because I think they happen to be the bravest people. [<i>Laughter</i>] Anybody getting into one of those boats to bring drugs into our country, I consider them to be among the bravest people anywhere in the world—either that or the dumbest people in the world.</p>
+<p><i>Audience member. </i>Dumbest!</p>
+<p><i>The President. </i>With the help of our Republican majorities in Congress, I proudly signed the largest tax cuts in American history just now. Largest in American history.</p>
+<p>And they wanted to give you the largest tax increase in American history.</p>
+<p>You know, all my life I've been watching politics, and I wasn't a politician until relatively recently. But I've been watching, and I've always watched politicians—Democrat, Republican, independent. They got up, and they—"We will cut your taxes. We will cut your"—even if they didn't mean it, they always said it.</p>
+<p>These people actually say, "We're going to raise your taxes." [<i>Laughter</i>] "We're going to drive you crazy. We're going to do things that is shocking." That's why people are leaving New York because of those policies. It's the dumbest thing I've ever seen. It can't work. It just can't work.</p>
+<p>And we have to be careful because, as the Federal Government, we don't want to throw good money after bad. They're destroying the city. They're destroying the State. We want to be there for the State, but we don't like—what's happening is a guaranteed failure. It's a guaranteed failure. It's not like, "Oh, maybe it will work." It's a guaranteed failure. We have to be very careful.</p>
+<p>Under our leadership, the stock market has set almost 80 alltime highs since the election. Set another one.</p>
+<p>More Americans are working today, as I said—to me, it's one of the cool-—because, you know, they say, "Well, employment"—they say, "How's Trump doing on the economy?" "He's at 42 on the"—42? We built the greatest machine in history. It's the greatest in history. More money invested—as I said, $19.2 billion—trillion, with a "t"—$19.2 trillion. And they say, "How's he doing on the economy?" "Oh, he's okay." Not okay. [<i>Laughter</i>] When I say we have the most people working—and by the way, the fake news—you see those people? If I'm wrong by——</p>
+<p><i>Audience members. </i>Boo!</p>
+<p><i>The President. </i>If I'm wrong by—I have to be very careful——</p>
+<p><i>Audience members. </i>Boo!</p>
+<p><i>The President. </i>——because if I'm wrong by a half a point, it's headlines all over the place. [<i>Laughter</i>]</p>
+<p>When other Presidents or Democrats make mistakes, that's okay. But if I misstate something slightly—just a little bit, like a half a point, a quarter of a point—it's headlines all over the world. Under my—which keeps me extremely honest, I must be honest with you. [<i>Laughter</i>]</p>
+<p>Under my most-favored-nation policy on drug prices, we're delivering the largest prescription drug price cuts in the history of our country by far—with price differences of 400, 500, and even 600 percent. And the headline in most of the papers this morning was "the largest drug price decrease in 65 years." And that alone should win us the midterms, really. That alone, because that reduces health care, reduces everything.</p>
+<p>For decades, Americans paid the highest prices for prescription drugs. We paid more for prescription drugs than anywhere in the world, and now we pay the lowest price anywhere in the world for prescription drugs.</p>
+<p>And I could tell you how I did it, but it's too boring. [<i>Laughter</i>] All I know is, you had to get other countries to agree, and I got every one of them to agree. You know why? If they weren't going to do it, I said: "I'm going to raise tariffs on you. I'm going to put 100-percent tariff. It's going to be 10 times more." "Sir, we'd love to do it. We'd be honored to double our prices." They had to double their prices in order for us to get the reduction.</p>
+<p>But think of that: 400, 500, 600 percent. We should win the midterms on that alone.</p>
+<p>We're making the largest ever investment in the United States Armed Forces. Our Armed Forces are the best in the world.</p>
+<p>I built it during my—I built it. I built it during my first term, including Space Force, which has turned out to be very important. And now we're using it.</p>
+<p>We won in Venezuela, which is now working with—nobody's ever seen any—we're taking millions and millions of barrels of oil out every single week, and we're likewise winning big with the Islamic Republic of Iran. Nobody has any idea how successful we are. They don't want to write it, but they know.</p>
+<p>You know who knows how well we're doing? Iran. Iran knows. [<i>Laughter</i>] Think of it. They have no navy. It's totally gone—159 ships. They had a total of 159 ships. A hundred and fifty-nine ships are right now at the bottom of the sea.</p>
+<p>They had 212 very nice airplanes. Some bought from the United States brilliantly through Obama—Barack Hussein Obama. Have you heard of him, Barack Hussein Obama?</p>
+<p><i>Audience members. </i>Boo!</p>
+<p><i>The President. </i>And every one of their airplanes is shot down. It's gone.</p>
+<p>They have no leadership. Their leadership is gone. Their first tour is gone. Their second tour is gone. Their third tour is half gone. That's one of my problems. There's nobody to negotiate with. It is a problem. [<i>Laughter</i>]</p>
+<p>I said, "Are you sure this guy is okay?" It's the only country in the world where nobody wants to be president. [<i>Laughter</i>]</p>
+<p>But their radar is gone. All of their high-intelligence equipment is gone. Their manufacturing of missiles is 82 percent—they still have missiles, but not a lot. They still have drones, but just a fraction of what they had. But their manufacturing is largely gone.</p>
+<p>And I read an article in one of the fake newspapers the other day, "Iran is in very good position." They have 350-percent inflation. Their currency is valueless. It's value—I read today where their currency is of no value, and the New York Times said, "Iran is doing quite well in the war." [<i>Laughter</i>] Ah, gee.</p>
+<p>These guys—fake news. It's just fake news. There's nothing you can do about it. They're sick. They're just as sick as the—as their partners, the Democrats.</p>
+<p><i>Audience members. </i>Boo!</p>
+<p><i>The President. </i>In just 18 months, we've turned this country completely around. Our border is secure. Our jobs are up. Inflation is way down. Investment is pouring in. Factories are opening. Our military is more powerful than it has ever been, and America is back, and our greatest victories are still to come. Our greatest victories are yet to come.</p>
+<p>It's amazing—amazing what we've done—what we've done. And I would not have said we would have done this in a year and a half, but in a year and a half. And I tell the story all the time: The King of Saudi Arabia, 2 years ago, he—I was there. And he said, you know, just—I was in office for a little while, like 6 months, so it was a year ago, and he was with me. Good guy. Smart guy.</p>
+<p>Under siege, by the way. All those countries are—because Iran was known as the bully of the Middle East.</p>
+<p>And he said, "You know, sir, that—a year ago, we said your country was dead, and now you have the hottest country anywhere in the world." He said that. That's where I got the expression. Many other leaders say the same thing. Every other leader says it, but a lot of them don't like saying it publicly.</p>
+<p>So, in conclusion, with the help of our Republican majorities in Congress, we will crush violent crime to the lowest levels ever. Already there. We're already there. Lowest levels—best crime levels in 125 years on murder and most of the other crimes.</p>
+<p>We will impose harsh new penalties for dangerous repeat offenders.</p>
+<p>We will crack down on Marxist prosecutors.</p>
+<p>We will never abolish the police. Instead, we will abolish the sanctuary cities. We will abolish them. We will destroy them. We will take them out. We're going to take them out of service.</p>
+<p>And we will immediately end no-cash bail.</p>
+<p>We will pass the "Great Health Care Plan" to stop all payments to big insurance companies. We'll give—you have to understand, the insurance companies are totally controlled—100 percent—they're totally controlled by the Democrats.</p>
+<p>And give the money directly to the people. They give billions and billions of dollars to insurance companies. We're giving them directly to the people. You go out, you buy your own health insurance, and you have money left over. You end up with better health insurance. So you're going to get better health insurance at a lower cost.</p>
+<p>And finally, we will pass the SAVE America Act to defend our sacred American elections.</p>
+<p><i>Audience members. </i>U.S.A.! U.S.A.! U.S.A.!</p>
+<p><i>The President. </i>Because all voters must have photo ID, and all voters must provide proof of citizenship.</p>
+<p>Have to do it. We have to do it.</p>
+<p>And mail-in ballots—we're going to make them so secure, you have no idea. If you want to stay home, you can do it, but we've got to make them secure because they are crooked as hell.</p>
+<p>So thank you. Thank you very much.</p>
+<p>And we'll also enshrine permanent law: There will be no men in women's sports, and there will be no transgender surgery for your children. No more.</p>
+<p>And we've—essentially killed DEI. Isn't that nice? No more DEI.</p>
+<p>I don't see the people behind me big on DEI. Were you big on DEI, anybody?</p>
+<p><i>Audience members. </i>No!</p>
+<p><i>The President. </i>That's not a DEI group, I can tell. [<i>Laughter</i>] It never was, by the way.</p>
+<p>So, ladies and gentlemen of Nassau County, the golden age of America is upon us. It's the golden age. We've never had anything like it.</p>
+<p>And together with your help and patriots all across this magnificent land, we will make America powerful again. We've already done that.</p>
+<p>We will make America wealthy again. We've already done that. We will make America healthy again. We're trying to do that. We will make America strong again. We've done that. We will make America proud again. We've done that. We will make America safe again. We've largely done that. And above all, we will make America great again.</p>
+<p>Thank you very much. God bless you. God bless you.</p>
+<p>Thank you, everybody.</p>
+  </div>
+<div class="field-docs-media-video-hosted">
+<div class="embedded-video">
+  <div class="player">
+    <iframe class="" width="640" height="360" src="//www.youtube.com/embed/BRGrk3Bw_P0?width%3D640%26amp%3Bheight%3D360%26amp%3Btheme%3Ddark%26amp%3Bautoplay%3D0%26amp%3Bvq%3Dlarge%26amp%3Brel%3D0%26amp%3Bshowinfo%3D0%26amp%3Bmodestbranding%3D1%26amp%3Biv_load_policy%3D3%26amp%3Bcontrols%3D0%26amp%3Bautohide%3D2%26amp%3Bwmode%3Dopaque" frameborder="0" allowfullscreen></iframe>  </div>
+</div>
+</div><a name="docmedia"></a>
+  <div class="field-docs-footnote">
+    <p>NOTE: The President spoke at 3:23 p.m. at the David S. Mack Center for Training and Intelligence. In his remarks, he referred to former Vice President Kamala D. Harris, in her capacity as the 2024 Democratic Presidential nominee; David S. Mack, senior partner and vice president, the Mack Company; former Gov. Andrew M. Cuomo of New York; Mayor Zohran K. Mamdani of New York City; Secretary of Commerce Howard L. Lutnick; Secretary of the Treasury Scott K.H. Bessent; Secretary of State Marco A. Rubio; former Federal Bureau of Investigation Director James B. Comey; New York Republican attorney general candidate Saritha Komatireddy; Zaki Smith, who was charged with the attempted murder of Lydia Zuñiga, who was allegedly pushed onto Midtown subway tracks in New York City on August 27; William Ferrer, suspected gunman in the shooting that killed Jacob Freytes in New York City on July 25; Migdalia Martinez, mother, and Jesus Freytes, father, of stray-bullet shooting victim Jacob Freytes; José Ibarra, who was convicted in the murder of Laken H. Riley, an Augusta University nursing student killed on the University of Georgia campus in Athens, GA, on February 22, 2024; New York Democratic congressional candidate Darializa A. Chevalier; Senate Minority Leader Charles E. Schumer; Rep. Nancy Pelosi; Sheriff Todd Hood of Madison County, NY; former Rep. Peter T. King; former President Barack Obama; and King Salman bin Abd al-Aziz Al Saud of Saudi Arabia. He also referred to S. 1383. Rep. Malliotakis referred to her mother Vera.</p>
+  </div>
+
+  <div class="field-prez-document-citation">
+    <p class="ucsbapp_citation">Donald J. Trump (2nd Term), Remarks on Law Enforcement in Garden City, New York Online by Gerhard Peters and John T. Woolley, The American Presidency Project https://www.presidency.ucsb.edu/node/396668</p>  </div>
+    </div>
+    <div class="col-sm-4 ">
+      <div class="group-meta">
+  <div class="field-ds-filed-under-">
+    <h3 class="oog-label">Filed Under</h3>  </div>
+<h3 class="label-above oog-label ds ">Categories</h3><div><a href="/documents/app-categories/presidential" typeof="skos:Concept" property="rdfs:label skos:prefLabel" datatype="">Presidential</a></div><div><a href="/documents/app-categories/presidential/spoken-addresses-and-remarks" typeof="skos:Concept" property="rdfs:label skos:prefLabel" datatype="">Spoken Addresses and Remarks</a></div><div class="jump"><div class="view view-dpg-docs-media view-id-dpg_docs_media view-display-id-block_2 view-dom-id-28f1e5c891e8378f9c840ffce2f7e387">
+        
+    
+      <div class="view-content">
+        <div>
+      
+          <a class="smoothScroll" href="#docmedia">Watch Video</a>    </div>
+    </div>
+  
+  
+  
+  
+  
+  
+</div></div>
+  <div class="field-docs-location">
+    
+
+<div  about="/node/200034" typeof="sioc:Item foaf:Document" class="node node-location-flag view-mode-for_documents ">
+    <div class="row">
+    <div class="col-sm-12 ">
+        <h3 class="field-label">
+    Location  </h3>
+
+  <div class="field-spot-state">
+    New York  </div>
+
+  <div class="field-spot-flag">
+    <img typeof="foaf:Image" class="img-responsive" src="https://www.presidency.ucsb.edu/sites/default/files/location-flags/NY.jpg" width="120" height="60" alt="" />  </div>
+    </div>
+  </div>
+</div>
+
+
+<!-- Needed to activate display suite support on forms -->
+  </div>
+</div><div class="rrssb"><ul class="rrssb-buttons"><li class="rrssb-twitter"><a href="https://twitter.com/intent/tweet?text=Remarks%20on%20Law%20Enforcement%20in%20Garden%20City%2C%20New%20York&url=https%3A%2F%2Fwww.presidency.ucsb.edu%2Fdocuments%2Fremarks-law-enforcement-garden-city-new-york" class="popup"><span class="rrssb-icon"></span><span class="rrssb-text">twitter</span></a></li><li class="rrssb-facebook"><a href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fwww.presidency.ucsb.edu%2Fdocuments%2Fremarks-law-enforcement-garden-city-new-york" class="popup"><span class="rrssb-icon"></span><span class="rrssb-text">facebook</span></a></li><li class="rrssb-linkedin"><a href="http://www.linkedin.com/shareArticle?mini=true&url=https%3A%2F%2Fwww.presidency.ucsb.edu%2Fdocuments%2Fremarks-law-enforcement-garden-city-new-york&title=Remarks%20on%20Law%20Enforcement%20in%20Garden%20City%2C%20New%20York" class="popup"><span class="rrssb-icon"></span><span class="rrssb-text">linkedin</span></a></li><li class="rrssb-googleplus"><a href="https://plus.google.com/share?url=https%3A%2F%2Fwww.presidency.ucsb.edu%2Fdocuments%2Fremarks-law-enforcement-garden-city-new-york" class="popup"><span class="rrssb-icon"></span><span class="rrssb-text">google+</span></a></li><li class="rrssb-email"><a href="mailto:?subject=Remarks%20on%20Law%20Enforcement%20in%20Garden%20City%2C%20New%20York&body=https%3A%2F%2Fwww.presidency.ucsb.edu%2Fdocuments%2Fremarks-law-enforcement-garden-city-new-york" ><span class="rrssb-icon"></span><span class="rrssb-text">email</span></a></li></ul></div>
+  <div class="field-ds-big-search-block">
+    <section id="block-views-5c12edf56060306972111336e0789cf4" class="block block-views other-frontpage-block clearfix">
+
+        <h2 class="block-title">Basic Search (case Sensitive!)</h2>
+    
+  <form action="/advanced-search" method="get" id="views-exposed-form-prez-documents-archive-search2-page-1" accept-charset="UTF-8"><div>  <div class="views-exposed-form vefl-layout bootstrap-6-6-stacked">
+    <div class="views-exposed-widgets clearfix">
+              <div class="vefl-region vefl-region-top">
+                      
+<div id="edit-field-keywords-wrapper" class="views-exposed-widget views-widget-edit-field-keywords">
+    
+  <div class="views-widget">    <div class="form-item form-item-field-keywords form-type-textfield form-group"><input class="form-control form-text" type="text" id="edit-field-keywords" name="field-keywords" value="" size="30" maxlength="128" /></div>  </div>
+  </div>
+                  </div>
+              <div class="vefl-region vefl-region-left">
+                  </div>
+              <div class="vefl-region vefl-region-right">
+                  </div>
+              <div class="vefl-region vefl-region-bottom">
+                      
+<div id="items-per-page-wrapper" class="views-exposed-widget views-widget-items-per-page">
+    
+      <div class="form-item form-item-items-per-page form-type-select form-group"> <label class="control-label" for="edit-items-per-page"># per page</label>
+<select class="form-control form-select" id="edit-items-per-page" name="items_per_page"><option value="5">5</option><option value="10">10</option><option value="25" selected="selected">25</option><option value="50">50</option><option value="100">100</option></select></div>  
+  </div>
+                      
+<div id="button-wrapper" class="views-exposed-widget views-widget-button views-submit-button">
+    
+      <button type="submit" id="edit-submit-prez-documents-archive-search2" name="" value="Apply" class="btn btn-default form-submit">Apply</button>
+  
+  </div>
+                  </div>
+          </div>
+  </div>
+</div></form>
+</section>
+  </div>
+
+  <div class="field-ds-typo">
+    <div class="view view-report-a-typo view-id-report_a_typo view-display-id-block view-dom-id-654f9ce1e110558ec2e5c4cb200ff612">
+        
+    
+      <div class="view-content">
+        <div class="views-row views-row-1 views-row-odd views-row-first views-row-last">
+      
+  <div class="views-field views-field-title">        <span class="field-content"><a href="/report-a-typo?content_id=396668&amp;title=Remarks%20on%20Law%20Enforcement%20in%20Garden%20City%2C%20New%20York" class="report-typo" target="_blank"><h3>Report a Typo</h3></a></span>  </div>  </div>
+    </div>
+  
+  
+  
+  
+  
+  
+</div>  </div>
+    </div>
+  </div>
+</div>
+
+
+<!-- Needed to activate display suite support on forms -->
+
+</section>
+  </div>
+<!-- Content -->
+      </section>
+
+      
+    </div>
+  </div>
+  
+  
+</div>
+<footer class="site-footer no-print">
+  <div class="container">
+      <div class="region region-footer">
+    <section id="block-block-4" class="block block-block attribution clearfix">
+
+      
+  <p><span>The American Presidency Project</span><br />John Woolley and Gerhard Peters<br /><strong><a href="https://www.presidency.ucsb.edu/contact">Contact</a></strong></p>
+
+</section>
+<section id="block-block-6" class="block block-block foot ucsb clearfix">
+
+      
+  <p style="text-align: center;display:inline-block;"><a class="twitter" href="https://twitter.com/presidency_proj" target="_blank">Twitter</a> <a class="facebook" href="https://www.facebook.com/pg/american.presidency.project/" target="_blank">Facebook</a></p>
+
+</section>
+<section id="block-block-5" class="block block-block copyright clearfix">
+
+      
+  <p>Copyright &copy; The American Presidency Project<br /><a href="http://www.ucsb.edu/terms-of-use" target="_blank">Terms of Service</a> | <a href="https://www.privacy.ucsb.edu/information-privacy/website-privacy" target="_blank">Privacy</a> | <a href="/accessibility">Accessibility</a></p><p><img alt="uc santa barbara logo" src="/sites/default/files/pictures/uc-santa-barbara-wordmark-white1x.svg" style="width: 197px; min-width: 150px; height: 14px;object-fit:cover;" /></p>
+</section>
+  </div>
+  </div>
+  </footer>
+  <script src="https://www.presidency.ucsb.edu/sites/default/files/js/js_NKBfN5q_T2fdeVG6tE3pdNU7glYkyzgPuDTc4K3Ne1w.js"></script>
+<script src="https://www.presidency.ucsb.edu/sites/default/files/js/js_MRdvkC2u4oGsp5wVxBG1pGV5NrCPW3mssHxIn6G9tGE.js"></script>
+<script type="text/javascript">window.NREUM||(NREUM={});NREUM.info={"beacon":"bam.nr-data.net","licenseKey":"dee899de70","applicationID":"80106271","transactionName":"bl1XYxNYWkVYVxFdWVcXYEUIFhtfV1AATBhJUEU=","queueTime":0,"applicationTime":1279,"atts":"QhpUFVtCSUs=","errorBeacon":"bam.nr-data.net","agent":""}</script></body>
+</html>

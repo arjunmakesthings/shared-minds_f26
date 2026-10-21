@@ -1,0 +1,27 @@
+```json
+{"p": 25, "quote": "not a fan of recreational marijuana", "context": "Ohio cannabis legalization position"}
+```
+
+```json
+{"p": 25, "quote": "The SAFER Banking Act could pave the way for more widespread marijuana use and federal legalization. The Department of Justice also noted that this bill could facilitate money laundering. I am worried that this could open the door for other illicit activities, like the trafficking of fentanyl and methamphetamines, to access depository insurance.", "context": "SAFER Banking Act opposition"}
+```
+
+```json
+{"p": 26, "quote": "Forgiving student debt is a massive windfall to the rich, to the college educated, and most of all to the corrupt university administrators of America. No bailouts for a corrupt system. Republicans must fight this with every ounce of our energy and power.", "context": "Student debt forgiveness opposition"}
+```
+
+```json
+{"p": 27, "quote": "This would require a conservative agenda that appealed to black Americans. Recent Pew polls suggest that black Americans care especially about residential segregation and access to good schools. Conservatives have potential answers for each of these problems.", "context": "Conservative policy appeals to Black Americans"}
+```
+
+```json
+{"p": 28, "quote": "Democrats today, like Republicans four years ago, appear unable to consider the poor as they actually are. Free college tuition sounds great. But the reason disadvantaged children don't attend college has little to do with finances and more to do with a lack of preparedness.", "context": "Free college tuition criticism"}
+```
+
+```json
+{"p": 29, "quote": "I think there is real opportunity to send a message through public policy that this is a sacred institution, and we should continue to build it", "context": "Marriage as policy priority"}
+```
+
+```json
+{"p": 30, "quote": "Judge Kavanaugh has come under fire in some quarters of the right for challenges against ObamaCare--in which he aimed to rule narrowly and fairly rather than politically.", "context": "Judge Kavanaugh defense on ACA challenges"}
+```

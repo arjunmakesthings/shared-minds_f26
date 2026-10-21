@@ -1,0 +1,465 @@
+{
+  "a": "donald-trump",
+  "b": "nikki-haley",
+  "counts": {
+    "quotesA": 182,
+    "quotesB": 221,
+    "topicsFound": 10
+  },
+  "rows": [
+    {
+      "id": "iran-sanctions-policy",
+      "question": "Should the U.S. maintain strict sanctions on Iran?",
+      "poles": [
+        "Maintain strict sanctions to limit Iran's resources",
+        "Lift sanctions to enable diplomatic engagement"
+      ],
+      "quotesA": [
+        "q2",
+        "q128"
+      ],
+      "quotesB": [
+        "q6"
+      ],
+      "status": "clear",
+      "note": "",
+      "flags": [],
+      "a": {
+        "score": -0.9,
+        "confidence": 0.8,
+        "reason": "Trump strongly emphasizes that Iran was broke under his sanctions and criticizes their removal.",
+        "quotes": [
+          "q128",
+          "q2"
+        ]
+      },
+      "b": {
+        "score": -0.8,
+        "confidence": 0.7,
+        "reason": "Haley criticizes lifting sanctions on Iran, saying it allowed money to flow to terrorist proxies.",
+        "quotes": [
+          "q6"
+        ]
+      },
+      "models": {
+        "sonnet": {
+          "a": -0.9,
+          "b": -0.8
+        },
+        "gpt5": {
+          "a": -0.9,
+          "b": -0.8
+        }
+      }
+    },
+    {
+      "id": "israel-palestine-solution",
+      "question": "Is a two-state solution viable for Israel and Palestine?",
+      "poles": [
+        "Two-state solution is possible with negotiation",
+        "Two-state solution is not achievable"
+      ],
+      "quotesA": [
+        "q18"
+      ],
+      "quotesB": [
+        "q31"
+      ],
+      "status": "unclear",
+      "note": "confidence a 0.1, b 0.9 (needs 0.6)",
+      "flags": [],
+      "a": {
+        "score": 0,
+        "confidence": 0.1,
+        "reason": "Quote about Strait of Hormuz and Iranian Navy does not address two-state solution viability.",
+        "quotes": [
+          "q18"
+        ]
+      },
+      "b": {
+        "score": 0.95,
+        "confidence": 0.9,
+        "reason": "Haley explicitly states a two-state solution was not possible because Palestinians wouldn't come to the table.",
+        "quotes": [
+          "q31"
+        ]
+      },
+      "models": {
+        "sonnet": {
+          "a": 0,
+          "b": 0.9
+        },
+        "gpt5": {
+          "a": 0,
+          "b": 1
+        }
+      }
+    },
+    {
+      "id": "abortion-restrictions",
+      "question": "Should late-term abortions be banned?",
+      "poles": [
+        "Ban late-term abortions",
+        "Keep late-term abortion access available"
+      ],
+      "quotesA": [
+        "q112"
+      ],
+      "quotesB": [
+        "q88",
+        "q94"
+      ],
+      "status": "unclear",
+      "note": "confidence a 0.3, b 0.9 (needs 0.6)",
+      "flags": [],
+      "a": {
+        "score": -0.1,
+        "confidence": 0.3,
+        "reason": "Trump mentions exceptions but doesn't specifically address late-term abortion bans.",
+        "quotes": [
+          "q112"
+        ]
+      },
+      "b": {
+        "score": -0.87,
+        "confidence": 0.9,
+        "reason": "Haley explicitly asks if everyone can agree to ban late-term abortions and challenges opponents on their position.",
+        "quotes": [
+          "q88",
+          "q94"
+        ]
+      },
+      "models": {
+        "sonnet": {
+          "a": 0,
+          "b": -0.85
+        },
+        "gpt5": {
+          "a": -0.2,
+          "b": -0.9
+        }
+      }
+    },
+    {
+      "id": "federal-programs-decentralization",
+      "question": "Should federal programs be transferred to state control?",
+      "poles": [
+        "Decentralize programs to state governments",
+        "Keep programs under federal management"
+      ],
+      "quotesA": [
+        "q162"
+      ],
+      "quotesB": [
+        "q8",
+        "q22"
+      ],
+      "status": "clear",
+      "note": "",
+      "flags": [],
+      "a": {
+        "score": -0.9,
+        "confidence": 0.9,
+        "reason": "Trump explicitly states he will close federal education programs and send them back to states.",
+        "quotes": [
+          "q162"
+        ]
+      },
+      "b": {
+        "score": -0.85,
+        "confidence": 0.9,
+        "reason": "Haley advocates for states' rights and wants to transfer federal programs to state level.",
+        "quotes": [
+          "q8",
+          "q22"
+        ]
+      },
+      "models": {
+        "sonnet": {
+          "a": -0.9,
+          "b": -0.85
+        },
+        "gpt5": {
+          "a": -0.9,
+          "b": -0.85
+        }
+      }
+    },
+    {
+      "id": "china-existential-threat",
+      "question": "Is China the primary threat to U.S. national security?",
+      "poles": [
+        "China is the foremost strategic threat",
+        "Other threats are equally or more pressing"
+      ],
+      "quotesA": [
+        "q155"
+      ],
+      "quotesB": [
+        "q84"
+      ],
+      "status": "unclear",
+      "note": "confidence a 0.1, b 0.4 (needs 0.6)",
+      "flags": [
+        "models disagree on B by 1"
+      ],
+      "a": {
+        "score": 0.15,
+        "confidence": 0.1,
+        "reason": "Quote about stock market does not address China as a threat.",
+        "quotes": [
+          "q155"
+        ]
+      },
+      "b": {
+        "score": -0.1,
+        "confidence": 0.4,
+        "reason": "Haley criticizes Trump for focusing only on trade with China, implying China is important but safety focus is needed.",
+        "quotes": [
+          "q84"
+        ]
+      },
+      "models": {
+        "sonnet": {
+          "a": 0,
+          "b": -0.6
+        },
+        "gpt5": {
+          "a": 0.3,
+          "b": 0.4
+        }
+      }
+    },
+    {
+      "id": "national-debt-severity",
+      "question": "Is the U.S. national debt a critical problem?",
+      "poles": [
+        "Runaway debt poses existential danger",
+        "Debt is manageable at current levels"
+      ],
+      "quotesA": [
+        "q77",
+        "q170"
+      ],
+      "quotesB": [
+        "q35"
+      ],
+      "status": "unclear",
+      "note": "confidence a 0, b 0 (needs 0.6)",
+      "flags": [],
+      "a": {
+        "score": 0,
+        "confidence": 0,
+        "reason": "Quotes discuss political opponents and legal proceedings but do not address national debt.",
+        "quotes": [
+          "q77",
+          "q170"
+        ]
+      },
+      "b": {
+        "score": 0,
+        "confidence": 0,
+        "reason": "Quote discusses Trump and chaos but does not mention national debt.",
+        "quotes": [
+          "q35"
+        ]
+      },
+      "models": {
+        "sonnet": {
+          "a": 0,
+          "b": 0
+        },
+        "gpt5": {
+          "a": 0,
+          "b": 0
+        }
+      }
+    },
+    {
+      "id": "energy-independence-strategy",
+      "question": "Should the U.S. pursue energy independence through fossil fuels?",
+      "poles": [
+        "Prioritize oil and gas for independence",
+        "Transition away from fossil fuels"
+      ],
+      "quotesA": [
+        "q177",
+        "q178"
+      ],
+      "quotesB": [
+        "q96",
+        "q98"
+      ],
+      "status": "clear",
+      "note": "",
+      "flags": [
+        "models disagree on B by 0.6"
+      ],
+      "a": {
+        "score": -0.9,
+        "confidence": 0.9,
+        "reason": "Strongly advocates for oil, gas, and natural gas as cheaper and better energy sources and for regaining energy independence.",
+        "quotes": [
+          "q177",
+          "q178"
+        ]
+      },
+      "b": {
+        "score": -0.1,
+        "confidence": 0.6,
+        "reason": "Acknowledges climate change but opposes relying on foreign oil and discusses transitioning, showing mixed position favoring some domestic fossil fuel production.",
+        "quotes": [
+          "q96",
+          "q98"
+        ]
+      },
+      "models": {
+        "sonnet": {
+          "a": -0.9,
+          "b": -0.4
+        },
+        "gpt5": {
+          "a": -0.9,
+          "b": 0.2
+        }
+      }
+    },
+    {
+      "id": "border-enforcement-priority",
+      "question": "Should border security be the top immigration priority?",
+      "poles": [
+        "Secure borders is the primary focus",
+        "Address root causes beyond enforcement"
+      ],
+      "quotesA": [
+        "q61",
+        "q119"
+      ],
+      "quotesB": [
+        "q3"
+      ],
+      "status": "clear",
+      "note": "",
+      "flags": [],
+      "a": {
+        "score": -0.92,
+        "confidence": 0.8,
+        "reason": "Declares ending border invasion as immediate priority and emphasizes need for walls and borders.",
+        "quotes": [
+          "q61",
+          "q119"
+        ]
+      },
+      "b": {
+        "score": -0.7,
+        "confidence": 0.6,
+        "reason": "States securing the border as a top priority with no more excuses as a key voting issue.",
+        "quotes": [
+          "q3"
+        ]
+      },
+      "models": {
+        "sonnet": {
+          "a": -0.95,
+          "b": -0.8
+        },
+        "gpt5": {
+          "a": -0.9,
+          "b": -0.6
+        }
+      }
+    },
+    {
+      "id": "trade-leverage-tariffs",
+      "question": "Should the U.S. use tariffs as trade leverage?",
+      "poles": [
+        "Use tariffs to enforce trade terms",
+        "Avoid tariffs to maintain free trade"
+      ],
+      "quotesA": [
+        "q28",
+        "q92",
+        "q106"
+      ],
+      "quotesB": [
+        "q107"
+      ],
+      "status": "unclear",
+      "note": "confidence a 0.85, b 0.3 (needs 0.6)",
+      "flags": [],
+      "a": {
+        "score": -0.92,
+        "confidence": 0.85,
+        "reason": "Strongly advocates using tariffs as leverage and punishment, including 100% tariffs for countries leaving dollar reserve currency.",
+        "quotes": [
+          "q28",
+          "q92",
+          "q106"
+        ]
+      },
+      "b": {
+        "score": 0.1,
+        "confidence": 0.3,
+        "reason": "Mentions selling to multiple countries beyond China but does not clearly address tariff policy.",
+        "quotes": [
+          "q107"
+        ]
+      },
+      "models": {
+        "sonnet": {
+          "a": -0.95,
+          "b": 0
+        },
+        "gpt5": {
+          "a": -0.9,
+          "b": 0.2
+        }
+      }
+    },
+    {
+      "id": "middle-class-economic-focus",
+      "question": "Is revitalizing the middle class the central economic goal?",
+      "poles": [
+        "Prioritize rebuilding the middle class",
+        "Focus on overall economic growth"
+      ],
+      "quotesA": [
+        "q81",
+        "q164"
+      ],
+      "quotesB": [
+        "q46"
+      ],
+      "status": "unclear",
+      "note": "confidence a 0, b 0.15 (needs 0.6)",
+      "flags": [],
+      "a": {
+        "score": 0,
+        "confidence": 0,
+        "reason": "Quotes discuss presidential powers and China relations but do not address middle class economic priorities.",
+        "quotes": [
+          "q81",
+          "q164"
+        ]
+      },
+      "b": {
+        "score": 0.1,
+        "confidence": 0.15,
+        "reason": "Discusses inclusivity and welcoming different backgrounds but does not specifically address middle class economic focus.",
+        "quotes": [
+          "q46"
+        ]
+      },
+      "models": {
+        "sonnet": {
+          "a": 0,
+          "b": 0
+        },
+        "gpt5": {
+          "a": 0,
+          "b": 0.2
+        }
+      }
+    }
+  ]
+}

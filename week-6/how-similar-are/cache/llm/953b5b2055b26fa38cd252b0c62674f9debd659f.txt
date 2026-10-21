@@ -1,0 +1,23 @@
+```json
+{"p": 25, "quote": "Vice President Harris believes that no one is above the law. She'll fight to ensure that no former president has immunity for crimes committed while in the White House.", "context": "Presidential immunity and rule of law"}
+```
+
+```json
+{"p": 25, "quote": "She will also support common-sense Supreme Court reforms--like requiring Justices to comply with ethics rules that other federal judges are bound by and imposing term limits--to address the crisis of confidence facing the Supreme Court.", "context": "Supreme Court reforms and ethics"}
+```
+
+```json
+{"p": 26, "quote": "I'm Kamala Harris and I approve this message.", "context": "Campaign ad on Trump's fitness for office"}
+```
+
+```json
+{"p": 27, "quote": "She'll fight for unions, because as Vice President of the most pro-labor administration in history, she knows that unions are the backbone of the middle class.", "context": "Labor unions and middle class"}
+```
+
+```json
+{"p": 27, "quote": "She'll sign landmark pro-union legislation, including the PRO Act to support workers who choose to organize and bargain and the Public Service Freedom to Negotiate Act to make the freedom for public service workers to form unions the law of the land.", "context": "Pro-union legislation commitment"}
+```
+
+```json
+{"p": 28, "quote": "Under her plan, the tax rate on long-term capital gains for those earning a million dollars a year or more will be 28 percent, because when the government encourages investment, it leads to broad-based economic growth and creates jobs.", "context": "Tax policy on capital gains"}
+```

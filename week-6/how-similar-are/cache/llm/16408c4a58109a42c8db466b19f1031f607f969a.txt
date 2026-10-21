@@ -1,0 +1,31 @@
+```json
+{"p": 1, "quote": "And you know, for other cities like New York, Chicago, L.A., all they have to do is call us, and we will stop that crime.", "context": "Law enforcement response to crime in major cities"}
+```
+
+```json
+{"p": 1, "quote": "But since I took office, Federal law enforcement has arrested, incredibly, 1.2 million criminals nationwide and bad ones.", "context": "Federal criminal arrests under Trump administration"}
+```
+
+```json
+{"p": 1, "quote": "Shortly after taking office, I signed a historic Executive order directing that anyone convicted of killing a police officer should face the death penalty.", "context": "Executive order on death penalty for police killers"}
+```
+
+```json
+{"p": 1, "quote": "The Communists want to turn America into a third-world country, into a hellhole of crime and filth.", "context": "Political opposition and their alleged goals"}
+```
+
+```json
+{"p": 1, "quote": "It's like men playing in women's sports. It's so crazy. You can't believe it.", "context": "Comparison of no-cash bail policy to transgender issues"}
+```
+
+```json
+{"p": 1, "quote": "I guess I'm a conservative guy, but I'm a commonsense guy more than a conservative guy.", "context": "Political philosophy and approach"}
+```
+
+```json
+{"p": 1, "quote": "We have $19.2 trillion being invested in our country. You know why? Tariffs.", "context": "Economic investment and tariff policy"}
+```
+
+```json
+{"p": 1, "quote": "Basically, if you build your plant here, if you make your product here, you don't pay tariffs. If you make your product in another country, I say, \"I want you to pay 50 percent.\"", "context": "Tariff policy explanation"}
+```

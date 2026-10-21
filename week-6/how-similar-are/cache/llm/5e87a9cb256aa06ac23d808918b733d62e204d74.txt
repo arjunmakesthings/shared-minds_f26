@@ -1,0 +1,15 @@
+```json
+{"topic": "national-debt-severity", "a": {"score": 0.0, "confidence": 0.0, "reason": "Quotes discuss political opponents and legal proceedings but do not address national debt.", "quotes": ["q77", "q170"]}, "b": {"score": 0.0, "confidence": 0.0, "reason": "Quote discusses Trump and chaos but does not mention national debt.", "quotes": ["q35"]}}
+```
+```json
+{"topic": "energy-independence-strategy", "a": {"score": -0.9, "confidence": 0.95, "reason": "Strongly advocates for oil, gas, and natural gas as cheaper and better energy sources and for regaining energy independence.", "quotes": ["q177", "q178"]}, "b": {"score": -0.4, "confidence": 0.75, "reason": "Acknowledges climate change but opposes relying on foreign oil and discusses transitioning, showing mixed position favoring some domestic fossil fuel production.", "quotes": ["q96", "q98"]}}
+```
+```json
+{"topic": "border-enforcement-priority", "a": {"score": -0.95, "confidence": 0.9, "reason": "Declares ending border invasion as immediate priority and emphasizes need for walls and borders.", "quotes": ["q61", "q119"]}, "b": {"score": -0.8, "confidence": 0.85, "reason": "States securing the border as a top priority with no more excuses as a key voting issue.", "quotes": ["q3"]}}
+```
+```json
+{"topic": "trade-leverage-tariffs", "a": {"score": -0.95, "confidence": 0.95, "reason": "Strongly advocates using tariffs as leverage and punishment, including 100% tariffs for countries leaving dollar reserve currency.", "quotes": ["q28", "q92", "q106"]}, "b": {"score": 0.0, "confidence": 0.3, "reason": "Mentions selling to multiple countries beyond China but does not clearly address tariff policy.", "quotes": ["q107"]}}
+```
+```json
+{"topic": "middle-class-economic-focus", "a": {"score": 0.0, "confidence": 0.0, "reason": "Quotes discuss presidential powers and China relations but do not address middle class economic priorities.", "quotes": ["q81", "q164"]}, "b": {"score": 0.0, "confidence": 0.15, "reason": "Discusses inclusivity and welcoming different backgrounds but does not specifically address middle class economic focus.", "quotes": ["q46"]}}
+```

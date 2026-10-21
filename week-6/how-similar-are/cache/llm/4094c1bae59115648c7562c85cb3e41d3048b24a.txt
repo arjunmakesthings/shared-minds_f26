@@ -1,0 +1,23 @@
+```json
+{"p": 1, "quote": "Investing in America agenda, which includes my bipartisan infrastructure law, CHIPS and Science Act, the Inflation Reduction Act—together, they mark the most significant investment in America since the New Deal.", "context": "Major investments in infrastructure and economic development"}
+```
+
+```json
+{"p": 1, "quote": "The Inflation Reduction Act alone is the most significant investment in climate and energy ever, ever anywhere in the entire world.", "context": "Climate and energy investment through Inflation Reduction Act"}
+```
+
+```json
+{"p": 1, "quote": "I was determined to bring it back so we wouldn't be at the end of the supply chain; we'd be the beginning of the supply chain.", "context": "Semiconductor manufacturing and supply chain strategy"}
+```
+
+```json
+{"p": 1, "quote": "I'm a capitalist, but capitalism without competition is not capitalism, it's exploitation.", "context": "Economic philosophy on competition and capitalism"}
+```
+
+```json
+{"p": 1, "quote": "My Inflation Reduction Act took on Big Pharma, reduced the price of insulin for seniors with diabetes to pay only 35 bucks a month until the—close to the average of $400 a month.", "context": "Drug price reduction for seniors with insulin costs"}
+```
+
+```json
+{"p": 1, "quote": "Starting next month, out-of-pocket prescription drug costs for seniors—total prescription drug costs—will be capped at $2,000 a year no matter how much they spend, no matter how expensive their drugs.", "context": "Senior prescription drug cost cap policy"}
+```

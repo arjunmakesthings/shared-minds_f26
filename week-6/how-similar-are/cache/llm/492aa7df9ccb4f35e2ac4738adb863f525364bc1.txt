@@ -1,0 +1,11 @@
+```json
+{"p": 1, "quote": "we didn't need new laws to secure the border. We needed a new president.", "context": "Border security and immigration enforcement policy"}
+```
+
+```json
+{"p": 1, "quote": "all we needed to do was empower these guys to do their job.", "context": "Border Patrol enforcement strategy and approach"}
+```
+
+```json
+{"p": 1, "quote": "border crossings go from about 1,500 a day to 30 a day. That's simply the president of the United States empowering these professionals to do what they do so well.", "context": "Results of border enforcement policy changes"}
+```

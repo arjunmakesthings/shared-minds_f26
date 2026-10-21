@@ -1,0 +1,116 @@
+{
+  "a": "donald-trump",
+  "b": "jd-vance",
+  "approved": "2026-10-21",
+  "counts": {
+    "quotesA": 182,
+    "quotesB": 181,
+    "topicsFound": 8,
+    "dimensions": 3
+  },
+  "dims": [
+    {
+      "id": "immigration-enforcement",
+      "question": "Should the US prioritize deporting illegal immigrants?",
+      "poles": [
+        "Prioritize rapid deportation of illegal immigrants",
+        "Focus on other policy priorities first"
+      ],
+      "a": {
+        "score": -0.9,
+        "reason": "States ending border invasion and sending illegals back home as explicit priority.",
+        "quotes": [
+          "q61",
+          "q153"
+        ]
+      },
+      "b": {
+        "score": -0.6,
+        "reason": "Advocates starting deportations with criminal migrants among 20-25 million illegal aliens, showing prioritization of enforcement.",
+        "quotes": [
+          "q111"
+        ]
+      },
+      "models": {
+        "sonnet": {
+          "a": -0.9,
+          "b": -0.7
+        },
+        "gpt5": {
+          "a": -0.9,
+          "b": -0.5
+        }
+      },
+      "edited": false
+    },
+    {
+      "id": "trade-reciprocity",
+      "question": "Should the US use tariffs to rebalance trade relationships?",
+      "poles": [
+        "Use tariffs to achieve trade reciprocity",
+        "Maintain current trade approach"
+      ],
+      "a": {
+        "score": -0.92,
+        "reason": "Strongly advocates using tariffs including 100% tariffs and non-monetary barriers to rebalance trade and enforce dollar compliance.",
+        "quotes": [
+          "q28",
+          "q92",
+          "q106"
+        ]
+      },
+      "b": {
+        "score": -0.7,
+        "reason": "Explicitly supports rebalancing trade and achieving reciprocity for American workers and manufacturers.",
+        "quotes": [
+          "q28",
+          "q30"
+        ]
+      },
+      "models": {
+        "sonnet": {
+          "a": -0.95,
+          "b": -0.8
+        },
+        "gpt5": {
+          "a": -0.9,
+          "b": -0.6
+        }
+      },
+      "edited": false
+    },
+    {
+      "id": "border-crisis",
+      "question": "Has immigration policy made border security worse?",
+      "poles": [
+        "Immigration policy has worsened border security",
+        "Immigration policy has not worsened border security"
+      ],
+      "a": {
+        "score": -0.87,
+        "reason": "States millions of people allowed in are destroying the country.",
+        "quotes": [
+          "q126"
+        ]
+      },
+      "b": {
+        "score": -0.82,
+        "reason": "States millions of illegal immigrants brought in have overwhelmed schools, hospitals and housing.",
+        "quotes": [
+          "q117"
+        ]
+      },
+      "models": {
+        "sonnet": {
+          "a": -0.9,
+          "b": -0.85
+        },
+        "gpt5": {
+          "a": -0.85,
+          "b": -0.8
+        }
+      },
+      "edited": false
+    }
+  ]
+}

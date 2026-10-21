@@ -1,0 +1,23 @@
+```json
+{"p": 1, "quote": "So what's happening is amazing. It's not really covered properly, but it's something that's never happened before. The new number—because I've been saying $19.2 trillion for a while, but the new number's coming out: It's going to be over $20 trillion is being invested in the United States.", "context": "Record investment in the United States"}
+```
+
+```json
+{"p": 1, "quote": "There's never been a country even close to that number. A lot of it was because of the tariffs, because people don't want to pay tariffs, so they build their plants here.", "context": "Tariffs driving domestic manufacturing investment"}
+```
+
+```json
+{"p": 1, "quote": "AI is going up. We're leading China in AI very substantially.", "context": "US AI leadership compared to China"}
+```
+
+```json
+{"p": 1, "quote": "But there's never been a time when $20 trillion of investment is coming in. And the other number was by China many years ago, the previous record, but this is a record that's five times greater.", "context": "Investment records compared to China"}
+```
+
+```json
+{"p": 1, "quote": "I wouldn't want to say that to you, Peter. I'd love to tell you that, but I—it wouldn't be appropriate to say. But I mean, I understand their plight. They're being shot.", "context": "Iran protests and CIA involvement question"}
+```
+
+```json
+{"p": 1, "quote": "As of 3 months ago, they had—52,000 protesters were killed. Can you imagine this, fellas? And now I hear the number is probably 20-, 25,000 more. They have close to 65,000 protesters killed.", "context": "Iranian protester casualties"}
+```

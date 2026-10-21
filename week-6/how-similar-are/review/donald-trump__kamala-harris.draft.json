@@ -1,0 +1,564 @@
+{
+  "a": "donald-trump",
+  "b": "kamala-harris",
+  "counts": {
+    "quotesA": 182,
+    "quotesB": 157,
+    "topicsFound": 12
+  },
+  "rows": [
+    {
+      "id": "iran-nuclear-program",
+      "question": "Should the US pursue diplomatic deals to limit Iran's nuclear program?",
+      "poles": [
+        "Pursue diplomatic negotiations with Iran",
+        "Take military action against Iran"
+      ],
+      "quotesA": [
+        "q2",
+        "q87"
+      ],
+      "quotesB": [
+        "q65"
+      ],
+      "status": "unclear",
+      "note": "confidence a 0.5, b 0.4 (needs 0.6)",
+      "flags": [
+        "models disagree on B by 0.7"
+      ],
+      "a": {
+        "score": -0.3,
+        "confidence": 0.5,
+        "reason": "Mentions both making deals with Iran and potential military action, showing willingness to negotiate but also threatening force.",
+        "quotes": [
+          "q2",
+          "q87"
+        ]
+      },
+      "b": {
+        "score": -0.05,
+        "confidence": 0.4,
+        "reason": "States willingness to take necessary action to defend against Iran but primarily emphasizes defensive posture rather than diplomatic deals or offensive action.",
+        "quotes": [
+          "q65"
+        ]
+      },
+      "models": {
+        "sonnet": {
+          "a": -0.2,
+          "b": -0.4
+        },
+        "gpt5": {
+          "a": -0.4,
+          "b": 0.3
+        }
+      }
+    },
+    {
+      "id": "border-security-policy",
+      "question": "Should the US prioritize stricter border enforcement and deportations?",
+      "poles": [
+        "Strengthen enforcement and deport undocumented immigrants",
+        "Pursue comprehensive immigration reform with pathways to citizenship"
+      ],
+      "quotesA": [
+        "q61",
+        "q153"
+      ],
+      "quotesB": [
+        "q8",
+        "q21",
+        "q62",
+        "q63"
+      ],
+      "status": "clear",
+      "note": "",
+      "flags": [],
+      "a": {
+        "score": -0.9,
+        "confidence": 0.8,
+        "reason": "Clearly prioritizes ending border invasion, securing borders, and sending undocumented immigrants back home.",
+        "quotes": [
+          "q61",
+          "q153"
+        ]
+      },
+      "b": {
+        "score": 0.4,
+        "confidence": 0.8,
+        "reason": "Supports border security measures but also clearly advocates for comprehensive immigration reform with earned pathway to citizenship.",
+        "quotes": [
+          "q8",
+          "q21",
+          "q62"
+        ]
+      },
+      "models": {
+        "sonnet": {
+          "a": -0.9,
+          "b": 0.4
+        },
+        "gpt5": {
+          "a": -0.9,
+          "b": 0.4
+        }
+      }
+    },
+    {
+      "id": "israel-palestine-conflict",
+      "question": "Should the US support a two-state solution with equal security for both sides?",
+      "poles": [
+        "Support Israeli military operations without restrictions",
+        "Advocate for two-state solution with equal Palestinian security"
+      ],
+      "quotesA": [
+        "q18"
+      ],
+      "quotesB": [
+        "q33",
+        "q89",
+        "q149"
+      ],
+      "status": "unclear",
+      "note": "confidence a 0.3, b 0.9 (needs 0.6)",
+      "flags": [],
+      "a": {
+        "score": -0.65,
+        "confidence": 0.3,
+        "reason": "Quote about sinking Iranian ships suggests military approach but doesn't directly address Israel-Palestine two-state solution.",
+        "quotes": [
+          "q18"
+        ]
+      },
+      "b": {
+        "score": 0.85,
+        "confidence": 0.9,
+        "reason": "Explicitly advocates for two-state solution with equal security and dignity for both Israelis and Palestinians.",
+        "quotes": [
+          "q33",
+          "q89",
+          "q149"
+        ]
+      },
+      "models": {
+        "sonnet": {
+          "a": -0.7,
+          "b": 0.8
+        },
+        "gpt5": {
+          "a": -0.6,
+          "b": 0.9
+        }
+      }
+    },
+    {
+      "id": "reproductive-rights",
+      "question": "Should abortion access be decided by states or protected federally?",
+      "poles": [
+        "Allow states to decide abortion policy",
+        "Protect abortion rights at the federal level"
+      ],
+      "quotesA": [
+        "q109",
+        "q112"
+      ],
+      "quotesB": [
+        "q23",
+        "q60",
+        "q84",
+        "q118"
+      ],
+      "status": "clear",
+      "note": "",
+      "flags": [],
+      "a": {
+        "score": -0.85,
+        "confidence": 0.9,
+        "reason": "Explicitly opposes federal abortion ban and states abortion policy should be decided by states based on will of voters.",
+        "quotes": [
+          "q109",
+          "q112"
+        ]
+      },
+      "b": {
+        "score": 0.9,
+        "confidence": 0.9,
+        "reason": "Pledges to sign federal legislation restoring reproductive freedom and criticizes state-level restrictions from Supreme Court decision.",
+        "quotes": [
+          "q23",
+          "q60",
+          "q84"
+        ]
+      },
+      "models": {
+        "sonnet": {
+          "a": -0.8,
+          "b": 0.9
+        },
+        "gpt5": {
+          "a": -0.9,
+          "b": 0.9
+        }
+      }
+    },
+    {
+      "id": "energy-independence",
+      "question": "Should the US prioritize fossil fuels for energy independence?",
+      "poles": [
+        "Prioritize oil, gas, and natural gas development",
+        "Invest in diverse renewable energy sources"
+      ],
+      "quotesA": [
+        "q177",
+        "q178"
+      ],
+      "quotesB": [
+        "q29"
+      ],
+      "status": "clear",
+      "note": "",
+      "flags": [],
+      "a": {
+        "score": -0.9,
+        "confidence": 0.9,
+        "reason": "Clearly prioritizes oil, gasoline, and natural gas as cheaper, better, and more powerful for energy independence.",
+        "quotes": [
+          "q177",
+          "q178"
+        ]
+      },
+      "b": {
+        "score": 0.65,
+        "confidence": 0.7,
+        "reason": "Advocates for investing in diverse sources of energy to reduce foreign oil reliance rather than prioritizing fossil fuels.",
+        "quotes": [
+          "q29"
+        ]
+      },
+      "models": {
+        "sonnet": {
+          "a": -0.9,
+          "b": 0.6
+        },
+        "gpt5": {
+          "a": -0.9,
+          "b": 0.7
+        }
+      }
+    },
+    {
+      "id": "nato-alliances",
+      "question": "Are NATO alliances essential for US national security?",
+      "poles": [
+        "NATO alliances are unnecessary for US security",
+        "Strong alliances keep America safe and secure"
+      ],
+      "quotesA": [
+        "q15"
+      ],
+      "quotesB": [
+        "q5"
+      ],
+      "status": "clear",
+      "note": "",
+      "flags": [],
+      "a": {
+        "score": -0.8,
+        "confidence": 0.7,
+        "reason": "Dismisses NATO's value and states the US needs nothing from NATO.",
+        "quotes": [
+          "q15"
+        ]
+      },
+      "b": {
+        "score": 0.9,
+        "confidence": 0.8,
+        "reason": "Affirms that alliances keep Americans safe and make America stronger and more secure.",
+        "quotes": [
+          "q5"
+        ]
+      },
+      "models": {
+        "sonnet": {
+          "a": -0.8,
+          "b": 0.9
+        },
+        "gpt5": {
+          "a": -0.8,
+          "b": 0.9
+        }
+      }
+    },
+    {
+      "id": "election-integrity",
+      "question": "Are recent US elections secure and legitimate?",
+      "poles": [
+        "Elections are rigged and fraudulent",
+        "Elections are secure and must be accepted"
+      ],
+      "quotesA": [
+        "q30",
+        "q119",
+        "q120"
+      ],
+      "quotesB": [
+        "q98",
+        "q99"
+      ],
+      "status": "clear",
+      "note": "",
+      "flags": [],
+      "a": {
+        "score": -0.7,
+        "confidence": 0.7,
+        "reason": "Claims elections are bad, fraudulent, and being manipulated by illegal immigrants voting.",
+        "quotes": [
+          "q119",
+          "q120"
+        ]
+      },
+      "b": {
+        "score": 0.93,
+        "confidence": 0.8,
+        "reason": "Accepts election results, emphasizes peaceful transfer of power, and states accepting results is fundamental to democracy.",
+        "quotes": [
+          "q98",
+          "q99"
+        ]
+      },
+      "models": {
+        "sonnet": {
+          "a": -0.7,
+          "b": 0.95
+        },
+        "gpt5": {
+          "a": -0.7,
+          "b": 0.9
+        }
+      }
+    },
+    {
+      "id": "immigration-reform",
+      "question": "Should undocumented immigrants have a pathway to citizenship?",
+      "poles": [
+        "No amnesty for illegal immigrants",
+        "Create earned pathway to citizenship for immigrants"
+      ],
+      "quotesA": [
+        "q55"
+      ],
+      "quotesB": [
+        "q8",
+        "q63"
+      ],
+      "status": "clear",
+      "note": "",
+      "flags": [],
+      "a": {
+        "score": -0.8,
+        "confidence": 0.6,
+        "reason": "Explicitly opposes amnesty for illegal immigrants.",
+        "quotes": [
+          "q55"
+        ]
+      },
+      "b": {
+        "score": 0.93,
+        "confidence": 0.9,
+        "reason": "Clearly supports earned pathway to citizenship for undocumented immigrants including farmworkers and dreamers.",
+        "quotes": [
+          "q8",
+          "q63"
+        ]
+      },
+      "models": {
+        "sonnet": {
+          "a": -0.9,
+          "b": 0.9
+        },
+        "gpt5": {
+          "a": -0.7,
+          "b": 0.95
+        }
+      }
+    },
+    {
+      "id": "gun-policy",
+      "question": "Should the US implement stricter gun control measures?",
+      "poles": [
+        "Gun violence is a cultural problem, not guns",
+        "Ban assault weapons and implement gun restrictions"
+      ],
+      "quotesA": [
+        "q172"
+      ],
+      "quotesB": [
+        "q82",
+        "q93"
+      ],
+      "status": "clear",
+      "note": "",
+      "flags": [],
+      "a": {
+        "score": -0.92,
+        "confidence": 0.8,
+        "reason": "Explicitly states gun violence is not a gun problem but mental health, social, cultural, and spiritual problem.",
+        "quotes": [
+          "q172"
+        ]
+      },
+      "b": {
+        "score": 0.93,
+        "confidence": 0.85,
+        "reason": "Calls for banning assault weapons, high-capacity magazines, red flag laws, and universal background checks.",
+        "quotes": [
+          "q82",
+          "q93"
+        ]
+      },
+      "models": {
+        "sonnet": {
+          "a": -0.95,
+          "b": 0.9
+        },
+        "gpt5": {
+          "a": -0.9,
+          "b": 0.95
+        }
+      }
+    },
+    {
+      "id": "social-security-medicare",
+      "question": "Should Social Security and Medicare be protected from cuts?",
+      "poles": [
+        "Reform entitlements through cuts and restructuring",
+        "Protect and expand Social Security and Medicare"
+      ],
+      "quotesA": [
+        "q150"
+      ],
+      "quotesB": [
+        "q57"
+      ],
+      "status": "clear",
+      "note": "",
+      "flags": [],
+      "a": {
+        "score": -0.62,
+        "confidence": 0.6,
+        "reason": "Suggests cutting entitlements and reforming management, though frames partly as addressing waste.",
+        "quotes": [
+          "q150"
+        ]
+      },
+      "b": {
+        "score": 0.73,
+        "confidence": 0.6,
+        "reason": "Opposes cuts to Social Security and Medicare, accusing opponent of trying to cut these programs.",
+        "quotes": [
+          "q57"
+        ]
+      },
+      "models": {
+        "sonnet": {
+          "a": -0.65,
+          "b": 0.85
+        },
+        "gpt5": {
+          "a": -0.6,
+          "b": 0.6
+        }
+      }
+    },
+    {
+      "id": "law-enforcement-support",
+      "question": "Should government support and expand police authority?",
+      "poles": [
+        "Support police with expanded law enforcement authority",
+        "Reform justice system and hold officials accountable"
+      ],
+      "quotesA": [
+        "q66",
+        "q70"
+      ],
+      "quotesB": [
+        "q44",
+        "q73"
+      ],
+      "status": "clear",
+      "note": "",
+      "flags": [],
+      "a": {
+        "score": -0.9,
+        "confidence": 0.85,
+        "reason": "Strongly supports police with expanded authority and emphasizes backing law enforcement without qualification.",
+        "quotes": [
+          "q66",
+          "q70"
+        ]
+      },
+      "b": {
+        "score": 0.65,
+        "confidence": 0.6,
+        "reason": "Emphasizes accountability and justice system reform, suggesting oversight over expanded authority.",
+        "quotes": [
+          "q44",
+          "q73"
+        ]
+      },
+      "models": {
+        "sonnet": {
+          "a": -0.9,
+          "b": 0.7
+        },
+        "gpt5": {
+          "a": -0.9,
+          "b": 0.6
+        }
+      }
+    },
+    {
+      "id": "democratic-norms",
+      "question": "Should former presidents be immune from criminal prosecution?",
+      "poles": [
+        "Former presidents should have immunity from prosecution",
+        "No one is above the law regardless of office"
+      ],
+      "quotesA": [
+        "q167"
+      ],
+      "quotesB": [
+        "q44"
+      ],
+      "status": "clear",
+      "note": "",
+      "flags": [],
+      "a": {
+        "score": -0.7,
+        "confidence": 0.6,
+        "reason": "Argues presidential actions fall under special protections and should not face criminal prosecution.",
+        "quotes": [
+          "q167"
+        ]
+      },
+      "b": {
+        "score": 0.98,
+        "confidence": 0.95,
+        "reason": "Explicitly states no one including former presidents is above the law and opposes immunity.",
+        "quotes": [
+          "q44"
+        ]
+      },
+      "models": {
+        "sonnet": {
+          "a": -0.8,
+          "b": 0.95
+        },
+        "gpt5": {
+          "a": -0.6,
+          "b": 1
+        }
+      }
+    }
+  ]
+}

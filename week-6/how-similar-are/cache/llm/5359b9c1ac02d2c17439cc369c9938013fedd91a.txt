@@ -1,0 +1,59 @@
+```json
+{"p": 19, "quote": "I personally think President Trump was the right President at the right time. I agree with a lot of his policies. But, the reality is, rightly or wrongly, chaos follows him.", "context": "Trump's presidency and fitness to lead"}
+```
+
+```json
+{"p": 19, "quote": "And we can't have a country in disarray, and a world on fire and go through four more years of chaos.", "context": "Country needs stability, cannot survive more chaos"}
+```
+
+```json
+{"p": 19, "quote": "I think pardoning Trump and moving on is in the best interest of our country if we're going to heal and if we're going to get back together, and get out of the chaos.", "context": "Stance on pardoning Trump"}
+```
+
+```json
+{"p": 20, "quote": "I want to cut taxes on the middle class and simplify the brackets. And then let's make the small business tax cuts permanent.", "context": "Tax policy and economic priorities"}
+```
+
+```json
+{"p": 20, "quote": "Small businesses are the heartbeat of our economy. We can't just say it. We have to prove it.", "context": "Support for small business tax cuts"}
+```
+
+```json
+{"p": 21, "quote": "When I was governor, 10 years ago when the bathroom situation came up, we had maybe a handful of kids that were dealing with an issue and I said we don't need to bring government into this, but boys go into boys' bathrooms, girls go into girls' bathrooms and if anyone else has an issue, they use a private bathroom.", "context": "Bathroom policy during governorship"}
+```
+
+```json
+{"p": 21, "quote": "Now 10 years later we see that this issue has exploded and this shows how hypocritical Ron continues to be.", "context": "Criticism of DeSantis on bathroom bills"}
+```
+
+```json
+{"p": 22, "quote": "When you talk about fentanyl, yes, I think we should send special operations over and take out the cartels. I think we should do a remain-in-Mexico policy, so they never step foot in US soil in the first place.", "context": "Fentanyl and immigration policy"}
+```
+
+```json
+{"p": 22, "quote": "That's why we need to end all normal trade relations with China until they stop murdering Americans with fentanyl.", "context": "Trade policy with China over fentanyl"}
+```
+
+```json
+{"p": 23, "quote": "Well, I don't think that you have a straight-up Muslim ban, as much as you look at the countries that have terrorist activity that want to hurt Americans. You can ban those people from those countries, that's the way we should look at it is which countries are a threat to us.", "context": "Immigration screening based on country threat level"}
+```
+
+```json
+{"p": 23, "quote": "What worries me the most are those that came from Iran, from Yemen, from Lebanon, those areas where they say \"Death to America.\" That's where you want to be careful. It's not about a religion, it's about a fact that certain countries are dangerous and are threats to us.", "context": "Immigration concerns focused on specific countries"}
+```
+
+```json
+{"p": 24, "quote": "If this had been the KKK that was doing protests on those campuses, every one of those college presidents would've been up in arms. This is just as bad. That kind of pro-Hamas protest--or genocide of Jews--to say that they needed context on that, there is no context to that.", "context": "Pro-Hamas protests and college response"}
+```
+
+```json
+{"p": 24, "quote": "Biden made a mistake not including anti-Zionism in the definition of anti-Semitism. If you don't think that Israel has a right to exist, that is anti-Semitic.", "context": "Definition of anti-Semitism and Israel"}
+```
+
+```json
+{"p": 24, "quote": "We will change the definition so that every government, every school has to acknowledge the definition for what it is.", "context": "Plan to enforce anti-Semitism definition"}
+```
+
+```json
+{"p": 24, "quote": "We really do need to ban TikTok, and let me tell you why. For every 30 minutes that someone watches TikTok, every day, they become 17% more anti-Semitic, more pro-Hamas based on doing that.", "context": "Argument for banning TikTok"}
+```

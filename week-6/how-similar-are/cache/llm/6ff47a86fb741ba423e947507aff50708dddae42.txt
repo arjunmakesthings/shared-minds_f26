@@ -1,0 +1,27 @@
+```json
+{"p": 1, "quote": "the Vatican -- in particular, the pope -- is going to be a great advocate of world peace", "context": "Pope Leo XIV and Vatican's role in world peace"}
+```
+
+```json
+{"p": 1, "quote": "the United States is not going to spin its wheels here. We want to see outcomes.", "context": "U.S. approach to Russia-Ukraine negotiations"}
+```
+
+```json
+{"p": 1, "quote": "if you're willing to stop the killing, the United States is willing to be a partner for peace", "context": "Message to Russia regarding Ukraine conflict"}
+```
+
+```json
+{"p": 1, "quote": "Look, I think one open question is: Is Vladimir Putin serious about negotiating peace?", "context": "Assessment of Putin's commitment to peace talks"}
+```
+
+```json
+{"p": 1, "quote": "This is a little bit of a guess, but I think the president would agree that part of this is I'm not sure that Vladimir Putin has a strategy himself for how to unwind the war", "context": "Analysis of Putin's war strategy and exit plan"}
+```
+
+```json
+{"p": 1, "quote": "we're eventually just going to have to say, \"This is not our war. It's Joe Biden's war. It's Vladimir Putin's war. It's not our war.\"", "context": "Limits of U.S. commitment to ending Ukraine conflict"}
+```
+
+```json
+{"p": 1, "quote": "I don't think he was able to do a good job for the American people. And that's not politics. That's not because I disagreed with him on policy. That's because I don't think that he was in good enough health.", "context": "Assessment of Biden's fitness for office"}
+```

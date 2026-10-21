@@ -1,0 +1,63 @@
+```json
+{"p": 1, "quote": "I love Long Island.", "context": "Expressing affection for Long Island, New York"}
+```
+
+```json
+{"p": 1, "quote": "But it's going in a bad direction. We're going to change it around.", "context": "Criticism of New York's direction and promise to improve it"}
+```
+
+```json
+{"p": 1, "quote": "You have to let them do their job. That's all there is. You won't have any problem.", "context": "Policy on law enforcement and police authority"}
+```
+
+```json
+{"p": 1, "quote": "the number-one safest county in the United States of America. That's not bad.", "context": "Achievement of Nassau County under local leadership"}
+```
+
+```json
+{"p": 1, "quote": "In the past 4 years, before I took office, our country was overrun by violent criminals.", "context": "Assessment of crime conditions before Trump's presidency"}
+```
+
+```json
+{"p": 1, "quote": "What a horrible 4 years. That was 4 years in hell.", "context": "Evaluation of the Biden administration"}
+```
+
+```json
+{"p": 1, "quote": "with millions and millions of people pouring in from all over the world, including prisons and jails and mental institutions, insane asylum.", "context": "Criticism of immigration policy under Biden"}
+```
+
+```json
+{"p": 1, "quote": "We ought to change the name: \"a sanctuary for criminals.\"", "context": "Position on sanctuary cities"}
+```
+
+```json
+{"p": 1, "quote": "the day I took the oath of office as your 47th President, we ended the border invasion.", "context": "Policy accomplishment on border control"}
+```
+
+```json
+{"p": 1, "quote": "We ended the war on police, and we declared a very strong war on crime.", "context": "Shift in administration policy toward law enforcement"}
+```
+
+```json
+{"p": 1, "quote": "We've led our outstanding new Attorney General—happens to be with us—I was surprised to see him; he just got sworn in 2 days ago—Todd Blanche. He's going to be a legend.", "context": "Praise for new Attorney General Todd Blanche"}
+```
+
+```json
+{"p": 1, "quote": "in 2025 we achieved the single largest reduction in violent crime in American history.", "context": "Crime statistics achievement"}
+```
+
+```json
+{"p": 1, "quote": "Every single number is the lowest number in recorded history.", "context": "Crime rate statistics across multiple categories"}
+```
+
+```json
+{"p": 1, "quote": "Together, we're showing what is possible when you finally have a President in the White House who supports our police, who lets you do your jobs, and who always backs the blue.", "context": "Philosophy on supporting law enforcement"}
+```
+
+```json
+{"p": 1, "quote": "As President, I will always protect our qualified immunity.", "context": "Position on qualified immunity for police"}
+```
+
+```json
+{"p": 1, "quote": "2 percent of the people create 91 percent of the crime. I love that stat because we can handle 2 percent of the people.", "context": "Analysis of crime patterns and repeat offenders"}
+```

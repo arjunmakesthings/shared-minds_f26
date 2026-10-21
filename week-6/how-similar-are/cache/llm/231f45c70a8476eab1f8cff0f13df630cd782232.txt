@@ -1,0 +1,23 @@
+```json
+{"p": 1, "quote": "This morning the deal that I first put forward last May for the Middle East has finally come to fruition.", "context": "Gaza cease-fire and hostage release deal achievement"}
+```
+
+```json
+{"p": 1, "quote": "This was the deal that I outlined for the world back on May 31; many of you covered it at the time.", "context": "Biden's earlier proposal for Middle East deal"}
+```
+
+```json
+{"p": 1, "quote": "I've worked in foreign policy for decades, and this is one of the toughest negotiations I've been part of.", "context": "Difficulty of Gaza cease-fire negotiations"}
+```
+
+```json
+{"p": 1, "quote": "Some said my policy of a firm support for Israel is relentlessly pursuing diplomacy risked drawing America into a wider war in the region. I listened to those voices, many of whom I respected a great deal. But I concluded abandoning the course I was on would not have led us to the cease-fire we're seeing today, but instead, it would have risked the wider war in the region that so many feared.", "context": "Explanation of diplomatic strategy for Middle East"}
+```
+
+```json
+{"p": 1, "quote": "Today's cease-fire in Gaza and the release of hostages is a result of a principled and effective policy that we presided—I presided over for months.", "context": "Credit for Gaza cease-fire implementation"}
+```
+
+```json
+{"p": 1, "quote": "No way out. I'm proud of the deal.", "context": "Biden's continued involvement in implementing the deal"}
+```

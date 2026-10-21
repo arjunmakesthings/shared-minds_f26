@@ -1,0 +1,31 @@
+```json
+{"p": 1, "quote": "we have an opportunity in this election to turn the page on a decade of Donald Trump trying to keep us divided and afraid of each other.", "context": "Election opportunity, moving past Trump division"}
+```
+
+```json
+{"p": 1, "quote": "It is time for a new generation of leadership in America.", "context": "Call for new leadership generation"}
+```
+
+```json
+{"p": 1, "quote": "When I am elected, I will walk in with a to-do list. And at the top of my list is bringing down your cost of living.", "context": "Presidential priorities, cost of living"}
+```
+
+```json
+{"p": 1, "quote": "I will give a middle-class tax cut to a hundred million Americans, enact the first-ever federal ban on price gouging on groceries and fight to make sure that hardworking Americans can actually afford a place to live.", "context": "Economic policy proposals"}
+```
+
+```json
+{"p": 1, "quote": "I believe health care should be a right and not just a privilege of those who can afford it.", "context": "Healthcare as a right"}
+```
+
+```json
+{"p": 1, "quote": "I pledge to you, when Congress passes a bill to restore reproductive freedom, as president of the United States, I will proudly sign it into law.", "context": "Commitment to reproductive freedom legislation"}
+```
+
+```json
+{"p": 1, "quote": "I pledge to seek common ground and commonsense solutions to the challenges you face.", "context": "Pledge to find common ground"}
+```
+
+```json
+{"p": 1, "quote": "I pledge to be a president for all Americans and to always put country above party and self.", "context": "Pledge to serve all Americans"}
+```

@@ -1,0 +1,55 @@
+```json
+{"p": 1, "quote": "Embryos, to me, are babies", "context": "IVF embryos and Alabama Supreme Court decision"}
+```
+
+```json
+{"p": 1, "quote": "When you talk about an embryo, you are talking about, to me, that's a life.", "context": "Position on embryos as life"}
+```
+
+```json
+{"p": 1, "quote": "Every woman needs to know, with her partner, what she's looking at. And then when you look at that, then you make the decision that's best for your family.", "context": "IVF decision-making for families"}
+```
+
+```json
+{"p": 2, "quote": "he never should have fallen all over himself to get back into the Iran deal. By doing that, he lifted the sanctions. All the money flowed to all of the terrorist proxies around the region.", "context": "Criticism of Iran deal policy"}
+```
+
+```json
+{"p": 2, "quote": "first and foremost, put the sanctions back on. You have got to put the sanctions back on.", "context": "Iran sanctions policy"}
+```
+
+```json
+{"p": 3, "quote": "when government stops listening, let's remember states' rights matter. You have to be as close to the people as possible.", "context": "States' rights and government responsiveness"}
+```
+
+```json
+{"p": 4, "quote": "I mean, I think I'll go with the scientists on that. I think it's obviously not in the same class as heroin.", "context": "Marijuana classification and FDA recommendation"}
+```
+
+```json
+{"p": 4, "quote": "I want states to be able to decide that. That's something that should be as close to the people as possible.", "context": "Marijuana legalization as state decision"}
+```
+
+```json
+{"p": 5, "quote": "I do think climate change is real. I think that's acknowledging a fact.", "context": "Climate change reality"}
+```
+
+```json
+{"p": 5, "quote": "We all want clean air. We all want clean water. We all want a world for our kids that we know is going to be strong and healthy for them.", "context": "Environmental goals and climate change"}
+```
+
+```json
+{"p": 5, "quote": "You don't live in extremes. But you also look at, what's the transition? Rather than demonizing producers, partner with the producers, because you will find a lot of the energy producers want to do innovation.", "context": "Approach to climate solutions and energy producers"}
+```
+
+```json
+{"p": 6, "quote": "I don't think that we should ever give cash to any country, friend or foe, because you can't follow it, you can't hold it accountable.", "context": "Foreign aid policy"}
+```
+
+```json
+{"p": 6, "quote": "We don't need to put troops on the ground anywhere. As the spouse of a military combat veteran, you don't ever want to see your loved ones go to war. But what you do have to do is deter it.", "context": "Military deployment policy and deterrence"}
+```
+
+```json
+{"p": 6, "quote": "There's a reason the Taiwanese want the U.S. and the West to support Ukraine. Because they know if Ukraine wins, China won't invade Taiwan.", "context": "Ukraine support and Taiwan security"}
+```

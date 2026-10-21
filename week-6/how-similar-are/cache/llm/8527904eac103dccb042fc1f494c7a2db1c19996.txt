@@ -1,0 +1,23 @@
+```json
+{"p": 7, "quote": "I've been the first and first woman in almost every position I've had. I believe that. Men and women support women in leadership.", "context": "Women in leadership and bias against women"}
+```
+
+```json
+{"p": 7, "quote": "I didn't know that I was going to get it. And you know, I've obviously put myself out as being open to it. And I was incredibly honored when he reached out to me and offered it to me.", "context": "Getting the call from Joe Biden to be vice president"}
+```
+
+```json
+{"p": 8, "quote": "I love teachers. I really do. They do God's work. Think about it. We don't pay them nearly enough.", "context": "Views on teachers and their compensation"}
+```
+
+```json
+{"p": 9, "quote": "Wherever I go around the country, I try to visit small businesses. I'm telling you, around our country, all these people who are innovative, ambitious, they are optimistic. They are building. They are creating.", "context": "Small businesses and American entrepreneurship"}
+```
+
+```json
+{"p": 9, "quote": "America is so important to the rest of the world. We are so important to the rest of the world. We are a role model for what it means to be a democracy so we can look at other countries and our allies and our adversaries and say, these are the principles that must be upheld.", "context": "America's role as a democracy and global model"}
+```
+
+```json
+{"p": 10, "quote": "The bill is and would have been the strongest border security bill in years. It would have put 1,500 more border agents at the border. I've been down to the border. Those border agents are working around the clock. They need help.", "context": "Border security legislation and support for border agents"}
+```

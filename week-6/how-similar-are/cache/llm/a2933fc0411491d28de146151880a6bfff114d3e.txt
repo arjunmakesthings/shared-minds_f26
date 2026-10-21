@@ -1,0 +1,35 @@
+```json
+{"p": 7, "quote": "They came because of the election. They thought the election was a rigged election and that's why they came.", "context": "January 6th Capitol riot causes"}
+```
+
+```json
+{"p": 7, "quote": "I said, peacefully and patriotically, nothing done wrong at all.", "context": "January 6th Capitol riot message"}
+```
+
+```json
+{"p": 8, "quote": "China thinks we're a stupid country, a very stupid country. They can't believe that somebody finally got wise to them.", "context": "China and trade policy"}
+```
+
+```json
+{"p": 8, "quote": "Not one president charged China anything.", "context": "Trade with China"}
+```
+
+```json
+{"p": 9, "quote": "If a country tells me, \"sir, we like you very much, but we're going to no longer adhere to being in the reserve currency, we're not going to salute the dollar anymore,\" I'll say \"that's okay. And you're going to pay a 100% tariff on everything you sell into the United States.", "context": "Reserve currency and tariff policy"}
+```
+
+```json
+{"p": 10, "quote": "Google's got a lot of power. They're very bad to me. I mean, I can speak from that standpoint.", "context": "Google coverage and bias"}
+```
+
+```json
+{"p": 10, "quote": "I think it's a whole rigged deal. I think Google's rigged just like our government is rigged all over the place.", "context": "Google bias allegations"}
+```
+
+```json
+{"p": 11, "quote": "EVERYONE KNOWS I WOULD NOT SUPPORT A FEDERAL ABORTION BAN, UNDER ANY CIRCUMSTANCES, AND WOULD, IN FACT, VETO IT, BECAUSE IT IS UP TO THE STATES TO DECIDE BASED ON THE WILL OF THEIR VOTERS (THE WILL OF THE PEOPLE!).", "context": "Federal abortion ban position"}
+```
+
+```json
+{"p": 11, "quote": "I FULLY SUPPORT THE THREE EXCEPTIONS FOR RAPE, INCEST, AND THE LIFE OF THE MOTHER.", "context": "Abortion exceptions policy"}
+```

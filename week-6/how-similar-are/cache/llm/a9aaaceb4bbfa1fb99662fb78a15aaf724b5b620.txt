@@ -1,0 +1,43 @@
+```json
+{"p": 1, "quote": "cheap labor is fundamentally a crutch, and it's a crutch that inhibits innovation.", "context": "Cheap labor as obstacle to innovation"}
+```
+
+```json
+{"p": 1, "quote": "if you can make a product more cheaply, it's far too easy to do that rather than to innovate.", "context": "Easy path of cheap labor versus innovation"}
+```
+
+```json
+{"p": 1, "quote": "companies innovating in the absence of cheap labor is a good thing.", "context": "Innovation without cheap labor"}
+```
+
+```json
+{"p": 1, "quote": "innovation is what increases wages. It's what protects our homelands, and I know we have a lot of defense technology companies here. It's what saves troops' lives on the battlefield.", "context": "Benefits of innovation"}
+```
+
+```json
+{"p": 1, "quote": "We are a nation of builders. We make things. We create things.", "context": "American identity and values"}
+```
+
+```json
+{"p": 1, "quote": "America is not going to win the future by ditching child labor laws or paying our workers less than Chinese or Vietnamese laborers.", "context": "Worker protection and competitiveness"}
+```
+
+```json
+{"p": 1, "quote": "We can only win by doing what we always did: protecting our workers and supporting our innovators, and doing both of those things at the same time.", "context": "Economic strategy combining worker protection and innovation"}
+```
+
+```json
+{"p": 1, "quote": "We believe that tariffs are a necessary tool to protect our jobs and our industries from other countries, as well as the labor value of our workers in a globalized market.", "context": "Tariffs and worker protection"}
+```
+
+```json
+{"p": 1, "quote": "cheap labor cannot be used as a substitute for the productivity gains that come with economic innovation.", "context": "Immigration policy rationale"}
+```
+
+```json
+{"p": 1, "quote": "if you want to lead in artificial intelligence, you have got to be leading in energy production.", "context": "Energy production and AI competitiveness"}
+```
+
+```json
+{"p": 1, "quote": "For far too long, we got addicted to cheap labor -- both overseas and by importing it into our own country -- and we got lazy.", "context": "Economic policy failures of past 40 years"}
+```

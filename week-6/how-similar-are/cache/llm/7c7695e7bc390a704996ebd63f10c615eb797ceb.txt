@@ -1,0 +1,35 @@
+```json
+{"p": 19, "quote": "I started my career as a prosecutor. I was a D.A. I was an attorney general. A United States senator. And now vice president. I've only had one client. The people.", "context": "Career history and public service focus"}
+```
+
+```json
+{"p": 19, "quote": "As a prosecutor I never asked a victim or a witness are you a Republican or a Democrat. The only thing I ever asked them, are you okay?", "context": "Prosecutorial approach regardless of party"}
+```
+
+```json
+{"p": 19, "quote": "That's the kind of president we need right now. Someone who cares about you and is not putting themselves first.", "context": "Leadership qualities needed"}
+```
+
+```json
+{"p": 20, "quote": "Clearly, I am not Joe Biden, and I am certainly not Donald Trump. And what I do offer is a new generation of leadership for our country.", "context": "Distinguishing herself as new generation leader"}
+```
+
+```json
+{"p": 20, "quote": "I have a plan to give startup businesses $50,000 tax deduction, to pursue their ambitions, their innovation, their ideas, their hard work.", "context": "Startup business tax deduction plan"}
+```
+
+```json
+{"p": 20, "quote": "I have a plan. $6,000 for young families for the first year of your child's life. To help you in that most critical stage of your child's development.", "context": "Families with young children support plan"}
+```
+
+```json
+{"p": 20, "quote": "I have a plan that is about allowing people to be able to pursue what has been fleeting in terms of the American dream by offering help with down payment of $25,000, down payment assistance for first-time home buyers.", "context": "First-time homebuyers assistance plan"}
+```
+
+```json
+{"p": 21, "quote": "I believe the reason that Donald Trump says that this war would be over within 24 hours is because he would just give it up. And that's not who we are as Americans.", "context": "Position on Ukraine war"}
+```
+
+```json
+{"p": 21, "quote": "I actually met with Zelenskyy a few days before Russia invaded, tried through force to change territorial boundaries [defying] international rules. Days later I went to NATO's eastern flank. And we brought 50 countries together to support Ukraine in its righteous defense.", "context": "Actions taken regarding Ukraine support"}
+```

@@ -1,0 +1,19 @@
+```json
+{"p": 49, "quote": "I fall within the Presidential Records Act. It's very simple. It's a civil thing. And this should never have been an indictment. There's no criminal.", "context": "Presidential Records Act and classified documents"}
+```
+
+```json
+{"p": 50, "quote": "What's happening is they're doing this for election interference. This woman, I have no idea who she is.", "context": "E. Jean Carroll sexual abuse case response"}
+```
+
+```json
+{"p": 50, "quote": "I never met this woman. This woman said I met her at the front door of Bergdorf-Goodman; I was immediately attracted to her; We had this great chemistry. And a few minutes later, we ended up in a dressing room.", "context": "Denying E. Jean Carroll encounter"}
+```
+
+```json
+{"p": 50, "quote": "We had a horrible Clinton-appointed judge. This is a rigged deal. My lawyer said, \"sir, you don't have to do it. This is a fake story and you don't want to give it credibility.\" That's why I didn't go.", "context": "Why he didn't testify in Carroll case"}
+```
+
+```json
+{"p": 51, "quote": "I will continue to stand strong against the extreme late-term abortionists, the Democrat party, who believe in abortion on demand in the ninth month of pregnancy, and even executing babies after birth. Beyond birth, executing the baby. This is where we've come and it's so sad to see.", "context": "Pro-life stance at Faith and Freedom Coalition"}
+```

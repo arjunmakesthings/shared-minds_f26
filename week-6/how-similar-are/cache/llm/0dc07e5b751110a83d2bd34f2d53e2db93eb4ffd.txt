@@ -1,0 +1,19 @@
+```json
+{"topic": "middle-class-wages", "a": {"score": -0.9, "confidence": 0.95, "reason": "Strongly and repeatedly emphasizes innovation alone raises wages and cheap labor inhibits this.", "quotes": ["q50", "q61", "q64", "q69"]}, "b": {"score": 0.3, "confidence": 0.4, "reason": "Focuses on lowering costs and raising minimum wage but doesn't directly address innovation versus labor approaches.", "quotes": ["q110", "q140"]}}
+```
+
+```json
+{"topic": "reproductive-rights-policy", "a": {"score": 0.0, "confidence": 0.0, "reason": "No relevant quotes provided on abortion or reproductive rights.", "quotes": []}, "b": {"score": 0.0, "confidence": 0.0, "reason": "No relevant quotes provided on abortion or reproductive rights.", "quotes": []}}
+```
+
+```json
+{"topic": "social-security-protection", "a": {"score": -0.85, "confidence": 0.9, "reason": "Explicitly rejects privatization and argues against making elderly people fend for themselves.", "quotes": ["q162"]}, "b": {"score": -0.75, "confidence": 0.75, "reason": "Opposes cuts to Social Security and promises to protect it but doesn't directly address privatization.", "quotes": ["q57"]}}
+```
+
+```json
+{"topic": "foreign-policy-focus", "a": {"score": -0.8, "confidence": 0.9, "reason": "Advocates for reducing American global policing, empowering regional powers, and focusing on Asia rather than worldwide commitments.", "quotes": ["q99", "q101", "q169", "q171"]}, "b": {"score": 0.7, "confidence": 0.85, "reason": "Emphasizes alliances, global leadership role, being a champion of liberty worldwide, and maintaining strong security presence.", "quotes": ["q5", "q6", "q20", "q63"]}}
+```
+
+```json
+{"topic": "addressing-inequality", "a": {"score": 0.0, "confidence": 0.0, "reason": "No relevant quotes provided on tax rates for wealthy individuals.", "quotes": []}, "b": {"score": 0.0, "confidence": 0.0, "reason": "No relevant quotes provided on tax rates for wealthy individuals.", "quotes": []}}
+```

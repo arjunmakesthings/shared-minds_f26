@@ -1,0 +1,19 @@
+```json
+{"topic": "israel-two-state-solution", "a": {"score": -1.0, "confidence": 0.95, "reason": "Biden clearly states two-state solution is the only real solution guaranteeing Israel's security and Palestinian dignity.", "quotes": ["q84"]}, "b": {"score": 0.85, "confidence": 0.9, "reason": "Haley explicitly states two-state solution is not possible because Palestinians won't come to the table.", "quotes": ["q18", "q31"]}}
+```
+
+```json
+{"topic": "ukraine-support-priority", "a": {"score": -0.8, "confidence": 0.65, "reason": "Biden emphasizes regional security consequences of not supporting Ukraine, implying it's a priority.", "quotes": ["q59"]}, "b": {"score": -0.95, "confidence": 0.95, "reason": "Haley strongly advocates supporting Ukraine to prevent war and deter aggression, calling it only 3.5% of defense budget.", "quotes": ["q1", "q27"]}}
+```
+
+```json
+{"topic": "china-existential-threat", "a": {"score": 0.3, "confidence": 0.5, "reason": "Biden discusses global changes and economic questions but does not identify China as primary threat.", "quotes": ["q125"]}, "b": {"score": -0.95, "confidence": 1.0, "reason": "Haley repeatedly and explicitly calls China an existential threat and the most dangerous foreign threat since WWII.", "quotes": ["q155", "q210", "q212"]}}
+```
+
+```json
+{"topic": "energy-independence-approach", "a": {"score": 0.85, "confidence": 0.9, "reason": "Biden emphasizes climate action over energy production and warns against sacrificing environmental future for profit.", "quotes": ["q2", "q67"]}, "b": {"score": -0.4, "confidence": 0.75, "reason": "Haley supports partnering with producers and promises to drill extensively for oil and gas, though acknowledges climate change is real.", "quotes": ["q13", "q96", "q197"]}}
+```
+
+```json
+{"topic": "national-debt-priority", "a": {"score": 0.5, "confidence": 0.55, "reason": "Biden focuses on revenue through taxing billionaires rather than spending cuts, suggesting debt is not a constraint on policy.", "quotes": ["q57"]}, "b": {"score": -0.9, "confidence": 0.95, "reason": "Haley repeatedly emphasizes the urgent debt crisis, criticizes excessive spending, and calls for balanced budgets like she achieved as governor.", "quotes": ["q77", "q170", "q172", "q175"]}}
+```

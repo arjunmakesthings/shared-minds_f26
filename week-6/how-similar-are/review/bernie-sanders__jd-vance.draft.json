@@ -1,0 +1,106 @@
+{
+  "a": "bernie-sanders",
+  "b": "jd-vance",
+  "counts": {
+    "quotesA": 11,
+    "quotesB": 181,
+    "topicsFound": 2
+  },
+  "rows": [
+    {
+      "id": "worker-wages-economy",
+      "question": "should policy prioritize raising worker wages and living standards?",
+      "poles": [
+        "government should prioritize worker wages",
+        "worker wages are secondary concern"
+      ],
+      "quotesA": [
+        "q10"
+      ],
+      "quotesB": [
+        "q54",
+        "q56",
+        "q61",
+        "q67"
+      ],
+      "status": "clear",
+      "note": "",
+      "flags": [],
+      "a": {
+        "score": -0.92,
+        "confidence": 0.86,
+        "reason": "Strongly emphasizes income inequality, starvation wages, and need to raise the minimum wage as critical policy priorities.",
+        "quotes": [
+          "q10"
+        ]
+      },
+      "b": {
+        "score": -0.55,
+        "confidence": 0.66,
+        "reason": "Criticizes cheap labor as inhibiting innovation and emphasizes protecting workers and middle-class wages, though less explicitly about prioritizing wage policy.",
+        "quotes": [
+          "q54",
+          "q56",
+          "q61"
+        ]
+      },
+      "models": {
+        "sonnet": {
+          "a": -0.95,
+          "b": -0.6
+        },
+        "gpt5": {
+          "a": -0.9,
+          "b": -0.5
+        }
+      }
+    },
+    {
+      "id": "democracy-threat",
+      "question": "what poses the greatest threat to American democracy?",
+      "poles": [
+        "censorship and media control",
+        "authoritarianism and election denial"
+      ],
+      "quotesA": [
+        "q5",
+        "q6"
+      ],
+      "quotesB": [
+        "q119",
+        "q123"
+      ],
+      "status": "clear",
+      "note": "",
+      "flags": [],
+      "a": {
+        "score": 0.9,
+        "confidence": 0.9,
+        "reason": "Explicitly identifies Trump's authoritarianism, election denial, and insurrection as the central threat to American democracy.",
+        "quotes": [
+          "q5",
+          "q6"
+        ]
+      },
+      "b": {
+        "score": -0.82,
+        "confidence": 0.8,
+        "reason": "Explicitly states the real threat to democracy is censorship by private companies working with government, not authoritarianism.",
+        "quotes": [
+          "q119",
+          "q123"
+        ]
+      },
+      "models": {
+        "sonnet": {
+          "a": 0.9,
+          "b": -0.85
+        },
+        "gpt5": {
+          "a": 0.9,
+          "b": -0.8
+        }
+      }
+    }
+  ]
+}

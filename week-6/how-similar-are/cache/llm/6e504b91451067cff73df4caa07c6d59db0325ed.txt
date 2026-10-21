@@ -1,0 +1,43 @@
+```json
+{"p": 31, "quote": "The Democratic Party increasingly represents professional class elites. And Republicans represent middle- and working-class wage earners.", "context": "Party representation of economic classes"}
+```
+
+```json
+{"p": 31, "quote": "I think you have to be open to deporting anyone who came to the country illegally.", "context": "Immigration and deportation policy"}
+```
+
+```json
+{"p": 33, "quote": "When I think about [Trump's 2017] tax cut legislation, which was OK, it wasn't terrible, but it wasn't great.", "context": "Assessment of Trump's 2017 tax bill"}
+```
+
+```json
+{"p": 33, "quote": "If I think about the health care legislation which I think was genuinely a moral and political disaster and I'm glad that it never passed.", "context": "Healthcare legislation criticism"}
+```
+
+```json
+{"p": 34, "quote": "Obviously, it was a sarcastic comment. I've got nothing against cats.", "context": "Clarifying childless cat lady remarks"}
+```
+
+```json
+{"p": 35, "quote": "I care about declining fertility because I've seen the role of fatherhood, the positive role that it can play in the lives of my friends and in my community", "context": "Views on fatherhood and fertility decline"}
+```
+
+```json
+{"p": 35, "quote": "I've seen young men who were relatively driftless but became rooted and grounded when they had children.", "context": "Impact of fatherhood on men's lives"}
+```
+
+```json
+{"p": 35, "quote": "I've seen people who become more attached to their communities, to their families, to their country because they have children", "context": "Children's role in community attachment"}
+```
+
+```json
+{"p": 35, "quote": "So, I would say that we should care about declining fertility, not just because it's bad for our economy, but because we think babies are good.", "context": "Why declining fertility should be addressed"}
+```
+
+```json
+{"p": 36, "quote": "I think we have to go to war against the anti-child ideology that exists in our country", "context": "Conservative approach to encouraging childbearing"}
+```
+
+```json
+{"p": 36, "quote": "we have to go to war against that ideology and the people behind it.", "context": "Opposition to anti-child messaging"}
+```

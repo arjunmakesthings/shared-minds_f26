@@ -1,0 +1,186 @@
+{
+  "a": "bernie-sanders",
+  "b": "joe-biden",
+  "approved": "2026-10-21",
+  "counts": {
+    "quotesA": 11,
+    "quotesB": 169,
+    "topicsFound": 9,
+    "dimensions": 5
+  },
+  "dims": [
+    {
+      "id": "democracy-threat",
+      "question": "Is democracy currently facing an existential threat?",
+      "poles": [
+        "Democracy faces serious, immediate threat",
+        "Democracy is resilient and prevailing"
+      ],
+      "a": {
+        "score": -0.9,
+        "reason": "Sanders repeatedly describes democracy as under serious threat from Trump's authoritarianism and denialism.",
+        "quotes": [
+          "q1",
+          "q5",
+          "q6"
+        ]
+      },
+      "b": {
+        "score": -0.6,
+        "reason": "Biden frames democracy as both prevailing and needing to be saved again, suggesting ongoing serious threat.",
+        "quotes": [
+          "q33",
+          "q38"
+        ]
+      },
+      "models": {
+        "sonnet": {
+          "a": -0.9,
+          "b": -0.6
+        },
+        "gpt5": {
+          "a": -0.9,
+          "b": -0.6
+        }
+      },
+      "edited": false
+    },
+    {
+      "id": "israel-defense-rights",
+      "question": "Does Israel have the right to defend itself militarily?",
+      "poles": [
+        "Israel has right to defend itself",
+        "Israel should not use military force"
+      ],
+      "a": {
+        "score": -0.7,
+        "reason": "Sanders says Israel is well within its rights to defend itself in keeping with international law.",
+        "quotes": [
+          "q4"
+        ]
+      },
+      "b": {
+        "score": -0.87,
+        "reason": "Biden firmly stands with Israel, supports its right to defend itself and respond decisively, comparing to how the US would respond.",
+        "quotes": [
+          "q1",
+          "q6",
+          "q163"
+        ]
+      },
+      "models": {
+        "sonnet": {
+          "a": -0.7,
+          "b": -0.85
+        },
+        "gpt5": {
+          "a": -0.7,
+          "b": -0.9
+        }
+      },
+      "edited": false
+    },
+    {
+      "id": "climate-action",
+      "question": "Should government take major climate action?",
+      "poles": [
+        "Climate action is existential priority",
+        "Climate action harms the economy"
+      ],
+      "a": {
+        "score": -0.92,
+        "reason": "Sanders describes climate change as an existential threat that would be awful to turn our back on.",
+        "quotes": [
+          "q1"
+        ]
+      },
+      "b": {
+        "score": -0.9,
+        "reason": "Biden calls climate crisis existential, claims historic climate action, and says there's no time to waste in pushing forward.",
+        "quotes": [
+          "q2",
+          "q67",
+          "q151"
+        ]
+      },
+      "models": {
+        "sonnet": {
+          "a": -0.95,
+          "b": -0.9
+        },
+        "gpt5": {
+          "a": -0.9,
+          "b": -0.9
+        }
+      },
+      "edited": false
+    },
+    {
+      "id": "wealth-inequality",
+      "question": "Is income inequality a major problem?",
+      "poles": [
+        "Inequality is urgent crisis",
+        "Inequality is acceptable outcome"
+      ],
+      "a": {
+        "score": -0.95,
+        "reason": "Describes inequality as at historic highs and frames it as an urgent crisis requiring action.",
+        "quotes": [
+          "q10"
+        ]
+      },
+      "b": {
+        "score": -0.6,
+        "reason": "Points to low billionaire tax rates as a problem requiring correction but frames it more moderately than as a crisis.",
+        "quotes": [
+          "q57",
+          "q80"
+        ]
+      },
+      "models": {
+        "sonnet": {
+          "a": -0.95,
+          "b": -0.6
+        },
+        "gpt5": {
+          "a": -0.95,
+          "b": -0.6
+        }
+      },
+      "edited": false
+    },
+    {
+      "id": "despair-vs-hope",
+      "question": "Should Americans maintain hope during difficult times?",
+      "poles": [
+        "Hope and determination are essential",
+        "Despair is a rational response"
+      ],
+      "a": {
+        "score": -0.95,
+        "reason": "Directly states despair is not an option at this moment in history.",
+        "quotes": [
+          "q3"
+        ]
+      },
+      "b": {
+        "score": -0.82,
+        "reason": "Expresses faith in American people and belief that America can accomplish anything together.",
+        "quotes": [
+          "q42"
+        ]
+      },
+      "models": {
+        "sonnet": {
+          "a": -0.95,
+          "b": -0.85
+        },
+        "gpt5": {
+          "a": -0.95,
+          "b": -0.8
+        }
+      },
+      "edited": false
+    }
+  ]
+}

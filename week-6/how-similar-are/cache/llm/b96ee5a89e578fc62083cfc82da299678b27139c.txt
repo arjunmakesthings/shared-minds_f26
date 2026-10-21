@@ -1,0 +1,15 @@
+```json
+{"p": 1, "quote": "For years, millions of Americans were forced to choose between paying for medications or putting food on the table, while Big Pharma blocked Medicare from being able to negotiate prices on behalf of seniors and people with disabilities. But we fought back--and won.", "context": "Medicare drug price negotiations and pharmaceutical industry"}
+```
+
+```json
+{"p": 3, "quote": "Term limits would help ensure that the court's membership changes with some regularity. That would make timing for court nominations more predictable and less arbitrary. It would reduce the chance that any single presidency radically alters the makeup of the court for generations to come.", "context": "Supreme Court reform proposal on 18-year term limits"}
+```
+
+```json
+{"p": 4, "quote": "weak and self-enforced", "context": "Supreme Court ethics code evaluation"}
+```
+
+```json
+{"p": 5, "quote": "You may recall, I still get criticized for it, but I was totally opposed to the occupation and trying to unite Afghanistan. Once we got bin Laden, we should've moved on, because no one's ever going to unite that country.", "context": "Afghanistan military occupation and policy"}
+```

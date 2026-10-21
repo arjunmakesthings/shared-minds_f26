@@ -1,0 +1,35 @@
+```json
+{"p": 13, "quote": "I don't think we should give cash to any country, friend or foe, because you can't follow it. You can't hold it accountable. I don't think we need to put troops on the ground.", "context": "Ukraine aid and military involvement"}
+```
+
+```json
+{"p": 13, "quote": "This is about preventing war. It's always been about preventing war. If we support Ukraine, that's only 3.5% of our defense budget.", "context": "Ukraine support as war prevention"}
+```
+
+```json
+{"p": 14, "quote": "China is our number one national security threat. I fought them every single day at the U.N.", "context": "China as security threat"}
+```
+
+```json
+{"p": 14, "quote": "We have to tell them we're going to end all normal trade relations with them until they stop murdering Americans with fentanyl.", "context": "Trade policy with China"}
+```
+
+```json
+{"p": 15, "quote": "When I was governor, we passed the toughest illegal immigration law in the country. In passing that toughest illegal immigration law in the country, we passed E-Verify, which I want to take national, which is where businesses have to prove that the people they hire are in this country legally.", "context": "Immigration enforcement record as governor"}
+```
+
+```json
+{"p": 16, "quote": "When I was at the United Nations, I fought every day for Israel. I said a two-state solution wasn't something that was possible because Israel would always come to the table and the Palestinians wouldn't.", "context": "Israel-Palestine policy at UN"}
+```
+
+```json
+{"p": 16, "quote": "Give Israel whatever it wants to get the job done. Two, eliminate Hamas once and for all. And three, do whatever it takes to bring the hostages home.", "context": "Three priorities for Israel-Hamas war"}
+```
+
+```json
+{"p": 17, "quote": "I was thinking past slavery and talking about the lesson that we would learn going forward. I shouldn't have done that. I should have said 'slavery.'", "context": "Civil War cause explanation omitting slavery"}
+```
+
+```json
+{"p": 18, "quote": "We have to secure our schools the same ways that we secure our airports and our courthouses. And that means we make sure that we have whatever we need to, to make sure nothing comes through bullet-wise or otherwise.", "context": "School security approach for gun violence"}
+```

@@ -1,0 +1,27 @@
+```json
+{"p": 1, "quote": "I absolutely believe we must raise minimum wage and that hardworking Americans, whether they're working at McDonald's or anywhere else, should have at least the ability to be able to take care of their family and take care of themselves in a way that allows them to actually be able to sustain their needs.", "context": "Minimum wage policy position"}
+```
+
+```json
+{"p": 1, "quote": "my policy is about making sure that Americans have what they need in terms of their reproductive health.", "context": "Reproductive health and contraception access"}
+```
+
+```json
+{"p": 1, "quote": "I will and he will not, as evidenced by many statements he has made, including his intention to be a dictator on day one, his intention to weaponize the Department of Justice against his political enemies.", "context": "Constitutional duty and rule of law"}
+```
+
+```json
+{"p": 1, "quote": "this is a choice for the American people, and it is a choice between whether we're going to chart a new way forward that turns the page on the division, the hate, the chaos of Donald Trump.", "context": "Election choice and direction for country"}
+```
+
+```json
+{"p": 1, "quote": "I do believe it is such a fundamental issue, which is understanding you don't have to abandon your faith or deeply held beliefs to agree the government should not be telling women what to do with their body.", "context": "Women's bodily autonomy and government role"}
+```
+
+```json
+{"p": 1, "quote": "America's strength — one of the attributes of our progress has been the expansion of rights, not the restriction of rights.", "context": "American values and rights"}
+```
+
+```json
+{"p": 1, "quote": "In a democracy, people will debate, people will disagree, but not resort to violence.", "context": "Political violence and democracy"}
+```

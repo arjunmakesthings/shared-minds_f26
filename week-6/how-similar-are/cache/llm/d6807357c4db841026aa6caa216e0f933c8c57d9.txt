@@ -1,0 +1,79 @@
+```json
+{"id": "energy-independence", "question": "should the us prioritize cheap energy over climate concerns?", "poleA": "cheap energy is essential for economic independence", "poleB": "climate action must not be sacrificed for cheaper energy", "a": ["q1", "q40"], "b": ["q2", "q67"]}
+```
+
+```json
+{"id": "trade-fairness", "question": "should us trade policy prioritize reciprocal fairness with partners?", "poleA": "trade should be rebalanced for American worker interests", "poleB": "trade should follow established rules and patterns", "a": ["q28", "q30", "q33"], "b": ["q116"]}
+```
+
+```json
+{"id": "inflation-responsibility", "question": "should current leadership take credit for inflation reduction?", "poleA": "current leadership successfully reduced inflation", "poleB": "current leadership caused and mismanaged inflation", "a": ["q101"], "b": ["q113"]}
+```
+
+```json
+{"id": "middle-east-ceasefire", "question": "can sustained diplomacy achieve lasting mideast peace?", "poleA": "diplomatic pressure achieves ceasefires and peace", "poleB": "military strength is needed to stop conflicts", "a": ["q1", "q7"], "b": ["q163", "q164"]}
+```
+
+```json
+{"id": "border-control", "question": "should the us limit immigration to protect workers?", "poleA": "immigration harms american workers and communities", "poleB": "border closures are not serious policy solutions", "a": ["q111", "q117"], "b": ["q129"]}
+```
+
+```json
+{"id": "worker-wages-innovation", "question": "does cheap labor or innovation better increase wages?", "poleA": "innovation increases wages more than cheap labor", "poleB": "labor costs directly affect worker compensation", "a": ["q50", "q64", "q69"], "b": []}
+```
+
+```json
+{"id": "european-defense", "question": "should europe increase military spending independently?", "poleA": "europe must defend itself without us military support", "poleB": "us should maintain strong military presence in europe", "a": ["q173", "q175"], "b": []}
+```
+
+```json
+{"id": "israel-support", "question": "should us unconditionally support israel militarily?", "poleA": "us must ensure israel has military capability", "poleB": "military support should follow diplomatic negotiations", "a": ["q163", "q166"], "b": ["q6"]}
+```
+
+```json
+{"id": "abortion-federalism", "question": "should abortion policy be decided by states or federally?", "poleA": "states should set their own abortion policies", "poleB": "abortion access should be guaranteed federally", "a": [], "b": ["q45", "q47"]}
+```
+
+```json
+{"id": "china-competition", "question": "is china america's primary strategic competitor?", "poleA": "china is the most important strategic focus", "poleB": "multiple regions require balanced strategic attention", "a": ["q43", "q169"], "b": ["q125"]}
+```
+
+```json
+{"id": "democracy-threat", "question": "is censorship the primary threat to democracy?", "poleA": "censorship threatens american democracy most", "poleB": "political violence threatens democracy most", "a": ["q119"], "b": ["q78"]}
+```
+
+```json
+{"id": "tax-wealthy", "question": "should billionaires and corporations pay higher taxes?", "poleA": "wealthy should pay fairer share of taxes", "poleB": "tax increases reduce economic growth", "a": ["q57"], "b": ["q80"]}
+```
+
+```json
+{"id": "job-creation", "question": "has the current administration created sufficient jobs?", "poleA": "administration achieved record job creation", "poleB": "previous administration failed on employment", "a": ["q76", "q98"], "b": ["q106"]}
+```
+
+```json
+{"id": "family-importance", "question": "should society prioritize family formation?", "poleA": "family stability is central to societal health", "poleB": "progressive policies strengthen rather than harm families", "a": ["q83", "q150", "q152"], "b": ["q178"]}
+```
+
+```json
+{"id": "infrastructure-investment", "question": "should government invest in infrastructure development?", "poleA": "government must invest in infrastructure", "poleB": "previous administrations failed on infrastructure", "a": ["q35"], "b": ["q111"]}
+```
+
+```json
+{"id": "corporate-regulation", "question": "should corporations face more government restrictions?", "poleA": "corporations need more regulation and oversight", "poleB": "corporations should operate with less government intervention", "a": ["q123", "q144"], "b": ["q103"]}
+```
+
+```json
+{"id": "gun-control", "question": "should the us ban assault weapons?", "poleA": "assault weapons should be banned", "poleB": "gun ownership rights should be protected", "a": ["q74"], "b": []}
+```
+
+```json
+{"id": "ai-governance", "question": "should ai development be regulated before public release?", "poleA": "ai must be governed by humans before use", "poleB": "innovation requires minimal regulatory barriers", "a": ["q135"], "b": ["q46", "q52"]}
+```
+
+```json
+{"id": "supreme-court-immunity", "question": "should presidents have broad immunity from prosecution?", "poleA": "presidents need immunity to discharge duties", "poleB": "no one is above the law", "a": ["q164"], "b": []}
+```
+
+```json
+{"id": "nato-commitment", "question": "should us maintain strong nato alliance?", "poleA": "strong nato alliance serves us interests", "poleB": "us is overextended globally", "a": [], "b": ["q59"]}
+```

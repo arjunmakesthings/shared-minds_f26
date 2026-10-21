@@ -1,0 +1,19 @@
+```json
+{"p": 49, "quote": "This is intended to be a discussion about student loan debt. But really, it is, from my perspective, a discussion about who are our public servants and what we, as a society and as a country, owe them.", "context": "Student loan debt and public servants"}
+```
+
+```json
+{"p": 49, "quote": "I'm announcing a new plan to forgive more loans for 25 million more Americans, including millions of our public servants.", "context": "Student loan forgiveness plan announcement"}
+```
+
+```json
+{"p": 51, "quote": "We've been very clear that far too many innocent Palestinians have been killed. We have been very clear that Israel and the Israeli people and Palestinians are entitled to an equal amount of security and dignity.", "context": "Gaza conflict and Israeli-Palestinian security"}
+```
+
+```json
+{"p": 52, "quote": "They understand that, in this new era of space exploration, we must harness the many ways in which space can benefit the American people, all of humanity, and Earth.", "context": "NASA astronauts and space exploration benefits"}
+```
+
+```json
+{"p": 54, "quote": "In communities across our nation, the cost of housing is just too high. Part of the reason is a lack of supply.", "context": "Housing affordability and supply shortage"}
+```

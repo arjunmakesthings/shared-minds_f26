@@ -1,0 +1,147 @@
+```json
+{"p": 1, "quote": "Every family and small business must balance their budget. I balanced the budget as Governor of South Carolina. Why is Congress the only place that refuses to do it?", "context": "Budget balancing and fiscal responsibility"}
+```
+
+```json
+{"p": 1, "quote": "I will veto any budget that doesn't address our debt crisis.", "context": "Commitment to addressing debt as president"}
+```
+
+```json
+{"p": 1, "quote": "I will veto any spending bill that doesn't take us back to pre-COVID spending levels.", "context": "Proposal to reduce federal spending"}
+```
+
+```json
+{"p": 1, "quote": "If a business kept spending more than it made, it would go broke. I refuse to let Congress spend America into bankruptcy.", "context": "Federal spending limits and fiscal discipline"}
+```
+
+```json
+{"p": 1, "quote": "And when I'm President, special interests won't get a penny in taxpayer bailouts.", "context": "Opposition to special interest bailouts"}
+```
+
+```json
+{"p": 1, "quote": "Joe Biden's debt and deficits are weakening the dollar and empowering Communist China. I believe in a strong dollar.", "context": "Biden's economic policies and currency strength"}
+```
+
+```json
+{"p": 1, "quote": "I'll fight for zero-based budgeting. Congress will start from scratch every year, looking at what we have to have rather than what we've always spent.", "context": "Budgeting reform proposal"}
+```
+
+```json
+{"p": 1, "quote": "No budget, no pay – that's a no-brainer.", "context": "Consequence for Congress failing to pass budget"}
+```
+
+```json
+{"p": 1, "quote": "Entitlement spending is unsustainable. We need reform. The longer we wait, the harder it gets, and the more painful it will be.", "context": "Social Security and Medicare reform necessity"}
+```
+
+```json
+{"p": 1, "quote": "I will protect those receiving Social Security and Medicare – that's a promise. We'll keep these programs the same for anyone who's in their 40s, 50s, 60s, or older, period.", "context": "Protection of Social Security and Medicare for current beneficiaries"}
+```
+
+```json
+{"p": 1, "quote": "I'll limit benefits for wealthy people. I'll expand the Medicare Advantage plans that seniors love, and increase competition. And I'll raise the retirement age – only for younger people who are just entering the system.", "context": "Specific reforms to Social Security and Medicare"}
+```
+
+```json
+{"p": 1, "quote": "If we don't get out of the 20th Century mindset, Social Security and Medicare won't survive the first half of the 21st Century.", "context": "Need for modernizing entitlement programs"}
+```
+
+```json
+{"p": 1, "quote": "Any candidate who refuses to address them should be disqualified. They'll take your vote and leave you broke.", "context": "Entitlement reform as candidate qualification"}
+```
+
+```json
+{"p": 1, "quote": "If we do nothing, Social Security will be bankrupt in ten years. Medicare will be bankrupt in eight years.", "context": "Timeline for entitlement program insolvency"}
+```
+
+```json
+{"p": 1, "quote": "Donald Trump added $8 trillion to the national debt. And Republicans in Congress brought back earmarks and pork projects only 10 years after killing them.", "context": "Criticism of Republican spending record"}
+```
+
+```json
+{"p": 1, "quote": "Republicans put $7.4 billion in special-interest earmarks into the 2024 spending bills. Democrats put in $2.8 billion. Who are the big spenders now? All of them.", "context": "Bipartisan spending criticism"}
+```
+
+```json
+{"p": 1, "quote": "As Governor of South Carolina, I fought Republicans and Democrats to bring fiscal transparency and discipline to our state. They didn't like it, but we did it anyway.", "context": "Fiscal accountability record as governor"}
+```
+
+```json
+{"p": 1, "quote": "Fiscal sanity and tax relief will empower every American to charter a better future.", "context": "Economic philosophy on taxes and spending"}
+```
+
+```json
+{"p": 1, "quote": "The federal bureaucracy is unelected, unaccountable, and running riot over our rights. We have to put the people back in charge.", "context": "Federal bureaucracy reform"}
+```
+
+```json
+{"p": 1, "quote": "Biden's regulatory avalanche has already cost families and job creators more than $400 billion in higher prices, with billions more on the way.", "context": "Biden administration regulatory burden"}
+```
+
+```json
+{"p": 1, "quote": "Under my plan, we won't just have term limits for politicians. We will limit bureaucrats too. No bureaucrat should hold the same position for more than five years.", "context": "Proposal for bureaucrat term limits"}
+```
+
+```json
+{"p": 1, "quote": "I'll force Congress to vote on every rule and regulation, period. When politicians have to vote on every price-hiking, job-destroying, family-crushing mandate, you can bet we'll see a lot fewer rules coming down.", "context": "Congressional oversight of regulations"}
+```
+
+```json
+{"p": 1, "quote": "And we'll reduce the size of the federal government by pushing programs and authority back to the states. I'm talking welfare, health care, education, infrastructure.", "context": "Devolution of federal programs to states"}
+```
+
+```json
+{"p": 1, "quote": "I will meet with governors once a quarter and encourage states on ways to empower their people.", "context": "Plan for presidential-gubernatorial engagement"}
+```
+
+```json
+{"p": 1, "quote": "Imagine if Washington supported American energy, instead of stifling it. We'll build pipelines that bring clean, affordable gas to every home in the country. And we'll approve them in days, not years or decades.", "context": "Energy independence and infrastructure approval"}
+```
+
+```json
+{"p": 1, "quote": "We'll drill so much oil and gas, families will save big on their utility bills. Energy independence is just the start. We'll be energy dominant.", "context": "Energy dominance and family savings"}
+```
+
+```json
+{"p": 1, "quote": "We won't play by the rules of oil dictators from Russia, Iran, or Venezuela – because they'll be playing by our rules!", "context": "Energy independence from authoritarian regimes"}
+```
+
+```json
+{"p": 1, "quote": "Joe Biden thinks he's protecting you from yourself. I trust you. I believe in you.", "context": "Trust in American people versus Biden paternalism"}
+```
+
+```json
+{"p": 1, "quote": "The Freedom Plan will bring America back. It will usher in a booming economy, the kind Communist China can never compete with, much less defeat. I know it will work, because it already has.", "context": "Economic competitiveness with China"}
+```
+
+```json
+{"p": 1, "quote": "We could have propped up the textile industry with government subsidies on the backs of taxpayers. We could have told people that welfare and handouts were their only hope. That's the Biden way. But we chose freedom.", "context": "South Carolina economic transition versus Biden approach"}
+```
+
+```json
+{"p": 1, "quote": "We made our government fiscally accountable. We cut taxes on families and job creators. We protected workplace freedom, with the right to work. And we put our government on the side of the people.", "context": "South Carolina economic policy as governor"}
+```
+
+```json
+{"p": 1, "quote": "Today, the same towns that once had shuttered mills now build planes, cars, tires, and medical devices. When I finished my time as governor, we'd moved 35,000 people from welfare to work.", "context": "South Carolina economic transformation and welfare reform results"}
+```
+
+```json
+{"p": 1, "quote": "We taught inmates skills and we now have the lowest recidivism rate in the country. Unemployment fell from 11 to 4%. More South Carolinians were working than ever before.", "context": "South Carolina criminal justice and employment outcomes as governor"}
+```
+
+```json
+{"p": 1, "quote": "I know in my heart: If we did it there, we can do it across our entire country. We just need vision, discipline, and determination.", "context": "Applying South Carolina success nationally"}
+```
+
+```json
+{"p": 1, "quote": "The dark days of Bidenomics, with its sky-high inflation and interest rates, struggling families, special-interest handouts, and failed socialism will fade into a distant memory as a hard lesson learned.", "context": "Critique of Biden economic policies"}
+```
+
+```json
+{"p": 1, "quote": "Communist China is the biggest threat we've faced in decades, yet it's only been able to compete with us because our leaders have forgotten who we are, and what we stand for.", "context": "China as security threat and leadership failure"}
+```
+
+```json
+{"p": 1, "quote": "Freedom is still our secret weapon. If we unlock it, Communist China doesn't stand a chance, because nothing is more powerful than the American people.", "context": "Freedom as strength against China"}
+```

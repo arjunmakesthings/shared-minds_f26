@@ -1,0 +1,19 @@
+```json
+{"p": 1, "quote": "I do still very much think that the United States and Europe are on the same team.", "context": "US-Europe relationship and alliance"}
+```
+
+```json
+{"p": 1, "quote": "European civilization and American civilization, European culture and American culture, are very much linked, and they're always going to be linked.", "context": "Cultural and civilizational ties between US and Europe"}
+```
+
+```json
+{"p": 1, "quote": "I think that it means a little bit more Europeo- -- European burden sharing on the defense side.", "context": "European defense spending and NATO burden sharing"}
+```
+
+```json
+{"p": 1, "quote": "Our view is it's absurd that you've had this war go on for so long, and the two sides aren't even talking constructively about what would be necessary for them to end the conflict.", "context": "Ukraine war and need for negotiation"}
+```
+
+```json
+{"p": 1, "quote": "you don't have to agree with the Russian justification for the war -- and certainly, both the president and I have criticized the full-scale invasion -- but you have to try to understand where the other side is coming from to end the conflict.", "context": "Strategic approach to Russia and Ukraine conflict"}
+```

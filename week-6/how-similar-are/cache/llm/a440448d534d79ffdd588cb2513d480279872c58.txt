@@ -1,0 +1,15 @@
+```json
+{"topic": "union-organizing-rights", "a": {"score": 0.0, "confidence": 0.1, "reason": "Quote discusses economic policies but does not address union organizing rights.", "quotes": ["q113"]}, "b": {"score": -0.9, "confidence": 0.9, "reason": "Strongly opposes attacks on unions and supports freedom to organize and public-sector unions.", "quotes": ["q113"]}}
+```
+```json
+{"topic": "gun-regulation-scope", "a": {"score": 0.0, "confidence": 0.05, "reason": "Quote about political focus on distractions is too vague to determine gun policy stance.", "quotes": ["q93"]}, "b": {"score": -0.7, "confidence": 0.7, "reason": "Supports regulation of devices that increase firing capacity, indicating favor for gun control measures.", "quotes": ["q82"]}}
+```
+```json
+{"topic": "healthcare-access", "a": {"score": 0.0, "confidence": 0.15, "reason": "Quote mentions overwhelmed hospitals but in context of immigration, not healthcare policy stance.", "quotes": ["q117"]}, "b": {"score": -0.9, "confidence": 0.95, "reason": "Explicitly states healthcare should be a right, opposes cutting ACA and supports universal access.", "quotes": ["q57", "q117"]}}
+```
+```json
+{"topic": "israel-palestine-approach", "a": {"score": 0.0, "confidence": 0.1, "reason": "Quotes discuss fairness and autonomy generally but not Israel-Palestine policy specifically.", "quotes": ["q33", "q89"]}, "b": {"score": -0.8, "confidence": 0.85, "reason": "Clearly states Palestinians deserve equal safety, security, self-determination and dignity alongside Israeli defense rights.", "quotes": ["q149"]}}
+```
+```json
+{"topic": "family-structure-values", "a": {"score": -0.85, "confidence": 0.9, "reason": "Strongly promotes traditional family structures as sacred, emphasizes importance of having children, and values fertility.", "quotes": ["q142", "q148", "q150", "q152"]}, "b": {"score": 0.0, "confidence": 0.2, "reason": "Quote discusses middle class support including child care but does not address family structure preferences.", "quotes": ["q71"]}}
+```

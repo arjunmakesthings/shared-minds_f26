@@ -1,0 +1,11 @@
+```json
+{"p": 51, "quote": "we should never trust Russia", "context": "Russia policy and trustworthiness"}
+```
+
+```json
+{"p": 51, "quote": "Russia is \"never going to be our friend.\"", "context": "Russia policy and future relations"}
+```
+
+```json
+{"p": 53, "quote": "When liberals attacked the bill, she offered to drive anyone who didn't have a photo ID to the DMV.", "context": "Voter ID law implementation"}
+```

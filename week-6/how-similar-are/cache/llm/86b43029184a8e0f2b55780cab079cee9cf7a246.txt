@@ -1,0 +1,1 @@
+{"topic":"democracy-defense-priority","a":{"score":-0.95,"confidence":0.92,"reason":"He repeatedly frames defending democracy as urgent and central to the moment.","quotes":["q33","q38","q78"]},"b":{"score":-0.8,"confidence":0.75,"reason":"She emphasizes upholding democratic principles and fighting for the country’s ideals as a core duty.","quotes":["q68","q99","q115"]}}

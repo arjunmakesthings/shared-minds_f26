@@ -1,0 +1,19 @@
+```json
+{"topic": "iran-policy", "a": {"score": -0.6, "confidence": 0.7, "reason": "Emphasizes military options including annihilation, taking islands, and naval confrontation while mentioning diplomacy only as alternative.", "quotes": ["q2", "q14", "q18"]}, "b": {"score": 0.8, "confidence": 0.5, "reason": "States all major conflicts end with negotiation and advocates against continuation of conflict, though quotes discuss general principles not Iran specifically.", "quotes": ["q10", "q20", "q26"]}}
+```
+
+```json
+{"topic": "energy-independence", "a": {"score": -0.9, "confidence": 0.9, "reason": "Explicitly advocates for oil, gasoline, and natural gas as cheaper, better, and more powerful than alternatives.", "quotes": ["q177", "q178"]}, "b": {"score": -0.7, "confidence": 0.7, "reason": "Emphasizes cheap, dependable energy and criticizes renewable subsidies that benefit China, suggesting fossil fuel preference.", "quotes": ["q40", "q115"]}}
+```
+
+```json
+{"topic": "immigration-enforcement", "a": {"score": -0.9, "confidence": 0.9, "reason": "States ending border invasion and sending illegals back home as explicit priority.", "quotes": ["q61", "q153"]}, "b": {"score": -0.7, "confidence": 0.8, "reason": "Advocates starting deportations with criminal migrants among 20-25 million illegal aliens, showing prioritization of enforcement.", "quotes": ["q111"]}}
+```
+
+```json
+{"topic": "trade-reciprocity", "a": {"score": -0.95, "confidence": 0.95, "reason": "Strongly advocates using tariffs including 100% tariffs and non-monetary barriers to rebalance trade and enforce dollar compliance.", "quotes": ["q28", "q92", "q106"]}, "b": {"score": -0.8, "confidence": 0.85, "reason": "Explicitly supports rebalancing trade and achieving reciprocity for American workers and manufacturers.", "quotes": ["q28", "q30"]}}
+```
+
+```json
+{"topic": "ukraine-policy", "a": {"score": 0.0, "confidence": 0.1, "reason": "Quote discusses Iran and Germany, not Ukraine policy, providing no relevant information.", "quotes": ["q26"]}, "b": {"score": -0.7, "confidence": 0.8, "reason": "Argues Europe should stand on its own feet and not use America as a crutch, rejecting domino theory justifications for war.", "quotes": ["q173"]}}
+```

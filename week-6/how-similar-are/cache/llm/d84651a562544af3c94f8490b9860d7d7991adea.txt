@@ -1,0 +1,71 @@
+```json
+{"id": "iran-policy-approach", "question": "should the US pursue diplomatic negotiation or military confrontation with Iran?", "poleA": "pursue military action and containment", "poleB": "pursue diplomacy and deal-making", "a": ["q2", "q14", "q18"], "b": ["q1", "q6"]}
+```
+
+```json
+{"id": "israel-palestine-conflict", "question": "should US policy prioritize Israeli security or Palestinian self-determination?", "poleA": "prioritize Israeli security above all", "poleB": "support two-state solution with Palestinian dignity", "a": ["q87"], "b": ["q1", "q84"]}
+```
+
+```json
+{"id": "border-immigration-policy", "question": "should the US enforce strict border enforcement and deportations?", "poleA": "enforce strict border security and mass deportation", "poleB": "allow managed immigration with humanitarian concerns", "a": ["q61", "q153"], "b": ["q63", "q129"]}
+```
+
+```json
+{"id": "economy-trickle-down", "question": "should economic policy focus on top earners or working families?", "poleA": "tax cuts and benefits for wealthy earners", "poleB": "middle-out, bottom-up growth benefiting working families", "a": ["q46", "q49"], "b": ["q104", "q108", "q116"]}
+```
+
+```json
+{"id": "tax-policy-wealthy", "question": "should billionaires and corporations pay higher tax rates?", "poleA": "maintain low tax rates for wealthy", "poleB": "raise taxes on billionaires and corporations", "a": [], "b": ["q57", "q80"]}
+```
+
+```json
+{"id": "abortion-policy", "question": "should abortion policy be decided federally or by states?", "poleA": "leave abortion decisions to individual states", "poleB": "protect abortion rights at federal level", "a": ["q109", "q112"], "b": ["q45", "q47"]}
+```
+
+```json
+{"id": "law-enforcement-support", "question": "should the government strongly support police operations?", "poleA": "strongly support police with few restrictions", "poleB": "reform police with accountability measures", "a": ["q66", "q91"], "b": ["q148", "q149"]}
+```
+
+```json
+{"id": "infrastructure-investment", "question": "should government invest heavily in infrastructure modernization?", "poleA": "limit infrastructure spending and investment", "poleB": "invest substantially in roads, bridges, and modernization", "a": [], "b": ["q35", "q111"]}
+```
+
+```json
+{"id": "climate-policy", "question": "should climate action be prioritized over economic concerns?", "poleA": "prioritize fossil fuels and energy independence", "poleB": "prioritize climate action and clean energy", "a": ["q177", "q178"], "b": ["q2", "q67"]}
+```
+
+```json
+{"id": "us-alliances-nato", "question": "should the US maintain strong NATO and international alliances?", "poleA": "reduce reliance on NATO and alliances", "poleB": "strengthen NATO and international partnerships", "a": ["q15", "q22"], "b": ["q54", "q59"]}
+```
+
+```json
+{"id": "gun-policy", "question": "should the US implement stricter gun control measures?", "poleA": "protect gun rights without restrictions", "poleB": "implement assault weapon bans and background checks", "a": ["q172"], "b": ["q74"]}
+```
+
+```json
+{"id": "election-integrity", "question": "should election security be treated as a urgent priority?", "poleA": "elections are fundamentally compromised and rigged", "poleB": "protect election integrity through fair processes", "a": ["q119", "q120"], "b": ["q38", "q78"]}
+```
+
+```json
+{"id": "pandemic-response", "question": "did the US handle the pandemic response effectively?", "poleA": "pandemic response was handled well", "poleB": "pandemic response was inadequate", "a": ["q123"], "b": ["q106"]}
+```
+
+```json
+{"id": "employment-economy", "question": "has the economy created sufficient job opportunities?", "poleA": "economy is weak with inadequate jobs", "poleB": "economy achieved record job creation", "a": ["q125"], "b": ["q76", "q98"]}
+```
+
+```json
+{"id": "education-control", "question": "should education policy be controlled by states or federal government?", "poleA": "return education control to states", "poleB": "maintain federal standards and investment in education", "a": ["q162"], "b": ["q69", "q70"]}
+```
+
+```json
+{"id": "china-trade-relations", "question": "should the US pursue confrontation or engagement with China?", "poleA": "take strong confrontational stance against China", "poleB": "pursue diplomatic engagement with China", "a": ["q164"], "b": ["q127"]}
+```
+
+```json
+{"id": "supreme-court-decisions", "question": "should the president defer to or challenge Supreme Court rulings?", "poleA": "defer to Supreme Court decisions", "poleB": "challenge decisions viewed as problematic", "a": ["q141"], "b": []}
+```
+
+```json
+{"id": "healthcare-drug-costs", "question": "should government control pharmaceutical and drug pricing?", "poleA": "limit government intervention in drug pricing", "poleB": "cap drug prices to help seniors and patients", "a": [], "b": ["q122", "q123"]}
+```

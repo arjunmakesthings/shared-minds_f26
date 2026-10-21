@@ -1,0 +1,75 @@
+```json
+{"p": 1, "quote": "We need to wake up. We need to regain our moral clarity. And we don't just need to remind ourselves about the difference between good and evil. We need to commit ourselves to ensure that good defeats evil.", "context": "Moral clarity and fighting good vs evil"}
+```
+
+```json
+{"p": 1, "quote": "That means fighting anti-Semitism in Congress and college campuses. And it means giving Israel everything she needs to destroy Hamas – once and for all!", "context": "Policy on anti-Semitism and Israel's military needs"}
+```
+
+```json
+{"p": 1, "quote": "We won because we stood on principle.", "context": "Why previous efforts to support Israel succeeded"}
+```
+
+```json
+{"p": 1, "quote": "If you stand with Israel, you don't cozy up to Iran. Biden followed in Obama's Iran-sympathizing footsteps by helping Israel's number-one enemy.", "context": "Criticism of Biden's Iran policy"}
+```
+
+```json
+{"p": 1, "quote": "More than 1,400 Jews were murdered in cold blood. Yet now people are calling for "restraint" and a "cease fire." It's an insult of the worst kind.", "context": "Opposition to ceasefire calls after Hamas attack"}
+```
+
+```json
+{"p": 1, "quote": "America can never be neutral between good and evil. We must pick a side. And we serve our own national interests best when we side with good.", "context": "Foreign policy principle on taking sides"}
+```
+
+```json
+{"p": 1, "quote": "Ukraine is a peaceful, pro-American country. The dictator of Russia is evil. He's a war criminal who's guilty of genocide. We should give Ukraine what it needs to kick Russia out of its country.", "context": "Support for Ukraine against Russia"}
+```
+
+```json
+{"p": 1, "quote": "But as Americans, we need to ask a critical question. We all know what Trump did in the past. The question is… what will he do in the future?", "context": "Questions about Trump's future presidency"}
+```
+
+```json
+{"p": 1, "quote": "Eight years ago, it was good to have a leader who broke things. But right now, we need a leader who also knows how to put things back together.", "context": "Presidential leadership style needed"}
+```
+
+```json
+{"p": 1, "quote": "America needs a captain who will steady the ship, not capsize it. And Republicans need a candidate who can actually win.", "context": "Candidate qualifications for presidency"}
+```
+
+```json
+{"p": 1, "quote": "As president, I will not compliment Hezbollah. Nor will I criticize Israel's prime minister in the middle of tragedy and war. We have no time for personal vendettas.", "context": "Promise on Israel relations as president"}
+```
+
+```json
+{"p": 1, "quote": "I will also not compliment Chinese Communist President Xi. Nor will I call North Korea's Kim Jong Un my friend. These are not good or smart people.", "context": "Policy on dealing with authoritarian leaders"}
+```
+
+```json
+{"p": 1, "quote": "With all due respect, I don't get confused. I know what evil looks like. I dealt with it every day at the UN.", "context": "Personal conviction on recognizing evil"}
+```
+
+```json
+{"p": 1, "quote": "I will rally the forces of good to prevail, with the kind of strength that leads to peace.", "context": "Presidential approach to international challenges"}
+```
+
+```json
+{"p": 1, "quote": "A strong America does not start wars. A strong America prevents wars!", "context": "Foreign policy principle on military strength"}
+```
+
+```json
+{"p": 1, "quote": "Our open borders. Our nearly $34 trillion national debt. Our failing schools, which are leaving an entire generation of children behind.", "context": "Domestic policy challenges to address"}
+```
+
+```json
+{"p": 1, "quote": "Rest assured, as president, I'll tackle every challenge we face – with grit and grace – with courage and conviction.", "context": "Presidential commitment to addressing challenges"}
+```
+
+```json
+{"p": 1, "quote": "It's hard to know this happened, after we prayed "never again" for so many years. Those words used to be so powerful. Now they feel empty.", "context": "Reflection on meaning of \"never again\" after October 7"}
+```
+
+```json
+{"p": 1, "quote": "I promise: if I have any say in the matter, America will always stand with Israel.", "context": "Commitment to support Israel as president"}
+```

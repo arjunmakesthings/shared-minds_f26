@@ -1,0 +1,19 @@
+```json
+{"p": 1, "quote": "today I'm thrilled to welcome some of our Nation's top leaders in the travel industry to celebrate the record-setting summer of travel in the U.S.A.", "context": "Summer travel records in the United States"}
+```
+
+```json
+{"p": 1, "quote": "In the last 3 months, travelers logged 290 billion miles on American highways. Our national parks welcomed 78 million visitors. All records.", "context": "Travel statistics and records"}
+```
+
+```json
+{"p": 1, "quote": "This summer, we also celebrated the 250th anniversary of American independence. From the historic UFC fight that we had right outside where there is now—we just completed it, essentially, today—one of the most beautiful heliports you've ever seen.", "context": "Anniversary celebrations and White House heliport construction"}
+```
+
+```json
+{"p": 1, "quote": "We want to make this the best Olympics of them all.", "context": "2028 Los Angeles Olympics goals"}
+```
+
+```json
+{"p": 1, "quote": "So this is a summer that showed the world America is back and stronger than ever—bigger, better than ever before.", "context": "American strength and international image"}
+```

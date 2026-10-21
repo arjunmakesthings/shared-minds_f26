@@ -1,0 +1,79 @@
+```json
+{"id": "democracy-threat", "question": "Is Donald Trump a threat to American democracy?", "poleA": "Trump threatens democracy and must be opposed", "poleB": "Trump respects democratic principles and governance", "a": ["q5", "q6"], "b": ["q12"]}
+```
+
+```json
+{"id": "israel-palestine", "question": "Should Israel and Palestinians receive equal security and dignity?", "poleA": "Equal security and dignity for both sides", "poleB": "Israeli security takes priority over Palestinian concerns", "a": ["q4"], "b": ["q33", "q89"]}
+```
+
+```json
+{"id": "police-reform", "question": "Should police departments be reformed or abolished?", "poleA": "Police should be reformed and better supported", "poleB": "Police departments should be abolished entirely", "a": ["q7", "q8", "q9"], "b": []}
+```
+
+```json
+{"id": "climate-action", "question": "Is climate change an existential threat requiring urgent action?", "poleA": "Climate change is existential and demands priority", "poleB": "Climate concerns can be balanced with other goals", "a": ["q1"], "b": ["q51"]}
+```
+
+```json
+{"id": "wealth-inequality", "question": "Is wealth inequality a major problem requiring government action?", "poleA": "Extreme inequality harms economy and requires intervention", "poleB": "Market outcomes are acceptable regardless of inequality", "a": ["q10"], "b": ["q48"]}
+```
+
+```json
+{"id": "reproductive-rights", "question": "Should women have the right to choose abortion?", "poleA": "Women should have reproductive freedom and choice", "poleB": "Government should restrict abortion access", "a": [], "b": ["q23", "q60", "q84", "q118"]}
+```
+
+```json
+{"id": "union-rights", "question": "Should workers have strong rights to organize and unionize?", "poleA": "Workers should have strong union organizing rights", "poleB": "Union power should be limited or eliminated", "a": [], "b": ["q47", "q106", "q113"]}
+```
+
+```json
+{"id": "middle-class-support", "question": "Should government prioritize support for middle-class families?", "poleA": "Government should prioritize middle-class economic support", "poleB": "Market forces should determine economic outcomes", "a": [], "b": ["q71", "q110"]}
+```
+
+```json
+{"id": "border-security", "question": "Should the U.S. strengthen border security enforcement?", "poleA": "Border security should be significantly strengthened", "poleB": "Current border enforcement is adequate or excessive", "a": [], "b": ["q21", "q62"]}
+```
+
+```json
+{"id": "immigration-pathway", "question": "Should undocumented immigrants have a path to citizenship?", "poleA": "Earned citizenship pathway for undocumented immigrants", "poleB": "No legal status for undocumented immigrants", "a": [], "b": ["q8", "q63", "q79"]}
+```
+
+```json
+{"id": "gun-control", "question": "Should the government restrict access to certain firearms?", "poleA": "Restrict assault weapons and high-capacity magazines", "poleB": "Protect broad Second Amendment gun rights", "a": [], "b": ["q82", "q93"]}
+```
+
+```json
+{"id": "minimum-wage", "question": "Should the federal minimum wage be significantly raised?", "poleA": "Raise minimum wage substantially for all workers", "poleB": "Keep minimum wage at current or lower levels", "a": [], "b": ["q140"]}
+```
+
+```json
+{"id": "healthcare-right", "question": "Should healthcare be guaranteed as a right?", "poleA": "Healthcare should be a guaranteed right", "poleB": "Healthcare is a market commodity", "a": [], "b": ["q117"]}
+```
+
+```json
+{"id": "senior-care", "question": "Should Medicare cover home health care for seniors?", "poleA": "Medicare should cover home health care", "poleB": "Seniors should pay for home care privately", "a": [], "b": ["q15", "q131"]}
+```
+
+```json
+{"id": "housing-affordability", "question": "Should government help first-time homebuyers afford housing?", "poleA": "Government should provide down payment assistance", "poleB": "Housing affordability is private responsibility", "a": [], "b": ["q41"]}
+```
+
+```json
+{"id": "political-money", "question": "Does money in politics corrupt the political system?", "poleA": "Campaign money corrupts politics and policy", "poleB": "Money in politics reflects legitimate interests", "a": ["q2"], "b": []}
+```
+
+```json
+{"id": "ukraine-support", "question": "Should the U.S. support Ukraine against Russian invasion?", "poleA": "U.S. should actively support Ukrainian defense", "poleB": "U.S. should limit involvement in Ukraine conflict", "a": [], "b": ["q35", "q43"]}
+```
+
+```json
+{"id": "international-alliances", "question": "Are U.S. international alliances essential for security?", "poleA": "International alliances are vital for U.S. security", "poleB": "U.S. should pursue independent foreign policy", "a": [], "b": ["q5", "q92"]}
+```
+
+```json
+{"id": "iran-confrontation", "question": "Should the U.S. take strong action against Iran?", "poleA": "U.S. must confront Iran and its allies", "poleB": "Diplomacy should be prioritized over military action", "a": [], "b": ["q65"]}
+```
+
+```json
+{"id": "small-business-support", "question": "Should government provide tax incentives for startups?", "poleA": "Tax deductions for startup businesses are beneficial", "poleB": "Startup support should rely on market competition", "a": [], "b": ["q39"]}
+```

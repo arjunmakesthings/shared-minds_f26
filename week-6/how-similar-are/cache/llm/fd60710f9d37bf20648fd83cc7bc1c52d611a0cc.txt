@@ -1,0 +1,27 @@
+```json
+{"p": 55, "quote": "We have to pivot to Asia. China is the most powerful competitor the U.S. has had since we became a world power. We need to focus on Asia; we need to let the Europeans focus on Europe.", "context": "Foreign policy priorities, focus on China and Asia"}
+```
+
+```json
+{"p": 55, "quote": "I think the most important lesson is that America is like a house, and the foundation of that house is our own people and our own manufacturing base; we've allowed that industrial base to atrophy", "context": "Manufacturing base and economic foundation importance"}
+```
+
+```json
+{"p": 55, "quote": "Until that foundation is repaired, I don't want to hear about us being the policeman of the world.", "context": "Foreign military involvement versus domestic priorities"}
+```
+
+```json
+{"p": 55, "quote": "putting more people to work, rebuilding our industrial base, building more stuff, producing more of the things we can rely on--is a better use of American dollars.", "context": "Economic priorities and manufacturing policy"}
+```
+
+```json
+{"p": 59, "quote": "domestic violence would somehow go down if progressives got what they want, when in fact modern society's war on families has made our domestic violence situation much worse.", "context": "Sexual revolution and family structure effects"}
+```
+
+```json
+{"p": 60, "quote": "Even going back 20-30 years ago, the Republican Party was ok with trade deals and negotiations with China that destroyed the manufacturing base that, by the way, hollowed out our ability to make our own weapons on the national security side and destroyed a lot of good middle-class jobs in state that I came from.", "context": "Republican Party trade policy with China and manufacturing decline"}
+```
+
+```json
+{"p": 60, "quote": "We are not doing that anymore. we are the pro-America party, not the pro-China party.", "context": "Current Republican Party positioning on China trade"}
+```

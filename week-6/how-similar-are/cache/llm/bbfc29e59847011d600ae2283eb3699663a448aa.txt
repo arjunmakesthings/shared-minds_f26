@@ -1,0 +1,39 @@
+```json
+{"p": 1, "quote": "And I am ready to offer that leadership as the next president of the United States.", "context": "Campaign statement on presidential leadership"}
+```
+
+```json
+{"p": 1, "quote": "Hard work is good work. Hard work is joyful work.", "context": "Views on work and effort"}
+```
+
+```json
+{"p": 1, "quote": "We have an opportunity in this election to finally turn the page on a decade of politics driven by fear and division.", "context": "Election and political change"}
+```
+
+```json
+{"p": 1, "quote": "The true measure of a leader is not based on who you beat down; it is based on who you lift up.", "context": "Leadership philosophy"}
+```
+
+```json
+{"p": 1, "quote": "Like the fundamental freedom of a woman to make decisions about her own body — and not have her government tell her what to do.", "context": "Reproductive freedom and women's rights"}
+```
+
+```json
+{"p": 1, "quote": "When Congress passes a bill to restore reproductive freedom nationwide, as president of the United States, I will proudly sign it into law.", "context": "Reproductive rights legislation pledge"}
+```
+
+```json
+{"p": 1, "quote": "As president, I pledge to seek common ground and commonsense solutions to the challenges you face.", "context": "Governing approach and priorities"}
+```
+
+```json
+{"p": 1, "quote": "I will listen to people who disagree with me because I do not believe that people who disagree with me are the enemy.", "context": "Leadership approach and inclusivity"}
+```
+
+```json
+{"p": 1, "quote": "I pledge to always put country above party and self and to be a president for all Americans.", "context": "Presidential commitment and values"}
+```
+
+```json
+{"p": 1, "quote": "Your vote is your voice, and your voice is your power.", "context": "Voting and political participation"}
+```

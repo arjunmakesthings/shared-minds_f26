@@ -1,0 +1,31 @@
+```json
+{"p": 55, "quote": "I am continuing to call on Congress and state legislators throughout America to have the courage to act by banning assault weapons and high-capacity magazines, passing red flag laws, and making background checks universal.", "context": "Gun violence prevention and assault weapons ban"}
+```
+
+```json
+{"p": 55, "quote": "These commonsense solutions will save lives and ensure that fewer children, families, and communities experience the trauma and pain that Uvalde has suffered.", "context": "Gun safety measures to protect children"}
+```
+
+```json
+{"p": 56, "quote": "It has been a passion of mine for many, many years to support these leaders.", "context": "Support for small business leaders"}
+```
+
+```json
+{"p": 57, "quote": "The majority of my career has been focused on the health, safety, and well-being of women and children.", "context": "Women's economic participation and leadership"}
+```
+
+```json
+{"p": 58, "quote": "Register to vote and then vote.", "context": "Protecting voting rights and reproductive rights"}
+```
+
+```json
+{"p": 59, "quote": "Assault weapons are by design used to kill a lot of human beings quickly. There is no place for an assault weapon on the streets of civil America.", "context": "Assault weapons ban needed"}
+```
+
+```json
+{"p": 59, "quote": "Because I support the 2nd Amendment; I also support reasonable gun safety laws.", "context": "Second Amendment and gun safety balance"}
+```
+
+```json
+{"p": 59, "quote": "We need to have Congress to be prepared to deal with the big issues and do it in a way that is just about saving lives.", "context": "Congress action on gun safety legislation"}
+```

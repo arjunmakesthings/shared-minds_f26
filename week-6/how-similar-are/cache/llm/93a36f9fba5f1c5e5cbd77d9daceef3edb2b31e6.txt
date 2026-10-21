@@ -1,0 +1,19 @@
+```json
+{"topic": "israel-hamas-ceasefire", "a": {"score": -0.6, "confidence": 0.8, "reason": "Biden emphasized months of continuous negotiation and diplomacy to achieve the ceasefire deal", "quotes": ["q1", "q6", "q7"]}, "b": {"score": 0.0, "confidence": 0.3, "reason": "Harris acknowledged Israel's right to self-defense but only generally mentioned humanitarian concerns without specific ceasefire position", "quotes": ["q149"]}}
+```
+
+```json
+{"topic": "palestinian-equality", "a": {"score": -0.7, "confidence": 0.7, "reason": "Biden expressed deep concern for Palestinian suffering and described their devastation as unimaginable", "quotes": ["q11", "q12"]}, "b": {"score": -0.9, "confidence": 0.9, "reason": "Harris explicitly stated Palestinians are entitled to equal amounts of security and dignity as Israelis", "quotes": ["q33", "q89"]}}
+```
+
+```json
+{"topic": "two-state-solution", "a": {"score": -0.9, "confidence": 0.9, "reason": "Biden stated the two-state solution is the only real path guaranteeing both Israeli security and Palestinian peace", "quotes": ["q84"]}, "b": {"score": -0.8, "confidence": 0.8, "reason": "Harris called for charting a course toward two-state solution with equal security for both sides", "quotes": ["q33"]}}
+```
+
+```json
+{"topic": "border-security-bill", "a": {"score": -0.5, "confidence": 0.5, "reason": "Biden mentioned new emergency authority to shut down the border during overwhelming migration", "quotes": ["q63"]}, "b": {"score": -0.8, "confidence": 0.9, "reason": "Harris strongly advocated for the border security bill, calling it the strongest in years and pledging to bring it back", "quotes": ["q21", "q62"]}}
+```
+
+```json
+{"topic": "assault-weapons-ban", "a": {"score": -1.0, "confidence": 1.0, "reason": "Biden explicitly demanded a ban on assault weapons and high-capacity magazines with universal background checks", "quotes": ["q74"]}, "b": {"score": -1.0, "confidence": 1.0, "reason": "Harris called on Congress to ban assault weapons and high-capacity magazines and criticized court rulings weakening gun regulations", "quotes": ["q93", "q82"]}}
+```

@@ -1,0 +1,39 @@
+```json
+{"p": 37, "quote": "The first thing we're going to do is clean it up from the top and all of senior management. They have weaponized and put politics in the Department of Justice over years. That needs to end, that's not the role of the Department of Justice.", "context": "Department of Justice reform and weaponization"}
+```
+
+```json
+{"p": 38, "quote": "I think we can all agree on banning late-term abortions. I think we can all agree on encouraging adoptions. I think we can agree on doctors and nurses who don't believe in abortions shouldn't have to perform them.", "context": "Abortion policy positions"}
+```
+
+```json
+{"p": 38, "quote": "Our goal should always be how do we save as many babies as we can and support as many mothers in that process as we do it?", "context": "Abortion and maternal support goals"}
+```
+
+```json
+{"p": 39, "quote": "I don't think that went far enough. They should not be talking to our kids about gender, period. That's what parents talk to their kids about, not in school.", "context": "Gender discussion in schools"}
+```
+
+```json
+{"p": 39, "quote": "The idea that we have biological boys playing in girls' sports, it is the women's issue of our time.", "context": "Transgender athletes in sports"}
+```
+
+```json
+{"p": 40, "quote": "Kim Jong-un is a thug. And if you see what he has done to his own people in North Korea when money went to North Korea, it didn't go to feed their people. It went to feed their nuclear program.", "context": "North Korea and Kim Jong-un criticism"}
+```
+
+```json
+{"p": 40, "quote": "There's no reason we should ever congratulate the fact that they are now Vice Chair of the World Health Organization. And it goes to the fact that, also, the World Health Organization is a farce to start with.", "context": "World Health Organization criticism"}
+```
+
+```json
+{"p": 41, "quote": "I don't want our farmers to just sell to China. I will be their ambassador. In South Carolina, when I was governor, I sold South Carolina to everyone.", "context": "Agricultural trade and farmer support"}
+```
+
+```json
+{"p": 42, "quote": "There should be one point of entry. There should be a law enforcement officer at every school. We should make sure there's the clear bulletproof tape that we have at courthouses and airports.", "context": "School security measures"}
+```
+
+```json
+{"p": 42, "quote": "You need to end gun-free zones. Killers always look for a place that's a gun-free zone, because guess what, nobody else is going to be able to protect themselves.", "context": "Gun-free zones and self-defense"}
+```

@@ -1,0 +1,35 @@
+```json
+{"p": 43, "quote": "From Day One of our administration, President Joe Biden and I have worked to protect immigrants, keep families together, and expand lawful pathways to citizenship.", "context": "Immigration policy and family unity"}
+```
+
+```json
+{"p": 43, "quote": "They deserve our protection, and should be allowed to remain with their families and contribute to our communities while they apply for a green card.", "context": "Undocumented spouses and children protection"}
+```
+
+```json
+{"p": 43, "quote": "We value their contributions and want them to continue to unleash their skills, ideas, and potential right here in the country that has invested in their success, to the benefit of our economy and our communities.", "context": "Dreamers and work visas"}
+```
+
+```json
+{"p": 44, "quote": "Weapons of war have no place on the streets of a civil society.", "context": "Bump stocks and gun safety"}
+```
+
+```json
+{"p": 44, "quote": "Unfortunately, today's Supreme Court ruling strikes down this important, commonsense regulation on devices that convert semiautomatic rifles into weapons that can fire hundreds of bullets per minute.", "context": "Supreme Court bump stock decision"}
+```
+
+```json
+{"p": 44, "quote": "We are calling on Congress to immediately ban bump stocks.", "context": "Congressional action on bump stocks"}
+```
+
+```json
+{"p": 47, "quote": "We witnessed, about two years ago, the highest court in our land take a constitutional right that had been recognized, from the women of America.", "context": "Dobbs decision overturning Roe v. Wade"}
+```
+
+```json
+{"p": 47, "quote": "So, at a young age, I decided I wanted to take on harms against women and children.", "context": "Personal motivation for prosecutor career"}
+```
+
+```json
+{"p": 47, "quote": "the idea that these so-called leaders would say even no exception for rape or incest; to say to a survivor of a crime of violence to their body, a violation to their body, that you, the survivor of that, don't have a right to make a decision about what happens to your body next, that's immoral.", "context": "Abortion restrictions and exceptions"}
+```

@@ -1,0 +1,27 @@
+```json
+{"p": 1, "quote": "I think that we have turned a new page in Washington, D.C., and we are going to take advantage of the opportunity that God has given us.", "context": "Trump Administration opportunities and direction"}
+```
+
+```json
+{"p": 1, "quote": "President Trump, though not a Catholic himself, has been an incredibly good president for Catholics in the United States of America.", "context": "Trump Administration record on Catholic issues"}
+```
+
+```json
+{"p": 1, "quote": "more than any president of my lifetime, President Trump has pursued a path of peace.", "context": "Trump's foreign policy approach"}
+```
+
+```json
+{"p": 1, "quote": "I am most ashamed about is that in the United States of America sometimes, it is our foreign misadventures that lead to the eradication of historical Christian communities all over the world.", "context": "Impact of US foreign policy on Christian communities"}
+```
+
+```json
+{"p": 1, "quote": "I'm the first Catholic convert to ever be vice president of the United States.", "context": "Personal religious identity and position"}
+```
+
+```json
+{"p": 1, "quote": "I recognize very much that I am a baby Catholic -- that there are things about the faith that I don't know.", "context": "Catholic faith knowledge and humility as convert"}
+```
+
+```json
+{"p": 1, "quote": "what attracted me to the Christian faith, and what attracted me to this church, in particular, is the recognition that grace is not something that happens instantaneously.", "context": "Understanding of grace and Christian faith"}
+```

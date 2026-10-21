@@ -1,0 +1,6 @@
+```json
+{"p": 1, "quote": "Nothing nefarious, apparently, but they're checking it all out. There's a—they think it's just one—there's a lot of drones authorized to be up there. And I think one started, and they all got—everybody wanted to get in the deal. But I'm—we're following it closely. So far, no sense of a danger.", "context": "Drones sighted over New Jersey"}
+```
+```json
+{"p": 1, "quote": "I've spoken to him, and I'll—we'll speak again.", "context": "Communication with Prime Minister Netanyahu about cease-fire"}
+```

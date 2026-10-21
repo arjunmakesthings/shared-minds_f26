@@ -1,0 +1,187 @@
+{
+  "a": "bernie-sanders",
+  "b": "kamala-harris",
+  "counts": {
+    "quotesA": 11,
+    "quotesB": 157,
+    "topicsFound": 4
+  },
+  "rows": [
+    {
+      "id": "democracy-threat",
+      "question": "Is Donald Trump a threat to American democracy?",
+      "poles": [
+        "Trump threatens democracy and must be opposed",
+        "Trump respects democratic principles and governance"
+      ],
+      "quotesA": [
+        "q5",
+        "q6"
+      ],
+      "quotesB": [
+        "q12"
+      ],
+      "status": "clear",
+      "note": "",
+      "flags": [],
+      "a": {
+        "score": -1,
+        "confidence": 0.95,
+        "reason": "Sanders explicitly calls Trump a pathological liar who waged insurrection and is moving against democracy, calling him an authoritarian and very dangerous person.",
+        "quotes": [
+          "q5",
+          "q6"
+        ]
+      },
+      "b": {
+        "score": -1,
+        "confidence": 0.9,
+        "reason": "Harris states Trump wants unchecked power, wants a military loyal to him not the Constitution, and is unhinged and unstable.",
+        "quotes": [
+          "q12"
+        ]
+      },
+      "models": {
+        "sonnet": {
+          "a": -1,
+          "b": -1
+        },
+        "gpt5": {
+          "a": -1,
+          "b": -1
+        }
+      }
+    },
+    {
+      "id": "israel-palestine",
+      "question": "Should Israel and Palestinians receive equal security and dignity?",
+      "poles": [
+        "Equal security and dignity for both sides",
+        "Israeli security takes priority over Palestinian concerns"
+      ],
+      "quotesA": [
+        "q4"
+      ],
+      "quotesB": [
+        "q33",
+        "q89"
+      ],
+      "status": "unclear",
+      "note": "confidence a 0.5, b 0.95 (needs 0.6)",
+      "flags": [],
+      "a": {
+        "score": -0.25,
+        "confidence": 0.5,
+        "reason": "Sanders affirms Israel's right to defend itself while emphasizing protection of civilians and noting U.S. concerns about ground invasion risks.",
+        "quotes": [
+          "q4"
+        ]
+      },
+      "b": {
+        "score": -0.95,
+        "confidence": 0.95,
+        "reason": "Harris explicitly states Palestinians are entitled to an equal amount of security and dignity as Israelis.",
+        "quotes": [
+          "q33",
+          "q89"
+        ]
+      },
+      "models": {
+        "sonnet": {
+          "a": -0.3,
+          "b": -1
+        },
+        "gpt5": {
+          "a": -0.2,
+          "b": -0.9
+        }
+      }
+    },
+    {
+      "id": "climate-action",
+      "question": "Is climate change an existential threat requiring urgent action?",
+      "poles": [
+        "Climate change is existential and demands priority",
+        "Climate concerns can be balanced with other goals"
+      ],
+      "quotesA": [
+        "q1"
+      ],
+      "quotesB": [
+        "q51"
+      ],
+      "status": "clear",
+      "note": "",
+      "flags": [],
+      "a": {
+        "score": -0.97,
+        "confidence": 0.8,
+        "reason": "Sanders explicitly calls climate change an existential threat and says he would feel awful if we turned our back on it.",
+        "quotes": [
+          "q1"
+        ]
+      },
+      "b": {
+        "score": -0.65,
+        "confidence": 0.6,
+        "reason": "Harris calls climate a clear crisis that must be taken seriously, though the quote lacks detail on urgency or prioritization.",
+        "quotes": [
+          "q51"
+        ]
+      },
+      "models": {
+        "sonnet": {
+          "a": -1,
+          "b": -0.6
+        },
+        "gpt5": {
+          "a": -0.95,
+          "b": -0.7
+        }
+      }
+    },
+    {
+      "id": "wealth-inequality",
+      "question": "Is wealth inequality a major problem requiring government action?",
+      "poles": [
+        "Extreme inequality harms economy and requires intervention",
+        "Market outcomes are acceptable regardless of inequality"
+      ],
+      "quotesA": [
+        "q10"
+      ],
+      "quotesB": [
+        "q48"
+      ],
+      "status": "unclear",
+      "note": "confidence a 0.95, b 0.4 (needs 0.6)",
+      "flags": [],
+      "a": {
+        "score": -1,
+        "confidence": 0.95,
+        "reason": "Sanders describes extreme wealth inequality as unprecedented, highlighting that three people own more than the bottom half while millions live on starvation wages.",
+        "quotes": [
+          "q10"
+        ]
+      },
+      "b": {
+        "score": 0,
+        "confidence": 0.4,
+        "reason": "Harris discusses capital gains tax rates for high earners but frames it around encouraging investment and economic growth rather than addressing inequality.",
+        "quotes": [
+          "q48"
+        ]
+      },
+      "models": {
+        "sonnet": {
+          "a": -1,
+          "b": 0.2
+        },
+        "gpt5": {
+          "a": -1,
+          "b": -0.2
+        }
+      }
+    }
+  ]
+}

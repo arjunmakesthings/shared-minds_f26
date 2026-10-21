@@ -1,0 +1,3 @@
+{"topic": "law-enforcement-support", "a": {"score": -0.9, "confidence": 0.85, "reason": "Strongly supports police with expanded authority and emphasizes backing law enforcement without qualification.", "quotes": ["q66", "q70"]}, "b": {"score": 0.7, "confidence": 0.65, "reason": "Emphasizes accountability and justice system reform, suggesting oversight over expanded authority.", "quotes": ["q44", "q73"]}}
+
+{"topic": "democratic-norms", "a": {"score": -0.8, "confidence": 0.75, "reason": "Argues presidential actions fall under special protections and should not face criminal prosecution.", "quotes": ["q167"]}, "b": {"score": 0.95, "confidence": 0.95, "reason": "Explicitly states no one including former presidents is above the law and opposes immunity.", "quotes": ["q44"]}}

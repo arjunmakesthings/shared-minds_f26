@@ -1,0 +1,7 @@
+```json
+{"topic": "trump-presidency-assessment", "a": {"score": -0.9, "confidence": 0.95, "reason": "Vance praises Trump's intelligence, leadership, trustworthiness, and peace record consistently across multiple quotes.", "quotes": ["q4", "q16", "q77", "q103"]}, "b": {"score": 0.95, "confidence": 0.95, "reason": "Harris characterizes Trump as seeking unchecked power, comparing him to Hitler, calling him unhinged and a threat to democracy.", "quotes": ["q12", "q137", "q142", "q143"]}}
+```
+
+```json
+{"topic": "minimum-wage-increase", "a": {"score": 0.0, "confidence": 0.1, "reason": "Quote discusses conservative approaches to black Americans' concerns but does not mention minimum wage policy.", "quotes": ["q140"]}, "b": {"score": -0.9, "confidence": 0.95, "reason": "Harris explicitly states belief in raising minimum wage so workers can sustain their needs and care for families.", "quotes": ["q140"]}}
+```

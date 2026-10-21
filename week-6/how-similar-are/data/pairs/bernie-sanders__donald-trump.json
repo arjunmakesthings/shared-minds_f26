@@ -1,0 +1,82 @@
+{
+  "a": "bernie-sanders",
+  "b": "donald-trump",
+  "approved": "2026-10-21",
+  "counts": {
+    "quotesA": 11,
+    "quotesB": 182,
+    "topicsFound": 5,
+    "dimensions": 2
+  },
+  "dims": [
+    {
+      "id": "police-support",
+      "question": "Should police departments be strengthened and supported?",
+      "poles": [
+        "Police need better training, pay and support",
+        "Police departments should be defunded or abolished"
+      ],
+      "a": {
+        "score": -0.73,
+        "reason": "Sanders opposes abolishing police, advocates for well-trained, well-educated, and well-paid professionals with better-defined roles.",
+        "quotes": [
+          "q7",
+          "q8",
+          "q9"
+        ]
+      },
+      "b": {
+        "score": -0.85,
+        "reason": "Trump expresses strong support for police and letting them do their jobs, backing law enforcement.",
+        "quotes": [
+          "q66"
+        ]
+      },
+      "models": {
+        "sonnet": {
+          "a": -0.65,
+          "b": -0.8
+        },
+        "gpt5": {
+          "a": -0.8,
+          "b": -0.9
+        }
+      },
+      "edited": false
+    },
+    {
+      "id": "energy-independence",
+      "question": "Should America prioritize fossil fuel energy over alternatives?",
+      "poles": [
+        "Pursue oil, gas and natural energy independence",
+        "Transition away from fossil fuels"
+      ],
+      "a": {
+        "score": 0.75,
+        "reason": "Sanders identifies climate change as an existential threat, indicating support for transitioning away from fossil fuels.",
+        "quotes": [
+          "q1"
+        ]
+      },
+      "b": {
+        "score": -0.87,
+        "reason": "Trump explicitly advocates for oil, gas and natural gas as cheaper and better, seeking energy independence through fossil fuels.",
+        "quotes": [
+          "q177",
+          "q178"
+        ]
+      },
+      "models": {
+        "sonnet": {
+          "a": 0.7,
+          "b": -0.85
+        },
+        "gpt5": {
+          "a": 0.8,
+          "b": -0.9
+        }
+      },
+      "edited": false
+    }
+  ]
+}

@@ -1,0 +1,42 @@
+```json
+{"p": 7, "quote": "I will always fight for freedom of speech.", "context": "Free speech commitment"}
+```
+```json
+{"p": 7, "quote": "What I'm saying is those social media companies have to do something with the foreign bots.", "context": "Foreign bots on social media"}
+```
+```json
+{"p": 8, "quote": "There would be no Houthis without Iran.", "context": "Iran's role in Middle East conflict"}
+```
+```json
+{"p": 8, "quote": "When he lifted the sanctions on Iran, it was the most dangerous thing he could have done.", "context": "Biden's Iran policy"}
+```
+```json
+{"p": 9, "quote": "The Palestinians always rejected the two-state solution, because they want a one-state solution.", "context": "Two-state solution and Palestinian positions"}
+```
+```json
+{"p": 9, "quote": "Israel has every right to demand security.", "context": "Israeli security rights"}
+```
+```json
+{"p": 10, "quote": "I am unapologetically pro-life.", "context": "Abortion stance"}
+```
+```json
+{"p": 10, "quote": "How do we save as many babies as possible and support as many moms as possible?", "context": "Abortion policy approach"}
+```
+```json
+{"p": 10, "quote": "There is legislation right now that would put a woman in jail if she got an abortion.", "context": "South Carolina abortion legislation"}
+```
+```json
+{"p": 11, "quote": "I want to take as many federal programs from D.C. as we can and send them down to the state level.", "context": "Federal versus state education programs"}
+```
+```json
+{"p": 11, "quote": "We need to start putting vocational classes back in our high schools.", "context": "Vocational education in schools"}
+```
+```json
+{"p": 12, "quote": "Everybody wants to have clean air, clean water.", "context": "Environmental priorities"}
+```
+```json
+{"p": 12, "quote": "The first thing is, you don't deal in extremes.", "context": "Climate policy approach"}
+```
+```json
+{"p": 12, "quote": "If we're going to do it, innovate it, transition and do it the right way, not in extremes.", "context": "Approach to emissions reduction"}
+```

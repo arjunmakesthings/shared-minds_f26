@@ -1,0 +1,3 @@
+```json
+{"topic": "gender-ideology", "a": {"score": -0.85, "confidence": 0.8, "reason": "Strongly opposes what he characterizes as sexualization in schools and supports bills preventing gender-related content.", "quotes": ["q158"]}, "b": {"score": -0.9, "confidence": 0.85, "reason": "Explicitly states schools should not talk to kids about gender at all, reserving this entirely for parents.", "quotes": ["q103"]}}
+```

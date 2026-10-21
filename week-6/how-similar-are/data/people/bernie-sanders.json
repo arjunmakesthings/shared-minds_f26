@@ -1,0 +1,145 @@
+{
+  "id": "bernie-sanders",
+  "collected": "2026-10-21",
+  "stats": {
+    "wikiquote": 7,
+    "ontheissues": 4,
+    "ucsb": 0,
+    "asked": 4,
+    "dropped": 0
+  },
+  "quotes": [
+    {
+      "id": "q1",
+      "text": "Well, I would feel awful, as somebody who has opposed virtually all of Trump's policies. And I would feel awful if the American people lost the democracy which we've had for 250 years. And I would feel awful if we turned our back on the existential threat of climate change.",
+      "context": "How he would feel if Trump wins November election",
+      "via": "ontheissues",
+      "source": {
+        "url": "https://www.ontheissues.org/2024/Bernie_Sanders_Principles_+_Values.htm",
+        "title": "CBS Face the Nation on 2024 Vermont Senate race",
+        "publisher": "ontheissues.org",
+        "date": "2024-07-07"
+      }
+    },
+    {
+      "id": "q2",
+      "text": "[A]nyone who wants to talk about foreign policy or, for that matter, anything that goes on in Congress, without recognizing the corrupt political system that we have and the impact that money has over what we do, really doesn't know very much about what's going on.",
+      "context": "2024",
+      "via": "wikiquote",
+      "source": {
+        "url": "https://www.youtube.com/watch?v=G-X_9cLDaDY",
+        "title": "Speech at the Center for International Policy",
+        "publisher": "via wikiquote",
+        "date": "2024"
+      }
+    },
+    {
+      "id": "q3",
+      "text": "Look, at this particular moment in history, and perhaps at any moment in history, despair is not an option.",
+      "context": "2024",
+      "via": "wikiquote",
+      "source": {
+        "url": "https://www.youtube.com/watch?v=_Bb04MsmzcI",
+        "title": "\"I asked Bernie Sanders about a Gaza Ceasefire\" - Hasan Minhaj",
+        "publisher": "via wikiquote",
+        "date": "2024"
+      }
+    },
+    {
+      "id": "q4",
+      "text": "Israel suffered a barbaric attack and is well within its rights to defend itself in keeping with international law, including the protection of civilians. As a response, Israel is contemplating a large-scale ground invasion targeting Hamas. Reports indicate Israeli ground forces are already active in Gaza. We note recent reports that senior U.S. officials – including Secretary of Defense Austin – have conveyed to the Israeli government their serious concerns about the risks associated with this course. We share many of these concerns, not just relating to the timing and difficulty of such an operation and its likely humanitarian toll, but also regarding the difficult questions about the political reality it will leave in its wake.",
+      "context": "2023",
+      "via": "wikiquote",
+      "source": {
+        "url": "https://www.sanders.senate.gov/press-releases/news-sanders-warren-welch-merkley-send-urgent-letter-to-president-biden-amid-israels-invasion-and-potential-occupation-of-gaza/",
+        "title": "in a press release posted on his web site at NEWS: Sanders, Warren, Welch, Merkley Send Urgent Letter to President Biden Amid Israel’s Invasion and Potential Occupation of Gaza (November 1, 2023)",
+        "publisher": "via wikiquote",
+        "date": "2023-11-01"
+      }
+    },
+    {
+      "id": "q5",
+      "text": "We are living in an unprecedented moment in American history. Donald Trump is not only a pathological liar, has not only helped wage an insurrection … to prevent President Biden from taking office. Not only is denying American democracy — moving against the American democracy. So I think at this moment … we have got to bring the progressive community together to say, you know what, we're gonna fight for a progressive agenda. But we cannot have four more years of Donald Trump in the White House.",
+      "context": "2023",
+      "via": "wikiquote",
+      "source": {
+        "url": "https://en.wikiquote.org/wiki/Bernie_Sanders",
+        "title": "Face the Nation (3 September 2023)",
+        "publisher": "wikiquote",
+        "date": "2023-09-03"
+      }
+    },
+    {
+      "id": "q6",
+      "text": "I think in this particular time, this particular moment in American history, when we're taking on somebody — the former President, who in fact does not believe in democracy — he is an authoritarian, and a very, very dangerous person — I think at this moment there has to be a unification of progressive people in general all over this country — people who are prepared to make sure that women control their own body, that we deal with climate change, that we represent the needs of the working class of this country, and take on the billionaire classes.",
+      "context": "2023",
+      "via": "wikiquote",
+      "source": {
+        "url": "https://www.youtube.com/watch?v=u8nOcUYJ5Do",
+        "title": "Meet the Press (27 August 2023) · transcript",
+        "publisher": "via wikiquote",
+        "date": "2023-08-27"
+      }
+    },
+    {
+      "id": "q7",
+      "text": "Do I think we should not have police departments in America? No, I don't. There's no city in the world that does not have police departments.",
+      "context": "Position on defunding or abolishing police departments",
+      "via": "ontheissues",
+      "source": {
+        "url": "https://www.ontheissues.org/Media_New_Yorker.htm",
+        "title": "New Yorker magazine on 2024 Vermont Senate race",
+        "publisher": "ontheissues.org",
+        "date": "2023-07-19"
+      }
+    },
+    {
+      "id": "q8",
+      "text": "I think we want to redefine what police departments do, give them the support they need to make their jobs better defined. So I do believe that we need well-trained, well-educated, and well-paid professionals in police departments.",
+      "context": "How to reform police departments",
+      "via": "ontheissues",
+      "source": {
+        "url": "https://www.ontheissues.org/Media_New_Yorker.htm",
+        "title": "New Yorker magazine on 2024 Vermont Senate race",
+        "publisher": "ontheissues.org",
+        "date": "2023-07-19"
+      }
+    },
+    {
+      "id": "q9",
+      "text": "Anyone who thinks that we should abolish all police departments in America, I don't agree.",
+      "context": "Disagreement with abolishing all police departments",
+      "via": "ontheissues",
+      "source": {
+        "url": "https://www.ontheissues.org/Media_New_Yorker.htm",
+        "title": "New Yorker magazine on 2024 Vermont Senate race",
+        "publisher": "ontheissues.org",
+        "date": "2023-07-19"
+      }
+    },
+    {
+      "id": "q10",
+      "text": "In terms of labor and our economy, we must recognize that we live in a period of more income and wealth inequality than at any time in the last hundred years. While the very rich become richer and three people now own more wealth than the bottom half of American society, 60% of American workers live paycheck to paycheck and millions are trying to exist on starvation wages. Meanwhile, we have a pathetic federal minimum wage of $7.25 per hour which has not been raised since 2009. As more and more workers try to improve their standard of living by forming unions, they are facing fierce and illegal union busting from such employers as Starbucks, Amazon, McDonalds and other major employers.",
+      "context": "2023",
+      "via": "wikiquote",
+      "source": {
+        "url": "https://en.wikiquote.org/wiki/Bernie_Sanders",
+        "title": "wikiquote: 2023",
+        "publisher": "wikiquote",
+        "date": "2023"
+      }
+    },
+    {
+      "id": "q11",
+      "text": "At a time when too many Americans are giving up on democracy, now is the time to attempt to restore faith in our government. Now is the time for Congress to have the courage to take on the lobbyists and powerful special interests and show the American people that our government can work for them, and not just the 1%. Let’s do it.",
+      "context": "2023",
+      "via": "wikiquote",
+      "source": {
+        "url": "https://en.wikiquote.org/wiki/Bernie_Sanders",
+        "title": "wikiquote: 2023",
+        "publisher": "wikiquote",
+        "date": "2023"
+      }
+    }
+  ]
+}

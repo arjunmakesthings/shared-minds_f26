@@ -1,0 +1,51 @@
+```json
+{"p": 1, "quote": "I proudly stand with labor. I have my whole entire career. I always will. This is about the dignity of work. It is about America's workforce. It is about our future, and it's just about what is right.", "context": "Support for labor unions and worker dignity"}
+```
+
+```json
+{"p": 1, "quote": "I have as a dream that I will — I will visit every IBEW Local in the country.", "context": "Commitment to visiting IBEW locals nationwide"}
+```
+
+```json
+{"p": 1, "quote": "Hard work is good work. Hard work is joyful work.", "context": "Values regarding work and labor"}
+```
+
+```json
+{"p": 1, "quote": "when you know what you stand for, you know what to fight for.", "context": "Electoral motivation and principles"}
+```
+
+```json
+{"p": 1, "quote": "Thank a union member if you got a five-day workweek. Thank a union member for your sick leave. Thank a union member for your paid vacation leave. Thank a union member for paid family leave.", "context": "Union workers' contributions to worker benefits"}
+```
+
+```json
+{"p": 1, "quote": "Collective bargaining says let the collective, the workers who all stand in the same place, join together as a collective and then negotiate to better ensure just one simple thing: that the outcome is fair.", "context": "Explanation of collective bargaining principles"}
+```
+
+```json
+{"p": 1, "quote": "when union wages go up, everybody's wages go up. When union workplaces are safer, everyone's workplace is safer. And when unions are strong, America is strong.", "context": "Benefits of strong unions to all workers"}
+```
+
+```json
+{"p": 1, "quote": "at the top of my list is bringing down your cost of living. And it will be my focus every single day as president. I will always put the middle class first. I come from the middle class, and I never forget where I come from.", "context": "Campaign priorities and middle class focus"}
+```
+
+```json
+{"p": 1, "quote": "Under my plan, we will invest in the industries that built America, like steel, iron, the electric power industry. And we will ensure that the next generation of breakthroughs, from advanced batteries to cutting-edge solar panels, are not just invented but built right here in America by American workers.", "context": "Manufacturing and infrastructure investment plan"}
+```
+
+```json
+{"p": 1, "quote": "One of the things I'm doing on day one, because I can do it by executive order, is I will eliminate unnecessary degree requirements for federal jobs — and then I will challenge the private sector to do the same.", "context": "Day one executive action on job qualification requirements"}
+```
+
+```json
+{"p": 1, "quote": "when we win, we will also continue to fight to expand the freedom to organize by passing the PRO Act — and work to end union busting once and for all.", "context": "Future labor policy commitments"}
+```
+
+```json
+{"p": 1, "quote": "We will protect the pensions of union workers and retirees. I've done it before. I'll do it again, because when it comes to your pension, Social Security, Medicare, those are retirement benefits that the people have earned — have earned and are due without anyone trying to take them away.", "context": "Commitment to protecting pensions and retirement benefits"}
+```
+
+```json
+{"p": 1, "quote": "this issue is about dignity. It's about the dignity that any individual who has worked hard all their lives that they absolutely deserve, which is to retire with dignity, and it is about the dignity of work.", "context": "Dignity of workers and retirement"}
+```

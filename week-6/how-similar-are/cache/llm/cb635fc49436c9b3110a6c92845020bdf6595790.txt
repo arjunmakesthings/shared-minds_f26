@@ -1,0 +1,12 @@
+```json
+{"p": 1, "quote": "I've lived the promise of America. I saw how hard my mother worked to give her daughters the same chances our country gave her.", "context": "Personal background and American values"}
+```
+```json
+{"p": 1, "quote": "I've spent my life fighting for people who have been hurt and counted out but who never stop believing that, in our country, anything is possible.", "context": "Life's work and commitment to helping people"}
+```
+```json
+{"p": 1, "quote": "I see the promise of America in the women who refuse to accept a future without reproductive freedom.", "context": "Reproductive freedom and women's rights"}
+```
+```json
+{"p": 1, "quote": "You are rightly impatient for change — you who are determined to live free from gun violence, to tackle the climate crisis, and shape the world you inherit.", "context": "Young voters' priorities on guns and climate"}
+```

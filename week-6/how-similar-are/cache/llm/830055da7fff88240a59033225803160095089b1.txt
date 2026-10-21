@@ -1,0 +1,35 @@
+```json
+{"p": 1, "quote": "I've already signed an executive order requiring a mandatory death penalty for anyone who murders a police officer.", "context": "Police officer protection policy and death penalty"}
+```
+
+```json
+{"p": 1, "quote": "I'm asking for a new crime bill getting tougher on repeat offenders while enhancing protections for America's police officers so they can do their jobs without fear of their lives being totally destroyed.", "context": "Crime bill and police protections"}
+```
+
+```json
+{"p": 2, "quote": "If they do non-monetary tariffs to keep us out of their market, then we will do non-monetary barriers to keep them out of our market.", "context": "Tariff and trade policy response"}
+```
+
+```json
+{"p": 2, "quote": "We've been ripped off for decades by nearly every country on Earth, and we will not let that happen any longer.", "context": "Trade and international economic relationships"}
+```
+
+```json
+{"p": 3, "quote": "We have accomplished more in 43 days than most administrations accomplished in 4 years, 8 years--and we are just getting started.", "context": "Administrative accomplishments and progress"}
+```
+
+```json
+{"p": 4, "quote": "We strongly support your right to determine your own future, and if you choose, we welcome you into the United States of America.", "context": "Greenland and territorial expansion"}
+```
+
+```json
+{"p": 4, "quote": "We need Greenland for national security and even international security.", "context": "Greenland acquisition and national security rationale"}
+```
+
+```json
+{"p": 6, "quote": "Look, this is a problem caused by this administration. Four years ago, you had no inflation. Now you have record-setting inflation.", "context": "Inflation and economic problems under previous administration"}
+```
+
+```json
+{"p": 6, "quote": "We're going to bring your energy costs down, and with your energy costs, everything is going to come down.", "context": "Energy costs and economic solutions"}
+```

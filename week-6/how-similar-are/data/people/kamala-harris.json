@@ -1,0 +1,1897 @@
+{
+  "id": "kamala-harris",
+  "collected": "2026-10-21",
+  "stats": {
+    "wikiquote": 35,
+    "ontheissues": 73,
+    "ucsb": 49,
+    "asked": 156,
+    "dropped": 34
+  },
+  "quotes": [
+    {
+      "id": "q1",
+      "text": "I am so proud of our team. And this is a team that spans many years of doing extraordinary work on behalf of the people.",
+      "context": "Pride in her team's work for the American people",
+      "via": "ucsb",
+      "source": {
+        "url": "https://www.presidency.ucsb.edu/documents/remarks-the-vice-president-prior-adding-her-signature-the-desk-drawer-her-ceremonial",
+        "title": "Remarks by the Vice President Prior to Adding Her Signature to the Desk Drawer in Her Ceremonial Office",
+        "publisher": "the american presidency project (ucsb)",
+        "date": "2025"
+      }
+    },
+    {
+      "id": "q2",
+      "text": "I am fully aware that I am the public face of a lot of our work.",
+      "context": "Her role as public representative of team's work",
+      "via": "ucsb",
+      "source": {
+        "url": "https://www.presidency.ucsb.edu/documents/remarks-the-vice-president-prior-adding-her-signature-the-desk-drawer-her-ceremonial",
+        "title": "Remarks by the Vice President Prior to Adding Her Signature to the Desk Drawer in Her Ceremonial Office",
+        "publisher": "the american presidency project (ucsb)",
+        "date": "2025"
+      }
+    },
+    {
+      "id": "q3",
+      "text": "We have each taken on a life and a calling that is about doing work in the service of others and doing it in a way that is fueled, yes, with ambition; yes, with a sense of almost stubbornness about not hearing no; and knowing we can make a difference.",
+      "context": "Values regarding public service and determination",
+      "via": "ucsb",
+      "source": {
+        "url": "https://www.presidency.ucsb.edu/documents/remarks-the-vice-president-prior-adding-her-signature-the-desk-drawer-her-ceremonial",
+        "title": "Remarks by the Vice President Prior to Adding Her Signature to the Desk Drawer in Her Ceremonial Office",
+        "publisher": "the american presidency project (ucsb)",
+        "date": "2025"
+      }
+    },
+    {
+      "id": "q4",
+      "text": "America, we know what Donald Trump has in mind. More chaos. More division. And policies that help those at the very top and hurt everyone else. I offer a different path. And I ask for your vote.",
+      "context": "November 2024",
+      "via": "wikiquote",
+      "source": {
+        "url": "https://www.usatoday.com/story/opinion/columnist/2024/11/04/trump-harris-election-democracy-fascism/75558099007/",
+        "title": "As quoted in Opinion: Yes, the stakes are high. But our democracy will survive this election (November 4, 2024)",
+        "publisher": "via wikiquote",
+        "date": "2024-11-04"
+      }
+    },
+    {
+      "id": "q5",
+      "text": "I know that our alliances keep American people safe and make America stronger and more secure.",
+      "context": "Foreign policy and national security alliances",
+      "via": "ontheissues",
+      "source": {
+        "url": "https://www.ontheissues.org/2024/Kamala_Harris_Foreign_Policy.htm",
+        "title": "2024 Presidential hopefuls: Rally on the Ellipse",
+        "publisher": "ontheissues.org",
+        "date": "2024-10-30"
+      }
+    },
+    {
+      "id": "q6",
+      "text": "I will always uphold our security, advance our national interest, and ensure that the United States of America remains as we must forever be a champion of liberty around the world.",
+      "context": "National security and global leadership",
+      "via": "ontheissues",
+      "source": {
+        "url": "https://www.ontheissues.org/2024/Kamala_Harris_Foreign_Policy.htm",
+        "title": "2024 Presidential hopefuls: Rally on the Ellipse",
+        "publisher": "ontheissues.org",
+        "date": "2024-10-30"
+      }
+    },
+    {
+      "id": "q7",
+      "text": "When I am president, we will quickly remove those who arrive here unlawfully, prosecute the cartels, and give border patrol the support they so desperately need.",
+      "context": "Border enforcement and immigration enforcement",
+      "via": "ontheissues",
+      "source": {
+        "url": "https://www.ontheissues.org/2024/Kamala_Harris_Immigration.htm",
+        "title": "2024 Presidential hopefuls: Rally on the Ellipse",
+        "publisher": "ontheissues.org",
+        "date": "2024-10-30"
+      }
+    },
+    {
+      "id": "q8",
+      "text": "At the same time, we must acknowledge we are a nation of immigrants and I'll work with Congress to pass immigration reform including an earned path to citizenship for hardworking immigrants like farm workers and our dreamers.",
+      "context": "Immigration reform and pathway to citizenship",
+      "via": "ontheissues",
+      "source": {
+        "url": "https://www.ontheissues.org/2024/Kamala_Harris_Immigration.htm",
+        "title": "2024 Presidential hopefuls: Rally on the Ellipse",
+        "publisher": "ontheissues.org",
+        "date": "2024-10-30"
+      }
+    },
+    {
+      "id": "q9",
+      "text": "I will work every day to build consensus and reach compromise to get things done.",
+      "context": "Bipartisan cooperation and governance approach",
+      "via": "ontheissues",
+      "source": {
+        "url": "https://www.ontheissues.org/2024_Hopefuls.htm",
+        "title": "2024 Presidential hopefuls: Rally on the Ellipse",
+        "publisher": "ontheissues.org",
+        "date": "2024-10-30"
+      }
+    },
+    {
+      "id": "q10",
+      "text": "When elected, I will walk in with a to-do list full of priorities of what I will get done for the American people, and I will work with everyone, Democrats, Republicans, and independents to help Americans who are working hard and still struggling to get ahead.",
+      "context": "Working with all parties to help struggling Americans",
+      "via": "ontheissues",
+      "source": {
+        "url": "https://www.ontheissues.org/2024_Hopefuls.htm",
+        "title": "2024 Presidential hopefuls: Rally on the Ellipse",
+        "publisher": "ontheissues.org",
+        "date": "2024-10-30"
+      }
+    },
+    {
+      "id": "q11",
+      "text": "The United States of America is the greatest idea humanity ever devised. A nation big enough to encompass all our dreams, strong enough to withstand any fracture or fissure between us and fearless enough to imagine a future of possibilities.",
+      "context": "American values and national identity",
+      "via": "ontheissues",
+      "source": {
+        "url": "https://www.ontheissues.org/2024_Hopefuls.htm",
+        "title": "2024 Presidential hopefuls: Rally on the Ellipse",
+        "publisher": "ontheissues.org",
+        "date": "2024-10-30"
+      }
+    },
+    {
+      "id": "q12",
+      "text": "Donald Trump is out for unchecked power. He wants a military like Adolf Hitler had, who will be loyal to him, not our Constitution. He is unhinged, unstable, and given a second term, there would be no one to stop him from pursuing his worst impulses.",
+      "context": "October 2024",
+      "via": "wikiquote",
+      "source": {
+        "url": "https://x.com/KamalaHarris/status/1849147561027707058",
+        "title": "23 October 2024 tweet cited in New York Post article by Miranda Devine",
+        "publisher": "via wikiquote",
+        "date": "2024-10-23"
+      }
+    },
+    {
+      "id": "q13",
+      "text": "We have seen a rise in anti-Semitism. It is something that we have to be honest about and we have to deal with.",
+      "context": "Addressing rise in anti-Semitism",
+      "via": "ontheissues",
+      "source": {
+        "url": "https://www.ontheissues.org/2024/Kamala_Harris_Crime.htm",
+        "title": "CNN Town Hall: interviews of 2024 presidential candidates",
+        "publisher": "ontheissues.org",
+        "date": "2024-10-23"
+      }
+    },
+    {
+      "id": "q14",
+      "text": "We need to have laws in place that make those who would commit crimes on behalf of anti-Semitism and hate that they pay a serious consequence.",
+      "context": "Legal consequences for hate crimes",
+      "via": "ontheissues",
+      "source": {
+        "url": "https://www.ontheissues.org/2024/Kamala_Harris_Crime.htm",
+        "title": "CNN Town Hall: interviews of 2024 presidential candidates",
+        "publisher": "ontheissues.org",
+        "date": "2024-10-23"
+      }
+    },
+    {
+      "id": "q15",
+      "text": "And so my plan is to have and allow Medicare to cover the cost of home health care for our seniors.",
+      "context": "Healthcare policy for elderly care",
+      "via": "ontheissues",
+      "source": {
+        "url": "https://www.ontheissues.org/2024/Kamala_Harris_Health_Care.htm",
+        "title": "CNN Town Hall: interviews of 2024 presidential candidates",
+        "publisher": "ontheissues.org",
+        "date": "2024-10-23"
+      }
+    },
+    {
+      "id": "q16",
+      "text": "I've been the first and first woman in almost every position I've had. I believe that. Men and women support women in leadership.",
+      "context": "Women in leadership and bias against women",
+      "via": "ontheissues",
+      "source": {
+        "url": "https://www.ontheissues.org/2024_Hopefuls.htm",
+        "title": "Howard Stern Show interview of 2024 Presidential hopefuls",
+        "publisher": "ontheissues.org",
+        "date": "2024-10-10"
+      }
+    },
+    {
+      "id": "q17",
+      "text": "I didn't know that I was going to get it. And you know, I've obviously put myself out as being open to it. And I was incredibly honored when he reached out to me and offered it to me.",
+      "context": "Getting the call from Joe Biden to be vice president",
+      "via": "ontheissues",
+      "source": {
+        "url": "https://www.ontheissues.org/2024_Hopefuls.htm",
+        "title": "Howard Stern Show interview of 2024 Presidential hopefuls",
+        "publisher": "ontheissues.org",
+        "date": "2024-10-10"
+      }
+    },
+    {
+      "id": "q18",
+      "text": "I love teachers. I really do. They do God's work. Think about it. We don't pay them nearly enough.",
+      "context": "Views on teachers and their compensation",
+      "via": "ontheissues",
+      "source": {
+        "url": "https://www.ontheissues.org/2024/Kamala_Harris_Education.htm",
+        "title": "Howard Stern Show interview of 2024 Presidential hopefuls",
+        "publisher": "ontheissues.org",
+        "date": "2024-10-10"
+      }
+    },
+    {
+      "id": "q19",
+      "text": "Wherever I go around the country, I try to visit small businesses. I'm telling you, around our country, all these people who are innovative, ambitious, they are optimistic. They are building. They are creating.",
+      "context": "Small businesses and American entrepreneurship",
+      "via": "ontheissues",
+      "source": {
+        "url": "https://www.ontheissues.org/2024_Hopefuls.htm",
+        "title": "Howard Stern Show interview of 2024 Presidential hopefuls",
+        "publisher": "ontheissues.org",
+        "date": "2024-10-10"
+      }
+    },
+    {
+      "id": "q20",
+      "text": "America is so important to the rest of the world. We are so important to the rest of the world. We are a role model for what it means to be a democracy so we can look at other countries and our allies and our adversaries and say, these are the principles that must be upheld.",
+      "context": "America's role as a democracy and global model",
+      "via": "ontheissues",
+      "source": {
+        "url": "https://www.ontheissues.org/2024_Hopefuls.htm",
+        "title": "Howard Stern Show interview of 2024 Presidential hopefuls",
+        "publisher": "ontheissues.org",
+        "date": "2024-10-10"
+      }
+    },
+    {
+      "id": "q21",
+      "text": "The bill is and would have been the strongest border security bill in years. It would have put 1,500 more border agents at the border. I've been down to the border. Those border agents are working around the clock. They need help.",
+      "context": "Border security legislation and support for border agents",
+      "via": "ontheissues",
+      "source": {
+        "url": "https://www.ontheissues.org/2024/Kamala_Harris_Immigration.htm",
+        "title": "Howard Stern Show interview of 2024 Presidential hopefuls",
+        "publisher": "ontheissues.org",
+        "date": "2024-10-10"
+      }
+    },
+    {
+      "id": "q22",
+      "text": "I don't think she understands that, there are a whole lot of women out here who, one, are not aspiring to be humble, two, a whole lot of women out here who have a lot of love in their life, family in their life and children in their life.",
+      "context": "October 2024",
+      "via": "wikiquote",
+      "source": {
+        "url": "https://people.com/kamala-harris-says-its-not-1950s-while-discussing-family-on-call-her-daddy-8724180",
+        "title": "Responding to comments by Sarah Huckabee Sanders (7 October 2024) cited in \"Kamala Harris Says It's 'Not the 1950s Anymore' and That Not All Women Are 'Aspiring to Be Humble'\", People (Magazine)",
+        "publisher": "via wikiquote",
+        "date": "2024-10-07"
+      }
+    },
+    {
+      "id": "q23",
+      "text": "Donald Trump hand-selected three members of the United States Supreme Court with the intention that they would undo the protections of Roe V. Wade. And they did exactly as he intended.",
+      "context": "Trump's role in abortion bans",
+      "via": "ontheissues",
+      "source": {
+        "url": "https://www.ontheissues.org/2024_Sept_Debate.htm",
+        "title": "ABC News 2024 Presidential debate in Philadelphia",
+        "publisher": "ontheissues.org",
+        "date": "2024-09-10"
+      }
+    },
+    {
+      "id": "q24",
+      "text": "Trump abortion bans that make no exception even for rape and incest.",
+      "context": "State abortion restrictions without rape/incest exceptions",
+      "via": "ontheissues",
+      "source": {
+        "url": "https://www.ontheissues.org/2024_Sept_Debate.htm",
+        "title": "ABC News 2024 Presidential debate in Philadelphia",
+        "publisher": "ontheissues.org",
+        "date": "2024-09-10"
+      }
+    },
+    {
+      "id": "q25",
+      "text": "I think it's a tragedy that we have someone who wants to be president who has consistently over the course of his career attempted to use race to divide the American people.",
+      "context": "Trump's use of race to divide",
+      "via": "ontheissues",
+      "source": {
+        "url": "https://www.ontheissues.org/2024/Kamala_Harris_Civil_Rights.htm",
+        "title": "ABC News 2024 Presidential debate in Philadelphia",
+        "publisher": "ontheissues.org",
+        "date": "2024-09-10"
+      }
+    },
+    {
+      "id": "q26",
+      "text": "I do believe that the vast majority of us know that we have so much more in common than what separates us.",
+      "context": "Common ground among Americans",
+      "via": "ontheissues",
+      "source": {
+        "url": "https://www.ontheissues.org/2024/Kamala_Harris_Civil_Rights.htm",
+        "title": "ABC News 2024 Presidential debate in Philadelphia",
+        "publisher": "ontheissues.org",
+        "date": "2024-09-10"
+      }
+    },
+    {
+      "id": "q27",
+      "text": "I will not ban fracking. I have not banned fracking as Vice President.",
+      "context": "Fracking position in 2020 and as VP",
+      "via": "ontheissues",
+      "source": {
+        "url": "https://www.ontheissues.org/2024_Sept_Debate.htm",
+        "title": "ABC News 2024 Presidential debate in Philadelphia",
+        "publisher": "ontheissues.org",
+        "date": "2024-09-10"
+      }
+    },
+    {
+      "id": "q28",
+      "text": "I was the tie-breaking vote on the Inflation Reduction Act, which opened new leases for fracking.",
+      "context": "Vice presidential vote on IRA",
+      "via": "ontheissues",
+      "source": {
+        "url": "https://www.ontheissues.org/2024_Sept_Debate.htm",
+        "title": "ABC News 2024 Presidential debate in Philadelphia",
+        "publisher": "ontheissues.org",
+        "date": "2024-09-10"
+      }
+    },
+    {
+      "id": "q29",
+      "text": "My position is that we have got to invest in diverse sources of energy so we reduce our reliance on foreign oil.",
+      "context": "Energy policy and reducing foreign oil dependence",
+      "via": "ontheissues",
+      "source": {
+        "url": "https://www.ontheissues.org/2024_Sept_Debate.htm",
+        "title": "ABC News 2024 Presidential debate in Philadelphia",
+        "publisher": "ontheissues.org",
+        "date": "2024-09-10"
+      }
+    },
+    {
+      "id": "q30",
+      "text": "Israel has a right to defend itself. We would. And how it does so matters.",
+      "context": "Israel's right to defend itself and methods matter",
+      "via": "ontheissues",
+      "source": {
+        "url": "https://www.ontheissues.org/2024_Sept_Debate.htm",
+        "title": "ABC News 2024 Presidential debate in Philadelphia",
+        "publisher": "ontheissues.org",
+        "date": "2024-09-10"
+      }
+    },
+    {
+      "id": "q31",
+      "text": "Because it is also true far too many innocent Palestinians have been killed.",
+      "context": "Palestinian casualties in Gaza",
+      "via": "ontheissues",
+      "source": {
+        "url": "https://www.ontheissues.org/2024_Sept_Debate.htm",
+        "title": "ABC News 2024 Presidential debate in Philadelphia",
+        "publisher": "ontheissues.org",
+        "date": "2024-09-10"
+      }
+    },
+    {
+      "id": "q32",
+      "text": "What we know is that this war must end. And the way it will end is we need a cease-fire deal and we need the hostages out.",
+      "context": "Ending the Israel-Hamas war",
+      "via": "ontheissues",
+      "source": {
+        "url": "https://www.ontheissues.org/2024_Sept_Debate.htm",
+        "title": "ABC News 2024 Presidential debate in Philadelphia",
+        "publisher": "ontheissues.org",
+        "date": "2024-09-10"
+      }
+    },
+    {
+      "id": "q33",
+      "text": "We must chart a course for a two-state solution. And in that solution, there must be security for the Israeli people and Israel and in equal measure for the Palestinians.",
+      "context": "Two-state solution with equal security",
+      "via": "ontheissues",
+      "source": {
+        "url": "https://www.ontheissues.org/2024_Sept_Debate.htm",
+        "title": "ABC News 2024 Presidential debate in Philadelphia",
+        "publisher": "ontheissues.org",
+        "date": "2024-09-10"
+      }
+    },
+    {
+      "id": "q34",
+      "text": "Tim Walz and I are both gun owners. We're not taking anybody's guns away.",
+      "context": "Gun ownership and not confiscating guns",
+      "via": "ontheissues",
+      "source": {
+        "url": "https://www.ontheissues.org/2024/Kamala_Harris_Gun_Control.htm",
+        "title": "ABC News 2024 Presidential debate in Philadelphia",
+        "publisher": "ontheissues.org",
+        "date": "2024-09-10"
+      }
+    },
+    {
+      "id": "q35",
+      "text": "I actually met with Zelenskyy a few days before Russia invaded. Days later I went to NATO's eastern flank, to Poland and Romania.",
+      "context": "Pre-invasion diplomacy and NATO engagement",
+      "via": "ontheissues",
+      "source": {
+        "url": "https://www.ontheissues.org/2024_Sept_Debate.htm",
+        "title": "ABC News 2024 Presidential debate in Philadelphia",
+        "publisher": "ontheissues.org",
+        "date": "2024-09-10"
+      }
+    },
+    {
+      "id": "q36",
+      "text": "If Donald Trump were president, Putin would be sitting in Kyiv right now.",
+      "context": "Hypothetical Trump presidency and Putin's actions",
+      "via": "ontheissues",
+      "source": {
+        "url": "https://www.ontheissues.org/2024_Sept_Debate.htm",
+        "title": "ABC News 2024 Presidential debate in Philadelphia",
+        "publisher": "ontheissues.org",
+        "date": "2024-09-10"
+      }
+    },
+    {
+      "id": "q37",
+      "text": "I started my career as a prosecutor. I was a D.A. I was an attorney general. A United States senator. And now vice president. I've only had one client. The people.",
+      "context": "Career history and public service focus",
+      "via": "ontheissues",
+      "source": {
+        "url": "https://www.ontheissues.org/2024/Kamala_Harris_Principles_+_Values.htm",
+        "title": "ABC News 2024 Presidential debate in Philadelphia",
+        "publisher": "ontheissues.org",
+        "date": "2024-09-10"
+      }
+    },
+    {
+      "id": "q38",
+      "text": "Clearly, I am not Joe Biden, and I am certainly not Donald Trump. And what I do offer is a new generation of leadership for our country.",
+      "context": "Distinguishing herself as new generation leader",
+      "via": "ontheissues",
+      "source": {
+        "url": "https://www.ontheissues.org/2024_Sept_Debate.htm",
+        "title": "ABC News 2024 Presidential debate in Philadelphia",
+        "publisher": "ontheissues.org",
+        "date": "2024-09-10"
+      }
+    },
+    {
+      "id": "q39",
+      "text": "I have a plan to give startup businesses $50,000 tax deduction, to pursue their ambitions, their innovation, their ideas, their hard work.",
+      "context": "Startup business tax deduction plan",
+      "via": "ontheissues",
+      "source": {
+        "url": "https://www.ontheissues.org/2024_Sept_Debate.htm",
+        "title": "ABC News 2024 Presidential debate in Philadelphia",
+        "publisher": "ontheissues.org",
+        "date": "2024-09-10"
+      }
+    },
+    {
+      "id": "q40",
+      "text": "I have a plan. $6,000 for young families for the first year of your child's life. To help you in that most critical stage of your child's development.",
+      "context": "Families with young children support plan",
+      "via": "ontheissues",
+      "source": {
+        "url": "https://www.ontheissues.org/2024_Sept_Debate.htm",
+        "title": "ABC News 2024 Presidential debate in Philadelphia",
+        "publisher": "ontheissues.org",
+        "date": "2024-09-10"
+      }
+    },
+    {
+      "id": "q41",
+      "text": "I have a plan that is about allowing people to be able to pursue what has been fleeting in terms of the American dream by offering help with down payment of $25,000, down payment assistance for first-time home buyers.",
+      "context": "First-time homebuyers assistance plan",
+      "via": "ontheissues",
+      "source": {
+        "url": "https://www.ontheissues.org/2024_Sept_Debate.htm",
+        "title": "ABC News 2024 Presidential debate in Philadelphia",
+        "publisher": "ontheissues.org",
+        "date": "2024-09-10"
+      }
+    },
+    {
+      "id": "q42",
+      "text": "I believe the reason that Donald Trump says that this war would be over within 24 hours is because he would just give it up. And that's not who we are as Americans.",
+      "context": "Position on Ukraine war",
+      "via": "ontheissues",
+      "source": {
+        "url": "https://www.ontheissues.org/2024_Sept_Debate.htm",
+        "title": "ABC News 2024 Presidential debate in Philadelphia",
+        "publisher": "ontheissues.org",
+        "date": "2024-09-10"
+      }
+    },
+    {
+      "id": "q43",
+      "text": "I actually met with Zelenskyy a few days before Russia invaded, tried through force to change territorial boundaries [defying] international rules. Days later I went to NATO's eastern flank. And we brought 50 countries together to support Ukraine in its righteous defense.",
+      "context": "Actions taken regarding Ukraine support",
+      "via": "ontheissues",
+      "source": {
+        "url": "https://www.ontheissues.org/2024_Sept_Debate.htm",
+        "title": "ABC News 2024 Presidential debate in Philadelphia",
+        "publisher": "ontheissues.org",
+        "date": "2024-09-10"
+      }
+    },
+    {
+      "id": "q44",
+      "text": "Vice President Harris believes that no one is above the law. She'll fight to ensure that no former president has immunity for crimes committed while in the White House.",
+      "context": "Presidential immunity and rule of law",
+      "via": "ontheissues",
+      "source": {
+        "url": "https://www.ontheissues.org/2024/Kamala_Harris_Government_Reform.htm",
+        "title": "2024 Presidential campaign website KamalaHarris.com",
+        "publisher": "ontheissues.org",
+        "date": "2024-09-09"
+      }
+    },
+    {
+      "id": "q45",
+      "text": "I'm Kamala Harris and I approve this message.",
+      "context": "Campaign ad on Trump's fitness for office",
+      "via": "ontheissues",
+      "source": {
+        "url": "https://www.ontheissues.org/Media_YouTube.htm",
+        "title": "YouTube AdWatch: \"The Best People\" 2024 video transcript",
+        "publisher": "ontheissues.org",
+        "date": "2024-09-09"
+      }
+    },
+    {
+      "id": "q46",
+      "text": "She'll fight for unions, because as Vice President of the most pro-labor administration in history, she knows that unions are the backbone of the middle class.",
+      "context": "Labor unions and middle class",
+      "via": "ontheissues",
+      "source": {
+        "url": "https://www.ontheissues.org/2024/Kamala_Harris_Jobs.htm",
+        "title": "2024 Presidential campaign website KamalaHarris.com",
+        "publisher": "ontheissues.org",
+        "date": "2024-09-09"
+      }
+    },
+    {
+      "id": "q47",
+      "text": "She'll sign landmark pro-union legislation, including the PRO Act to support workers who choose to organize and bargain and the Public Service Freedom to Negotiate Act to make the freedom for public service workers to form unions the law of the land.",
+      "context": "Pro-union legislation commitment",
+      "via": "ontheissues",
+      "source": {
+        "url": "https://www.ontheissues.org/2024/Kamala_Harris_Jobs.htm",
+        "title": "2024 Presidential campaign website KamalaHarris.com",
+        "publisher": "ontheissues.org",
+        "date": "2024-09-09"
+      }
+    },
+    {
+      "id": "q48",
+      "text": "Under her plan, the tax rate on long-term capital gains for those earning a million dollars a year or more will be 28 percent, because when the government encourages investment, it leads to broad-based economic growth and creates jobs.",
+      "context": "Tax policy on capital gains",
+      "via": "ontheissues",
+      "source": {
+        "url": "https://www.ontheissues.org/2024/Kamala_Harris_Tax_Reform.htm",
+        "title": "2024 Presidential campaign website KamalaHarris.com",
+        "publisher": "ontheissues.org",
+        "date": "2024-09-09"
+      }
+    },
+    {
+      "id": "q49",
+      "text": "No, and I made that clear on the debate stage in 2020, that I would not ban fracking. As vice president, I did not ban fracking. As president, I will not ban fracking.",
+      "context": "Position on fracking ban",
+      "via": "ontheissues",
+      "source": {
+        "url": "https://www.ontheissues.org/2024_Veepstakes.htm",
+        "title": "CNN on 2024 Hopefuls: joint interview of Harris and Walz",
+        "publisher": "ontheissues.org",
+        "date": "2024-08-29"
+      }
+    },
+    {
+      "id": "q50",
+      "text": "In 2020 I made very clear where I stand. We are in 2024, and I have not changed that position, nor will I going forward. I kept my word, and I will keep my word.",
+      "context": "Consistency on fracking position since 2020",
+      "via": "ontheissues",
+      "source": {
+        "url": "https://www.ontheissues.org/2024_Veepstakes.htm",
+        "title": "CNN on 2024 Hopefuls: joint interview of Harris and Walz",
+        "publisher": "ontheissues.org",
+        "date": "2024-08-29"
+      }
+    },
+    {
+      "id": "q51",
+      "text": "My values have not changed. I believe it is very important that we take seriously what we must do to guard against what is a clear crisis in terms of the climate.",
+      "context": "Values on climate crisis",
+      "via": "ontheissues",
+      "source": {
+        "url": "https://www.ontheissues.org/2024_Veepstakes.htm",
+        "title": "CNN on 2024 Hopefuls: joint interview of Harris and Walz",
+        "publisher": "ontheissues.org",
+        "date": "2024-08-29"
+      }
+    },
+    {
+      "id": "q52",
+      "text": "our administration worked with members of the US Congress on a bipartisan bill, which I support. And Donald Trump, because he believes that it would not have helped him politically, he told his folks in Congress, \"Don't put it forward.\" He killed the bill: a border security bill that would've put 1,500 more agents on the border.",
+      "context": "Border security bill and Trump's opposition",
+      "via": "ontheissues",
+      "source": {
+        "url": "https://www.ontheissues.org/2024_Veepstakes.htm",
+        "title": "CNN on 2024 Hopefuls: joint interview of Harris and Walz",
+        "publisher": "ontheissues.org",
+        "date": "2024-08-29"
+      }
+    },
+    {
+      "id": "q53",
+      "text": "My mother was a brilliant, five-foot-tall brown woman with an accent. And as the eldest child … I saw how the world would sometimes treat her. But my mother never lost her cool. She was tough, courageous, a trailblazer in the fight for women’s health. And she taught Maya and me a lesson that Michelle mentioned the other night. She taught us to never complain about injustice, but do something about it. Do something about it.",
+      "context": "Keynote Address at the Democratic National Convention (22 August 2024)",
+      "via": "wikiquote",
+      "source": {
+        "url": "https://en.wikiquote.org/wiki/Kamala_Harris",
+        "title": "wikiquote: Keynote Address at the Democratic National Convention (22 August 2024)",
+        "publisher": "wikiquote",
+        "date": "2024-08-22"
+      }
+    },
+    {
+      "id": "q54",
+      "text": "I believe everyone has a right to safety, to dignity, and to justice. As a prosecutor, when I had a case, I charged it not in the name of the victim but in the name of the people for a simple reason: In our system of justice, a harm against any one of us is a harm against all of us. And I would often explain this to console survivors of crime, to remind them no one should be made to fight alone. We are all in this together. And every day in the courtroom, I stood proudly before a judge and I said five words: “Kamala Harris, for the people.”",
+      "context": "Keynote Address at the Democratic National Convention (22 August 2024)",
+      "via": "wikiquote",
+      "source": {
+        "url": "https://en.wikiquote.org/wiki/Kamala_Harris",
+        "title": "wikiquote: Keynote Address at the Democratic National Convention (22 August 2024)",
+        "publisher": "wikiquote",
+        "date": "2024-08-22"
+      }
+    },
+    {
+      "id": "q55",
+      "text": "My entire career, I’ve only had one client: the people. And so, on behalf of the people; on behalf of every American, regardless of party, race, gender, or the language your grandmother speaks; on behalf of my mother and everyone who has ever set out on their own unlikely journey; on behalf of Americans like the people I grew up with — people who work hard, chase their dreams, and look out for one another; on behalf of everyone whose story could only be written in the greatest nation on Earth, I accept your nomination to be president of the United States of America.",
+      "context": "Keynote Address at the Democratic National Convention (22 August 2024)",
+      "via": "wikiquote",
+      "source": {
+        "url": "https://en.wikiquote.org/wiki/Kamala_Harris",
+        "title": "wikiquote: Keynote Address at the Democratic National Convention (22 August 2024)",
+        "publisher": "wikiquote",
+        "date": "2024-08-22"
+      }
+    },
+    {
+      "id": "q56",
+      "text": "Our nation, with this election, has a precious, fleeting opportunity to move past the bitterness, cynicism, and divisive battles of the past; a chance to chart a new way forward … not as members of any one party or faction but as Americans. And let me say, I know there are people of various political views watching tonight, and I want you to know I promise to be a president for all Americans. You can always trust me to put country above party and self; to hold sacred America’s fundamental principles, from the rule of law to free and fair elections to the peaceful transfer of power. From the courthouse to the White House, that has been my life’s work. -->",
+      "context": "Keynote Address at the Democratic National Convention (22 August 2024)",
+      "via": "wikiquote",
+      "source": {
+        "url": "https://en.wikiquote.org/wiki/Kamala_Harris",
+        "title": "wikiquote: Keynote Address at the Democratic National Convention (22 August 2024)",
+        "publisher": "wikiquote",
+        "date": "2024-08-22"
+      }
+    },
+    {
+      "id": "q57",
+      "text": "We are not going back to when Donald Trump tried to cut Social Security and Medicare. We are not going back to when he tried to get rid of the Affordable Care Act, when insurance companies could deny people with preexisting conditions. We are not going to let him eliminate the Department of Education that funds our public schools. We are not going to let him end programs like Head Start that provide preschool and childcare for our children. America, we are not going back.",
+      "context": "Keynote Address at the Democratic National Convention (22 August 2024)",
+      "via": "wikiquote",
+      "source": {
+        "url": "https://en.wikiquote.org/wiki/Kamala_Harris",
+        "title": "wikiquote: Keynote Address at the Democratic National Convention (22 August 2024)",
+        "publisher": "wikiquote",
+        "date": "2024-08-22"
+      }
+    },
+    {
+      "id": "q58",
+      "text": "We are charting a new way forward — forward to a future with a strong and growing middle class, because we know a strong middle class has always been critical to America’s success. And building that middle class will be a defining goal of my presidency. And I’ll tell you, this is personal for me. The middle class is where I come from. My mother kept a strict budget. We lived within our means, yet we wanted for little. And she expected us to make the most of the opportunities that were available to us and to be grateful for them, because, as she taught us, opportunity is not available to everyone. That’s why we will create what I call an opportunity economy — an opportunity economy where everyone has the chance to compete and a chance to succeed — whether you live in a rural area, small town, or big city.",
+      "context": "Keynote Address at the Democratic National Convention (22 August 2024)",
+      "via": "wikiquote",
+      "source": {
+        "url": "https://en.wikiquote.org/wiki/Kamala_Harris",
+        "title": "wikiquote: Keynote Address at the Democratic National Convention (22 August 2024)",
+        "publisher": "wikiquote",
+        "date": "2024-08-22"
+      }
+    },
+    {
+      "id": "q59",
+      "text": "Now compare that to Donald Trump, because I think everyone here knows he doesn’t actually fight for the middle class. Not — he doesn’t actually fight for the middle class. Instead, he fights for himself and his billionaire friends. And he will give them another round of tax breaks that will add up to $5 trillion to the national debt. And all the while, he intends to enact what in effect is a national sales tax — call it a “Trump tax” — that would raise prices on middle-class families by almost $4,000 a year. Well, instead of a Trump tax hike, we will pass a middle-class tax cut that will benefit more than 100 million Americans.",
+      "context": "Keynote Address at the Democratic National Convention (22 August 2024)",
+      "via": "wikiquote",
+      "source": {
+        "url": "https://en.wikiquote.org/wiki/Kamala_Harris",
+        "title": "wikiquote: Keynote Address at the Democratic National Convention (22 August 2024)",
+        "publisher": "wikiquote",
+        "date": "2024-08-22"
+      }
+    },
+    {
+      "id": "q60",
+      "text": "I believe America cannot truly be prosperous unless Americans are fully able to make their own decisions about their own lives, especially on matters of heart and home. But tonight, in America, too many women are not able to make those decisions. And let’s be clear about how we got here. Donald Trump handpicked members of the United States Supreme Court to take away reproductive freedom. And now he brags about it. In his words, quote, “I did it, and I’m proud to have done it.” End quote.",
+      "context": "Keynote Address at the Democratic National Convention (22 August 2024)",
+      "via": "wikiquote",
+      "source": {
+        "url": "https://en.wikiquote.org/wiki/Kamala_Harris",
+        "title": "wikiquote: Keynote Address at the Democratic National Convention (22 August 2024)",
+        "publisher": "wikiquote",
+        "date": "2024-08-22"
+      }
+    },
+    {
+      "id": "q61",
+      "text": "One must ask: Why exactly is it that they don’t trust women? Well, we trust women. We trust women. And when Congress passes a bill to restore reproductive freedom, as president of the United States, I will proudly sign it into law. In this election, many other fundamental freedoms are at stake: the freedom to live safe from gun violence in our schools, communities, and places of worship; the freedom to love who you love openly and with pride; the freedom to breathe clean air and drink clean water and live free from the pollution that fuels the climate crisis; and the freedom that unlocks all the others, the freedom to vote.",
+      "context": "Keynote Address at the Democratic National Convention (22 August 2024)",
+      "via": "wikiquote",
+      "source": {
+        "url": "https://en.wikiquote.org/wiki/Kamala_Harris",
+        "title": "wikiquote: Keynote Address at the Democratic National Convention (22 August 2024)",
+        "publisher": "wikiquote",
+        "date": "2024-08-22"
+      }
+    },
+    {
+      "id": "q62",
+      "text": "After decades in law enforcement, I know the importance of safety and security, especially at our border. Last year, Joe and I brought together Democrats and conservative Republicans to write the strongest border bill in decades. The Border Patrol endorsed it. But Donald Trump believes a border deal would hurt his campaign, so he ordered his allies in Congress to kill the deal. Well, I refuse to play politics with our security, and here is my pledge to you. As president, I will bring back the bipartisan border security bill that he killed, and I will sign it into law.",
+      "context": "Keynote Address at the Democratic National Convention (22 August 2024)",
+      "via": "wikiquote",
+      "source": {
+        "url": "https://en.wikiquote.org/wiki/Kamala_Harris",
+        "title": "wikiquote: Keynote Address at the Democratic National Convention (22 August 2024)",
+        "publisher": "wikiquote",
+        "date": "2024-08-22"
+      }
+    },
+    {
+      "id": "q63",
+      "text": "I know we can live up to our proud heritage as a nation of immigrants and reform our broken immigration system. We can create an earned pathway to citizenship and secure our border. And, America, we must also be steadfast in advancing our security and values abroad. As vice president, I have confronted threats to our security, negotiated with foreign leaders, strengthened our alliances, and engaged with our brave troops overseas. As commander in chief, I will ensure America always has the strongest, most lethal fighting force in the world. And I will fulfill our sacred obligation to care for our troops and their families, and I will always honor and never disparage their service and their sacrifice.",
+      "context": "Keynote Address at the Democratic National Convention (22 August 2024)",
+      "via": "wikiquote",
+      "source": {
+        "url": "https://en.wikiquote.org/wiki/Kamala_Harris",
+        "title": "wikiquote: Keynote Address at the Democratic National Convention (22 August 2024)",
+        "publisher": "wikiquote",
+        "date": "2024-08-22"
+      }
+    },
+    {
+      "id": "q64",
+      "text": "I will make sure that we lead the world into the future on space and artificial intelligence; that America, not China, wins the competition for the 21st century; and that we strengthen, not abdicate, our global leadership. Trump, on the other hand, threatened to abandon NATO. He encouraged Putin to invade our allies. Said Russia could, quote, “do whatever the hell they want.”",
+      "context": "Keynote Address at the Democratic National Convention (22 August 2024)",
+      "via": "wikiquote",
+      "source": {
+        "url": "https://en.wikiquote.org/wiki/Kamala_Harris",
+        "title": "wikiquote: Keynote Address at the Democratic National Convention (22 August 2024)",
+        "publisher": "wikiquote",
+        "date": "2024-08-22"
+      }
+    },
+    {
+      "id": "q65",
+      "text": "I will never hesitate to take whatever action is necessary to defend our forces and our interests against Iran and Iran-backed terrorists. I will not cozy up to tyrants and dictators like Kim Jong Un, who are rooting for Trump — who are rooting for Trump. Because, you know, they know — they know he is easy to manipulate with flattery and favors. They know Trump won’t hold autocrats accountable because he wants to be an autocrat himself. And as president, I will never waver in defense of America’s security and ideals, because in the enduring struggle between democracy and tyranny, I know where I stand and I know where the United States belongs.",
+      "context": "Keynote Address at the Democratic National Convention (22 August 2024)",
+      "via": "wikiquote",
+      "source": {
+        "url": "https://en.wikiquote.org/wiki/Kamala_Harris",
+        "title": "wikiquote: Keynote Address at the Democratic National Convention (22 August 2024)",
+        "publisher": "wikiquote",
+        "date": "2024-08-22"
+      }
+    },
+    {
+      "id": "q66",
+      "text": "I love our country with all my heart. Everywhere I go — everywhere I go, in everyone I meet, I see a nation that is ready to move forward, ready for the next step in the incredible journey that is America. I see an America where we hold fast to the fearless belief that built our nation and inspired the world — that here, in this country, anything is possible; that nothing is out of reach. An America where we care for one another, look out for one another, and recognize that we have so much more in common than what separates us. That none of us — none of us has to fail for all of us to succeed. And that in unity, there is strength.",
+      "context": "Keynote Address at the Democratic National Convention (22 August 2024)",
+      "via": "wikiquote",
+      "source": {
+        "url": "https://en.wikiquote.org/wiki/Kamala_Harris",
+        "title": "wikiquote: Keynote Address at the Democratic National Convention (22 August 2024)",
+        "publisher": "wikiquote",
+        "date": "2024-08-22"
+      }
+    },
+    {
+      "id": "q67",
+      "text": "Our opponents in this race are out there every day denigrating America, talking about how terrible everything is. Well, my mother had another lesson she used to teach: Never let anyone tell you who you are; you show them who you are. America, let us show each other and the world who we are and what we stand for: freedom, opportunity, compassion, dignity, fairness, and endless possibilities.",
+      "context": "Keynote Address at the Democratic National Convention (22 August 2024)",
+      "via": "wikiquote",
+      "source": {
+        "url": "https://en.wikiquote.org/wiki/Kamala_Harris",
+        "title": "wikiquote: Keynote Address at the Democratic National Convention (22 August 2024)",
+        "publisher": "wikiquote",
+        "date": "2024-08-22"
+      }
+    },
+    {
+      "id": "q68",
+      "text": "We are the heirs to the greatest democracy in the history of the world. And on behalf of our children and our grandchildren and all those who sacrificed so dearly for our freedom and liberty, we must be worthy of this moment. It is now our turn to do what generations before us have done, guided by optimism and faith: to fight for this country we love, to fight for the ideals we cherish, and to uphold the awesome responsibility that comes with the greatest privilege on Earth — the privilege and pride of being an American. So, let’s get out there, let’s fight for it. Let’s get out there, let’s vote for it. And together, let us write the next great chapter in the most extraordinary story ever told. Thank you. God bless you. And may God bless the United States of America.",
+      "context": "Keynote Address at the Democratic National Convention (22 August 2024)",
+      "via": "wikiquote",
+      "source": {
+        "url": "https://en.wikiquote.org/wiki/Kamala_Harris",
+        "title": "wikiquote: Keynote Address at the Democratic National Convention (22 August 2024)",
+        "publisher": "wikiquote",
+        "date": "2024-08-22"
+      }
+    },
+    {
+      "id": "q69",
+      "text": "take on Big Pharma to cap prescription drug costs for all Americans.",
+      "context": "Pledge on prescription drug costs",
+      "via": "ontheissues",
+      "source": {
+        "url": "https://www.ontheissues.org/2024_Hopefuls.htm",
+        "title": "Rolling Stone Magazine on 2024 presidential hopefuls",
+        "publisher": "ontheissues.org",
+        "date": "2024-08-15"
+      }
+    },
+    {
+      "id": "q70",
+      "text": "there's no question I'm in favor of banning fracking",
+      "context": "Position on fracking ban from 2019",
+      "via": "ontheissues",
+      "source": {
+        "url": "https://www.ontheissues.org/Media_Axios.htm",
+        "title": "Axios.com on 2024 Presidential hopefuls",
+        "publisher": "ontheissues.org",
+        "date": "2024-08-09"
+      }
+    },
+    {
+      "id": "q71",
+      "text": "Building up the middle class will be a defining goal of my presidency. We fight for a future with affordable housing, affordable health care, affordable child care, paid leave.",
+      "context": "August 2024",
+      "via": "wikiquote",
+      "source": {
+        "url": "https://eu.usatoday.com/story/news/politics/elections/2024/08/08/kamala-harris-policy-agenda/74703435007/",
+        "title": "8 August 2024 cited in \"More than Donald Trump's opponent: Here are some of Kamala Harris' campaign promises\", USA Today",
+        "publisher": "via wikiquote",
+        "date": "2024-08-08"
+      }
+    },
+    {
+      "id": "q72",
+      "text": "I call on Congress to pass the George Floyd Justice in Policing Act, a bill that I coauthored in the Senate.",
+      "context": "Police reform legislation",
+      "via": "ontheissues",
+      "source": {
+        "url": "https://www.ontheissues.org/2024_Pres_P_R.htm",
+        "title": "Vice Presidential 2024 press release \"Sonya Massey\"",
+        "publisher": "ontheissues.org",
+        "date": "2024-07-23"
+      }
+    },
+    {
+      "id": "q73",
+      "text": "we have much work to do to ensure that our justice system fully lives up to its name.",
+      "context": "Justice system reform needed",
+      "via": "ontheissues",
+      "source": {
+        "url": "https://www.ontheissues.org/2024_Pres_P_R.htm",
+        "title": "Vice Presidential 2024 press release \"Sonya Massey\"",
+        "publisher": "ontheissues.org",
+        "date": "2024-07-23"
+      }
+    },
+    {
+      "id": "q74",
+      "text": "With this selfless and patriotic act, President Biden is doing what he has done throughout his life of service: putting the American people and our country above everything else. I am honored to have the President’s endorsement and my intention is to earn and win this nomination. Over the past year, I have traveled across the country, talking with Americans about the clear choice in this momentous election. And that is what I will continue to do in the days and weeks ahead. I will do everything in my power to unite the Democratic Party — and unite our nation — to defeat Donald Trump and his extreme Project 2025 agenda. We have 107 days until Election Day. Together, we will fight. And together, we will win.",
+      "context": "Remarks after Joe Biden withdraws from the 2024 election (21 July 2024)",
+      "via": "wikiquote",
+      "source": {
+        "url": "https://en.wikiquote.org/wiki/Kamala_Harris",
+        "title": "wikiquote: Remarks after Joe Biden withdraws from the 2024 election (21 July 2024)",
+        "publisher": "wikiquote",
+        "date": "2024-07-21"
+      }
+    },
+    {
+      "id": "q75",
+      "text": "People throughout our Nation should be able to count on their government to ensure that our air and water are clean, health care is accessible and affordable, financial markets are sound, products are safe, and workers are not exploited on the job.",
+      "context": "Role of government in protecting Americans",
+      "via": "ontheissues",
+      "source": {
+        "url": "https://www.ontheissues.org/2024_Pres_P_R.htm",
+        "title": "White House Vice Presidential 2024 press release: \"\"",
+        "publisher": "ontheissues.org",
+        "date": "2024-06-28"
+      }
+    },
+    {
+      "id": "q76",
+      "text": "Unfortunately, today's Supreme Court decision sides with powerful special interests who want to roll back commonsense rules that protect Americans.",
+      "context": "Loper Bright Supreme Court decision",
+      "via": "ontheissues",
+      "source": {
+        "url": "https://www.ontheissues.org/2024_Pres_P_R.htm",
+        "title": "White House Vice Presidential 2024 press release: \"\"",
+        "publisher": "ontheissues.org",
+        "date": "2024-06-28"
+      }
+    },
+    {
+      "id": "q77",
+      "text": "President Biden and I will continue to do everything in our power to protect the American people and ensure that every person in our country can thrive.",
+      "context": "Commitment to protecting Americans",
+      "via": "ontheissues",
+      "source": {
+        "url": "https://www.ontheissues.org/2024_Pres_P_R.htm",
+        "title": "White House Vice Presidential 2024 press release: \"\"",
+        "publisher": "ontheissues.org",
+        "date": "2024-06-28"
+      }
+    },
+    {
+      "id": "q78",
+      "text": "From Day One of our administration, President Joe Biden and I have worked to protect immigrants, keep families together, and expand lawful pathways to citizenship.",
+      "context": "Immigration policy and family unity",
+      "via": "ontheissues",
+      "source": {
+        "url": "https://www.ontheissues.org/2024_Pres_P_R.htm",
+        "title": "Vice Presidential 2024 press release: \"Families Together\"",
+        "publisher": "ontheissues.org",
+        "date": "2024-06-18"
+      }
+    },
+    {
+      "id": "q79",
+      "text": "They deserve our protection, and should be allowed to remain with their families and contribute to our communities while they apply for a green card.",
+      "context": "Undocumented spouses and children protection",
+      "via": "ontheissues",
+      "source": {
+        "url": "https://www.ontheissues.org/2024_Pres_P_R.htm",
+        "title": "Vice Presidential 2024 press release: \"Families Together\"",
+        "publisher": "ontheissues.org",
+        "date": "2024-06-18"
+      }
+    },
+    {
+      "id": "q80",
+      "text": "We value their contributions and want them to continue to unleash their skills, ideas, and potential right here in the country that has invested in their success, to the benefit of our economy and our communities.",
+      "context": "Dreamers and work visas",
+      "via": "ontheissues",
+      "source": {
+        "url": "https://www.ontheissues.org/2024_Pres_P_R.htm",
+        "title": "Vice Presidential 2024 press release: \"Families Together\"",
+        "publisher": "ontheissues.org",
+        "date": "2024-06-18"
+      }
+    },
+    {
+      "id": "q81",
+      "text": "Weapons of war have no place on the streets of a civil society.",
+      "context": "Bump stocks and gun safety",
+      "via": "ontheissues",
+      "source": {
+        "url": "https://www.ontheissues.org/2024_Pres_P_R.htm",
+        "title": "White House Vice Presidential 2024 press release: \"Cargill\"",
+        "publisher": "ontheissues.org",
+        "date": "2024-06-14"
+      }
+    },
+    {
+      "id": "q82",
+      "text": "Unfortunately, today's Supreme Court ruling strikes down this important, commonsense regulation on devices that convert semiautomatic rifles into weapons that can fire hundreds of bullets per minute.",
+      "context": "Supreme Court bump stock decision",
+      "via": "ontheissues",
+      "source": {
+        "url": "https://www.ontheissues.org/2024_Pres_P_R.htm",
+        "title": "White House Vice Presidential 2024 press release: \"Cargill\"",
+        "publisher": "ontheissues.org",
+        "date": "2024-06-14"
+      }
+    },
+    {
+      "id": "q83",
+      "text": "We are calling on Congress to immediately ban bump stocks.",
+      "context": "Congressional action on bump stocks",
+      "via": "ontheissues",
+      "source": {
+        "url": "https://www.ontheissues.org/2024_Pres_P_R.htm",
+        "title": "White House Vice Presidential 2024 press release: \"Cargill\"",
+        "publisher": "ontheissues.org",
+        "date": "2024-06-14"
+      }
+    },
+    {
+      "id": "q84",
+      "text": "We witnessed, about two years ago, the highest court in our land take a constitutional right that had been recognized, from the women of America.",
+      "context": "Dobbs decision overturning Roe v. Wade",
+      "via": "ontheissues",
+      "source": {
+        "url": "https://www.ontheissues.org/2024_Pres_P_R.htm",
+        "title": "Vice Presidential 2024 press release:\"Reproductive Freedoms\"",
+        "publisher": "ontheissues.org",
+        "date": "2024-05-08"
+      }
+    },
+    {
+      "id": "q85",
+      "text": "So, at a young age, I decided I wanted to take on harms against women and children.",
+      "context": "Personal motivation for prosecutor career",
+      "via": "ontheissues",
+      "source": {
+        "url": "https://www.ontheissues.org/2024_Pres_P_R.htm",
+        "title": "Vice Presidential 2024 press release:\"Reproductive Freedoms\"",
+        "publisher": "ontheissues.org",
+        "date": "2024-05-08"
+      }
+    },
+    {
+      "id": "q86",
+      "text": "the idea that these so-called leaders would say even no exception for rape or incest; to say to a survivor of a crime of violence to their body, a violation to their body, that you, the survivor of that, don't have a right to make a decision about what happens to your body next, that's immoral.",
+      "context": "Abortion restrictions and exceptions",
+      "via": "ontheissues",
+      "source": {
+        "url": "https://www.ontheissues.org/2024_Pres_P_R.htm",
+        "title": "Vice Presidential 2024 press release:\"Reproductive Freedoms\"",
+        "publisher": "ontheissues.org",
+        "date": "2024-05-08"
+      }
+    },
+    {
+      "id": "q87",
+      "text": "This is intended to be a discussion about student loan debt. But really, it is, from my perspective, a discussion about who are our public servants and what we, as a society and as a country, owe them.",
+      "context": "Student loan debt and public servants",
+      "via": "ontheissues",
+      "source": {
+        "url": "https://www.ontheissues.org/2024_Pres_P_R.htm",
+        "title": "Vice Presidential 2024 press release: \"Student Debt Relief\"",
+        "publisher": "ontheissues.org",
+        "date": "2024-04-08"
+      }
+    },
+    {
+      "id": "q88",
+      "text": "I'm announcing a new plan to forgive more loans for 25 million more Americans, including millions of our public servants.",
+      "context": "Student loan forgiveness plan announcement",
+      "via": "ontheissues",
+      "source": {
+        "url": "https://www.ontheissues.org/2024_Pres_P_R.htm",
+        "title": "Vice Presidential 2024 press release: \"Student Debt Relief\"",
+        "publisher": "ontheissues.org",
+        "date": "2024-04-08"
+      }
+    },
+    {
+      "id": "q89",
+      "text": "We've been very clear that far too many innocent Palestinians have been killed. We have been very clear that Israel and the Israeli people and Palestinians are entitled to an equal amount of security and dignity.",
+      "context": "Gaza conflict and Israeli-Palestinian security",
+      "via": "ontheissues",
+      "source": {
+        "url": "https://www.ontheissues.org/2024/Kamala_Harris_Foreign_Policy.htm",
+        "title": "ABC This Week on 2024 Democratic Veepstakes",
+        "publisher": "ontheissues.org",
+        "date": "2024-03-24"
+      }
+    },
+    {
+      "id": "q90",
+      "text": "They understand that, in this new era of space exploration, we must harness the many ways in which space can benefit the American people, all of humanity, and Earth.",
+      "context": "NASA astronauts and space exploration benefits",
+      "via": "ontheissues",
+      "source": {
+        "url": "https://www.ontheissues.org/2024_Pres_P_R.htm",
+        "title": "White House Vice Presidential 2024 press release: \"NASA\"",
+        "publisher": "ontheissues.org",
+        "date": "2024-03-05"
+      }
+    },
+    {
+      "id": "q91",
+      "text": "In communities across our nation, the cost of housing is just too high. Part of the reason is a lack of supply.",
+      "context": "Housing affordability and supply shortage",
+      "via": "ontheissues",
+      "source": {
+        "url": "https://www.ontheissues.org/2024_Pres_P_R.htm",
+        "title": "White House Vice Presidential 2024 press release: \"Housing\"",
+        "publisher": "ontheissues.org",
+        "date": "2024-02-26"
+      }
+    },
+    {
+      "id": "q92",
+      "text": "Isolation is not insulation. In fact when America has isolated herself, threats have only grown.",
+      "context": "February 2024",
+      "via": "wikiquote",
+      "source": {
+        "url": "https://www.washingtonpost.com/world/2024/02/16/munich-security-conference-kamala-harris/",
+        "title": "From a speech at the Munich Security Conference (16 February 2024), as cited in \"Kamala Harris seeks to reassure allies at Munich Security Conference\", The Washington Post (16 February 2024).; During a campaign rally in South Carolina the previous weekend, former President Donald Trump said, recalling his apparent comments to the (unnamed) president of a NATO country: \"No, I would not protect you. In fact, I would encourage them [Russia] to do whatever the hell they want.\"",
+        "publisher": "via wikiquote",
+        "date": "2024-02-16"
+      }
+    },
+    {
+      "id": "q93",
+      "text": "I am continuing to call on Congress and state legislators throughout America to have the courage to act by banning assault weapons and high-capacity magazines, passing red flag laws, and making background checks universal.",
+      "context": "Gun violence prevention and assault weapons ban",
+      "via": "ontheissues",
+      "source": {
+        "url": "https://www.ontheissues.org/2024_Pres_P_R.htm",
+        "title": "White House Vice Presidential 2024 press release: \"Uvalde\"",
+        "publisher": "ontheissues.org",
+        "date": "2024-01-18"
+      }
+    },
+    {
+      "id": "q94",
+      "text": "These commonsense solutions will save lives and ensure that fewer children, families, and communities experience the trauma and pain that Uvalde has suffered.",
+      "context": "Gun safety measures to protect children",
+      "via": "ontheissues",
+      "source": {
+        "url": "https://www.ontheissues.org/2024_Pres_P_R.htm",
+        "title": "White House Vice Presidential 2024 press release: \"Uvalde\"",
+        "publisher": "ontheissues.org",
+        "date": "2024-01-18"
+      }
+    },
+    {
+      "id": "q95",
+      "text": "Good afternoon. Good afternoon. Good—Good afternoon everyone. Good afternoon. Good afternoon, good afternoon. Thank you all. Thank you, thank you, thank you, thank you. So let me say, [crowd screams \"love you\"] and I love you back, and I love you back. So let me say, my heart is full today.",
+      "context": "Speech conceding the 2024 United States presidential election",
+      "via": "wikiquote",
+      "source": {
+        "url": "https://en.wikiquote.org/wiki/Kamala_Harris",
+        "title": "wikiquote: Speech conceding the 2024 United States presidential election",
+        "publisher": "wikiquote",
+        "date": "2024"
+      }
+    },
+    {
+      "id": "q96",
+      "text": "My heart is full today. Full of gratitude for the trust you have placed in me. Full of love for our country. And full of resolve. The outcome of this election is not what we wanted, not what we fought for, not what we voted for. But hear me when I say, the light of America's promise will always burn bright. As long as we never give up, and as long as we keep fighting!",
+      "context": "Speech conceding the 2024 United States presidential election",
+      "via": "wikiquote",
+      "source": {
+        "url": "https://en.wikiquote.org/wiki/Kamala_Harris",
+        "title": "wikiquote: Speech conceding the 2024 United States presidential election",
+        "publisher": "wikiquote",
+        "date": "2024"
+      }
+    },
+    {
+      "id": "q97",
+      "text": "Look, I am so proud of the race we ran and the way we ran it. And the way we ran it, over the 107 days of this campaign, we have been intentional about building community and building coalitions. Bringing people together from every walk of life and background, united by love of country with enthusiasm and joy in our fight for America's future. And we did it with the knowledge that we all have so much more in common than what separates us.",
+      "context": "Speech conceding the 2024 United States presidential election",
+      "via": "wikiquote",
+      "source": {
+        "url": "https://en.wikiquote.org/wiki/Kamala_Harris",
+        "title": "wikiquote: Speech conceding the 2024 United States presidential election",
+        "publisher": "wikiquote",
+        "date": "2024"
+      }
+    },
+    {
+      "id": "q98",
+      "text": "Now I know that folks are feeling and experiencing a range of emotions right now. I get it. But we must accept the results of this election. Earlier today, I spoke with President-Elect Trump and congratulated him on his victory. I also told him that we will help him and his team with their transition. And that we will engage in a peaceful transfer of power.",
+      "context": "Speech conceding the 2024 United States presidential election",
+      "via": "wikiquote",
+      "source": {
+        "url": "https://en.wikiquote.org/wiki/Kamala_Harris",
+        "title": "wikiquote: Speech conceding the 2024 United States presidential election",
+        "publisher": "wikiquote",
+        "date": "2024"
+      }
+    },
+    {
+      "id": "q99",
+      "text": "A fundamental principle of American democracy is that when we lose an election, we accept the results. That principle, as much as any other, distinguishes democracy from monarchy or tyranny. And anyone who seeks the public trust must honor it. At the same time, in our nation, we owe loyalty not to a president or a party, but to the Constitution of the United States, and loyalty to our conscience and to our God. My allegiance to all three is why I am here to say, while I concede this election, I do not concede the fight that fueled this campaign — the fight: the fight for freedom, for opportunity, for fairness, and the dignity of all people. A fight for the ideals at the heart of our nation, the ideals that reflect America at our best. That is a fight I will never give up.",
+      "context": "Speech conceding the 2024 United States presidential election",
+      "via": "wikiquote",
+      "source": {
+        "url": "https://en.wikiquote.org/wiki/Kamala_Harris",
+        "title": "wikiquote: Speech conceding the 2024 United States presidential election",
+        "publisher": "wikiquote",
+        "date": "2024"
+      }
+    },
+    {
+      "id": "q100",
+      "text": "There's an adage a historian once called A Law of History, true of every society across the ages. The adage is \"Only when it is dark enough can you see the stars.\" I know many feel like we are entering a dark time. But for the benefit of us all, I hope that is not the case. But here's the thing: America, if it is, let us fill the sky with the light of a brilliant, brilliant billion of stars. The light of optimism, of faith, of truth, and service. And may that work guide us, even in the face of setbacks, toward the extraordinary promise of the United States of America.",
+      "context": "Speech conceding the 2024 United States presidential election",
+      "via": "wikiquote",
+      "source": {
+        "url": "https://en.wikiquote.org/wiki/Kamala_Harris",
+        "title": "wikiquote: Speech conceding the 2024 United States presidential election",
+        "publisher": "wikiquote",
+        "date": "2024"
+      }
+    },
+    {
+      "id": "q101",
+      "text": "And I am ready to offer that leadership as the next president of the United States.",
+      "context": "Campaign statement on presidential leadership",
+      "via": "ucsb",
+      "source": {
+        "url": "https://www.presidency.ucsb.edu/documents/remarks-the-vice-president-campaign-event-pittsburgh-pennsylvania-0",
+        "title": "Remarks by the Vice President at a Campaign Event in Pittsburgh, Pennsylvania",
+        "publisher": "the american presidency project (ucsb)",
+        "date": "2024"
+      }
+    },
+    {
+      "id": "q102",
+      "text": "Hard work is good work. Hard work is joyful work.",
+      "context": "Views on work and effort",
+      "via": "ucsb",
+      "source": {
+        "url": "https://www.presidency.ucsb.edu/documents/remarks-the-vice-president-campaign-event-pittsburgh-pennsylvania-0",
+        "title": "Remarks by the Vice President at a Campaign Event in Pittsburgh, Pennsylvania",
+        "publisher": "the american presidency project (ucsb)",
+        "date": "2024"
+      }
+    },
+    {
+      "id": "q103",
+      "text": "As president, I pledge to seek common ground and commonsense solutions to the challenges you face.",
+      "context": "Governing approach and priorities",
+      "via": "ucsb",
+      "source": {
+        "url": "https://www.presidency.ucsb.edu/documents/remarks-the-vice-president-campaign-event-pittsburgh-pennsylvania-0",
+        "title": "Remarks by the Vice President at a Campaign Event in Pittsburgh, Pennsylvania",
+        "publisher": "the american presidency project (ucsb)",
+        "date": "2024"
+      }
+    },
+    {
+      "id": "q104",
+      "text": "I will listen to people who disagree with me because I do not believe that people who disagree with me are the enemy.",
+      "context": "Leadership approach and inclusivity",
+      "via": "ucsb",
+      "source": {
+        "url": "https://www.presidency.ucsb.edu/documents/remarks-the-vice-president-campaign-event-pittsburgh-pennsylvania-0",
+        "title": "Remarks by the Vice President at a Campaign Event in Pittsburgh, Pennsylvania",
+        "publisher": "the american presidency project (ucsb)",
+        "date": "2024"
+      }
+    },
+    {
+      "id": "q105",
+      "text": "I pledge to always put country above party and self and to be a president for all Americans.",
+      "context": "Presidential commitment and values",
+      "via": "ucsb",
+      "source": {
+        "url": "https://www.presidency.ucsb.edu/documents/remarks-the-vice-president-campaign-event-pittsburgh-pennsylvania-0",
+        "title": "Remarks by the Vice President at a Campaign Event in Pittsburgh, Pennsylvania",
+        "publisher": "the american presidency project (ucsb)",
+        "date": "2024"
+      }
+    },
+    {
+      "id": "q106",
+      "text": "I proudly stand with labor. I have my whole entire career. I always will. This is about the dignity of work. It is about America's workforce. It is about our future, and it's just about what is right.",
+      "context": "Support for labor unions and worker dignity",
+      "via": "ucsb",
+      "source": {
+        "url": "https://www.presidency.ucsb.edu/documents/remarks-the-vice-president-campaign-event-janesville-wisconsin",
+        "title": "Remarks by the Vice President at a Campaign Event in Janesville, Wisconsin",
+        "publisher": "the american presidency project (ucsb)",
+        "date": "2024"
+      }
+    },
+    {
+      "id": "q107",
+      "text": "I have as a dream that I will — I will visit every IBEW Local in the country.",
+      "context": "Commitment to visiting IBEW locals nationwide",
+      "via": "ucsb",
+      "source": {
+        "url": "https://www.presidency.ucsb.edu/documents/remarks-the-vice-president-campaign-event-janesville-wisconsin",
+        "title": "Remarks by the Vice President at a Campaign Event in Janesville, Wisconsin",
+        "publisher": "the american presidency project (ucsb)",
+        "date": "2024"
+      }
+    },
+    {
+      "id": "q108",
+      "text": "when you know what you stand for, you know what to fight for.",
+      "context": "Electoral motivation and principles",
+      "via": "ucsb",
+      "source": {
+        "url": "https://www.presidency.ucsb.edu/documents/remarks-the-vice-president-campaign-event-janesville-wisconsin",
+        "title": "Remarks by the Vice President at a Campaign Event in Janesville, Wisconsin",
+        "publisher": "the american presidency project (ucsb)",
+        "date": "2024"
+      }
+    },
+    {
+      "id": "q109",
+      "text": "Collective bargaining says let the collective, the workers who all stand in the same place, join together as a collective and then negotiate to better ensure just one simple thing: that the outcome is fair.",
+      "context": "Explanation of collective bargaining principles",
+      "via": "ucsb",
+      "source": {
+        "url": "https://www.presidency.ucsb.edu/documents/remarks-the-vice-president-campaign-event-janesville-wisconsin",
+        "title": "Remarks by the Vice President at a Campaign Event in Janesville, Wisconsin",
+        "publisher": "the american presidency project (ucsb)",
+        "date": "2024"
+      }
+    },
+    {
+      "id": "q110",
+      "text": "at the top of my list is bringing down your cost of living. And it will be my focus every single day as president. I will always put the middle class first. I come from the middle class, and I never forget where I come from.",
+      "context": "Campaign priorities and middle class focus",
+      "via": "ucsb",
+      "source": {
+        "url": "https://www.presidency.ucsb.edu/documents/remarks-the-vice-president-campaign-event-janesville-wisconsin",
+        "title": "Remarks by the Vice President at a Campaign Event in Janesville, Wisconsin",
+        "publisher": "the american presidency project (ucsb)",
+        "date": "2024"
+      }
+    },
+    {
+      "id": "q111",
+      "text": "this issue is about dignity. It's about the dignity that any individual who has worked hard all their lives that they absolutely deserve, which is to retire with dignity, and it is about the dignity of work.",
+      "context": "Dignity of workers and retirement",
+      "via": "ucsb",
+      "source": {
+        "url": "https://www.presidency.ucsb.edu/documents/remarks-the-vice-president-campaign-event-janesville-wisconsin",
+        "title": "Remarks by the Vice President at a Campaign Event in Janesville, Wisconsin",
+        "publisher": "the american presidency project (ucsb)",
+        "date": "2024"
+      }
+    },
+    {
+      "id": "q112",
+      "text": "Donald Trump's track record is a disaster for working people, and he is an existential threat to America's labor movement.",
+      "context": "Trump's impact on labor and unions",
+      "via": "ucsb",
+      "source": {
+        "url": "https://www.presidency.ucsb.edu/documents/remarks-the-vice-president-campaign-event-janesville-wisconsin",
+        "title": "Remarks by the Vice President at a Campaign Event in Janesville, Wisconsin",
+        "publisher": "the american presidency project (ucsb)",
+        "date": "2024"
+      }
+    },
+    {
+      "id": "q113",
+      "text": "He intends to launch a full-on attack on unions and the freedom to organize. He will ban public-sector unions.",
+      "context": "Trump's planned labor policies",
+      "via": "ucsb",
+      "source": {
+        "url": "https://www.presidency.ucsb.edu/documents/remarks-the-vice-president-campaign-event-janesville-wisconsin",
+        "title": "Remarks by the Vice President at a Campaign Event in Janesville, Wisconsin",
+        "publisher": "the american presidency project (ucsb)",
+        "date": "2024"
+      }
+    },
+    {
+      "id": "q114",
+      "text": "We're not going back. We're not going back. We are not going back.",
+      "context": "Campaign message about direction forward",
+      "via": "ucsb",
+      "source": {
+        "url": "https://www.presidency.ucsb.edu/documents/remarks-the-vice-president-campaign-event-janesville-wisconsin",
+        "title": "Remarks by the Vice President at a Campaign Event in Janesville, Wisconsin",
+        "publisher": "the american presidency project (ucsb)",
+        "date": "2024"
+      }
+    },
+    {
+      "id": "q115",
+      "text": "I do believe one of the highest forms of patriotism, of our expression of our love for our country, is to then fight for the ideals of our country.",
+      "context": "Definition of patriotism and civic duty",
+      "via": "ucsb",
+      "source": {
+        "url": "https://www.presidency.ucsb.edu/documents/remarks-the-vice-president-campaign-event-janesville-wisconsin",
+        "title": "Remarks by the Vice President at a Campaign Event in Janesville, Wisconsin",
+        "publisher": "the american presidency project (ucsb)",
+        "date": "2024"
+      }
+    },
+    {
+      "id": "q116",
+      "text": "we have an opportunity in this election to turn the page on a decade of Donald Trump trying to keep us divided and afraid of each other.",
+      "context": "Election opportunity, moving past Trump division",
+      "via": "ucsb",
+      "source": {
+        "url": "https://www.presidency.ucsb.edu/documents/remarks-the-vice-president-campaign-event-harrisburg-pennsylvania",
+        "title": "Remarks by the Vice President at a Campaign Event in Harrisburg, Pennsylvania",
+        "publisher": "the american presidency project (ucsb)",
+        "date": "2024"
+      }
+    },
+    {
+      "id": "q117",
+      "text": "I believe health care should be a right and not just a privilege of those who can afford it.",
+      "context": "Healthcare as a right",
+      "via": "ucsb",
+      "source": {
+        "url": "https://www.presidency.ucsb.edu/documents/remarks-the-vice-president-campaign-event-harrisburg-pennsylvania",
+        "title": "Remarks by the Vice President at a Campaign Event in Harrisburg, Pennsylvania",
+        "publisher": "the american presidency project (ucsb)",
+        "date": "2024"
+      }
+    },
+    {
+      "id": "q118",
+      "text": "I pledge to you, when Congress passes a bill to restore reproductive freedom, as president of the United States, I will proudly sign it into law.",
+      "context": "Commitment to reproductive freedom legislation",
+      "via": "ucsb",
+      "source": {
+        "url": "https://www.presidency.ucsb.edu/documents/remarks-the-vice-president-campaign-event-harrisburg-pennsylvania",
+        "title": "Remarks by the Vice President at a Campaign Event in Harrisburg, Pennsylvania",
+        "publisher": "the american presidency project (ucsb)",
+        "date": "2024"
+      }
+    },
+    {
+      "id": "q119",
+      "text": "I pledge to seek common ground and commonsense solutions to the challenges you face.",
+      "context": "Pledge to find common ground",
+      "via": "ucsb",
+      "source": {
+        "url": "https://www.presidency.ucsb.edu/documents/remarks-the-vice-president-campaign-event-harrisburg-pennsylvania",
+        "title": "Remarks by the Vice President at a Campaign Event in Harrisburg, Pennsylvania",
+        "publisher": "the american presidency project (ucsb)",
+        "date": "2024"
+      }
+    },
+    {
+      "id": "q120",
+      "text": "I pledge to be a president for all Americans and to always put country above party and self.",
+      "context": "Pledge to serve all Americans",
+      "via": "ucsb",
+      "source": {
+        "url": "https://www.presidency.ucsb.edu/documents/remarks-the-vice-president-campaign-event-harrisburg-pennsylvania",
+        "title": "Remarks by the Vice President at a Campaign Event in Harrisburg, Pennsylvania",
+        "publisher": "the american presidency project (ucsb)",
+        "date": "2024"
+      }
+    },
+    {
+      "id": "q121",
+      "text": "I've lived the promise of America. I saw how hard my mother worked to give her daughters the same chances our country gave her.",
+      "context": "Personal background and American values",
+      "via": "ucsb",
+      "source": {
+        "url": "https://www.presidency.ucsb.edu/documents/remarks-the-vice-president-campaign-event-harrisburg-pennsylvania",
+        "title": "Remarks by the Vice President at a Campaign Event in Harrisburg, Pennsylvania",
+        "publisher": "the american presidency project (ucsb)",
+        "date": "2024"
+      }
+    },
+    {
+      "id": "q122",
+      "text": "I've spent my life fighting for people who have been hurt and counted out but who never stop believing that, in our country, anything is possible.",
+      "context": "Life's work and commitment to helping people",
+      "via": "ucsb",
+      "source": {
+        "url": "https://www.presidency.ucsb.edu/documents/remarks-the-vice-president-campaign-event-harrisburg-pennsylvania",
+        "title": "Remarks by the Vice President at a Campaign Event in Harrisburg, Pennsylvania",
+        "publisher": "the american presidency project (ucsb)",
+        "date": "2024"
+      }
+    },
+    {
+      "id": "q123",
+      "text": "Don't just sit around and complain about injustice.",
+      "context": "Lesson from mother about taking action against injustice",
+      "via": "ucsb",
+      "source": {
+        "url": "https://www.presidency.ucsb.edu/documents/remarks-the-vice-president-campaign-event-kalamazoo-michigan",
+        "title": "Remarks by the Vice President at a Campaign Event in Kalamazoo, Michigan",
+        "publisher": "the american presidency project (ucsb)",
+        "date": "2024"
+      }
+    },
+    {
+      "id": "q124",
+      "text": "I took on perpetrators of all kinds: predators, fraudsters, and repeat offenders. I took them on, and I won.",
+      "context": "Career record as prosecutor and attorney general",
+      "via": "ucsb",
+      "source": {
+        "url": "https://www.presidency.ucsb.edu/documents/remarks-the-vice-president-campaign-event-kalamazoo-michigan",
+        "title": "Remarks by the Vice President at a Campaign Event in Kalamazoo, Michigan",
+        "publisher": "the american presidency project (ucsb)",
+        "date": "2024"
+      }
+    },
+    {
+      "id": "q125",
+      "text": "Hard work is good work. Hard work is joyful work. And make no mistake, we will win.",
+      "context": "Campaign messaging about effort and victory",
+      "via": "ucsb",
+      "source": {
+        "url": "https://www.presidency.ucsb.edu/documents/remarks-the-vice-president-campaign-event-kalamazoo-michigan",
+        "title": "Remarks by the Vice President at a Campaign Event in Kalamazoo, Michigan",
+        "publisher": "the american presidency project (ucsb)",
+        "date": "2024"
+      }
+    },
+    {
+      "id": "q126",
+      "text": "I have put the people above partisanship. I never asked somebody, \"Are you a Democrat or a Republican\" before I offered help. Instead, the first and only thing I asked is, \"How can I help you?\"",
+      "context": "Career approach to helping people regardless of party",
+      "via": "ucsb",
+      "source": {
+        "url": "https://www.presidency.ucsb.edu/documents/remarks-the-vice-president-campaign-event-kalamazoo-michigan",
+        "title": "Remarks by the Vice President at a Campaign Event in Kalamazoo, Michigan",
+        "publisher": "the american presidency project (ucsb)",
+        "date": "2024"
+      }
+    },
+    {
+      "id": "q127",
+      "text": "I come from the middle class, and I will never forget where I come from.",
+      "context": "Personal background and connection to middle-class experience",
+      "via": "ucsb",
+      "source": {
+        "url": "https://www.presidency.ucsb.edu/documents/remarks-the-vice-president-campaign-event-kalamazoo-michigan",
+        "title": "Remarks by the Vice President at a Campaign Event in Kalamazoo, Michigan",
+        "publisher": "the american presidency project (ucsb)",
+        "date": "2024"
+      }
+    },
+    {
+      "id": "q128",
+      "text": "my commonsense plan is about lowering the prices you pay on everything from prescription medication to groceries to housing.",
+      "context": "Economic policy focus on cost of living",
+      "via": "ucsb",
+      "source": {
+        "url": "https://www.presidency.ucsb.edu/documents/remarks-the-vice-president-campaign-event-kalamazoo-michigan",
+        "title": "Remarks by the Vice President at a Campaign Event in Kalamazoo, Michigan",
+        "publisher": "the american presidency project (ucsb)",
+        "date": "2024"
+      }
+    },
+    {
+      "id": "q129",
+      "text": "I will give middle-class tax cuts to 100 million Americans, including $6,000 during the first year of a child's life that will also lift America's children out of poverty.",
+      "context": "Tax cut and child poverty policy",
+      "via": "ucsb",
+      "source": {
+        "url": "https://www.presidency.ucsb.edu/documents/remarks-the-vice-president-campaign-event-kalamazoo-michigan",
+        "title": "Remarks by the Vice President at a Campaign Event in Kalamazoo, Michigan",
+        "publisher": "the american presidency project (ucsb)",
+        "date": "2024"
+      }
+    },
+    {
+      "id": "q130",
+      "text": "It's about their dignity. But we have a lot of people right now living in what we call the \"sandwich generation,\" who are taking care of your kids while you're taking care of your parents.",
+      "context": "Challenges facing sandwich generation caregivers",
+      "via": "ucsb",
+      "source": {
+        "url": "https://www.presidency.ucsb.edu/documents/remarks-the-vice-president-campaign-event-kalamazoo-michigan",
+        "title": "Remarks by the Vice President at a Campaign Event in Kalamazoo, Michigan",
+        "publisher": "the american presidency project (ucsb)",
+        "date": "2024"
+      }
+    },
+    {
+      "id": "q131",
+      "text": "we're going to make sure that Medicare covers the cost of home health care for our seniors.",
+      "context": "Medicare expansion for home health care",
+      "via": "ucsb",
+      "source": {
+        "url": "https://www.presidency.ucsb.edu/documents/remarks-the-vice-president-campaign-event-kalamazoo-michigan",
+        "title": "Remarks by the Vice President at a Campaign Event in Kalamazoo, Michigan",
+        "publisher": "the american presidency project (ucsb)",
+        "date": "2024"
+      }
+    },
+    {
+      "id": "q132",
+      "text": "I believe health care should be a right and not just a privilege of those who have the money to afford it.",
+      "context": "Health care as fundamental right",
+      "via": "ucsb",
+      "source": {
+        "url": "https://www.presidency.ucsb.edu/documents/remarks-the-vice-president-campaign-event-kalamazoo-michigan",
+        "title": "Remarks by the Vice President at a Campaign Event in Kalamazoo, Michigan",
+        "publisher": "the american presidency project (ucsb)",
+        "date": "2024"
+      }
+    },
+    {
+      "id": "q133",
+      "text": "it is a fight for freedom, like the fundamental freedom of a woman to be able to make decisions about her own body and not have her government tell her what to do.",
+      "context": "Reproductive freedom and bodily autonomy",
+      "via": "ucsb",
+      "source": {
+        "url": "https://www.presidency.ucsb.edu/documents/remarks-the-vice-president-campaign-event-kalamazoo-michigan",
+        "title": "Remarks by the Vice President at a Campaign Event in Kalamazoo, Michigan",
+        "publisher": "the american presidency project (ucsb)",
+        "date": "2024"
+      }
+    },
+    {
+      "id": "q134",
+      "text": "And the idea that somebody who survives a crime of a violation to their body would not have the right to make a decision about what happens to their body next, that is immoral.",
+      "context": "Abortion access after rape or incest",
+      "via": "ucsb",
+      "source": {
+        "url": "https://www.presidency.ucsb.edu/documents/remarks-the-vice-president-campaign-event-kalamazoo-michigan",
+        "title": "Remarks by the Vice President at a Campaign Event in Kalamazoo, Michigan",
+        "publisher": "the american presidency project (ucsb)",
+        "date": "2024"
+      }
+    },
+    {
+      "id": "q135",
+      "text": "If she chooses, she will talk with her priest, her pastor, her rabbi, her imam, but not the government.",
+      "context": "Government should not dictate reproductive decisions",
+      "via": "ucsb",
+      "source": {
+        "url": "https://www.presidency.ucsb.edu/documents/remarks-the-vice-president-campaign-event-kalamazoo-michigan",
+        "title": "Remarks by the Vice President at a Campaign Event in Kalamazoo, Michigan",
+        "publisher": "the american presidency project (ucsb)",
+        "date": "2024"
+      }
+    },
+    {
+      "id": "q136",
+      "text": "I pledge to you, when Congress passes a bill to restore reproductive freedom nationwide, as president of the United States, I will proudly sign it into law.",
+      "context": "Commitment to sign reproductive freedom legislation",
+      "via": "ucsb",
+      "source": {
+        "url": "https://www.presidency.ucsb.edu/documents/remarks-the-vice-president-campaign-event-kalamazoo-michigan",
+        "title": "Remarks by the Vice President at a Campaign Event in Kalamazoo, Michigan",
+        "publisher": "the american presidency project (ucsb)",
+        "date": "2024"
+      }
+    },
+    {
+      "id": "q137",
+      "text": "I do believe Donald Trump to be an unserious man, but the consequences of him ever being president again are brutally serious — brutally serious.",
+      "context": "Assessment of Trump and stakes of election",
+      "via": "ucsb",
+      "source": {
+        "url": "https://www.presidency.ucsb.edu/documents/remarks-the-vice-president-campaign-event-kalamazoo-michigan",
+        "title": "Remarks by the Vice President at a Campaign Event in Kalamazoo, Michigan",
+        "publisher": "the american presidency project (ucsb)",
+        "date": "2024"
+      }
+    },
+    {
+      "id": "q138",
+      "text": "It's either Donald Trump in there stewing over his enemies list, or me, working for you, checking off my to-do list.",
+      "context": "Contrast between Trump and herself as president",
+      "via": "ucsb",
+      "source": {
+        "url": "https://www.presidency.ucsb.edu/documents/remarks-the-vice-president-campaign-event-kalamazoo-michigan",
+        "title": "Remarks by the Vice President at a Campaign Event in Kalamazoo, Michigan",
+        "publisher": "the american presidency project (ucsb)",
+        "date": "2024"
+      }
+    },
+    {
+      "id": "q139",
+      "text": "one of the highest forms of patriotism, I believe, is to then fight for the ideals of our country.",
+      "context": "Definition of patriotism and duty",
+      "via": "ucsb",
+      "source": {
+        "url": "https://www.presidency.ucsb.edu/documents/remarks-the-vice-president-campaign-event-kalamazoo-michigan",
+        "title": "Remarks by the Vice President at a Campaign Event in Kalamazoo, Michigan",
+        "publisher": "the american presidency project (ucsb)",
+        "date": "2024"
+      }
+    },
+    {
+      "id": "q140",
+      "text": "I absolutely believe we must raise minimum wage and that hardworking Americans, whether they're working at McDonald's or anywhere else, should have at least the ability to be able to take care of their family and take care of themselves in a way that allows them to actually be able to sustain their needs.",
+      "context": "Minimum wage policy position",
+      "via": "ucsb",
+      "source": {
+        "url": "https://www.presidency.ucsb.edu/documents/remarks-the-vice-president-exchange-with-reporters-royal-oak-michigan",
+        "title": "Remarks by the Vice President in an Exchange with Reporters in Royal Oak, Michigan",
+        "publisher": "the american presidency project (ucsb)",
+        "date": "2024"
+      }
+    },
+    {
+      "id": "q141",
+      "text": "my policy is about making sure that Americans have what they need in terms of their reproductive health.",
+      "context": "Reproductive health and contraception access",
+      "via": "ucsb",
+      "source": {
+        "url": "https://www.presidency.ucsb.edu/documents/remarks-the-vice-president-exchange-with-reporters-royal-oak-michigan",
+        "title": "Remarks by the Vice President in an Exchange with Reporters in Royal Oak, Michigan",
+        "publisher": "the american presidency project (ucsb)",
+        "date": "2024"
+      }
+    },
+    {
+      "id": "q142",
+      "text": "I will and he will not, as evidenced by many statements he has made, including his intention to be a dictator on day one, his intention to weaponize the Department of Justice against his political enemies.",
+      "context": "Constitutional duty and rule of law",
+      "via": "ucsb",
+      "source": {
+        "url": "https://www.presidency.ucsb.edu/documents/remarks-the-vice-president-exchange-with-reporters-royal-oak-michigan",
+        "title": "Remarks by the Vice President in an Exchange with Reporters in Royal Oak, Michigan",
+        "publisher": "the american presidency project (ucsb)",
+        "date": "2024"
+      }
+    },
+    {
+      "id": "q143",
+      "text": "this is a choice for the American people, and it is a choice between whether we're going to chart a new way forward that turns the page on the division, the hate, the chaos of Donald Trump.",
+      "context": "Election choice and direction for country",
+      "via": "ucsb",
+      "source": {
+        "url": "https://www.presidency.ucsb.edu/documents/remarks-the-vice-president-exchange-with-reporters-royal-oak-michigan",
+        "title": "Remarks by the Vice President in an Exchange with Reporters in Royal Oak, Michigan",
+        "publisher": "the american presidency project (ucsb)",
+        "date": "2024"
+      }
+    },
+    {
+      "id": "q144",
+      "text": "I do believe it is such a fundamental issue, which is understanding you don't have to abandon your faith or deeply held beliefs to agree the government should not be telling women what to do with their body.",
+      "context": "Women's bodily autonomy and government role",
+      "via": "ucsb",
+      "source": {
+        "url": "https://www.presidency.ucsb.edu/documents/remarks-the-vice-president-exchange-with-reporters-royal-oak-michigan",
+        "title": "Remarks by the Vice President in an Exchange with Reporters in Royal Oak, Michigan",
+        "publisher": "the american presidency project (ucsb)",
+        "date": "2024"
+      }
+    },
+    {
+      "id": "q145",
+      "text": "America's strength — one of the attributes of our progress has been the expansion of rights, not the restriction of rights.",
+      "context": "American values and rights",
+      "via": "ucsb",
+      "source": {
+        "url": "https://www.presidency.ucsb.edu/documents/remarks-the-vice-president-exchange-with-reporters-royal-oak-michigan",
+        "title": "Remarks by the Vice President in an Exchange with Reporters in Royal Oak, Michigan",
+        "publisher": "the american presidency project (ucsb)",
+        "date": "2024"
+      }
+    },
+    {
+      "id": "q146",
+      "text": "In a democracy, people will debate, people will disagree, but not resort to violence.",
+      "context": "Political violence and democracy",
+      "via": "ucsb",
+      "source": {
+        "url": "https://www.presidency.ucsb.edu/documents/remarks-the-vice-president-exchange-with-reporters-royal-oak-michigan",
+        "title": "Remarks by the Vice President in an Exchange with Reporters in Royal Oak, Michigan",
+        "publisher": "the american presidency project (ucsb)",
+        "date": "2024"
+      }
+    },
+    {
+      "id": "q147",
+      "text": "It has been a passion of mine for many, many years to support these leaders.",
+      "context": "Support for small business leaders",
+      "via": "ontheissues",
+      "source": {
+        "url": "https://www.ontheissues.org/2024_Pres_P_R.htm",
+        "title": "White House Vice Pres. 2024 press release: \"Small Business\"",
+        "publisher": "ontheissues.org",
+        "date": "2023-11-23"
+      }
+    },
+    {
+      "id": "q148",
+      "text": "The majority of my career has been focused on the health, safety, and well-being of women and children.",
+      "context": "Women's economic participation and leadership",
+      "via": "ontheissues",
+      "source": {
+        "url": "https://www.ontheissues.org/2024_Pres_P_R.htm",
+        "title": "White House Vice Presidential 2024 press release: \"APEC\"",
+        "publisher": "ontheissues.org",
+        "date": "2023-11-16"
+      }
+    },
+    {
+      "id": "q149",
+      "text": "A terrorist organization, Hamas, slaughtered hundreds of young people at a concert. By most estimates at least fourteen hundred Israelis are dead. Israel, without any question, has a right to defend itself. That being said, it is very important that there be no conflation between Hamas and the Palestinians. The Palestinians deserve equal measures of safety and security, self-determination and dignity, and we have been very clear that the rules of war must be adhered to and that there be humanitarian aid that flows.",
+      "context": "October 2023",
+      "via": "wikiquote",
+      "source": {
+        "url": "https://www.cbsnews.com/news/kamala-harris-interview-60-minutes-transcript/",
+        "title": "\"Vice President Kamala Harris on Israel, Ukraine, gun violence and the 2024 election\" 60 Minutes interview (October 29, 2023)",
+        "publisher": "via wikiquote",
+        "date": "2023-10-29"
+      }
+    },
+    {
+      "id": "q150",
+      "text": "It's no secret that we have a broken immigration system. Short term, we need a safe, orderly, and humane border policy. And long term, we need to invest in the root causes of migration. But the bottom line? Congress needs to act. Come on. Participate in the solution instead of political gamesmanship.",
+      "context": "October 2023",
+      "via": "wikiquote",
+      "source": {
+        "url": "https://www.cbsnews.com/news/kamala-harris-interview-60-minutes-transcript/",
+        "title": "\"Vice President Kamala Harris on Israel, Ukraine, gun violence and the 2024 election\" 60 Minutes interview (October 29, 2023)",
+        "publisher": "via wikiquote",
+        "date": "2023-10-29"
+      }
+    },
+    {
+      "id": "q151",
+      "text": "Adults know what slavery really involved. It involved rape. It involved torture. It involved taking a baby from their mother. It involved some of the worst examples of depriving people of humanity in our world.",
+      "context": "July 2023",
+      "via": "wikiquote",
+      "source": {
+        "url": "https://www.reuters.com/world/us/us-vp-harris-blasts-florida-extremists-over-education-guidelines-about-slavery-2023-07-21/",
+        "title": "Speech in Florida (July 21, 2023), as cited in \"Vice President Harris blasts Florida 'extremists' over education guidelines about slavery\", Reuters (July 21, 2023)",
+        "publisher": "via wikiquote",
+        "date": "2023-07-21"
+      }
+    },
+    {
+      "id": "q152",
+      "text": "How is it that anyone could suggest that, in the midst of these atrocities, that there was any benefit to being subjected to this level of dehumanization?",
+      "context": "July 2023",
+      "via": "wikiquote",
+      "source": {
+        "url": "https://www.reuters.com/world/us/us-vp-harris-blasts-florida-extremists-over-education-guidelines-about-slavery-2023-07-21/",
+        "title": "Speech in Florida (July 21, 2023), as cited in \"Vice President Harris blasts Florida 'extremists' over education guidelines about slavery\", Reuters (July 21, 2023)",
+        "publisher": "via wikiquote",
+        "date": "2023-07-21"
+      }
+    },
+    {
+      "id": "q153",
+      "text": "We teach our children, not only to tell the truth, but to seek knowledge and truth [...] These extremist so-called leaders should model what we know to be the correct and right approach if we really are invested in the wellbeing of our children. Instead they dare to push propaganda to our children.",
+      "context": "July 2023",
+      "via": "wikiquote",
+      "source": {
+        "url": "https://www.reuters.com/world/us/us-vp-harris-blasts-florida-extremists-over-education-guidelines-about-slavery-2023-07-21/",
+        "title": "Speech in Florida (July 21, 2023), as cited in \"Vice President Harris blasts Florida 'extremists' over education guidelines about slavery\", Reuters (July 21, 2023)",
+        "publisher": "via wikiquote",
+        "date": "2023-07-21"
+      }
+    },
+    {
+      "id": "q154",
+      "text": "Assault weapons are by design used to kill a lot of human beings quickly. There is no place for an assault weapon on the streets of civil America.",
+      "context": "Assault weapons ban needed",
+      "via": "ontheissues",
+      "source": {
+        "url": "https://www.ontheissues.org/2008_NAACP.htm",
+        "title": "Remarks at the NAACP 114th Annual Convention",
+        "publisher": "ontheissues.org",
+        "date": "2023-07-19"
+      }
+    },
+    {
+      "id": "q155",
+      "text": "We need to have Congress to be prepared to deal with the big issues and do it in a way that is just about saving lives.",
+      "context": "Congress action on gun safety legislation",
+      "via": "ontheissues",
+      "source": {
+        "url": "https://www.ontheissues.org/2008_NAACP.htm",
+        "title": "Remarks at the NAACP 114th Annual Convention",
+        "publisher": "ontheissues.org",
+        "date": "2023-07-19"
+      }
+    },
+    {
+      "id": "q156",
+      "text": "My mother used to — she would give us a hard time sometimes, and she would say to us, “I don’t know what’s wrong with you young people. You think you just fell out of a coconut tree?” (Laughs.) You exist in the context of all in which you live and what came before you.",
+      "context": "May 2023",
+      "via": "wikiquote",
+      "source": {
+        "url": "https://www.whitehouse.gov/briefing-room/speeches-remarks/2023/05/10/remarks-by-vice-president-harris-at-swearing-in-ceremony-of-commissioners-for-the-white-house-initiative-on-advancing-educational-equity-excellence-and-economic-opportunity-for-hispanics/",
+        "title": "\"Remarks at Swearing-In Ceremony of Commissioners for the White House Initiative on Advancing Educational Equity, Excellence, and Economic Opportunity for Hispanics\", (10 May 2023)",
+        "publisher": "via wikiquote",
+        "date": "2023-05-10"
+      }
+    },
+    {
+      "id": "q157",
+      "text": "What an honor it is to be here in Ghana and on the continent of Africa.",
+      "context": "March 2023",
+      "via": "wikiquote",
+      "source": {
+        "url": "https://www.cnbc.com/2023/03/26/in-ghana-kamala-harris-excited-about-the-future-of-africa.html/",
+        "title": "\"Arrival in Ghana\", CNBC, (26 March 2023)",
+        "publisher": "via wikiquote",
+        "date": "2023-03-26"
+      }
+    }
+  ]
+}

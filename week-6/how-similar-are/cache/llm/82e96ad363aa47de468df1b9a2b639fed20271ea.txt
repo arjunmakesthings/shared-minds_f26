@@ -1,0 +1,15 @@
+```json
+{"p": 32, "quote": "building a massive wall that spans the entire southern border is not a serious policy solution.", "context": "Border wall policy position during 2020 campaign"}
+```
+
+```json
+{"p": 34, "quote": "We have to continue working to ensure that women and girls enjoy equal rights and equal participation in their societies.", "context": "Women's rights and equality at UN"}
+```
+
+```json
+{"p": 34, "quote": "That the LGBTQI+ people are not prosecuted or targeted with violence because of who they are.", "context": "LGBTQI+ rights protection"}
+```
+
+```json
+{"p": 35, "quote": "With a concerted leadership and careful effort, adversaries can become partners, overwhelming challenges can be resolved, and deep wounds can heal.", "context": "US-Vietnam partnership and historical reconciliation"}
+```

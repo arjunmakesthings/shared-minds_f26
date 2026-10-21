@@ -1,0 +1,15 @@
+```json
+{"p": 2, "quote": "Well, I would feel awful, as somebody who has opposed virtually all of Trump's policies. And I would feel awful if the American people lost the democracy which we've had for 250 years. And I would feel awful if we turned our back on the existential threat of climate change.", "context": "How he would feel if Trump wins November election"}
+```
+
+```json
+{"p": 3, "quote": "Do I think we should not have police departments in America? No, I don't. There's no city in the world that does not have police departments.", "context": "Position on defunding or abolishing police departments"}
+```
+
+```json
+{"p": 3, "quote": "I think we want to redefine what police departments do, give them the support they need to make their jobs better defined. So I do believe that we need well-trained, well-educated, and well-paid professionals in police departments.", "context": "How to reform police departments"}
+```
+
+```json
+{"p": 3, "quote": "Anyone who thinks that we should abolish all police departments in America, I don't agree.", "context": "Disagreement with abolishing all police departments"}
+```

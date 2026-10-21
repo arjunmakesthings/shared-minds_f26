@@ -1,0 +1,43 @@
+```json
+{"p": 37, "quote": "This trial has been nothing more than a distraction from the real crimes of the Biden Crime Family, which has raked in tens of millions of dollars from China, Russia and Ukraine.", "context": "Hunter Biden trial verdict and Biden family allegations"}
+```
+
+```json
+{"p": 37, "quote": "Crooked Joe Biden's reign over the Biden Family Criminal Empire is all coming to an end on November 5th, and never again will a Biden sell government access for personal profit.", "context": "Election prediction and Biden family criminal allegations"}
+```
+
+```json
+{"p": 38, "quote": "There is a lot you can do in terms of entitlements in terms of cutting and in terms of also the theft and the tremendous bad management of entitlements.", "context": "Social Security and Medicare entitlements management"}
+```
+
+```json
+{"p": 39, "quote": "Over the past 3 years, Biden has actively aided and abetted the importation of millions and millions of illegal alien migrants and resettled them into your communities.", "context": "Immigration policy and border security"}
+```
+
+```json
+{"p": 39, "quote": "By the time his term is up, we could have close to 20 million people in our country. We have no idea from where they come, we have no idea who they are.", "context": "Illegal immigration numbers and identification concerns"}
+```
+
+```json
+{"p": 39, "quote": "my priority is securing our border, and sending Crooked Joe's illegals back home.", "context": "Border security and deportation priorities"}
+```
+
+```json
+{"p": 40, "quote": "We have a situation which I believe the stock market goes up because I'm leading.", "context": "Stock market performance and presidential leadership"}
+```
+
+```json
+{"p": 40, "quote": "I think if I wasn't leading, the stock market would be 25% lower.", "context": "Stock market predictions without his candidacy"}
+```
+
+```json
+{"p": 41, "quote": "There's a great leader, in my opinion, is very strong. Some people say it's terrible to say that, but he is, Viktor Orban.", "context": "Opinion on Viktor Orban as a strong leader"}
+```
+
+```json
+{"p": 42, "quote": "So I said, I'm going to be a dictator for one day. They cut it, they go, \"I'm going to be a dictator.\" But they cut the rest of the sentence.", "context": "Clarification on dictator comment and media editing"}
+```
+
+```json
+{"p": 42, "quote": "I'm going to manage like we did. We were so successful that the country was coming together.", "context": "Presidential management style and national unity"}
+```

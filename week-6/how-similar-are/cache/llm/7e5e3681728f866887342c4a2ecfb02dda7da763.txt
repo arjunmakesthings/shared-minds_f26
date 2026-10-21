@@ -1,0 +1,39 @@
+```json
+{"p": 8, "quote": "The fact is that the vast majority of constitutional scholars supported Roe when it was decided. And this is the guy [Trump] who says the states should be able to have it.", "context": "Abortion rights and Roe v. Wade decision"}
+```
+
+```json
+{"p": 8, "quote": "We're in a state where in six weeks, you don't even know whether you're pregnant or not, but you cannot see the doctor or have your--and have him decide on what your circumstances are, whether you need help.", "context": "State abortion restrictions and access to doctors"}
+```
+
+```json
+{"p": 8, "quote": "The idea that states are able to do this is a little like saying, we're going to turn civil rights back to the states. Let each state have a different rule.", "context": "Abortion policy and civil rights comparison"}
+```
+
+```json
+{"p": 9, "quote": "We find that the choice that black families have to make relative to childcare is incredibly difficult. When we did the first major piece of legislation in the past, I was able to reduce black childcare costs. I cut them in half.", "context": "Childcare costs and support for black families"}
+```
+
+```json
+{"p": 9, "quote": "We've got to make sure we provide for childcare costs. We've got to make sure--because when you provide that childcare protections, you increase economic growth because more people can be in the job market.", "context": "Childcare policy and economic growth"}
+```
+
+```json
+{"p": 11, "quote": "I was recently in France for [the 80th anniversary of] D-Day, and I went to the World War I cemetery [Trump] refused to go to.", "context": "D-Day and cemetery visit in France"}
+```
+
+```json
+{"p": 11, "quote": "My son [Beau Biden, who served as a JAG in Iraq] was not a loser. He was not a sucker. You're the sucker. You're the loser.", "context": "Defense of son Beau and response to alleged insults"}
+```
+
+```json
+{"p": 11, "quote": "You had a four-star general stand at your side, who was on your staff, who said you said it, period [referring to Trump chief of staff John Kelly].", "context": "General Kelly as witness to Trump's alleged statements"}
+```
+
+```json
+{"p": 12, "quote": "The idea that somehow we are this failing country, I never heard a president talk like this before. We--we're the envy of the world. Name me a single major country president who wouldn't trade places with the United States of America.", "context": "America's position and strength globally"}
+```
+
+```json
+{"p": 12, "quote": "For all our problems and all our opportunities, we're the most progressive country in the world and getting things done. We're the strongest country in the world. We're country in the world who keeps our word and everybody trusts us, all of our allies.", "context": "America's progressive nature and international trust"}
+```

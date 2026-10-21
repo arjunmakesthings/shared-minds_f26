@@ -1,0 +1,15 @@
+```json
+{"topic": "energy-independence", "a": {"score": -0.85, "confidence": 0.75, "reason": "He emphasizes cheap dependable energy as essential for economic independence and making things.", "quotes": ["q1", "q40"]}, "b": {"score": 0.90, "confidence": 0.90, "reason": "He explicitly rejects choosing cheap energy over environmental protection and insists climate action must not be sacrificed.", "quotes": ["q2", "q67"]}}
+```
+```json
+{"topic": "trade-fairness", "a": {"score": -0.80, "confidence": 0.85, "reason": "He explicitly wants to rebalance trade for American workers and manufacturers with reciprocity and fairness.", "quotes": ["q28", "q30", "q33"]}, "b": {"score": 0.0, "confidence": 0.30, "reason": "His quote about investing in America is vaguely related but doesn't clearly address trade policy or reciprocity versus established rules.", "quotes": ["q116"]}}
+```
+```json
+{"topic": "inflation-responsibility", "a": {"score": 0.0, "confidence": 0.10, "reason": "The quote about foreign policy has no clear connection to inflation or leadership credit.", "quotes": ["q101"]}, "b": {"score": 0.0, "confidence": 0.15, "reason": "The quote discusses investment plans but doesn't directly address inflation or taking credit for reducing it.", "quotes": ["q113"]}}
+```
+```json
+{"topic": "middle-east-ceasefire", "a": {"score": 0.0, "confidence": 0.15, "reason": "The quote about energy crisis and gas prices doesn't clearly address diplomatic versus military approaches to Middle East peace.", "quotes": ["q1"]}, "b": {"score": 0.35, "confidence": 0.55, "reason": "He emphasizes standing with Israel and supporting their military response while mentioning rule of law, showing a mixed approach favoring strength over pure diplomacy.", "quotes": ["q163", "q164"]}}
+```
+```json
+{"topic": "border-control", "a": {"score": -0.80, "confidence": 0.85, "reason": "He describes illegal immigration as harming communities through overwhelmed services and competing with Americans for housing.", "quotes": ["q111", "q117"]}, "b": {"score": 0.65, "confidence": 0.70, "reason": "He dismisses border walls as not serious policy, suggesting opposition to restrictive immigration controls.", "quotes": ["q129"]}}
+```

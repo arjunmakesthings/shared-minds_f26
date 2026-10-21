@@ -1,0 +1,802 @@
+{
+  "a": "joe-biden",
+  "b": "nikki-haley",
+  "counts": {
+    "quotesA": 169,
+    "quotesB": 221,
+    "topicsFound": 17
+  },
+  "rows": [
+    {
+      "id": "israel-two-state-solution",
+      "question": "Is a two-state solution the best path forward for Israel and Palestine?",
+      "poles": [
+        "Two-state solution is viable and necessary for security",
+        "Two-state solution is not achievable or advisable"
+      ],
+      "quotesA": [
+        "q84"
+      ],
+      "quotesB": [
+        "q18",
+        "q31"
+      ],
+      "status": "clear",
+      "note": "",
+      "flags": [],
+      "a": {
+        "score": -1,
+        "confidence": 0.95,
+        "reason": "Biden clearly states two-state solution is the only real solution guaranteeing Israel's security and Palestinian dignity.",
+        "quotes": [
+          "q84"
+        ]
+      },
+      "b": {
+        "score": 0.88,
+        "confidence": 0.85,
+        "reason": "Haley explicitly states two-state solution is not possible because Palestinians won't come to the table.",
+        "quotes": [
+          "q18",
+          "q31"
+        ]
+      },
+      "models": {
+        "sonnet": {
+          "a": -1,
+          "b": 0.85
+        },
+        "gpt5": {
+          "a": -1,
+          "b": 0.9
+        }
+      }
+    },
+    {
+      "id": "ukraine-support-priority",
+      "question": "Should the US make supporting Ukraine a key foreign policy priority?",
+      "poles": [
+        "Strong US support for Ukraine is essential",
+        "Ukraine support diverts from other priorities"
+      ],
+      "quotesA": [
+        "q59"
+      ],
+      "quotesB": [
+        "q1",
+        "q27"
+      ],
+      "status": "clear",
+      "note": "",
+      "flags": [],
+      "a": {
+        "score": -0.7,
+        "confidence": 0.6,
+        "reason": "Biden emphasizes regional security consequences of not supporting Ukraine, implying it's a priority.",
+        "quotes": [
+          "q59"
+        ]
+      },
+      "b": {
+        "score": -0.97,
+        "confidence": 0.95,
+        "reason": "Haley strongly advocates supporting Ukraine to prevent war and deter aggression, calling it only 3.5% of defense budget.",
+        "quotes": [
+          "q1",
+          "q27"
+        ]
+      },
+      "models": {
+        "sonnet": {
+          "a": -0.8,
+          "b": -0.95
+        },
+        "gpt5": {
+          "a": -0.6,
+          "b": -1
+        }
+      }
+    },
+    {
+      "id": "china-existential-threat",
+      "question": "Is China the most significant long-term threat to America?",
+      "poles": [
+        "China is the primary existential threat",
+        "China is one concern among many"
+      ],
+      "quotesA": [
+        "q125"
+      ],
+      "quotesB": [
+        "q155",
+        "q210",
+        "q212"
+      ],
+      "status": "unclear",
+      "note": "confidence a 0.3, b 0.95 (needs 0.6)",
+      "flags": [],
+      "a": {
+        "score": 0.35,
+        "confidence": 0.3,
+        "reason": "Biden discusses global changes and economic questions but does not identify China as primary threat.",
+        "quotes": [
+          "q125"
+        ]
+      },
+      "b": {
+        "score": -0.97,
+        "confidence": 0.95,
+        "reason": "Haley repeatedly and explicitly calls China an existential threat and the most dangerous foreign threat since WWII.",
+        "quotes": [
+          "q155",
+          "q210",
+          "q212"
+        ]
+      },
+      "models": {
+        "sonnet": {
+          "a": 0.3,
+          "b": -0.95
+        },
+        "gpt5": {
+          "a": 0.4,
+          "b": -1
+        }
+      }
+    },
+    {
+      "id": "energy-independence-approach",
+      "question": "Should America prioritize energy independence through increased fossil fuel production?",
+      "poles": [
+        "Expand domestic oil and gas drilling",
+        "Transition away from fossil fuels"
+      ],
+      "quotesA": [
+        "q2",
+        "q67"
+      ],
+      "quotesB": [
+        "q13",
+        "q96",
+        "q197"
+      ],
+      "status": "clear",
+      "note": "",
+      "flags": [],
+      "a": {
+        "score": 0.73,
+        "confidence": 0.8,
+        "reason": "Biden emphasizes climate action over energy production and warns against sacrificing environmental future for profit.",
+        "quotes": [
+          "q2",
+          "q67"
+        ]
+      },
+      "b": {
+        "score": -0.55,
+        "confidence": 0.75,
+        "reason": "Haley supports partnering with producers and promises to drill extensively for oil and gas, though acknowledges climate change is real.",
+        "quotes": [
+          "q13",
+          "q96",
+          "q197"
+        ]
+      },
+      "models": {
+        "sonnet": {
+          "a": 0.85,
+          "b": -0.4
+        },
+        "gpt5": {
+          "a": 0.6,
+          "b": -0.7
+        }
+      }
+    },
+    {
+      "id": "national-debt-priority",
+      "question": "Is reducing the national debt an urgent fiscal priority?",
+      "poles": [
+        "Debt reduction must be central to policy",
+        "Debt concerns should not constrain spending"
+      ],
+      "quotesA": [
+        "q57"
+      ],
+      "quotesB": [
+        "q77",
+        "q170",
+        "q172",
+        "q175"
+      ],
+      "status": "unclear",
+      "note": "confidence a 0.5, b 0.95 (needs 0.6)",
+      "flags": [
+        "models disagree on A by 0.7"
+      ],
+      "a": {
+        "score": 0.15,
+        "confidence": 0.5,
+        "reason": "Biden focuses on revenue through taxing billionaires rather than spending cuts, suggesting debt is not a constraint on policy.",
+        "quotes": [
+          "q57"
+        ]
+      },
+      "b": {
+        "score": -0.95,
+        "confidence": 0.95,
+        "reason": "Haley repeatedly emphasizes the urgent debt crisis, criticizes excessive spending, and calls for balanced budgets like she achieved as governor.",
+        "quotes": [
+          "q77",
+          "q170",
+          "q172"
+        ]
+      },
+      "models": {
+        "sonnet": {
+          "a": 0.5,
+          "b": -0.9
+        },
+        "gpt5": {
+          "a": -0.2,
+          "b": -1
+        }
+      }
+    },
+    {
+      "id": "entitlement-reform-necessity",
+      "question": "Do Social Security and Medicare require significant structural reform?",
+      "poles": [
+        "Entitlements need major reform to survive",
+        "Current entitlement structure is sustainable"
+      ],
+      "quotesA": [
+        "q157"
+      ],
+      "quotesB": [
+        "q113",
+        "q180",
+        "q183",
+        "q185"
+      ],
+      "status": "unclear",
+      "note": "confidence a 0.3, b 0.95 (needs 0.6)",
+      "flags": [],
+      "a": {
+        "score": 0.35,
+        "confidence": 0.3,
+        "reason": "Biden's quote suggests protecting entitlements from cuts but doesn't clearly address whether structural reform is needed.",
+        "quotes": [
+          "q157"
+        ]
+      },
+      "b": {
+        "score": -0.95,
+        "confidence": 0.95,
+        "reason": "Haley repeatedly states entitlements will go bankrupt soon and explicitly calls for reform as unsustainable.",
+        "quotes": [
+          "q113",
+          "q180",
+          "q183"
+        ]
+      },
+      "models": {
+        "sonnet": {
+          "a": 0.2,
+          "b": -0.9
+        },
+        "gpt5": {
+          "a": 0.5,
+          "b": -1
+        }
+      }
+    },
+    {
+      "id": "abortion-policy-decision-level",
+      "question": "Should abortion policy be decided by states or the federal government?",
+      "poles": [
+        "States should decide abortion policy",
+        "Federal government should set policy"
+      ],
+      "quotesA": [
+        "q45",
+        "q47"
+      ],
+      "quotesB": [
+        "q10",
+        "q88",
+        "q92",
+        "q94"
+      ],
+      "status": "clear",
+      "note": "",
+      "flags": [],
+      "a": {
+        "score": 0.7,
+        "confidence": 0.75,
+        "reason": "Biden criticizes state control of abortion, comparing it negatively to turning civil rights back to states.",
+        "quotes": [
+          "q45",
+          "q47"
+        ]
+      },
+      "b": {
+        "score": -0.85,
+        "confidence": 0.85,
+        "reason": "Haley explicitly states she wants states to decide abortion policy as close to the people as possible.",
+        "quotes": [
+          "q10"
+        ]
+      },
+      "models": {
+        "sonnet": {
+          "a": 0.7,
+          "b": -0.8
+        },
+        "gpt5": {
+          "a": 0.7,
+          "b": -0.9
+        }
+      }
+    },
+    {
+      "id": "border-security-approach",
+      "question": "Should the US prioritize building physical barriers at the southern border?",
+      "poles": [
+        "Border wall is effective security measure",
+        "Wall-building is ineffective policy"
+      ],
+      "quotesA": [
+        "q63"
+      ],
+      "quotesB": [
+        "q129"
+      ],
+      "status": "unclear",
+      "note": "confidence a 0.4, b 0.1 (needs 0.6)",
+      "flags": [],
+      "a": {
+        "score": -0.05,
+        "confidence": 0.4,
+        "reason": "Biden mentions emergency border shutdown authority but doesn't specifically address physical barriers.",
+        "quotes": [
+          "q63"
+        ]
+      },
+      "b": {
+        "score": 0,
+        "confidence": 0.1,
+        "reason": "The quote discusses tunnels in Israel/Gaza context, not US border security at all.",
+        "quotes": [
+          "q129"
+        ]
+      },
+      "models": {
+        "sonnet": {
+          "a": -0.3,
+          "b": 0
+        },
+        "gpt5": {
+          "a": 0.2,
+          "b": 0
+        }
+      }
+    },
+    {
+      "id": "government-decentralization",
+      "question": "Should federal programs be transferred to state control?",
+      "poles": [
+        "Devolve power to states and local government",
+        "Maintain federal government responsibility"
+      ],
+      "quotesA": [
+        "q19"
+      ],
+      "quotesB": [
+        "q8",
+        "q22"
+      ],
+      "status": "clear",
+      "note": "",
+      "flags": [],
+      "a": {
+        "score": 0.75,
+        "confidence": 0.7,
+        "reason": "Biden emphasizes federal government staying and providing what people need.",
+        "quotes": [
+          "q19"
+        ]
+      },
+      "b": {
+        "score": -0.87,
+        "confidence": 0.9,
+        "reason": "Haley explicitly wants to transfer federal programs to state level and emphasizes states' rights.",
+        "quotes": [
+          "q8",
+          "q22"
+        ]
+      },
+      "models": {
+        "sonnet": {
+          "a": 0.7,
+          "b": -0.8
+        },
+        "gpt5": {
+          "a": 0.8,
+          "b": -0.95
+        }
+      }
+    },
+    {
+      "id": "school-choice-education",
+      "question": "Should families have school choice options including education savings accounts?",
+      "poles": [
+        "Expand school choice and savings accounts",
+        "Maintain traditional public school system"
+      ],
+      "quotesA": [
+        "q69",
+        "q70"
+      ],
+      "quotesB": [
+        "q131"
+      ],
+      "status": "unclear",
+      "note": "confidence a 0.4, b 0.85 (needs 0.6)",
+      "flags": [],
+      "a": {
+        "score": 0.5,
+        "confidence": 0.4,
+        "reason": "Biden discusses expanding tutoring and business connections but doesn't mention school choice or savings accounts.",
+        "quotes": [
+          "q69",
+          "q70"
+        ]
+      },
+      "b": {
+        "score": -0.92,
+        "confidence": 0.85,
+        "reason": "Haley explicitly supports education savings accounts and fought for school choice as governor.",
+        "quotes": [
+          "q131"
+        ]
+      },
+      "models": {
+        "sonnet": {
+          "a": 0.5,
+          "b": -0.9
+        },
+        "gpt5": {
+          "a": 0.5,
+          "b": -0.95
+        }
+      }
+    },
+    {
+      "id": "reading-proficiency-priority",
+      "question": "Is ensuring children read proficiently by third grade a critical priority?",
+      "poles": [
+        "Reading by third grade is essential focus",
+        "Reading is important but not primary focus"
+      ],
+      "quotesA": [
+        "q69"
+      ],
+      "quotesB": [
+        "q90"
+      ],
+      "status": "clear",
+      "note": "",
+      "flags": [],
+      "a": {
+        "score": -0.9,
+        "confidence": 0.85,
+        "reason": "Explicitly wants to expand tutoring and summer learning to ensure every child reads by third grade",
+        "quotes": [
+          "q69"
+        ]
+      },
+      "b": {
+        "score": -0.92,
+        "confidence": 0.9,
+        "reason": "Emphasizes reading by third grade as critical need with specific consequence cited and calls for national reading remediation",
+        "quotes": [
+          "q90"
+        ]
+      },
+      "models": {
+        "sonnet": {
+          "a": -0.9,
+          "b": -0.95
+        },
+        "gpt5": {
+          "a": -0.9,
+          "b": -0.9
+        }
+      }
+    },
+    {
+      "id": "prescription-drug-price-control",
+      "question": "Should the federal government directly cap prescription drug costs for seniors?",
+      "poles": [
+        "Cap drug costs through government action",
+        "Market competition should set drug prices"
+      ],
+      "quotesA": [
+        "q122",
+        "q123"
+      ],
+      "quotesB": [
+        "q86"
+      ],
+      "status": "unclear",
+      "note": "confidence a 0.95, b 0.5 (needs 0.6)",
+      "flags": [
+        "models disagree on B by 0.6"
+      ],
+      "a": {
+        "score": -0.95,
+        "confidence": 0.95,
+        "reason": "Directly enacted government caps on insulin costs and total prescription drug spending for seniors",
+        "quotes": [
+          "q122",
+          "q123"
+        ]
+      },
+      "b": {
+        "score": 0,
+        "confidence": 0.5,
+        "reason": "Advocates breaking up and making healthcare transparent but doesn't specifically mention government price caps",
+        "quotes": [
+          "q86"
+        ]
+      },
+      "models": {
+        "sonnet": {
+          "a": -0.95,
+          "b": -0.3
+        },
+        "gpt5": {
+          "a": -0.95,
+          "b": 0.3
+        }
+      }
+    },
+    {
+      "id": "trade-policy-china-focus",
+      "question": "Should America focus on reducing trade deficits with China?",
+      "poles": [
+        "Focus on balancing trade relationships",
+        "Trade relationships secondary to security concerns"
+      ],
+      "quotesA": [
+        "q116"
+      ],
+      "quotesB": [
+        "q84"
+      ],
+      "status": "unclear",
+      "note": "confidence a 0.3, b 0.9 (needs 0.6)",
+      "flags": [],
+      "a": {
+        "score": 0.2,
+        "confidence": 0.3,
+        "reason": "Discusses general economic vision but doesn't specifically address China trade or security priorities",
+        "quotes": [
+          "q116"
+        ]
+      },
+      "b": {
+        "score": 0.85,
+        "confidence": 0.9,
+        "reason": "Explicitly states trade with China was wrong focus and security concerns should be prioritized instead",
+        "quotes": [
+          "q84"
+        ]
+      },
+      "models": {
+        "sonnet": {
+          "a": 0,
+          "b": 0.8
+        },
+        "gpt5": {
+          "a": 0.4,
+          "b": 0.9
+        }
+      }
+    },
+    {
+      "id": "wealthy-tax-burden",
+      "question": "Should billionaires and wealthy individuals pay higher tax rates?",
+      "poles": [
+        "Increase taxes on wealthy individuals",
+        "Keep current tax rates for wealthy"
+      ],
+      "quotesA": [
+        "q57"
+      ],
+      "quotesB": [
+        "q81"
+      ],
+      "status": "unclear",
+      "note": "confidence a 0.95, b 0.55 (needs 0.6)",
+      "flags": [
+        "models disagree on B by 0.8"
+      ],
+      "a": {
+        "score": -0.9,
+        "confidence": 0.95,
+        "reason": "Specifically advocates raising billionaire tax rates from 8.2% to 24-25% to generate revenue",
+        "quotes": [
+          "q57"
+        ]
+      },
+      "b": {
+        "score": 0,
+        "confidence": 0.55,
+        "reason": "Acknowledges rich getting richer as problem and focuses on middle class relief but doesn't explicitly call for higher wealthy taxes",
+        "quotes": [
+          "q81"
+        ]
+      },
+      "models": {
+        "sonnet": {
+          "a": -0.9,
+          "b": -0.4
+        },
+        "gpt5": {
+          "a": -0.9,
+          "b": 0.4
+        }
+      }
+    },
+    {
+      "id": "middle-class-economic-focus",
+      "question": "Should economic policy prioritize strengthening the middle class?",
+      "poles": [
+        "Prioritize middle-class economic support",
+        "Focus on growth broadly"
+      ],
+      "quotesA": [
+        "q104",
+        "q108",
+        "q116"
+      ],
+      "quotesB": [
+        "q39",
+        "q81",
+        "q164"
+      ],
+      "status": "clear",
+      "note": "",
+      "flags": [],
+      "a": {
+        "score": -0.9,
+        "confidence": 0.95,
+        "reason": "Explicitly centers economic policy on middle-out bottom-up approach with personal anecdotes emphasizing middle class focus",
+        "quotes": [
+          "q104",
+          "q108",
+          "q116"
+        ]
+      },
+      "b": {
+        "score": -0.77,
+        "confidence": 0.85,
+        "reason": "Explicitly states need to beef up middle class and promises tax relief to middle-class families",
+        "quotes": [
+          "q81",
+          "q164",
+          "q39"
+        ]
+      },
+      "models": {
+        "sonnet": {
+          "a": -0.95,
+          "b": -0.85
+        },
+        "gpt5": {
+          "a": -0.85,
+          "b": -0.7
+        }
+      }
+    },
+    {
+      "id": "democracy-threat-concern",
+      "question": "Is democracy in America facing an immediate existential threat?",
+      "poles": [
+        "Democracy faces serious internal threats",
+        "Democratic system remains fundamentally sound"
+      ],
+      "quotesA": [
+        "q33",
+        "q38"
+      ],
+      "quotesB": [
+        "q51",
+        "q56"
+      ],
+      "status": "unclear",
+      "note": "confidence a 0.86, b 0.42 (needs 0.6)",
+      "flags": [
+        "models disagree on B by 0.6"
+      ],
+      "a": {
+        "score": -0.8,
+        "confidence": 0.86,
+        "reason": "Biden explicitly states democracy must be saved and preserved, describing an inflection point determining the nation's fate.",
+        "quotes": [
+          "q33",
+          "q38"
+        ]
+      },
+      "b": {
+        "score": -0.1,
+        "confidence": 0.42,
+        "reason": "Haley expresses worry about the country's future and divisions but doesn't explicitly frame it as a democracy threat.",
+        "quotes": [
+          "q51",
+          "q56"
+        ]
+      },
+      "models": {
+        "sonnet": {
+          "a": -0.8,
+          "b": -0.4
+        },
+        "gpt5": {
+          "a": -0.8,
+          "b": 0.2
+        }
+      }
+    },
+    {
+      "id": "political-unity-priority",
+      "question": "Should leaders prioritize reducing political divisions and unifying the country?",
+      "poles": [
+        "Unity and cooperation should be central",
+        "Fighting partisan battles is necessary"
+      ],
+      "quotesA": [
+        "q78"
+      ],
+      "quotesB": [
+        "q42",
+        "q48",
+        "q51",
+        "q56"
+      ],
+      "status": "unclear",
+      "note": "confidence a 0.7, b 0.58 (needs 0.6)",
+      "flags": [],
+      "a": {
+        "score": -0.75,
+        "confidence": 0.7,
+        "reason": "Biden calls for joining together without regard to party to defend democracy and restore trust.",
+        "quotes": [
+          "q78"
+        ]
+      },
+      "b": {
+        "score": -0.45,
+        "confidence": 0.58,
+        "reason": "Haley emphasizes putting negativity and chaos behind, questions if current leaders can unite the country, and expresses concern about divisions.",
+        "quotes": [
+          "q42",
+          "q48",
+          "q51"
+        ]
+      },
+      "models": {
+        "sonnet": {
+          "a": -0.7,
+          "b": -0.6
+        },
+        "gpt5": {
+          "a": -0.8,
+          "b": -0.3
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,375 @@
+{
+  "a": "donald-trump",
+  "b": "jd-vance",
+  "counts": {
+    "quotesA": 182,
+    "quotesB": 181,
+    "topicsFound": 8
+  },
+  "rows": [
+    {
+      "id": "iran-policy",
+      "question": "Should the US pursue military confrontation with Iran or diplomatic negotiations?",
+      "poles": [
+        "Pursue military confrontation with Iran",
+        "Pursue diplomatic negotiations with Iran"
+      ],
+      "quotesA": [
+        "q2",
+        "q14",
+        "q18"
+      ],
+      "quotesB": [
+        "q10",
+        "q20",
+        "q26"
+      ],
+      "status": "unclear",
+      "note": "confidence a 0.7, b 0.5 (needs 0.6)",
+      "flags": [],
+      "a": {
+        "score": -0.65,
+        "confidence": 0.7,
+        "reason": "Emphasizes military options including annihilation, taking islands, and naval confrontation while mentioning diplomacy only as alternative.",
+        "quotes": [
+          "q2",
+          "q14",
+          "q18"
+        ]
+      },
+      "b": {
+        "score": 0.65,
+        "confidence": 0.5,
+        "reason": "States all major conflicts end with negotiation and advocates against continuation of conflict, though quotes discuss general principles not Iran specifically.",
+        "quotes": [
+          "q10",
+          "q20",
+          "q26"
+        ]
+      },
+      "models": {
+        "sonnet": {
+          "a": -0.6,
+          "b": 0.8
+        },
+        "gpt5": {
+          "a": -0.7,
+          "b": 0.5
+        }
+      }
+    },
+    {
+      "id": "energy-independence",
+      "question": "Should the US prioritize fossil fuels over renewable energy?",
+      "poles": [
+        "Prioritize fossil fuels over renewables",
+        "Prioritize renewable energy"
+      ],
+      "quotesA": [
+        "q177",
+        "q178"
+      ],
+      "quotesB": [
+        "q40",
+        "q115"
+      ],
+      "status": "unclear",
+      "note": "confidence a 0.9, b 0.5 (needs 0.6)",
+      "flags": [],
+      "a": {
+        "score": -0.9,
+        "confidence": 0.9,
+        "reason": "Explicitly advocates for oil, gasoline, and natural gas as cheaper, better, and more powerful than alternatives.",
+        "quotes": [
+          "q177",
+          "q178"
+        ]
+      },
+      "b": {
+        "score": -0.55,
+        "confidence": 0.5,
+        "reason": "Emphasizes cheap, dependable energy and criticizes renewable subsidies that benefit China, suggesting fossil fuel preference.",
+        "quotes": [
+          "q40",
+          "q115"
+        ]
+      },
+      "models": {
+        "sonnet": {
+          "a": -0.9,
+          "b": -0.7
+        },
+        "gpt5": {
+          "a": -0.9,
+          "b": -0.4
+        }
+      }
+    },
+    {
+      "id": "immigration-enforcement",
+      "question": "Should the US prioritize deporting illegal immigrants?",
+      "poles": [
+        "Prioritize rapid deportation of illegal immigrants",
+        "Focus on other policy priorities first"
+      ],
+      "quotesA": [
+        "q61",
+        "q153"
+      ],
+      "quotesB": [
+        "q111"
+      ],
+      "status": "clear",
+      "note": "",
+      "flags": [],
+      "a": {
+        "score": -0.9,
+        "confidence": 0.9,
+        "reason": "States ending border invasion and sending illegals back home as explicit priority.",
+        "quotes": [
+          "q61",
+          "q153"
+        ]
+      },
+      "b": {
+        "score": -0.6,
+        "confidence": 0.6,
+        "reason": "Advocates starting deportations with criminal migrants among 20-25 million illegal aliens, showing prioritization of enforcement.",
+        "quotes": [
+          "q111"
+        ]
+      },
+      "models": {
+        "sonnet": {
+          "a": -0.9,
+          "b": -0.7
+        },
+        "gpt5": {
+          "a": -0.9,
+          "b": -0.5
+        }
+      }
+    },
+    {
+      "id": "trade-reciprocity",
+      "question": "Should the US use tariffs to rebalance trade relationships?",
+      "poles": [
+        "Use tariffs to achieve trade reciprocity",
+        "Maintain current trade approach"
+      ],
+      "quotesA": [
+        "q28",
+        "q92",
+        "q106"
+      ],
+      "quotesB": [
+        "q28",
+        "q30"
+      ],
+      "status": "clear",
+      "note": "",
+      "flags": [],
+      "a": {
+        "score": -0.92,
+        "confidence": 0.9,
+        "reason": "Strongly advocates using tariffs including 100% tariffs and non-monetary barriers to rebalance trade and enforce dollar compliance.",
+        "quotes": [
+          "q28",
+          "q92",
+          "q106"
+        ]
+      },
+      "b": {
+        "score": -0.7,
+        "confidence": 0.6,
+        "reason": "Explicitly supports rebalancing trade and achieving reciprocity for American workers and manufacturers.",
+        "quotes": [
+          "q28",
+          "q30"
+        ]
+      },
+      "models": {
+        "sonnet": {
+          "a": -0.95,
+          "b": -0.8
+        },
+        "gpt5": {
+          "a": -0.9,
+          "b": -0.6
+        }
+      }
+    },
+    {
+      "id": "ukraine-policy",
+      "question": "Should the US continue supporting Ukraine against Russia?",
+      "poles": [
+        "US should reduce involvement in Ukraine",
+        "US should continue supporting Ukraine"
+      ],
+      "quotesA": [
+        "q26"
+      ],
+      "quotesB": [
+        "q173"
+      ],
+      "status": "unclear",
+      "note": "confidence a 0.1, b 0.6 (needs 0.6)",
+      "flags": [],
+      "a": {
+        "score": -0.1,
+        "confidence": 0.1,
+        "reason": "Quote discusses Iran and Germany, not Ukraine policy, providing no relevant information.",
+        "quotes": [
+          "q26"
+        ]
+      },
+      "b": {
+        "score": -0.65,
+        "confidence": 0.6,
+        "reason": "Argues Europe should stand on its own feet and not use America as a crutch, rejecting domino theory justifications for war.",
+        "quotes": [
+          "q173"
+        ]
+      },
+      "models": {
+        "sonnet": {
+          "a": 0,
+          "b": -0.7
+        },
+        "gpt5": {
+          "a": -0.2,
+          "b": -0.6
+        }
+      }
+    },
+    {
+      "id": "election-integrity",
+      "question": "Are US elections sufficiently secure and legitimate?",
+      "poles": [
+        "Elections have serious security problems",
+        "Elections are secure and legitimate"
+      ],
+      "quotesA": [
+        "q120"
+      ],
+      "quotesB": [
+        "q119"
+      ],
+      "status": "unclear",
+      "note": "confidence a 0.85, b 0.3 (needs 0.6)",
+      "flags": [],
+      "a": {
+        "score": -0.85,
+        "confidence": 0.85,
+        "reason": "States elections are bad and compromised by illegal immigrants trying to vote.",
+        "quotes": [
+          "q120"
+        ]
+      },
+      "b": {
+        "score": -0.2,
+        "confidence": 0.3,
+        "reason": "Mentions threat to democracy but focuses on censorship rather than election security itself.",
+        "quotes": [
+          "q119"
+        ]
+      },
+      "models": {
+        "sonnet": {
+          "a": -0.8,
+          "b": 0
+        },
+        "gpt5": {
+          "a": -0.9,
+          "b": -0.4
+        }
+      }
+    },
+    {
+      "id": "abortion-policy",
+      "question": "Should abortion decisions be made at state or federal level?",
+      "poles": [
+        "States should decide abortion policy",
+        "Federal government should regulate abortion"
+      ],
+      "quotesA": [
+        "q109"
+      ],
+      "quotesB": [
+        "q89"
+      ],
+      "status": "unclear",
+      "note": "confidence a 0.95, b 0.4 (needs 0.6)",
+      "flags": [],
+      "a": {
+        "score": -0.95,
+        "confidence": 0.95,
+        "reason": "Explicitly states would not support federal ban and that states should decide based on voters' will.",
+        "quotes": [
+          "q109"
+        ]
+      },
+      "b": {
+        "score": 0,
+        "confidence": 0.4,
+        "reason": "Discusses balancing autonomy and life interests without taking clear position on state versus federal control.",
+        "quotes": [
+          "q89"
+        ]
+      },
+      "models": {
+        "sonnet": {
+          "a": -0.95,
+          "b": 0
+        },
+        "gpt5": {
+          "a": -0.95,
+          "b": 0
+        }
+      }
+    },
+    {
+      "id": "border-crisis",
+      "question": "Has immigration policy made border security worse?",
+      "poles": [
+        "Immigration policy has worsened border security",
+        "Immigration policy has not worsened border security"
+      ],
+      "quotesA": [
+        "q126"
+      ],
+      "quotesB": [
+        "q117"
+      ],
+      "status": "clear",
+      "note": "",
+      "flags": [],
+      "a": {
+        "score": -0.87,
+        "confidence": 0.8,
+        "reason": "States millions of people allowed in are destroying the country.",
+        "quotes": [
+          "q126"
+        ]
+      },
+      "b": {
+        "score": -0.82,
+        "confidence": 0.8,
+        "reason": "States millions of illegal immigrants brought in have overwhelmed schools, hospitals and housing.",
+        "quotes": [
+          "q117"
+        ]
+      },
+      "models": {
+        "sonnet": {
+          "a": -0.9,
+          "b": -0.85
+        },
+        "gpt5": {
+          "a": -0.85,
+          "b": -0.8
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,71 @@
+```json
+{"p": 1, "quote": "When I announced my candidacy for President, I laid out a vision for a strong and proud America.", "context": "Presidential campaign vision"}
+```
+
+```json
+{"p": 1, "quote": "China is an existential threat. It has spent half a century plotting to defeat us.", "context": "China as national security threat"}
+```
+
+```json
+{"p": 1, "quote": "My highest priority is keeping Americans safe. We must do everything in our power to prevent a war and keep the peace.", "context": "National security and war prevention priorities"}
+```
+
+```json
+{"p": 1, "quote": "I'm running for President to save our country. We'll end Joe Biden's disastrous slide into socialism. We'll unlock the power of American freedom.", "context": "Campaign platform against socialism"}
+```
+
+```json
+{"p": 1, "quote": "Everything is more expensive than it was two years ago. It's not just gas and groceries. The price of used cars soared by 30%. Mortgage rates are nearly three times higher.", "context": "Inflation and cost of living criticism"}
+```
+
+```json
+{"p": 1, "quote": "Inflation hurts families, retirees, and the least fortunate the most – and Joe Biden's spending binge is to blame.", "context": "Biden administration economic policy blame"}
+```
+
+```json
+{"p": 1, "quote": "Biden is also throwing our tax dollars at another kind of welfare: Corporate welfare. He's opened the floodgates of taxpayer bailouts, handouts, and carveouts for special interests.", "context": "Criticism of corporate welfare programs"}
+```
+
+```json
+{"p": 1, "quote": "The well-connected are getting wealthier through corporate welfare, while the poor get trapped in regular welfare. That's called socialism. And as history shows, socialism kills the middle class.", "context": "Definition of socialism and middle class impact"}
+```
+
+```json
+{"p": 1, "quote": "Joe Biden is pushing us to buy expensive electric cars and subsidizing car companies. Innovative electric car companies don't need subsidies. But beyond that, most EV batteries are made in China.", "context": "Electric vehicle subsidies and China policy criticism"}
+```
+
+```json
+{"p": 1, "quote": "We're living through the biggest revolution since 1776 – and the polar opposite, too. We are led by a president and a party who believe Washington should have more power than the American people.", "context": "Government power versus individual freedom"}
+```
+
+```json
+{"p": 1, "quote": "My plan starts by giving real relief and financial freedom to middle class Americans. Every middle-class family will get thousands of dollars in tax relief.", "context": "Freedom Plan middle class tax relief proposal"}
+```
+
+```json
+{"p": 1, "quote": "No one knows how to use your money better than you – no one. When you make your own choices, you make our economy even stronger.", "context": "Individual choice and economic empowerment philosophy"}
+```
+
+```json
+{"p": 1, "quote": "For starters, we'll completely eliminate the federal gas and diesel tax. That's 18 cents per gallon in savings on gas and 24 cents on diesel.", "context": "Gas tax elimination proposal"}
+```
+
+```json
+{"p": 1, "quote": "It's wrong for Washington to force a working-class family in Tennessee to subsidize a wealthy family in California.", "context": "SALT deduction fairness criticism"}
+```
+
+```json
+{"p": 1, "quote": "We should also eliminate Joe Biden's $500 billion in green energy subsidies. No more cash windfalls for China.", "context": "Green energy subsidies policy position"}
+```
+
+```json
+{"p": 1, "quote": "I refuse to let that happen. I'll give you long-term relief by forcing Washington to live within its means.", "context": "Spending control and fiscal responsibility commitment"}
+```
+
+```json
+{"p": 1, "quote": "Joe Biden, Donald Trump, and Barack Obama added more to our national debt than the previous 42 presidents combined. They tripled the debt from $10 trillion to $33 trillion.", "context": "National debt criticism across administrations"}
+```
+
+```json
+{"p": 1, "quote": "Politicians can't spend their way to socialism if they don't have the cash. We need to cut up the credit card – now.", "context": "Fiscal restraint and spending control policy"}
+```

@@ -1,0 +1,228 @@
+{
+  "a": "jd-vance",
+  "b": "kamala-harris",
+  "approved": "2026-10-21",
+  "counts": {
+    "quotesA": 181,
+    "quotesB": 157,
+    "topicsFound": 17,
+    "dimensions": 6
+  },
+  "dims": [
+    {
+      "id": "border-security-approach",
+      "question": "Should the U.S. prioritize securing the border before addressing immigration reform?",
+      "poles": [
+        "Secure border first, then address immigration",
+        "Reform immigration system while securing border"
+      ],
+      "a": {
+        "score": -0.77,
+        "reason": "Focuses on removing illegal immigrants and addressing border impacts first without mentioning simultaneous reform.",
+        "quotes": [
+          "q111",
+          "q117"
+        ]
+      },
+      "b": {
+        "score": 0.65,
+        "reason": "Explicitly advocates for both securing the border and passing immigration reform including pathway to citizenship simultaneously.",
+        "quotes": [
+          "q8",
+          "q62",
+          "q63"
+        ]
+      },
+      "models": {
+        "sonnet": {
+          "a": -0.85,
+          "b": 0.7
+        },
+        "gpt5": {
+          "a": -0.7,
+          "b": 0.6
+        }
+      },
+      "edited": false
+    },
+    {
+      "id": "ukraine-us-involvement",
+      "question": "Should the U.S. continue substantial military support for Ukraine?",
+      "poles": [
+        "Continue robust support for Ukrainian defense",
+        "Reduce U.S. involvement, let Europe lead"
+      ],
+      "a": {
+        "score": 0.68,
+        "reason": "Views conflict continuation as bad for US and argues Europe should stand on its own feet rather than rely on America.",
+        "quotes": [
+          "q26",
+          "q173"
+        ]
+      },
+      "b": {
+        "score": -0.7,
+        "reason": "Met with Zelenskyy before invasion, rallied 50 countries to support Ukraine's defense, and emphasizes strengthening alliances.",
+        "quotes": [
+          "q35",
+          "q43",
+          "q63"
+        ]
+      },
+      "models": {
+        "sonnet": {
+          "a": 0.75,
+          "b": -0.8
+        },
+        "gpt5": {
+          "a": 0.6,
+          "b": -0.6
+        }
+      },
+      "edited": false
+    },
+    {
+      "id": "energy-independence-strategy",
+      "question": "Should the U.S. prioritize fossil fuels to ensure energy independence?",
+      "poles": [
+        "Prioritize cheap fossil fuels for independence",
+        "Invest in diverse renewable energy sources"
+      ],
+      "a": {
+        "score": -0.57,
+        "reason": "Emphasizes cheap dependable energy and criticizes renewable investments that rely on Chinese manufacturing.",
+        "quotes": [
+          "q1",
+          "q40",
+          "q115"
+        ]
+      },
+      "b": {
+        "score": 0.55,
+        "reason": "Advocates investing in diverse energy sources to reduce foreign oil reliance while also supporting fracking.",
+        "quotes": [
+          "q28",
+          "q29"
+        ]
+      },
+      "models": {
+        "sonnet": {
+          "a": -0.75,
+          "b": 0.6
+        },
+        "gpt5": {
+          "a": -0.4,
+          "b": 0.5
+        }
+      },
+      "edited": false
+    },
+    {
+      "id": "social-security-protection",
+      "question": "Should Social Security remain public rather than privatized?",
+      "poles": [
+        "Keep Social Security as public program",
+        "Allow privatization and market-based options"
+      ],
+      "a": {
+        "score": -0.85,
+        "reason": "Explicitly rejects privatization and argues against making elderly people fend for themselves.",
+        "quotes": [
+          "q162"
+        ]
+      },
+      "b": {
+        "score": -0.67,
+        "reason": "Opposes cuts to Social Security and promises to protect it but doesn't directly address privatization.",
+        "quotes": [
+          "q57"
+        ]
+      },
+      "models": {
+        "sonnet": {
+          "a": -0.85,
+          "b": -0.75
+        },
+        "gpt5": {
+          "a": -0.85,
+          "b": -0.6
+        }
+      },
+      "edited": false
+    },
+    {
+      "id": "foreign-policy-focus",
+      "question": "Should the U.S. reduce its global military commitments?",
+      "poles": [
+        "Reduce global military commitments and costs",
+        "Maintain robust international security presence"
+      ],
+      "a": {
+        "score": -0.8,
+        "reason": "Advocates for reducing American global policing, empowering regional powers, and focusing on Asia rather than worldwide commitments.",
+        "quotes": [
+          "q99",
+          "q101",
+          "q169"
+        ]
+      },
+      "b": {
+        "score": 0.7,
+        "reason": "Emphasizes alliances, global leadership role, being a champion of liberty worldwide, and maintaining strong security presence.",
+        "quotes": [
+          "q5",
+          "q6",
+          "q20"
+        ]
+      },
+      "models": {
+        "sonnet": {
+          "a": -0.8,
+          "b": 0.7
+        },
+        "gpt5": {
+          "a": -0.8,
+          "b": 0.7
+        }
+      },
+      "edited": false
+    },
+    {
+      "id": "trump-presidency-assessment",
+      "question": "Has Trump's record demonstrated strong leadership or danger?",
+      "poles": [
+        "Trump demonstrates effective leadership record",
+        "Trump poses serious danger to democracy"
+      ],
+      "a": {
+        "score": -0.92,
+        "reason": "Vance praises Trump's intelligence, leadership, trustworthiness, and peace record consistently across multiple quotes.",
+        "quotes": [
+          "q4",
+          "q16",
+          "q77"
+        ]
+      },
+      "b": {
+        "score": 0.95,
+        "reason": "Harris characterizes Trump as seeking unchecked power, comparing him to Hitler, calling him unhinged and a threat to democracy.",
+        "quotes": [
+          "q12",
+          "q137",
+          "q142"
+        ]
+      },
+      "models": {
+        "sonnet": {
+          "a": -0.9,
+          "b": 0.95
+        },
+        "gpt5": {
+          "a": -0.95,
+          "b": 0.95
+        }
+      },
+      "edited": false
+    }
+  ]
+}

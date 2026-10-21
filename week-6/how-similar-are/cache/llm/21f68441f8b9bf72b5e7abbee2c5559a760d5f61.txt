@@ -1,0 +1,39 @@
+```json
+{"p": 49, "quote": "People overstate the problem with the Social Security trust fund in particular. I think so long as we don't do really ridiculous things on spending, Social Security should be stable. It should be something we're able to take care of in the long term.", "context": "Social Security trust fund concerns and stability"}
+```
+
+```json
+{"p": 49, "quote": "We've got to, frankly, stop spending so much on welfare benefits and start having a lot more workers who are paying into the system.", "context": "Financing Social Security through more workers"}
+```
+
+```json
+{"p": 51, "quote": "We know that the president has to have immunity to do his job. Should Barack Obama be prosecuted for droning American citizens in Yemen? There are so many examples of presidents Democrats and Republicans who would not be able to discharge their duties if the Supreme Court does not recognize some broad element of presidential discretion. I'm very confident that they're going to be able to do that.", "context": "Presidential immunity and discretion"}
+```
+
+```json
+{"p": 52, "quote": "Biden's entire agenda, such that it exists, has been about protecting green energy jobs, at the expense of the industrial heartland. If you are in Wisconsin, Michigan, or Pennsylvania, you are not being empowered or enriched by Biden's green energy agenda.", "context": "Biden's green energy agenda impact on industrial regions"}
+```
+
+```json
+{"p": 52, "quote": "The reason Europe has become weaker is because they've deindustrialized. And why have they deindustrialized? Because they've pursued a green energy agenda, following the lead of the Biden administration, and that necessarily empowers China and Russia.", "context": "Europe's deindustrialization and green energy agenda"}
+```
+
+```json
+{"p": 52, "quote": "We need to acknowledge that it's our decisions that are making these countries stronger. We need to fix that, not whine at countries that have 10 million people.", "context": "U.S. responsibility for empowering rival countries"}
+```
+
+```json
+{"p": 53, "quote": "Why is Viktor Orban getting closer to China? In part, because American leadership is not making smart decisions. We are pushing other nations into the arms of the Chinese, because we don't make enough stuff, because we pursue a ridiculous foreign policy very often.", "context": "American leadership driving nations toward China"}
+```
+
+```json
+{"p": 53, "quote": "We have to be more self-reliant. I don't like China. I don't like that China has stolen a lot of American jobs. The reason they've done it is because American leadership has made bad decisions.", "context": "Self-reliance and Chinese economic competition"}
+```
+
+```json
+{"p": 54, "quote": "I've been trying to make sure we don't take an escalatory posture.", "context": "Ukraine policy and avoiding escalation"}
+```
+
+```json
+{"p": 54, "quote": "The best role for the United States, he said, is to help facilitate a peaceful resolution to the Russian-Ukraine conflict and prevent this thing from escalating into World War III.", "context": "U.S. role in Ukraine and preventing World War III"}
+```

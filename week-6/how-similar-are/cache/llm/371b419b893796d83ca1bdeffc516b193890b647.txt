@@ -1,0 +1,15 @@
+```json
+{"p": 1, "quote": "Donald Trump's track record is a disaster for working people, and he is an existential threat to America's labor movement.", "context": "Trump's impact on labor and unions"}
+```
+
+```json
+{"p": 1, "quote": "He intends to launch a full-on attack on unions and the freedom to organize. He will ban public-sector unions.", "context": "Trump's planned labor policies"}
+```
+
+```json
+{"p": 1, "quote": "We're not going back. We're not going back. We are not going back.", "context": "Campaign message about direction forward"}
+```
+
+```json
+{"p": 1, "quote": "I do believe one of the highest forms of patriotism, of our expression of our love for our country, is to then fight for the ideals of our country.", "context": "Definition of patriotism and civic duty"}
+```

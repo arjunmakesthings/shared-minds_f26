@@ -1,0 +1,364 @@
+{
+  "a": "kamala-harris",
+  "b": "nikki-haley",
+  "approved": "2026-10-21",
+  "counts": {
+    "quotesA": 157,
+    "quotesB": 221,
+    "topicsFound": 13,
+    "dimensions": 10
+  },
+  "dims": [
+    {
+      "id": "israel-palestine-solution",
+      "question": "Should the U.S. support a two-state solution for Israel and Palestine?",
+      "poles": [
+        "Support two-state solution with equal security for both",
+        "Two-state solution is not feasible or desirable"
+      ],
+      "a": {
+        "score": -0.95,
+        "reason": "Explicitly supports two-state solution with equal security for both Israelis and Palestinians",
+        "quotes": [
+          "q33",
+          "q89"
+        ]
+      },
+      "b": {
+        "score": 0.85,
+        "reason": "States two-state solution is not possible because Palestinians reject it and won't come to the table",
+        "quotes": [
+          "q18",
+          "q31"
+        ]
+      },
+      "models": {
+        "sonnet": {
+          "a": -0.9,
+          "b": 0.8
+        },
+        "gpt5": {
+          "a": -1,
+          "b": 0.9
+        }
+      },
+      "edited": false
+    },
+    {
+      "id": "ukraine-support",
+      "question": "Should the U.S. provide military support to Ukraine against Russia?",
+      "poles": [
+        "Provide military aid to Ukraine's defense",
+        "Reduce or condition military aid to Ukraine"
+      ],
+      "a": {
+        "score": -0.87,
+        "reason": "Met with Zelenskyy before invasion and brought 50 countries together to support Ukraine's defense",
+        "quotes": [
+          "q35",
+          "q43"
+        ]
+      },
+      "b": {
+        "score": -0.9,
+        "reason": "Strongly supports Ukraine militarily, saying failing to do so would reward aggression and be wrong",
+        "quotes": [
+          "q1",
+          "q27"
+        ]
+      },
+      "models": {
+        "sonnet": {
+          "a": -0.95,
+          "b": -0.9
+        },
+        "gpt5": {
+          "a": -0.8,
+          "b": -0.9
+        }
+      },
+      "edited": false
+    },
+    {
+      "id": "abortion-restrictions",
+      "question": "Should abortion be restricted, particularly in later stages of pregnancy?",
+      "poles": [
+        "Allow abortion access without significant restrictions",
+        "Restrict abortion, especially late-term procedures"
+      ],
+      "a": {
+        "score": -0.92,
+        "reason": "Opposes restrictions, pledges to sign bill restoring reproductive freedom nationwide without limitations",
+        "quotes": [
+          "q60",
+          "q84",
+          "q136"
+        ]
+      },
+      "b": {
+        "score": 0.65,
+        "reason": "Pro-life but focuses on late-term restrictions specifically, asking if opponents support late-term abortions",
+        "quotes": [
+          "q88",
+          "q92",
+          "q94"
+        ]
+      },
+      "models": {
+        "sonnet": {
+          "a": -0.95,
+          "b": 0.6
+        },
+        "gpt5": {
+          "a": -0.9,
+          "b": 0.7
+        }
+      },
+      "edited": false
+    },
+    {
+      "id": "border-security",
+      "question": "Should the U.S. strengthen border security and immigration enforcement?",
+      "poles": [
+        "Strengthen border security and enforcement",
+        "Create pathways to legal status and soften enforcement"
+      ],
+      "a": {
+        "score": -0.25,
+        "reason": "Supports both border security measures and pathway to citizenship, emphasizing bipartisan border bill while also immigration reform",
+        "quotes": [
+          "q8",
+          "q21",
+          "q62"
+        ]
+      },
+      "b": {
+        "score": -0.75,
+        "reason": "Signed tough immigration bill and supports defunding sanctuary cities and remain in Mexico policy",
+        "quotes": [
+          "q62",
+          "q118"
+        ]
+      },
+      "models": {
+        "sonnet": {
+          "a": -0.3,
+          "b": -0.7
+        },
+        "gpt5": {
+          "a": -0.2,
+          "b": -0.8
+        }
+      },
+      "edited": false
+    },
+    {
+      "id": "iran-policy",
+      "question": "Should the U.S. maintain strict sanctions and policy toward Iran?",
+      "poles": [
+        "Maintain tough sanctions and adversarial stance",
+        "Re-engage diplomatically through agreements like JCPOA"
+      ],
+      "a": {
+        "score": -0.7,
+        "reason": "Pledges to take necessary action against Iran and Iran-backed terrorists without hesitation",
+        "quotes": [
+          "q65"
+        ]
+      },
+      "b": {
+        "score": -0.82,
+        "reason": "Criticizes lifting sanctions on Iran and getting back into Iran deal",
+        "quotes": [
+          "q6"
+        ]
+      },
+      "models": {
+        "sonnet": {
+          "a": -0.8,
+          "b": -0.85
+        },
+        "gpt5": {
+          "a": -0.6,
+          "b": -0.8
+        }
+      },
+      "edited": false
+    },
+    {
+      "id": "entitlement-reform",
+      "question": "Should Social Security and Medicare be reformed to ensure solvency?",
+      "poles": [
+        "Reform entitlements to ensure long-term solvency",
+        "Protect current entitlement programs without major reform"
+      ],
+      "a": {
+        "score": 0.73,
+        "reason": "Opposes cuts to Social Security and Medicare, emphasizing protection of current programs.",
+        "quotes": [
+          "q57"
+        ]
+      },
+      "b": {
+        "score": -0.9,
+        "reason": "Repeatedly states entitlements need reform due to bankruptcy concerns and calls current spending unsustainable.",
+        "quotes": [
+          "q113",
+          "q180",
+          "q183"
+        ]
+      },
+      "models": {
+        "sonnet": {
+          "a": 0.75,
+          "b": -0.85
+        },
+        "gpt5": {
+          "a": 0.7,
+          "b": -0.95
+        }
+      },
+      "edited": false
+    },
+    {
+      "id": "middle-class-focus",
+      "question": "Should economic policy prioritize helping the middle class?",
+      "poles": [
+        "Make middle class economic support top priority",
+        "Pursue broader economic policies beyond middle class focus"
+      ],
+      "a": {
+        "score": -0.95,
+        "reason": "Explicitly states building up the middle class as defining presidential goal and top priority.",
+        "quotes": [
+          "q59",
+          "q71",
+          "q110"
+        ]
+      },
+      "b": {
+        "score": -0.65,
+        "reason": "Proposes tax relief specifically for middle-class families as part of economic plan.",
+        "quotes": [
+          "q164"
+        ]
+      },
+      "models": {
+        "sonnet": {
+          "a": -0.95,
+          "b": -0.6
+        },
+        "gpt5": {
+          "a": -0.95,
+          "b": -0.7
+        }
+      },
+      "edited": false
+    },
+    {
+      "id": "energy-independence",
+      "question": "Should the U.S. increase domestic oil and gas production?",
+      "poles": [
+        "Increase oil and gas production for energy independence",
+        "Transition away from fossil fuels toward renewables"
+      ],
+      "a": {
+        "score": 0.15,
+        "reason": "Supports both opening fracking leases and investing in diverse energy sources to reduce foreign oil reliance.",
+        "quotes": [
+          "q28",
+          "q29"
+        ]
+      },
+      "b": {
+        "score": -0.82,
+        "reason": "Advocates drilling oil and gas extensively for energy dominance and family savings.",
+        "quotes": [
+          "q98",
+          "q197",
+          "q96"
+        ]
+      },
+      "models": {
+        "sonnet": {
+          "a": 0,
+          "b": -0.7
+        },
+        "gpt5": {
+          "a": 0.3,
+          "b": -0.95
+        }
+      },
+      "edited": false
+    },
+    {
+      "id": "israel-support",
+      "question": "Should the U.S. provide strong military support to Israel against Hamas?",
+      "poles": [
+        "Provide full support for Israel's military operations",
+        "Balance support with concern for Palestinian civilians"
+      ],
+      "a": {
+        "score": 0.2,
+        "reason": "Affirms Israel's right to defend itself while emphasizing Palestinian rights and rules of war.",
+        "quotes": [
+          "q149"
+        ]
+      },
+      "b": {
+        "score": -0.92,
+        "reason": "Calls for giving Israel everything needed to eliminate Hamas without mentioning Palestinian concerns.",
+        "quotes": [
+          "q79",
+          "q139"
+        ]
+      },
+      "models": {
+        "sonnet": {
+          "a": 0,
+          "b": -0.9
+        },
+        "gpt5": {
+          "a": 0.4,
+          "b": -0.95
+        }
+      },
+      "edited": false
+    },
+    {
+      "id": "anti-semitism-response",
+      "question": "Should the U.S. aggressively combat antisemitism on campuses and in government?",
+      "poles": [
+        "Aggressively combat and penalize antisemitism",
+        "Address antisemitism without mandating specific standards"
+      ],
+      "a": {
+        "score": -0.62,
+        "reason": "Supports laws with serious consequences for antisemitic hate crimes.",
+        "quotes": [
+          "q14"
+        ]
+      },
+      "b": {
+        "score": -0.87,
+        "reason": "Advocates changing definitions to mandate acknowledgment and equates pro-Hamas protests with genocide advocacy requiring aggressive response.",
+        "quotes": [
+          "q69",
+          "q71",
+          "q139"
+        ]
+      },
+      "models": {
+        "sonnet": {
+          "a": -0.65,
+          "b": -0.85
+        },
+        "gpt5": {
+          "a": -0.6,
+          "b": -0.9
+        }
+      },
+      "edited": false
+    }
+  ]
+}

@@ -1,0 +1,31 @@
+```json
+{"p": 13, "quote": "if you believe that, what would you, what would you want to do? The answer is that you'd want to reshore as much American manufacturing as possible and you'd want to produce as much energy as possible in the United States of America because we're the cleanest economy in the entire world.", "context": "climate change and energy policy"}
+```
+
+```json
+{"p": 14, "quote": "We should have a family care model that makes choice possible.", "context": "childcare and family support policy"}
+```
+
+```json
+{"p": 14, "quote": "We want to promote choice in how we deliver family care and how we promote childcare because, look, it is unacceptable.", "context": "childcare accessibility and affordability"}
+```
+
+```json
+{"p": 15, "quote": "Look, we are a country of builders. We're a country of doers. We're a country of explorers. But we increasingly have a Federal administration that makes it harder to develop our resources, makes it harder to build things, and wants to throw people in jail for not doing everything exactly as Kamala Harris says that they have to do.", "context": "housing prices and federal regulation"}
+```
+
+```json
+{"p": 16, "quote": "I think you can make a really good argument that it salvaged ObamaCare, which was doing disastrously until Donald Trump came along.", "context": "Affordable Care Act and healthcare"}
+```
+
+```json
+{"p": 17, "quote": "We've got 20, 25 million illegal aliens who are here in the country. I think the first thing that we do is we start with the criminal migrants.", "context": "immigration and border policy"}
+```
+
+```json
+{"p": 17, "quote": "A lot of people will go home if they can't work for less than minimum wage in our own country.", "context": "immigration enforcement and wage protection"}
+```
+
+```json
+{"p": 18, "quote": "Because she's been the Vice President for three and a half years, she had the opportunity to enact all of these great policies. And what she's actually done instead is drive the cost of food higher by 25%, drive the cost of housing higher by about 60%, open the American southern border and make middle class life unaffordable for a large number of Americans.", "context": "Harris administration record on economy and border"}
+```

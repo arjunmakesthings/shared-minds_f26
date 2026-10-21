@@ -1,0 +1,35 @@
+```json
+{"p": 1, "quote": "I think autonomy is really important, I also think life is really important. And what we're trying to talk about fundamentally, I think again, I'm trying to be fair to both sides here, is to balance the interest in life against the interest in autonomy.", "context": "Abortion policy approach"}
+```
+
+```json
+{"p": 1, "quote": "the way to do that, at least my view, is to let the American people debate and talk about and argue about this issue and come to this decision on a state-by-state basis.", "context": "Abortion decision-making process"}
+```
+
+```json
+{"p": 2, "quote": "I wouldn't be surprised if me and Trump won just the normal gay guy vote. Because, again, they just wanted to be left the hell alone.", "context": "LGBTQ voter support prediction"}
+```
+
+```json
+{"p": 2, "quote": "I also think it's very warping on the minds of young kids because what they're now doing is taking normal adolescent curiosity and normal adolescent discomfort and then we try to medicalize it.", "context": "Gender transition and youth medical treatment"}
+```
+
+```json
+{"p": 3, "quote": "I really worry about do you have an increase in usage among minors? And so what I'd like to get is some sort of legal regime that, you know, again, it's not like criminally prosecuting or prosecuting at all people for smoking a joint, but also where we can actually ensure that it's kept out of public spaces.", "context": "Cannabis policy approach"}
+```
+
+```json
+{"p": 4, "quote": "One of my sort of core political beliefs is that our politics is focused on fake sh-t and distractions to distract us from the real stuff, right?", "context": "Political priorities and distractions"}
+```
+
+```json
+{"p": 4, "quote": "I think it's insane to try to eliminate fossil fuels.", "context": "Energy policy position"}
+```
+
+```json
+{"p": 5, "quote": "I think what's going on is they have convinced themselves that the post-World War II American consensus, this entire idea that we're going to remake the entire world in America's image, they think that that is the most important and most valuable project.", "context": "US foreign policy approach criticism"}
+```
+
+```json
+{"p": 6, "quote": "There are three issues where you are not allowed to challenge the establishment. One is trade. You have to be pro-free trade. Everything is good. Let as many Chinese slave labor-made products into your country as possible, even if it destroys native industries. That is, number one, the most important issue to our establishment. Number two most important issue is immigration. And the number three most important issue is foreign policy.", "context": "Establishment policy orthodoxy on major issues"}
+```

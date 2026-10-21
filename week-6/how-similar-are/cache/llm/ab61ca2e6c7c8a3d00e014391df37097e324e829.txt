@@ -1,0 +1,19 @@
+```json
+{"p": 31, "quote": "No, and I made that clear on the debate stage in 2020, that I would not ban fracking. As vice president, I did not ban fracking. As president, I will not ban fracking.", "context": "Position on fracking ban"}
+```
+
+```json
+{"p": 31, "quote": "In 2020 I made very clear where I stand. We are in 2024, and I have not changed that position, nor will I going forward. I kept my word, and I will keep my word.", "context": "Consistency on fracking position since 2020"}
+```
+
+```json
+{"p": 31, "quote": "My values have not changed. I believe it is very important that we take seriously what we must do to guard against what is a clear crisis in terms of the climate.", "context": "Values on climate crisis"}
+```
+
+```json
+{"p": 32, "quote": "our administration worked with members of the US Congress on a bipartisan bill, which I support. And Donald Trump, because he believes that it would not have helped him politically, he told his folks in Congress, \"Don't put it forward.\" He killed the bill: a border security bill that would've put 1,500 more agents on the border.", "context": "Border security bill and Trump's opposition"}
+```
+
+```json
+{"p": 36, "quote": "take on Big Pharma to cap prescription drug costs for all Americans.", "context": "Pledge on prescription drug costs"}
+```

@@ -1,0 +1,11 @@
+```json
+{"topic": "democracy-threat", "a": {"score": -0.9, "confidence": 0.95, "reason": "Sanders repeatedly describes democracy as under serious threat from Trump's authoritarianism and denialism.", "quotes": ["q1", "q5", "q6"]}, "b": {"score": -0.6, "confidence": 0.85, "reason": "Biden frames democracy as both prevailing and needing to be saved again, suggesting ongoing serious threat.", "quotes": ["q33", "q38"]}}
+```json
+{"topic": "political-system-corruption", "a": {"score": -0.95, "confidence": 0.95, "reason": "Sanders explicitly calls the political system corrupt and says money impacts everything Congress does.", "quotes": ["q2", "q11"]}, "b": {"score": 0.3, "confidence": 0.4, "reason": "Biden states he is not anticorporation and represented corporate America for decades, but quote doesn't directly address money corrupting politics.", "quotes": ["q103"]}}
+```json
+{"topic": "israel-defense-rights", "a": {"score": -0.7, "confidence": 0.8, "reason": "Sanders says Israel is well within its rights to defend itself in keeping with international law.", "quotes": ["q4"]}, "b": {"score": -0.85, "confidence": 0.9, "reason": "Biden firmly stands with Israel, supports its right to defend itself and respond decisively, comparing to how the US would respond.", "quotes": ["q1", "q6", "q163", "q164"]}}
+```json
+{"topic": "climate-action", "a": {"score": -0.95, "confidence": 0.85, "reason": "Sanders describes climate change as an existential threat that would be awful to turn our back on.", "quotes": ["q1"]}, "b": {"score": -0.9, "confidence": 0.95, "reason": "Biden calls climate crisis existential, claims historic climate action, and says there's no time to waste in pushing forward.", "quotes": ["q2", "q67", "q151"]}}
+```json
+{"topic": "police-reform", "a": {"score": -0.9, "confidence": 0.95, "reason": "Sanders explicitly opposes abolishing police, favors redefining roles and improving training and pay for professionals.", "quotes": ["q7", "q8", "q9"]}, "b": {"score": -0.3, "confidence": 0.3, "reason": "Biden acknowledges most cops are good but problem happens too often, doesn't clearly indicate reform vs abolish position.", "quotes": ["q149"]}}
+```

@@ -1,0 +1,5 @@
+{"topic": "election-integrity", "a": {"score": -0.8, "confidence": 0.85, "reason": "States elections are bad and compromised by illegal immigrants trying to vote.", "quotes": ["q120"]}, "b": {"score": 0.0, "confidence": 0.3, "reason": "Mentions threat to democracy but focuses on censorship rather than election security itself.", "quotes": ["q119"]}}
+
+{"topic": "abortion-policy", "a": {"score": -0.95, "confidence": 0.95, "reason": "Explicitly states would not support federal ban and that states should decide based on voters' will.", "quotes": ["q109"]}, "b": {"score": 0.0, "confidence": 0.4, "reason": "Discusses balancing autonomy and life interests without taking clear position on state versus federal control.", "quotes": ["q89"]}}
+
+{"topic": "border-crisis", "a": {"score": -0.9, "confidence": 0.9, "reason": "States millions of people allowed in are destroying the country.", "quotes": ["q126"]}, "b": {"score": -0.85, "confidence": 0.9, "reason": "States millions of illegal immigrants brought in have overwhelmed schools, hospitals and housing.", "quotes": ["q117"]}}

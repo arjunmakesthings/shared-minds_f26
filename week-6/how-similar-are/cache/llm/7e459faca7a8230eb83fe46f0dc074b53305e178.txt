@@ -1,0 +1,27 @@
+```json
+{"p": 37, "quote": "I served my country honorably and I saw when I went to Iraq that I had been lied to", "context": "Iraq War and U.S. military intervention abroad"}
+```
+
+```json
+{"p": 37, "quote": "My excuse is that I was a high school senior. What is the excuse of many people who were in this chamber or in the House of Representatives at the time and are now singing the exact same song when it comes to Ukraine? Have we learned nothing?", "context": "Ukraine aid and learning from Iraq War mistakes"}
+```
+
+```json
+{"p": 38, "quote": "as pro life as anyone", "context": "Abortion position"}
+```
+
+```json
+{"p": 39, "quote": "these ridiculous exhaustion requirements before they can use lethal force to protect themselves and people around them", "context": "D.C. policing reform and law enforcement tactics"}
+```
+
+```json
+{"p": 42, "quote": "I'll stop calling people 'groomers' when they stop freaking out about bills that prevent the sexualization of my children", "context": "LGBTQ people and bills restricting related discussions"}
+```
+
+```json
+{"p": 42, "quote": "So, one of the things we're learning, Tucker, is that this is being forced by some of these really radical teachers, and they're hiding it from the parents", "context": "Teaching about sexual orientation or gender identity"}
+```
+
+```json
+{"p": 42, "quote": "'That's maybe the most pernicious part.", "context": "Parents not being informed about LGBTQ education"}
+```

@@ -1,0 +1,79 @@
+```json
+{"id": "ukraine-support", "question": "should the united states provide military aid to ukraine against russia?", "poleA": "provide aid to help ukraine defend itself", "poleB": "end aid and let europe handle it", "a": ["q26", "q38"], "b": ["q1", "q27"]}
+```
+
+```json
+{"id": "china-threat", "question": "is china the primary strategic competitor for the united states?", "poleA": "china is the top priority threat", "poleB": "multiple threats require balanced focus", "a": ["q43", "q169"], "b": ["q155", "q210", "q212"]}
+```
+
+```json
+{"id": "trade-fairness", "question": "should the us pursue more reciprocal trade agreements?", "poleA": "demand reciprocal and fair trade terms", "poleB": "maintain current trade arrangements", "a": ["q28", "q30", "q33"], "b": ["q107"]}
+```
+
+```json
+{"id": "domestic-energy", "question": "should the us prioritize domestic energy production and independence?", "poleA": "maximize domestic oil and gas production", "poleB": "transition away from fossil fuels", "a": ["q1", "q40"], "b": ["q96", "q97", "q98", "q197"]}
+```
+
+```json
+{"id": "green-subsidies", "question": "should the federal government fund green energy subsidies?", "poleA": "eliminate green energy subsidies", "poleB": "support green energy investments", "a": ["q115"], "b": ["q168"]}
+```
+
+```json
+{"id": "worker-protection", "question": "should policy prioritize protecting american workers from cheap labor?", "poleA": "protect workers from cheap labor competition", "poleB": "allow free labor markets", "a": ["q61", "q69", "q71"], "b": []}
+```
+
+```json
+{"id": "ai-innovation", "question": "should the us embrace ai and technology innovation?", "poleA": "embrace ai with optimism", "poleB": "proceed cautiously with regulation", "a": ["q50", "q52"], "b": []}
+```
+
+```json
+{"id": "immigration-enforcement", "question": "should the us enforce stricter immigration policies?", "poleA": "enforce strict immigration controls", "poleB": "maintain current immigration levels", "a": ["q111", "q117"], "b": ["q118"]}
+```
+
+```json
+{"id": "abortion-policy", "question": "what should be the us policy on abortion?", "poleA": "restrict abortion with some exceptions", "poleB": "allow unrestricted abortion access", "a": ["q89"], "b": ["q88", "q92", "q94"]}
+```
+
+```json
+{"id": "national-debt", "question": "should congress balance the federal budget like families do?", "poleA": "balance budget and reduce debt", "poleB": "spend as needed for priorities", "a": [], "b": ["q113", "q170", "q172", "q175"]}
+```
+
+```json
+{"id": "foreign-aid", "question": "should the us reduce its global military commitments?", "poleA": "reduce global military commitments", "poleB": "maintain strong global military presence", "a": ["q99", "q171"], "b": ["q141"]}
+```
+
+```json
+{"id": "israel-support", "question": "should the us provide strong support to israel?", "poleA": "provide full support to israel", "poleB": "maintain neutral middle east position", "a": [], "b": ["q79", "q139", "q146", "q153"]}
+```
+
+```json
+{"id": "middle-class-focus", "question": "should policy prioritize helping the middle class?", "poleA": "focus on middle-class economic relief", "poleB": "general economic growth for all", "a": ["q54", "q56"], "b": ["q81", "q164"]}
+```
+
+```json
+{"id": "regulatory-burden", "question": "should the us reduce federal regulations on business?", "poleA": "reduce federal regulatory burden", "poleB": "maintain regulatory protections", "a": ["q109"], "b": ["q191", "q193"]}
+```
+
+```json
+{"id": "centralization-v-states", "question": "should power be returned from federal government to states?", "poleA": "devolve power to state level", "poleB": "maintain federal authority", "a": [], "b": ["q8", "q22"]}
+```
+
+```json
+{"id": "school-choice", "question": "should parents have choice in their children's schools?", "poleA": "empower parents with school choice", "poleB": "support public school system", "a": [], "b": ["q131"]}
+```
+
+```json
+{"id": "gender-ideology", "question": "should schools teach gender ideology to students?", "poleA": "prevent schools from teaching gender topics", "poleB": "allow gender curriculum in schools", "a": ["q158"], "b": ["q103"]}
+```
+
+```json
+{"id": "family-importance", "question": "should policy emphasize the importance of family and children?", "poleA": "prioritize family and child wellbeing", "poleB": "focus on individual autonomy", "a": ["q85", "q152", "q153"], "b": []}
+```
+
+```json
+{"id": "iran-sanctions", "question": "should the us maintain sanctions on iran?", "poleA": "maintain strict iran sanctions", "poleB": "rejoin iran nuclear deal", "a": [], "b": ["q6"]}
+```
+
+```json
+{"id": "pakistan-military-aid", "question": "should the us provide military aid to pakistan?", "poleA": "cut aid to terrorism-linked countries", "poleB": "continue strategic partnerships", "a": [], "b": ["q126"]}
+```

@@ -1,0 +1,23 @@
+```json
+{"p": 1, "quote": "There's a vitality to India, a sense of infinite possibility, of new homes to be built, new skylines to be raised, and lives to be enriched.", "context": "Observations about India's energy and future potential"}
+```
+
+```json
+{"p": 1, "quote": "President Trump rejects these failed ideas. He wants America to grow. He wants India to grow, and he wants to build the future with our partners all over the globe.", "context": "Trump's vision for American and global growth"}
+```
+
+```json
+{"p": 1, "quote": "The most profound responsibility I believe that all of us have is not to ourselves but to the next generation, to make sure we leave them with a better society than the one that our parents and our grandparents gave us.", "context": "Responsibility to future generations"}
+```
+
+```json
+{"p": 1, "quote": "Our administration seeks trade partners on the basis of fairness and of shared national interests.", "context": "Trade policy approach"}
+```
+
+```json
+{"p": 1, "quote": "We want to build relationships with our foreign partners who respect their workers, who don't suppress their wages to boost exports but respect the value of their labor.", "context": "Worker respect in trade relationships"}
+```
+
+```json
+{"p": 1, "quote": "He seeks to rebalance global trade so that America, with friends like India, can build a future worth having for all of our people together.", "context": "Trade rebalancing goals"}
+```

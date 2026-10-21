@@ -1,0 +1,79 @@
+```json
+{"id": "israel-palestine-solution", "question": "Should the U.S. support a two-state solution for Israel and Palestine?", "poleA": "Support two-state solution with equal security for both", "poleB": "Two-state solution is not feasible or desirable", "a": ["q33", "q89"], "b": ["q18", "q31"]}
+```
+
+```json
+{"id": "ukraine-support", "question": "Should the U.S. provide military support to Ukraine against Russia?", "poleA": "Provide military aid to Ukraine's defense", "poleB": "Reduce or condition military aid to Ukraine", "a": ["q35", "q43"], "b": ["q1", "q27"]}
+```
+
+```json
+{"id": "abortion-restrictions", "question": "Should abortion be restricted, particularly in later stages of pregnancy?", "poleA": "Allow abortion access without significant restrictions", "poleB": "Restrict abortion, especially late-term procedures", "a": ["q60", "q84", "q136"], "b": ["q88", "q92", "q94", "q101"]}
+```
+
+```json
+{"id": "china-threat", "question": "Is Communist China a primary threat to American security?", "poleA": "China is the greatest security and economic threat", "poleB": "Other issues take priority over China threat", "a": [], "b": ["q155", "q210", "q212"]}
+```
+
+```json
+{"id": "border-security", "question": "Should the U.S. strengthen border security and immigration enforcement?", "poleA": "Strengthen border security and enforcement", "poleB": "Create pathways to legal status and soften enforcement", "a": ["q8", "q21", "q62", "q63"], "b": ["q62", "q118"]}
+```
+
+```json
+{"id": "iran-policy", "question": "Should the U.S. maintain strict sanctions and policy toward Iran?", "poleA": "Maintain tough sanctions and adversarial stance", "poleB": "Re-engage diplomatically through agreements like JCPOA", "a": ["q65"], "b": ["q6"]}
+```
+
+```json
+{"id": "national-debt", "question": "Should Congress balance the federal budget and reduce national debt?", "poleA": "Must balance budget and reduce debt spending", "poleB": "Accept higher deficits for needed programs", "a": [], "b": ["q113", "q135", "q170", "q172", "q175", "q185"]}
+```
+
+```json
+{"id": "entitlement-reform", "question": "Should Social Security and Medicare be reformed to ensure solvency?", "poleA": "Reform entitlements to ensure long-term solvency", "poleB": "Protect current entitlement programs without major reform", "a": ["q57"], "b": ["q113", "q180", "q183", "q185"]}
+```
+
+```json
+{"id": "middle-class-focus", "question": "Should economic policy prioritize helping the middle class?", "poleA": "Make middle class economic support top priority", "poleB": "Pursue broader economic policies beyond middle class focus", "a": ["q59", "q71", "q110"], "b": ["q164"]}
+```
+
+```json
+{"id": "energy-independence", "question": "Should the U.S. increase domestic oil and gas production?", "poleA": "Increase oil and gas production for energy independence", "poleB": "Transition away from fossil fuels toward renewables", "a": ["q28", "q29"], "b": ["q96", "q98", "q197"]}
+```
+
+```json
+{"id": "gun-regulations", "question": "Should the U.S. enact stricter regulations on firearms?", "poleA": "Implement strict gun regulations and bans", "poleB": "Protect gun rights and oppose new restrictions", "a": ["q82", "q93"], "b": []}
+```
+
+```json
+{"id": "israel-support", "question": "Should the U.S. provide strong military support to Israel against Hamas?", "poleA": "Provide full support for Israel's military operations", "poleB": "Balance support with concern for Palestinian civilians", "a": ["q149"], "b": ["q79", "q139"]}
+```
+
+```json
+{"id": "anti-semitism-response", "question": "Should the U.S. aggressively combat antisemitism on campuses and in government?", "poleA": "Aggressively combat and penalize antisemitism", "poleB": "Address antisemitism without mandating specific standards", "a": ["q14"], "b": ["q69", "q71", "q139"]}
+```
+
+```json
+{"id": "labor-union-support", "question": "Should the U.S. strengthen laws protecting workers' right to unionize?", "poleA": "Strengthen union rights and organizing protections", "poleB": "Limit or oppose union power and organizing", "a": ["q47", "q106"], "b": ["q113"]}
+```
+
+```json
+{"id": "healthcare-model", "question": "Should healthcare be treated as a right rather than a market commodity?", "poleA": "Healthcare should be a guaranteed right", "poleB": "Healthcare should operate through market competition", "a": ["q15", "q117"], "b": ["q86"]}
+```
+
+```json
+{"id": "minimum-wage-increase", "question": "Should the federal minimum wage be increased?", "poleA": "Raise minimum wage significantly", "poleB": "Keep minimum wage at current levels or lower", "a": ["q140"], "b": []}
+```
+
+```json
+{"id": "housing-affordability", "question": "Should government help first-time homebuyers afford down payments?", "poleA": "Government should assist with down payment help", "poleB": "Let market determine housing without subsidies", "a": ["q41"], "b": []}
+```
+
+```json
+{"id": "small-business-support", "question": "Should government provide tax incentives to small businesses?", "poleA": "Provide tax deductions for startup businesses", "poleB": "Minimize government business incentives", "a": ["q39"], "b": ["q39"]}
+```
+
+```json
+{"id": "retirement-security", "question": "Should Medicare cover home health care for seniors?", "poleA": "Expand Medicare to cover home health care", "poleB": "Limit Medicare expansion to control costs", "a": ["q15", "q131"], "b": []}
+```
+
+```json
+{"id": "alliances-importance", "question": "Are strong international alliances essential to American security?", "poleA": "Strong alliances are essential to security", "poleB": "America should prioritize unilateral strength over alliances", "a": ["q5", "q20", "q92"], "b": []}
+```

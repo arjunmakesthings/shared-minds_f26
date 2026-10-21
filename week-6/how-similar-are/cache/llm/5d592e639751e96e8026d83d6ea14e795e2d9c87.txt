@@ -1,0 +1,15 @@
+```json
+{"topic": "immigration-enforcement", "a": {"score": -0.9, "confidence": 0.9, "reason": "Strongly advocates for strict enforcement focusing on deporting illegal aliens and blames them for overwhelming public services.", "quotes": ["q111", "q117"]}, "b": {"score": -0.85, "confidence": 0.75, "reason": "Supports defunding sanctuary cities and remain in Mexico policy, indicating strict enforcement preferences.", "quotes": ["q118"]}}
+```
+```json
+{"topic": "abortion-policy", "a": {"score": -0.3, "confidence": 0.6, "reason": "Attempts to balance autonomy with life, suggesting moderate restrictions rather than extreme position.", "quotes": ["q89"]}, "b": {"score": -0.6, "confidence": 0.75, "reason": "Identifies as unapologetically pro-life and advocates for banning late-term abortions, indicating restrictive stance.", "quotes": ["q88", "q92", "q94"]}}
+```
+```json
+{"topic": "foreign-aid", "a": {"score": -0.8, "confidence": 0.85, "reason": "Explicitly opposes America being the policeman of the world and wants to empower regional self-policing.", "quotes": ["q99", "q171"]}, "b": {"score": 0.7, "confidence": 0.7, "reason": "Advocates for America actively siding with good over evil globally, suggesting maintaining strong international engagement.", "quotes": ["q141"]}}
+```
+```json
+{"topic": "middle-class-focus", "a": {"score": -0.7, "confidence": 0.7, "reason": "Emphasizes financial insecurity and loss of identity for middle-class workers, indicating focus on their specific challenges.", "quotes": ["q54", "q56"]}, "b": {"score": -0.75, "confidence": 0.85, "reason": "Explicitly states need to beef up the middle class and proposes targeted tax relief for middle-class families.", "quotes": ["q81", "q164"]}}
+```
+```json
+{"topic": "regulatory-burden", "a": {"score": -0.8, "confidence": 0.8, "reason": "Criticizes federal administration for making it harder to build and develop through excessive regulation.", "quotes": ["q109"]}, "b": {"score": -0.9, "confidence": 0.9, "reason": "Strongly criticizes regulatory costs and proposes forcing congressional votes on all regulations to reduce them.", "quotes": ["q191", "q193"]}}
+```

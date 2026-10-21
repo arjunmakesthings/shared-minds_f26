@@ -1,0 +1,27 @@
+```json
+{"p": 1, "quote": "I think this is one of the geniuses of our faith is that it teaches us through repetition, in some ways, and it forms us through a process, of course, that is, I think, at the heart of the mystery of faith: that somehow, by practicing the sacraments, even imperfectly, as I certainly do, God transforms us.", "context": "Catholic faith's role in spiritual transformation through sacraments"}
+```
+
+```json
+{"p": 1, "quote": "The real measure of health in a society is the safety and stability and the health of our families and of our -- of our people.", "context": "What constitutes societal health beyond economic metrics"}
+```
+
+```json
+{"p": 1, "quote": "I think that wh- -- what the Catholic Church calls me to do is to say that if the stock market is doing okay but people are literally dying and losing years off of their life, then we have to do better as a country.", "context": "Prioritizing people's health over stock market performance"}
+```
+
+```json
+{"p": 1, "quote": "Catholicism, Christianity at its root, I think, teaches our public officials to care about the deep things, the important things: the protection of the unborn, the flourishing of our children, and the health and the sanctity of our marriages.", "context": "Christian priorities for public officials"}
+```
+
+```json
+{"p": 1, "quote": "I will always try to remind myself that the goal of our public policy is to promote the common good, and I will fight for that every single day that I am a public official.", "context": "Goal of public policy as Vice President"}
+```
+
+```json
+{"p": 1, "quote": "We are not called, as Christians, to obsess over every social media controversy that implicates the Catholic Church.", "context": "Christian approach to church controversies on social media"}
+```
+
+```json
+{"p": 1, "quote": "You obviously know my views, and I will speak to them consistently, because I think that I have to do it because it serves the best interest of the American people.", "context": "Speaking on immigration policy despite papal criticism"}
+```

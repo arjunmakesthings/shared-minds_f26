@@ -1,0 +1,79 @@
+```json
+{"id": "democracy-threat", "question": "Is democracy currently facing an existential threat?", "poleA": "Democracy faces serious, immediate threat", "poleB": "Democracy is resilient and prevailing", "a": ["q1", "q5", "q6"], "b": ["q33", "q38"]}
+```
+
+```json
+{"id": "political-system-corruption", "question": "Does money in politics corrupt the system?", "poleA": "Money corrupts political system fundamentally", "poleB": "Money is acceptable in politics", "a": ["q2", "q11"], "b": ["q103"]}
+```
+
+```json
+{"id": "israel-defense-rights", "question": "Does Israel have the right to defend itself militarily?", "poleA": "Israel has right to defend itself", "poleB": "Israel should not use military force", "a": ["q4"], "b": ["q1", "q6", "q163", "q164"]}
+```
+
+```json
+{"id": "climate-action", "question": "Should government take major climate action?", "poleA": "Climate action is existential priority", "poleB": "Climate action harms the economy", "a": ["q1"], "b": ["q2", "q67", "q151"]}
+```
+
+```json
+{"id": "police-reform", "question": "Should police departments be abolished or reformed?", "poleA": "Reform police with better training", "poleB": "Abolish all police departments", "a": ["q7", "q8", "q9"], "b": ["q149"]}
+```
+
+```json
+{"id": "wealth-inequality", "question": "Is income inequality a major problem?", "poleA": "Inequality is urgent crisis", "poleB": "Inequality is acceptable outcome", "a": ["q10"], "b": ["q57", "q80"]}
+```
+
+```json
+{"id": "billionaire-taxes", "question": "Should billionaires pay higher tax rates?", "poleA": "Billionaires should pay more taxes", "poleB": "Billionaires should pay fewer taxes", "a": ["q10"], "b": ["q57", "q80"]}
+```
+
+```json
+{"id": "infrastructure-investment", "question": "Should government invest heavily in infrastructure?", "poleA": "Major infrastructure investment is necessary", "poleB": "Infrastructure investment is wasteful spending", "a": [], "b": ["q35", "q111", "q113"]}
+```
+
+```json
+{"id": "economic-growth-jobs", "question": "Has the current administration grown the economy successfully?", "poleA": "Economy has grown significantly", "poleB": "Economy has stagnated or declined", "a": [], "b": ["q76", "q95", "q98", "q101"]}
+```
+
+```json
+{"id": "two-state-solution", "question": "Should Israel and Palestine have two separate states?", "poleA": "Two-state solution is necessary path", "poleB": "One-state solution is preferable", "a": ["q4"], "b": ["q84"]}
+```
+
+```json
+{"id": "ceasefire-priority", "question": "Should achieving ceasefire be top priority in Gaza?", "poleA": "Ceasefire is top priority", "poleB": "Military victory is top priority", "a": [], "b": ["q1", "q6", "q7", "q9"]}
+```
+
+```json
+{"id": "middle-east-diplomacy", "question": "Can diplomacy resolve Middle East conflicts?", "poleA": "Diplomacy can achieve peace", "poleB": "Military force is necessary", "a": [], "b": ["q6", "q30", "q132"]}
+```
+
+```json
+{"id": "drug-pricing", "question": "Should government reduce prescription drug costs?", "poleA": "Government should reduce drug costs", "poleB": "Market should set drug prices", "a": [], "b": ["q122", "q123"]}
+```
+
+```json
+{"id": "manufacturing-supply-chain", "question": "Should US rebuild domestic manufacturing capacity?", "poleA": "Rebuild domestic manufacturing and supply chains", "poleB": "Rely on global trade networks", "a": [], "b": ["q115", "q116", "q120"]}
+```
+
+```json
+{"id": "border-security", "question": "How should government address southern border crossings?", "poleA": "Shutdown authority over mass walls", "poleB": "Build physical barriers across border", "a": [], "b": ["q63", "q129"]}
+```
+
+```json
+{"id": "gun-control", "question": "Should government restrict access to firearms?", "poleA": "Ban assault weapons and regulate magazines", "poleB": "Protect gun ownership rights", "a": [], "b": ["q74"]}
+```
+
+```json
+{"id": "abortion-rights", "question": "Should abortion access be protected federally?", "poleA": "Federal protection for abortion access", "poleB": "States decide abortion policy", "a": [], "b": ["q45", "q47", "q87"]}
+```
+
+```json
+{"id": "political-violence", "question": "Should political violence be condemned and rejected?", "poleA": "Political violence has no place", "poleB": "Political violence is sometimes justified", "a": [], "b": ["q78"]}
+```
+
+```json
+{"id": "ai-regulation", "question": "Should government regulate AI before public release?", "poleA": "Regulate AI before public release", "poleB": "Allow unrestricted AI development", "a": [], "b": ["q135"]}
+```
+
+```json
+{"id": "despair-vs-hope", "question": "Should Americans maintain hope during difficult times?", "poleA": "Hope and determination are essential", "poleB": "Despair is a rational response", "a": ["q3"], "b": ["q42"]}
+```

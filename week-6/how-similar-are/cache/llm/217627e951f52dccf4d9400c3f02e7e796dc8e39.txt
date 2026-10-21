@@ -1,0 +1,27 @@
+```json
+{"p": 1, "quote": "Donald Trump has my strong endorsement, period.", "context": "Endorsement of Trump for presidency"}
+```
+
+```json
+{"p": 1, "quote": "You don't have to agree with Trump a hundred percent of the time to vote for him.", "context": "Message to Americans skeptical of Trump"}
+```
+
+```json
+{"p": 1, "quote": "We agree on keeping America strong. We agree on keeping America safe. And we agree that Democrats have moved so far to the left that they're putting our freedoms in danger.", "context": "Areas of agreement with Trump on policy"}
+```
+
+```json
+{"p": 1, "quote": "A strong president doesn't start wars. A strong president prevents wars.", "context": "Position on presidential strength and conflict"}
+```
+
+```json
+{"p": 1, "quote": "Between Israel and Hamas, Donald Trump is clear about who is our friend and who is our enemy.", "context": "Trump's Middle East policy clarity"}
+```
+
+```json
+{"p": 1, "quote": "He appreciated advice and input. Americans were well-served by his presidency, even if they didn't agree with him on all things.", "context": "Experience serving in Trump cabinet"}
+```
+
+```json
+{"p": 1, "quote": "We are so much better when we are bigger. We are stronger when we welcome people into our party who have different backgrounds and experiences.", "context": "Republican party expansion strategy"}
+```

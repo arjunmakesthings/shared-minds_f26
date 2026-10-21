@@ -1,0 +1,19 @@
+```json
+{"topic": "entitlement-reform", "a": {"score": 0.75, "confidence": 0.7, "reason": "Opposes cuts to Social Security and Medicare, emphasizing protection of current programs.", "quotes": ["q57"]}, "b": {"score": -0.85, "confidence": 0.95, "reason": "Repeatedly states entitlements need reform due to bankruptcy concerns and calls current spending unsustainable.", "quotes": ["q113", "q180", "q183", "q185"]}}
+```
+
+```json
+{"topic": "middle-class-focus", "a": {"score": -0.95, "confidence": 0.95, "reason": "Explicitly states building up the middle class as defining presidential goal and top priority.", "quotes": ["q59", "q71", "q110"]}, "b": {"score": -0.6, "confidence": 0.65, "reason": "Proposes tax relief specifically for middle-class families as part of economic plan.", "quotes": ["q164"]}}
+```
+
+```json
+{"topic": "energy-independence", "a": {"score": 0.0, "confidence": 0.65, "reason": "Supports both opening fracking leases and investing in diverse energy sources to reduce foreign oil reliance.", "quotes": ["q28", "q29"]}, "b": {"score": -0.7, "confidence": 0.75, "reason": "Advocates drilling oil and gas extensively for energy dominance and family savings.", "quotes": ["q98", "q197"]}}
+```
+
+```json
+{"topic": "israel-support", "a": {"score": 0.0, "confidence": 0.85, "reason": "Affirms Israel's right to defend itself while emphasizing Palestinian rights and rules of war.", "quotes": ["q149"]}, "b": {"score": -0.9, "confidence": 0.9, "reason": "Calls for giving Israel everything needed to eliminate Hamas without mentioning Palestinian concerns.", "quotes": ["q79", "q139"]}}
+```
+
+```json
+{"topic": "anti-semitism-response", "a": {"score": -0.65, "confidence": 0.6, "reason": "Supports laws with serious consequences for antisemitic hate crimes.", "quotes": ["q14"]}, "b": {"score": -0.85, "confidence": 0.85, "reason": "Advocates changing definitions to mandate acknowledgment and equates pro-Hamas protests with genocide advocacy requiring aggressive response.", "quotes": ["q69", "q71", "q139"]}}
+```

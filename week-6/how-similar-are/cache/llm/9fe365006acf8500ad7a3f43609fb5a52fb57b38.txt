@@ -1,0 +1,79 @@
+```json
+{"id": "israel-two-state-solution", "question": "Is a two-state solution the best path forward for Israel and Palestine?", "poleA": "Two-state solution is viable and necessary for security", "poleB": "Two-state solution is not achievable or advisable", "a": ["q84"], "b": ["q18", "q31"]}
+```
+
+```json
+{"id": "ukraine-support-priority", "question": "Should the US make supporting Ukraine a key foreign policy priority?", "poleA": "Strong US support for Ukraine is essential", "poleB": "Ukraine support diverts from other priorities", "a": ["q59"], "b": ["q1", "q27"]}
+```
+
+```json
+{"id": "china-existential-threat", "question": "Is China the most significant long-term threat to America?", "poleA": "China is the primary existential threat", "poleB": "China is one concern among many", "a": ["q125"], "b": ["q155", "q210", "q212"]}
+```
+
+```json
+{"id": "energy-independence-approach", "question": "Should America prioritize energy independence through increased fossil fuel production?", "poleA": "Expand domestic oil and gas drilling", "poleB": "Transition away from fossil fuels", "a": ["q2", "q67"], "b": ["q13", "q96", "q197"]}
+```
+
+```json
+{"id": "national-debt-priority", "question": "Is reducing the national debt an urgent fiscal priority?", "poleA": "Debt reduction must be central to policy", "poleB": "Debt concerns should not constrain spending", "a": ["q57"], "b": ["q77", "q170", "q172", "q175"]}
+```
+
+```json
+{"id": "entitlement-reform-necessity", "question": "Do Social Security and Medicare require significant structural reform?", "poleA": "Entitlements need major reform to survive", "poleB": "Current entitlement structure is sustainable", "a": ["q157"], "b": ["q113", "q180", "q183", "q185"]}
+```
+
+```json
+{"id": "abortion-policy-decision-level", "question": "Should abortion policy be decided by states or the federal government?", "poleA": "States should decide abortion policy", "poleB": "Federal government should set policy", "a": ["q45", "q47"], "b": ["q10", "q88", "q92", "q94", "q101"]}
+```
+
+```json
+{"id": "border-security-approach", "question": "Should the US prioritize building physical barriers at the southern border?", "poleA": "Border wall is effective security measure", "poleB": "Wall-building is ineffective policy", "a": ["q63"], "b": ["q129"]}
+```
+
+```json
+{"id": "government-decentralization", "question": "Should federal programs be transferred to state control?", "poleA": "Devolve power to states and local government", "poleB": "Maintain federal government responsibility", "a": ["q19"], "b": ["q8", "q22"]}
+```
+
+```json
+{"id": "school-choice-education", "question": "Should families have school choice options including education savings accounts?", "poleA": "Expand school choice and savings accounts", "poleB": "Maintain traditional public school system", "a": ["q69", "q70"], "b": ["q131"]}
+```
+
+```json
+{"id": "reading-proficiency-priority", "question": "Is ensuring children read proficiently by third grade a critical priority?", "poleA": "Reading by third grade is essential focus", "poleB": "Reading is important but not primary focus", "a": ["q69"], "b": ["q90"]}
+```
+
+```json
+{"id": "prescription-drug-price-control", "question": "Should the federal government directly cap prescription drug costs for seniors?", "poleA": "Cap drug costs through government action", "poleB": "Market competition should set drug prices", "a": ["q122", "q123"], "b": ["q86"]}
+```
+
+```json
+{"id": "trade-policy-china-focus", "question": "Should America focus on reducing trade deficits with China?", "poleA": "Focus on balancing trade relationships", "poleB": "Trade relationships secondary to security concerns", "a": ["q116"], "b": ["q84"]}
+```
+
+```json
+{"id": "regulatory-burden", "question": "Are federal regulations significantly harming the economy and families?", "poleA": "Regulations create excessive economic burden", "poleB": "Regulations protect public welfare appropriately", "a": [], "b": ["q191", "q193"]}
+```
+
+```json
+{"id": "wealthy-tax-burden", "question": "Should billionaires and wealthy individuals pay higher tax rates?", "poleA": "Increase taxes on wealthy individuals", "poleB": "Keep current tax rates for wealthy", "a": ["q57"], "b": ["q81"]}
+```
+
+```json
+{"id": "iran-sanctions-policy", "question": "Should the US maintain strict sanctions on Iran?", "poleA": "Maintain strict Iran sanctions", "poleB": "Rejoin agreements and lift sanctions", "a": [], "b": ["q6"]}
+```
+
+```json
+{"id": "anti-semitism-response", "question": "Should the government actively combat antisemitism on college campuses?", "poleA": "Aggressively combat antisemitism on campuses", "poleB": "Allow campus speech protections", "a": [], "b": ["q69", "q139"]}
+```
+
+```json
+{"id": "middle-class-economic-focus", "question": "Should economic policy prioritize strengthening the middle class?", "poleA": "Prioritize middle-class economic support", "poleB": "Focus on growth broadly", "a": ["q104", "q108", "q116"], "b": ["q39", "q81", "q164"]}
+```
+
+```json
+{"id": "democracy-threat-concern", "question": "Is democracy in America facing an immediate existential threat?", "poleA": "Democracy faces serious internal threats", "poleB": "Democratic system remains fundamentally sound", "a": ["q33", "q38"], "b": ["q51", "q56"]}
+```
+
+```json
+{"id": "political-unity-priority", "question": "Should leaders prioritize reducing political divisions and unifying the country?", "poleA": "Unity and cooperation should be central", "poleB": "Fighting partisan battles is necessary", "a": ["q78"], "b": ["q42", "q48", "q51", "q56"]}
+```

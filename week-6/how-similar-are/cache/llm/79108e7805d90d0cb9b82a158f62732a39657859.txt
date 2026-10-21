@@ -1,0 +1,39 @@
+```json
+{"p": 1, "quote": "both of our governments are hard at work on a trade agreement built on shared priorities, like creating new jobs, building durable supply chains, and achieving prosperity for our workers.", "context": "U.S.-India trade agreement priorities"}
+```
+
+```json
+{"p": 1, "quote": "I believe there is much that America and India can accomplish together.", "context": "U.S.-India partnership potential"}
+```
+
+```json
+{"p": 1, "quote": "we seek peace, and we believe the best path to peace is through mutual strength.", "context": "Defense and deterrence philosophy"}
+```
+
+```json
+{"p": 1, "quote": "Past administrations in the United States of America, I -- I think motifated [motivated] by a fear of the future, have tied our hands and restricted American investments in oil and natural gas production.", "context": "Critique of past energy policy"}
+```
+
+```json
+{"p": 1, "quote": "This administration recognizes that cheap, dependable energy en- -- is an essential part of making things and is an essential part of economic independence for both of our nations.", "context": "Current administration energy policy stance"}
+```
+
+```json
+{"p": 1, "quote": "American ethanol, we believe, made from the finest corn in the world, can play a tremendous role in enhancing our partnership.", "context": "American ethanol in U.S.-India energy partnership"}
+```
+
+```json
+{"p": 1, "quote": "there is no AI future without energy security and energy dominance.", "context": "Connection between AI development and energy"}
+```
+
+```json
+{"p": 1, "quote": "I believe that if our nations fail to keep pace, the consequences for the Indo-Pacific, but really the consequences for the entire world, will be quite dire.", "context": "Manufacturing and technology competition stakes"}
+```
+
+```json
+{"p": 1, "quote": "I really believe that the future of the 21st century is going to be determined by the strength of the United States-India partnership.", "context": "21st century outlook and U.S.-India role"}
+```
+
+```json
+{"p": 1, "quote": "I believe that if India and the United States work together successfully, we are going to see a 21st century that is prosperous and peaceful. But I also believe that if we fail to work together successfully, the 21st century could be a very dark time for all of humanity.", "context": "Consequences of U.S.-India cooperation or failure"}
+```

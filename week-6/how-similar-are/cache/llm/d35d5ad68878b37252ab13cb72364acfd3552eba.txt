@@ -1,0 +1,12 @@
+```json
+{"p": 47, "quote": "Congress must restore the right the Supreme Court took away last year and codify Roe v. Wade to protect every woman's constitutional right to choose.", "context": "abortion rights and reproductive health care"}
+```
+```json
+{"p": 47, "quote": "Make no mistake; if Congress passes a national abortion ban, I will veto it.", "context": "abortion ban veto pledge"}
+```
+```json
+{"p": 48, "quote": "My economic plan is about investing in places and people that have been forgotten.", "context": "economic plan and forgotten communities"}
+```
+```json
+{"p": 48, "quote": "That's why we're building an economy where no one is left behind.", "context": "inclusive economy building"}
+```

@@ -1,0 +1,11 @@
+```json
+{"p": 27, "quote": "This is something that ultimately you'll pass. You'll pass it quickly.", "context": "Trump instructing delegates on passing GOP platform"}
+```
+
+```json
+{"p": 29, "quote": "Like Ronald Reagan, I believe in the exceptions. Some people, you have to follow your heart, some people don't believe in that. But I believe in the exceptions for rape, incest, and the life of the mother.", "context": "Trump's abortion position on exceptions"}
+```
+
+```json
+{"p": 30, "quote": "First of all, the Supreme Court just approved the abortion pill. And I agree with their decision to have done that, and I will not block it.", "context": "Trump on blocking abortion medication"}
+```

@@ -1,0 +1,23 @@
+```json
+{"p": 31, "quote": "Almost every police group in the nation from every state is supporting Donald J. Trump, almost every police group.", "context": "Police endorsements and support"}
+```
+
+```json
+{"p": 32, "quote": "It's not going to drive them higher.", "context": "Whether tariffs on China would increase prices"}
+```
+
+```json
+{"p": 33, "quote": "If it's a fair and legal and good election--absolutely.", "context": "Accepting election results"}
+```
+
+```json
+{"p": 33, "quote": "I would have much rather accepted these but the fraud and everything else was ridiculous that if you want, we'll have a news conference on it in a week or we'll have another one of these in a week.", "context": "2020 election fraud claims"}
+```
+
+```json
+{"p": 34, "quote": "He caused inflation. As sure as you're sitting there, the fact is that his big kill on the black people is the millions of people that he's allowed to come in through the border.", "context": "Immigration and impact on Black Americans"}
+```
+
+```json
+{"p": 36, "quote": "Millions of people coming in, they're trying to put them on Social Security. He will wipe out Social Security.", "context": "Immigrants and Social Security"}
+```

@@ -1,0 +1,75 @@
+```json
+{"id": "iran-policy", "question": "Should the US pursue military confrontation with Iran or diplomatic negotiations?", "poleA": "Pursue military confrontation with Iran", "poleB": "Pursue diplomatic negotiations with Iran", "a": ["q2", "q14", "q18"], "b": ["q10", "q20", "q26"]}
+```
+
+```json
+{"id": "energy-independence", "question": "Should the US prioritize fossil fuels over renewable energy?", "poleA": "Prioritize fossil fuels over renewables", "poleB": "Prioritize renewable energy", "a": ["q177", "q178"], "b": ["q40", "q115"]}
+```
+
+```json
+{"id": "immigration-enforcement", "question": "Should the US prioritize deporting illegal immigrants?", "poleA": "Prioritize rapid deportation of illegal immigrants", "poleB": "Focus on other policy priorities first", "a": ["q61", "q153"], "b": ["q111"]}
+```
+
+```json
+{"id": "trade-reciprocity", "question": "Should the US use tariffs to rebalance trade relationships?", "poleA": "Use tariffs to achieve trade reciprocity", "poleB": "Maintain current trade approach", "a": ["q28", "q92", "q106"], "b": ["q28", "q30"]}
+```
+
+```json
+{"id": "ukraine-policy", "question": "Should the US continue supporting Ukraine against Russia?", "poleA": "US should reduce involvement in Ukraine", "poleB": "US should continue supporting Ukraine", "a": ["q26"], "b": ["q173"]}
+```
+
+```json
+{"id": "labor-productivity", "question": "Should the US rely on cheap labor or prioritize innovation?", "poleA": "Rely on cheap labor for economic efficiency", "poleB": "Prioritize innovation over cheap labor", "a": [], "b": ["q61", "q67", "q69"]}
+```
+
+```json
+{"id": "family-values", "question": "Should government policy prioritize protecting family institutions?", "poleA": "Prioritize family protection in policy", "poleB": "Neutral on family-centered policy", "a": [], "b": ["q85", "q152"]}
+```
+
+```json
+{"id": "election-integrity", "question": "Are US elections sufficiently secure and legitimate?", "poleA": "Elections have serious security problems", "poleB": "Elections are secure and legitimate", "a": ["q120"], "b": ["q119"]}
+```
+
+```json
+{"id": "abortion-policy", "question": "Should abortion decisions be made at state or federal level?", "poleA": "States should decide abortion policy", "poleB": "Federal government should regulate abortion", "a": ["q109"], "b": ["q89"]}
+```
+
+```json
+{"id": "foreign-intervention", "question": "Should the US reduce military interventions globally?", "poleA": "Reduce US military interventions worldwide", "poleB": "Maintain active US global military role", "a": ["q99"], "b": ["q101"]}
+```
+
+```json
+{"id": "nato-commitment", "question": "Should the US remain fully committed to NATO?", "poleA": "US should reduce NATO dependence", "poleB": "US should strengthen NATO commitment", "a": ["q15"], "b": []}
+```
+
+```json
+{"id": "manufacturing-focus", "question": "Should the US prioritize rebuilding domestic manufacturing?", "poleA": "Prioritize domestic manufacturing capacity", "poleB": "Maintain current trade and manufacturing model", "a": [], "b": ["q28", "q33"]}
+```
+
+```json
+{"id": "tech-innovation", "question": "Should government support AI and technological innovation?", "poleA": "Embrace AI and tech innovation", "poleB": "Restrict or limit tech innovation", "a": [], "b": ["q52"]}
+```
+
+```json
+{"id": "worker-security", "question": "Are American workers facing economic insecurity?", "poleA": "Workers face serious economic insecurity", "poleB": "Workers have adequate economic security", "a": [], "b": ["q54", "q56"]}
+```
+
+```json
+{"id": "middle-class-representation", "question": "Which party better represents middle and working-class interests?", "poleA": "Republicans represent working-class interests", "poleB": "Democrats represent working-class interests", "a": [], "b": ["q144"]}
+```
+
+```json
+{"id": "china-containment", "question": "Should the US prioritize containing China's power?", "poleA": "Prioritize focus on China threat", "poleB": "Distribute focus across multiple threats", "a": [], "b": ["q43", "q169"]}
+```
+
+```json
+{"id": "censorship-threat", "question": "Is censorship by tech companies a serious threat to democracy?", "poleA": "Tech censorship is a major threat", "poleB": "Tech censorship is not a major concern", "a": [], "b": ["q119", "q123"]}
+```
+
+```json
+{"id": "border-crisis", "question": "Has immigration policy made border security worse?", "poleA": "Immigration policy has worsened border security", "poleB": "Immigration policy has not worsened border security", "a": ["q126"], "b": ["q117"]}
+```
+
+```json
+{"id": "cost-of-living", "question": "Who is responsible for recent increases in food and housing costs?", "poleA": "Previous administration caused cost increases", "poleB": "Multiple factors caused cost increases", "a": [], "b": ["q113"]}
+```

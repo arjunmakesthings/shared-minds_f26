@@ -1,0 +1,71 @@
+```json
+{"id": "wealth-inequality", "question": "should the government address extreme wealth and income inequality?", "poleA": "government should actively reduce wealth inequality", "poleB": "wealth inequality is not a priority", "a": ["q10"], "b": []}
+```
+
+```json
+{"id": "police-reform", "question": "should police departments be reformed rather than abolished?", "poleA": "reform and improve police departments", "poleB": "abolish police departments entirely", "a": ["q7", "q8", "q9"], "b": []}
+```
+
+```json
+{"id": "us-military-interventionism", "question": "should the US reduce its military interventions abroad?", "poleA": "US should intervene less in foreign conflicts", "poleB": "US should maintain global military presence", "a": ["q99", "q101"], "b": ["q169", "q171", "q173"]}
+```
+
+```json
+{"id": "iraq-war-assessment", "question": "was the 2003 invasion of Iraq a strategic mistake?", "poleA": "Iraq invasion was a major strategic error", "poleB": "Iraq invasion was justified", "a": [], "b": ["q13"]}
+```
+
+```json
+{"id": "worker-wages-economy", "question": "should policy prioritize raising worker wages and living standards?", "poleA": "government should prioritize worker wages", "poleB": "worker wages are secondary concern", "a": ["q10"], "b": ["q54", "q56", "q61", "q67", "q71"]}
+```
+
+```json
+{"id": "tech-innovation-labor", "question": "should innovation be pursued to increase worker productivity and wages?", "poleA": "innovation increases productivity and worker value", "poleB": "innovation threatens worker employment", "a": [], "b": ["q50", "q64"]}
+```
+
+```json
+{"id": "trade-policy", "question": "should trade policy prioritize American workers and manufacturers?", "poleA": "trade should benefit American workers first", "poleB": "trade should prioritize global efficiency", "a": [], "b": ["q28", "q30", "q33"]}
+```
+
+```json
+{"id": "peace-negotiations", "question": "should the US pursue peace negotiations in major conflicts?", "poleA": "pursue diplomatic peace settlements", "poleB": "military victory takes precedence", "a": [], "b": ["q10", "q20", "q26"]}
+```
+
+```json
+{"id": "ukraine-support", "question": "should the US continue supporting Ukraine against Russia?", "poleA": "Europe should defend itself independently", "poleB": "US should support European allies", "a": [], "b": ["q173", "q175"]}
+```
+
+```json
+{"id": "china-competition", "question": "should US policy focus on competing with China?", "poleA": "pivot to Asia and compete with China", "poleB": "avoid confrontation with China", "a": [], "b": ["q43", "q45", "q169"]}
+```
+
+```json
+{"id": "immigration-enforcement", "question": "should the US enforce immigration laws more strictly?", "poleA": "increase immigration law enforcement", "poleB": "reduce immigration restrictions", "a": [], "b": ["q111", "q117"]}
+```
+
+```json
+{"id": "energy-independence", "question": "should energy policy prioritize American energy independence?", "poleA": "pursue energy independence strategy", "poleB": "depend on foreign energy sources", "a": [], "b": ["q1", "q40"]}
+```
+
+```json
+{"id": "inflation-cost-living", "question": "should government reduce inflation and housing costs?", "poleA": "government should reduce inflation", "poleB": "inflation is acceptable tradeoff", "a": [], "b": ["q105", "q113"]}
+```
+
+```json
+{"id": "regulatory-burden", "question": "should government reduce regulations on businesses and development?", "poleA": "reduce regulatory barriers to development", "poleB": "maintain current regulatory standards", "a": [], "b": ["q109"]}
+```
+
+```json
+{"id": "manufacturing-production", "question": "should policy encourage domestic manufacturing and production?", "poleA": "prioritize domestic manufacturing", "poleB": "rely on global supply chains", "a": [], "b": ["q60", "q67"]}
+```
+
+```json
+{"id": "family-values-policy", "question": "should government policy support traditional family structures?", "poleA": "government should support family institutions", "poleB": "family structure is private matter", "a": [], "b": ["q142", "q152", "q153"]}
+```
+
+```json
+{"id": "democracy-threat", "question": "what poses the greatest threat to American democracy?", "poleA": "censorship and media control", "poleB": "authoritarianism and election denial", "a": ["q5", "q6"], "b": ["q119", "q123"]}
+```
+
+```json
+{"id": "government-corruption", "question": "does money in politics corrupt government decisions?", "poleA": "money in politics corrupts government", "poleB": "money in politics is not primary concern", "a": ["q2", "q11"], "b": []}
+```

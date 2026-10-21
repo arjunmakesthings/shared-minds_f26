@@ -1,0 +1,38 @@
+[
+  {
+    "id": "donald-trump",
+    "name": "donald trump",
+    "party": "republican",
+    "wiki": "https://en.wikipedia.org/wiki/Donald_Trump"
+  },
+  {
+    "id": "jd-vance",
+    "name": "jd vance",
+    "party": "republican",
+    "wiki": "https://en.wikipedia.org/wiki/JD_Vance"
+  },
+  {
+    "id": "nikki-haley",
+    "name": "nikki haley",
+    "party": "republican",
+    "wiki": "https://en.wikipedia.org/wiki/Nikki_Haley"
+  },
+  {
+    "id": "kamala-harris",
+    "name": "kamala harris",
+    "party": "democrat",
+    "wiki": "https://en.wikipedia.org/wiki/Kamala_Harris"
+  },
+  {
+    "id": "joe-biden",
+    "name": "joe biden",
+    "party": "democrat",
+    "wiki": "https://en.wikipedia.org/wiki/Joe_Biden"
+  },
+  {
+    "id": "bernie-sanders",
+    "name": "bernie sanders",
+    "party": "independent",
+    "wiki": "https://en.wikipedia.org/wiki/Bernie_Sanders"
+  }
+]

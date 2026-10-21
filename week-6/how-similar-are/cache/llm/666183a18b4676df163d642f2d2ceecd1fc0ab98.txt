@@ -1,0 +1,27 @@
+```json
+{"p": 1, "quote": "I feel blessed tonight. I've felt blessed throughout this entire journey. Even when it's been tough, I haven't lost sight of that.", "context": "Blessing and faith throughout campaign journey"}
+```
+
+```json
+{"p": 1, "quote": "I share it. I feel it to my core. I couldn't be more worried for America. It seems like our country is coming apart.", "context": "Concern about America's direction and national unity"}
+```
+
+```json
+{"p": 1, "quote": "I don't believe Donald Trump can beat Joe Biden. Nearly every day, Trump drives people away, including with his comments just yesterday.", "context": "Trump's ability to defeat Biden in general election"}
+```
+
+```json
+{"p": 1, "quote": "We can't afford four more years of Biden's failures or Trump's lack of focus.", "context": "Criticism of both Biden and Trump administrations"}
+```
+
+```json
+{"p": 1, "quote": "Does anyone seriously think Joe Biden or Donald Trump will unite our country to solve our problems?", "context": "Leadership and unity needed to address national challenges"}
+```
+
+```json
+{"p": 1, "quote": "From the start of this campaign, I have made clear that I'm running for president to save America.", "context": "Purpose and motivation for presidential campaign"}
+```
+
+```json
+{"p": 1, "quote": "In the America I know and love, we believe in each other. And we believe in America's inherent goodness.", "context": "American values and national character"}
+```

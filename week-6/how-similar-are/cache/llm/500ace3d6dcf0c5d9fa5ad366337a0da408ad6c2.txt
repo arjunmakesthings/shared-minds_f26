@@ -1,0 +1,35 @@
+```json
+{"p": 56, "quote": "We will hold a competition to build new freedom cities along the frontier and to be a populous America with a new shot at home ownership.", "context": "Vision for housing and urban development"}
+```
+
+```json
+{"p": 56, "quote": "I will challenge the governors of all 50 states to join me in a great beautification campaign.", "context": "Beautification initiative with state governors"}
+```
+
+```json
+{"p": 56, "quote": "We will get rid of bad and ugly buildings and return to the magnificent classical style of western civilization.", "context": "Architectural and building standards policy"}
+```
+
+```json
+{"p": 57, "quote": "We want oil and gasoline and natural gas because it is cheaper, better and much more powerful.", "context": "Energy policy preference over renewable energy"}
+```
+
+```json
+{"p": 57, "quote": "Under my leadership we will regain energy independence that we had three years ago.", "context": "Energy independence goal"}
+```
+
+```json
+{"p": 58, "quote": "If you put me back in the White House, their reign will be over and they know it.", "context": "Promise if elected president"}
+```
+
+```json
+{"p": 58, "quote": "I am your warrior, I am your justice. and for those who have been wronged and betrayed, I am your retribution.", "context": "Self-description of role and purpose"}
+```
+
+```json
+{"p": 58, "quote": "I will totally obliterate the deep state.", "context": "Position on federal government establishment"}
+```
+
+```json
+{"p": 60, "quote": "Drug cartels are now raking in billions of dollars from smuggling poison to kill our people and to kill our children, savage killers, rapists and violent criminals are being released from jail to continue their crime wave, and under Biden, the murder rate has reached the highest in the history of our country.", "context": "Criticism of Biden administration on crime and border"}
+```

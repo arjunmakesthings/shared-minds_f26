@@ -1,0 +1,35 @@
+```json
+{"p": 13, "quote": "I know I'm not a young man, to state the obvious. I don't walk as easy as I used to. I don't speak as smoothly as I used to. I don't debate as well as I used to. But I know what I do know: I know how to tell the truth. I know right from wrong. And I know how to do this job.", "context": "Biden addressing concerns about his debate performance and candidacy viability"}
+```
+
+```json
+{"p": 13, "quote": "I would not be running again if I did not believe with all my heart and soul that I can do this job.", "context": "Biden's commitment to running for reelection despite debate concerns"}
+```
+
+```json
+{"p": 14, "quote": "We have a thousand billionaires in America. And what's happening? They're in a situation where they, in fact, pay 8.2% in taxes. If they just paid 24% or 25%, either one of those numbers, they'd raise $500 billion dollars in a 10-year period.", "context": "Biden on tax policy for wealthy individuals"}
+```
+
+```json
+{"p": 15, "quote": "The fact is that Putin is a war criminal. He's killed thousands and thousands of people. And he has made one thing clear, he wants to re-establish what was part of the Soviet Empire, not just a piece, he wants all of Ukraine.", "context": "Biden characterizing Putin and Russian intentions toward Ukraine"}
+```
+
+```json
+{"p": 15, "quote": "What do you think happens to Poland? What do you think of Belarus? What do you think happens to those NATO countries?", "context": "Biden on potential Russian expansion beyond Ukraine"}
+```
+
+```json
+{"p": 16, "quote": "Everyone from the United Nations Security Council straight through to the G7 to the Israelis & Netanyahu himself have endorsed the plan I put forward", "context": "Biden claiming international endorsement of his Gaza peace plan"}
+```
+
+```json
+{"p": 17, "quote": "Lincoln Riley, an innocent young woman who was killed by an illegal", "context": "Biden referencing murdered student during State of the Union address"}
+```
+
+```json
+{"p": 18, "quote": "new emergency authority to temporarily shut down the border when the number of migrants at the border is overwhelming.", "context": "Biden on border security provisions in bipartisan immigration bill"}
+```
+
+```json
+{"p": 18, "quote": "hire 100 more immigration judges to help tackle the backload of 2 million cases.", "context": "Biden on immigration court staffing in bipartisan bill"}
+```

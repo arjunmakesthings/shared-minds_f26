@@ -1,0 +1,1 @@
+{"topic": "gender-ideology", "a": {"score": -0.8, "confidence": 0.7, "reason": "Defends bills preventing sexualization of children, implying opposition to school gender curriculum.", "quotes": ["q158"]}, "b": {"score": -1.0, "confidence": 0.9, "reason": "Explicitly says schools should not talk to kids about gender at all.", "quotes": ["q103"]}}

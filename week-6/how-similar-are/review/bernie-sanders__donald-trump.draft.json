@@ -1,0 +1,238 @@
+{
+  "a": "bernie-sanders",
+  "b": "donald-trump",
+  "counts": {
+    "quotesA": 11,
+    "quotesB": 182,
+    "topicsFound": 5
+  },
+  "rows": [
+    {
+      "id": "democracy-threat",
+      "question": "Is democratic governance under serious threat in America?",
+      "poles": [
+        "Democracy faces existential threats requiring urgent action",
+        "Democracy remains fundamentally sound and resilient"
+      ],
+      "quotesA": [
+        "q1",
+        "q5",
+        "q6"
+      ],
+      "quotesB": [
+        "q119"
+      ],
+      "status": "unclear",
+      "note": "confidence a 0.86, b 0.4 (needs 0.6)",
+      "flags": [],
+      "a": {
+        "score": -0.9,
+        "confidence": 0.86,
+        "reason": "Sanders repeatedly states that Trump poses an existential threat to American democracy requiring urgent action from progressives.",
+        "quotes": [
+          "q1",
+          "q5",
+          "q6"
+        ]
+      },
+      "b": {
+        "score": 0.25,
+        "confidence": 0.4,
+        "reason": "Trump mentions election integrity concerns but doesn't clearly indicate whether democracy faces serious threats or is fundamentally sound.",
+        "quotes": [
+          "q119"
+        ]
+      },
+      "models": {
+        "sonnet": {
+          "a": -0.9,
+          "b": 0.3
+        },
+        "gpt5": {
+          "a": -0.9,
+          "b": 0.2
+        }
+      }
+    },
+    {
+      "id": "money-politics",
+      "question": "Does money from wealthy interests corrupt the political system?",
+      "poles": [
+        "Money corrupts politics and must be controlled",
+        "Money in politics reflects legitimate influence and choice"
+      ],
+      "quotesA": [
+        "q2",
+        "q11"
+      ],
+      "quotesB": [
+        "q108"
+      ],
+      "status": "unclear",
+      "note": "confidence a 0.84, b 0.45 (needs 0.6)",
+      "flags": [],
+      "a": {
+        "score": -0.95,
+        "confidence": 0.84,
+        "reason": "Sanders explicitly states the political system is corrupt due to money and special interests and calls for taking them on.",
+        "quotes": [
+          "q2",
+          "q11"
+        ]
+      },
+      "b": {
+        "score": -0.45,
+        "confidence": 0.45,
+        "reason": "Trump states the system is rigged but lacks specificity about wealthy interests corrupting politics versus other forms of rigging.",
+        "quotes": [
+          "q108"
+        ]
+      },
+      "models": {
+        "sonnet": {
+          "a": -0.95,
+          "b": -0.5
+        },
+        "gpt5": {
+          "a": -0.95,
+          "b": -0.4
+        }
+      }
+    },
+    {
+      "id": "police-support",
+      "question": "Should police departments be strengthened and supported?",
+      "poles": [
+        "Police need better training, pay and support",
+        "Police departments should be defunded or abolished"
+      ],
+      "quotesA": [
+        "q7",
+        "q8",
+        "q9"
+      ],
+      "quotesB": [
+        "q66"
+      ],
+      "status": "clear",
+      "note": "",
+      "flags": [],
+      "a": {
+        "score": -0.73,
+        "confidence": 0.85,
+        "reason": "Sanders opposes abolishing police, advocates for well-trained, well-educated, and well-paid professionals with better-defined roles.",
+        "quotes": [
+          "q7",
+          "q8",
+          "q9"
+        ]
+      },
+      "b": {
+        "score": -0.85,
+        "confidence": 0.75,
+        "reason": "Trump expresses strong support for police and letting them do their jobs, backing law enforcement.",
+        "quotes": [
+          "q66"
+        ]
+      },
+      "models": {
+        "sonnet": {
+          "a": -0.65,
+          "b": -0.8
+        },
+        "gpt5": {
+          "a": -0.8,
+          "b": -0.9
+        }
+      }
+    },
+    {
+      "id": "wealth-inequality",
+      "question": "Is wealth inequality a major problem requiring action?",
+      "poles": [
+        "Extreme inequality harms society and needs addressing",
+        "Wealth distribution reflects natural market outcomes"
+      ],
+      "quotesA": [
+        "q10"
+      ],
+      "quotesB": [
+        "q155"
+      ],
+      "status": "unclear",
+      "note": "confidence a 0.86, b 0.3 (needs 0.6)",
+      "flags": [],
+      "a": {
+        "score": -0.95,
+        "confidence": 0.86,
+        "reason": "Sanders describes extreme inequality as a defining problem with the rich getting richer while workers struggle on starvation wages.",
+        "quotes": [
+          "q10"
+        ]
+      },
+      "b": {
+        "score": 0.2,
+        "confidence": 0.3,
+        "reason": "Trump's comment about stock market rising under his leadership suggests positive view of wealth creation but doesn't directly address inequality.",
+        "quotes": [
+          "q155"
+        ]
+      },
+      "models": {
+        "sonnet": {
+          "a": -0.95,
+          "b": 0.2
+        },
+        "gpt5": {
+          "a": -0.95,
+          "b": 0.2
+        }
+      }
+    },
+    {
+      "id": "energy-independence",
+      "question": "Should America prioritize fossil fuel energy over alternatives?",
+      "poles": [
+        "Pursue oil, gas and natural energy independence",
+        "Transition away from fossil fuels"
+      ],
+      "quotesA": [
+        "q1"
+      ],
+      "quotesB": [
+        "q177",
+        "q178"
+      ],
+      "status": "clear",
+      "note": "",
+      "flags": [],
+      "a": {
+        "score": 0.75,
+        "confidence": 0.62,
+        "reason": "Sanders identifies climate change as an existential threat, indicating support for transitioning away from fossil fuels.",
+        "quotes": [
+          "q1"
+        ]
+      },
+      "b": {
+        "score": -0.87,
+        "confidence": 0.86,
+        "reason": "Trump explicitly advocates for oil, gas and natural gas as cheaper and better, seeking energy independence through fossil fuels.",
+        "quotes": [
+          "q177",
+          "q178"
+        ]
+      },
+      "models": {
+        "sonnet": {
+          "a": 0.7,
+          "b": -0.85
+        },
+        "gpt5": {
+          "a": 0.8,
+          "b": -0.9
+        }
+      }
+    }
+  ]
+}

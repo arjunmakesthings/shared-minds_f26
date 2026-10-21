@@ -1,0 +1,502 @@
+{
+  "a": "jd-vance",
+  "b": "joe-biden",
+  "counts": {
+    "quotesA": 181,
+    "quotesB": 169,
+    "topicsFound": 11
+  },
+  "rows": [
+    {
+      "id": "energy-independence",
+      "question": "should the us prioritize cheap energy over climate concerns?",
+      "poles": [
+        "cheap energy is essential for economic independence",
+        "climate action must not be sacrificed for cheaper energy"
+      ],
+      "quotesA": [
+        "q1",
+        "q40"
+      ],
+      "quotesB": [
+        "q2",
+        "q67"
+      ],
+      "status": "clear",
+      "note": "",
+      "flags": [],
+      "a": {
+        "score": -0.77,
+        "confidence": 0.75,
+        "reason": "He emphasizes cheap dependable energy as essential for economic independence and making things.",
+        "quotes": [
+          "q1",
+          "q40"
+        ]
+      },
+      "b": {
+        "score": 0.85,
+        "confidence": 0.9,
+        "reason": "He explicitly rejects choosing cheap energy over environmental protection and insists climate action must not be sacrificed.",
+        "quotes": [
+          "q2",
+          "q67"
+        ]
+      },
+      "models": {
+        "sonnet": {
+          "a": -0.85,
+          "b": 0.9
+        },
+        "gpt5": {
+          "a": -0.7,
+          "b": 0.8
+        }
+      }
+    },
+    {
+      "id": "trade-fairness",
+      "question": "should us trade policy prioritize reciprocal fairness with partners?",
+      "poles": [
+        "trade should be rebalanced for American worker interests",
+        "trade should follow established rules and patterns"
+      ],
+      "quotesA": [
+        "q28",
+        "q30",
+        "q33"
+      ],
+      "quotesB": [
+        "q116"
+      ],
+      "status": "unclear",
+      "note": "confidence a 0.85, b 0.3 (needs 0.6)",
+      "flags": [],
+      "a": {
+        "score": -0.85,
+        "confidence": 0.85,
+        "reason": "He explicitly wants to rebalance trade for American workers and manufacturers with reciprocity and fairness.",
+        "quotes": [
+          "q28",
+          "q30",
+          "q33"
+        ]
+      },
+      "b": {
+        "score": 0.1,
+        "confidence": 0.3,
+        "reason": "His quote about investing in America is vaguely related but doesn't clearly address trade policy or reciprocity versus established rules.",
+        "quotes": [
+          "q116"
+        ]
+      },
+      "models": {
+        "sonnet": {
+          "a": -0.8,
+          "b": 0
+        },
+        "gpt5": {
+          "a": -0.9,
+          "b": 0.2
+        }
+      }
+    },
+    {
+      "id": "inflation-responsibility",
+      "question": "should current leadership take credit for inflation reduction?",
+      "poles": [
+        "current leadership successfully reduced inflation",
+        "current leadership caused and mismanaged inflation"
+      ],
+      "quotesA": [
+        "q101"
+      ],
+      "quotesB": [
+        "q113"
+      ],
+      "status": "unclear",
+      "note": "confidence a 0.1, b 0.15 (needs 0.6)",
+      "flags": [],
+      "a": {
+        "score": 0,
+        "confidence": 0.1,
+        "reason": "The quote about foreign policy has no clear connection to inflation or leadership credit.",
+        "quotes": [
+          "q101"
+        ]
+      },
+      "b": {
+        "score": 0,
+        "confidence": 0.15,
+        "reason": "The quote discusses investment plans but doesn't directly address inflation or taking credit for reducing it.",
+        "quotes": [
+          "q113"
+        ]
+      },
+      "models": {
+        "sonnet": {
+          "a": 0,
+          "b": 0
+        },
+        "gpt5": {
+          "a": 0,
+          "b": 0
+        }
+      }
+    },
+    {
+      "id": "middle-east-ceasefire",
+      "question": "can sustained diplomacy achieve lasting mideast peace?",
+      "poles": [
+        "diplomatic pressure achieves ceasefires and peace",
+        "military strength is needed to stop conflicts"
+      ],
+      "quotesA": [
+        "q1"
+      ],
+      "quotesB": [
+        "q163",
+        "q164"
+      ],
+      "status": "unclear",
+      "note": "confidence a 0.15, b 0.55 (needs 0.6)",
+      "flags": [],
+      "a": {
+        "score": 0,
+        "confidence": 0.15,
+        "reason": "The quote about energy crisis and gas prices doesn't clearly address diplomatic versus military approaches to Middle East peace.",
+        "quotes": [
+          "q1"
+        ]
+      },
+      "b": {
+        "score": 0.48,
+        "confidence": 0.55,
+        "reason": "He emphasizes standing with Israel and supporting their military response while mentioning rule of law, showing a mixed approach favoring strength over pure diplomacy.",
+        "quotes": [
+          "q163",
+          "q164"
+        ]
+      },
+      "models": {
+        "sonnet": {
+          "a": 0,
+          "b": 0.35
+        },
+        "gpt5": {
+          "a": 0,
+          "b": 0.6
+        }
+      }
+    },
+    {
+      "id": "border-control",
+      "question": "should the us limit immigration to protect workers?",
+      "poles": [
+        "immigration harms american workers and communities",
+        "border closures are not serious policy solutions"
+      ],
+      "quotesA": [
+        "q111",
+        "q117"
+      ],
+      "quotesB": [
+        "q129"
+      ],
+      "status": "clear",
+      "note": "",
+      "flags": [],
+      "a": {
+        "score": -0.75,
+        "confidence": 0.8,
+        "reason": "He describes illegal immigration as harming communities through overwhelmed services and competing with Americans for housing.",
+        "quotes": [
+          "q111",
+          "q117"
+        ]
+      },
+      "b": {
+        "score": 0.63,
+        "confidence": 0.7,
+        "reason": "He dismisses border walls as not serious policy, suggesting opposition to restrictive immigration controls.",
+        "quotes": [
+          "q129"
+        ]
+      },
+      "models": {
+        "sonnet": {
+          "a": -0.8,
+          "b": 0.65
+        },
+        "gpt5": {
+          "a": -0.7,
+          "b": 0.6
+        }
+      }
+    },
+    {
+      "id": "israel-support",
+      "question": "should us unconditionally support israel militarily?",
+      "poles": [
+        "us must ensure israel has military capability",
+        "military support should follow diplomatic negotiations"
+      ],
+      "quotesA": [
+        "q166"
+      ],
+      "quotesB": [
+        "q6"
+      ],
+      "status": "unclear",
+      "note": "confidence a 0, b 0.7 (needs 0.6)",
+      "flags": [],
+      "a": {
+        "score": 0,
+        "confidence": 0,
+        "reason": "Quote discusses Europe's deindustrialization and energy policy, not Israel support.",
+        "quotes": [
+          "q166"
+        ]
+      },
+      "b": {
+        "score": 0.45,
+        "confidence": 0.7,
+        "reason": "He balances firm Israel support with pursuing diplomacy to avoid wider war.",
+        "quotes": [
+          "q6"
+        ]
+      },
+      "models": {
+        "sonnet": {
+          "a": 0,
+          "b": 0.5
+        },
+        "gpt5": {
+          "a": 0,
+          "b": 0.4
+        }
+      }
+    },
+    {
+      "id": "china-competition",
+      "question": "is china america's primary strategic competitor?",
+      "poles": [
+        "china is the most important strategic focus",
+        "multiple regions require balanced strategic attention"
+      ],
+      "quotesA": [
+        "q43",
+        "q169"
+      ],
+      "quotesB": [
+        "q125"
+      ],
+      "status": "unclear",
+      "note": "confidence a 0.9, b 0.5 (needs 0.6)",
+      "flags": [],
+      "a": {
+        "score": -0.85,
+        "confidence": 0.9,
+        "reason": "He calls China the most powerful competitor and says the US must pivot to Asia focus.",
+        "quotes": [
+          "q43",
+          "q169"
+        ]
+      },
+      "b": {
+        "score": 0.25,
+        "confidence": 0.5,
+        "reason": "He discusses regional changes and multiple economic priorities but doesn't clearly prioritize China versus balanced attention.",
+        "quotes": [
+          "q125"
+        ]
+      },
+      "models": {
+        "sonnet": {
+          "a": -0.8,
+          "b": 0.2
+        },
+        "gpt5": {
+          "a": -0.9,
+          "b": 0.3
+        }
+      }
+    },
+    {
+      "id": "democracy-threat",
+      "question": "is censorship the primary threat to democracy?",
+      "poles": [
+        "censorship threatens american democracy most",
+        "political violence threatens democracy most"
+      ],
+      "quotesA": [
+        "q119"
+      ],
+      "quotesB": [
+        "q78"
+      ],
+      "status": "clear",
+      "note": "",
+      "flags": [],
+      "a": {
+        "score": -0.9,
+        "confidence": 0.9,
+        "reason": "He explicitly states censorship is the threat to democracy in this country.",
+        "quotes": [
+          "q119"
+        ]
+      },
+      "b": {
+        "score": 0.85,
+        "confidence": 0.8,
+        "reason": "He explicitly calls political violence the primary threat with absolutely no place in America.",
+        "quotes": [
+          "q78"
+        ]
+      },
+      "models": {
+        "sonnet": {
+          "a": -0.9,
+          "b": 0.8
+        },
+        "gpt5": {
+          "a": -0.9,
+          "b": 0.9
+        }
+      }
+    },
+    {
+      "id": "infrastructure-investment",
+      "question": "should government invest in infrastructure development?",
+      "poles": [
+        "government must invest in infrastructure",
+        "previous administrations failed on infrastructure"
+      ],
+      "quotesA": [
+        "q35"
+      ],
+      "quotesB": [
+        "q111"
+      ],
+      "status": "unclear",
+      "note": "confidence a 0.2, b 0.5 (needs 0.6)",
+      "flags": [
+        "models disagree on B by 1.4"
+      ],
+      "a": {
+        "score": 0.1,
+        "confidence": 0.2,
+        "reason": "Quote mentions building a future with India through rebalancing trade, only tangentially related to infrastructure.",
+        "quotes": [
+          "q35"
+        ]
+      },
+      "b": {
+        "score": 0.1,
+        "confidence": 0.5,
+        "reason": "He criticizes previous administration's failure to build infrastructure, implying support for actual investment.",
+        "quotes": [
+          "q111"
+        ]
+      },
+      "models": {
+        "sonnet": {
+          "a": 0,
+          "b": -0.6
+        },
+        "gpt5": {
+          "a": 0.2,
+          "b": 0.8
+        }
+      }
+    },
+    {
+      "id": "corporate-regulation",
+      "question": "should corporations face more government restrictions?",
+      "poles": [
+        "corporations need more regulation and oversight",
+        "corporations should operate with less government intervention"
+      ],
+      "quotesA": [
+        "q123",
+        "q144"
+      ],
+      "quotesB": [
+        "q103"
+      ],
+      "status": "clear",
+      "note": "",
+      "flags": [],
+      "a": {
+        "score": -0.55,
+        "confidence": 0.7,
+        "reason": "He argues private companies like tech platforms deserve scrutiny and regulation for their power.",
+        "quotes": [
+          "q123",
+          "q144"
+        ]
+      },
+      "b": {
+        "score": 0.55,
+        "confidence": 0.6,
+        "reason": "He explicitly states he is not anticorporation and has represented corporate interests.",
+        "quotes": [
+          "q103"
+        ]
+      },
+      "models": {
+        "sonnet": {
+          "a": -0.6,
+          "b": 0.5
+        },
+        "gpt5": {
+          "a": -0.5,
+          "b": 0.6
+        }
+      }
+    },
+    {
+      "id": "ai-governance",
+      "question": "should ai development be regulated before public release?",
+      "poles": [
+        "ai must be governed by humans before use",
+        "innovation requires minimal regulatory barriers"
+      ],
+      "quotesA": [
+        "q135"
+      ],
+      "quotesB": [
+        "q52"
+      ],
+      "status": "unclear",
+      "note": "confidence a 0, b 0 (needs 0.6)",
+      "flags": [],
+      "a": {
+        "score": 0,
+        "confidence": 0,
+        "reason": "No quotes provided relate to AI development or regulation.",
+        "quotes": [
+          "q135"
+        ]
+      },
+      "b": {
+        "score": 0,
+        "confidence": 0,
+        "reason": "No quotes provided relate to AI development or regulation.",
+        "quotes": [
+          "q52"
+        ]
+      },
+      "models": {
+        "sonnet": {
+          "a": 0,
+          "b": 0
+        },
+        "gpt5": {
+          "a": 0,
+          "b": 0
+        }
+      }
+    }
+  ]
+}
