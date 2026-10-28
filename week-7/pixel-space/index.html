@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>pixel space</title>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.9.4/p5.min.js"></script>
+  <style>
+    body { margin: 0; padding: 16px; background: #111; color: #eee; font-family: monospace; font-size: 14px; }
+    #ui { margin-bottom: 12px; }
+    button { font: inherit; padding: 6px 12px; cursor: pointer; }
+    #status { margin-top: 12px; white-space: pre-wrap; max-width: 900px; }
+    canvas { display: block; max-width: 100%; height: auto !important; }
+  </style>
+</head>
+<body>
+  <div id="ui">
+    <button id="connect">connect nano</button>
+  </div>
+  <div id="canvas-holder"></div>
+  <div id="status">not connected. arrow keys also move you one cell (for testing without the board).</div>
+  <script src="sketch.js"></script>
+</body>
+</html>
