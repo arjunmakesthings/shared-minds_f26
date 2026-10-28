@@ -1,8 +1,11 @@
 // walk through the space of every possible 100x100 rgb image.
 // the nano (position-test.ino) prints "x: 1.23; y: 4.56" in meters, one line per step.
-// the room is a 2-d grid of cells (one cell = one step). every cell is a fixed
-// address in the space and holds exactly one image: the same cell always shows
-// the same image, and (in practice) no two cells share one.
+// the room is a 2-d grid of cells (one cell = one step). the grid is finite and
+// maps 1:1 onto the set of images: it has 2^120000 x 2^120000 = 256^30000 cells,
+// and every possible image sits at exactly one of them. the start is the centre
+// of the grid, so you can walk any direction, and the edges are out of reach.
+// the same cell always shows the same image; WORLD_SEED only changes how the
+// images are arranged over the cells, not which images exist.
 
 const IMG_W = 100, IMG_H = 100;
 const N = IMG_W * IMG_H;
@@ -12,7 +15,9 @@ const MAX_PATH = 3000;         // how many moves the trail remembers
 const TEXT_SIZE = 14;          // every label on the canvas uses this size
 
 const CELL_M = 0.7;            // one cell = one step (match STEP_LENGTH_M in the sketch)
-const WORLD_SEED = 12345;      // same seed = same space every time
+const WORLD_SEED = 12345;      // same seed = same arrangement every time
+const HALF = 15000;            // bytes per grid coordinate: 15000 * 8 = 120,000 bits
+const ROUNDS = 8;              // shuffle rounds (must stay even, see permute)
 
 let img;
 let posX = 0, posY = 0;        // meters from the nano
@@ -23,8 +28,8 @@ let path = [[0, 0]];           // every cell you've moved through, in order
 let dirty = true;
 let statusText = 'not connected';
 
-function hash32(a, b, salt) {
-  let h = salt ^ Math.imul(a | 0, 0x85EBCA6B) ^ Math.imul(b | 0, 0xC2B2AE35);
+// a reversible scramble of one 32-bit number
+function mix32(h) {
   h ^= h >>> 16; h = Math.imul(h, 0x7FEB352D);
   h ^= h >>> 15; h = Math.imul(h, 0x846CA68B);
   h ^= h >>> 16;
@@ -45,25 +50,78 @@ function sfc32(a, b, c, d) {
   };
 }
 
-// the image at a cell: 30,000 channel values from a generator seeded by the cell
-function renderCell(i, j) {
-  const rand = sfc32(
-    hash32(i, j, WORLD_SEED),
-    hash32(i, j, WORLD_SEED + 1),
-    hash32(i, j, WORLD_SEED + 2),
-    hash32(i, j, WORLD_SEED + 3)
-  );
+// the grid coordinate (centre + v) as a big-endian HALF-byte number, written into out.
+// the centre is 2^119999, the middle of 0 .. 2^120000 - 1. v is a whole number
+// (|v| < 2^53, far more than anyone can walk), so the result is always in range.
+function coordBytes(v, out) {
+  out.fill(0);
+  out[0] = 0x80;
+  let carry = v;
+  for (let k = HALF - 1; k >= 0 && carry !== 0; k--) {
+    const s = out[k] + carry;
+    const q = Math.floor(s / 256);
+    out[k] = s - q * 256;
+    carry = q;
+  }
+}
+
+// one round function: xors a byte stream into dst. the stream is seeded by a hash
+// of src and the round number. it doesn't need to be reversible.
+function roundXor(src, round, dst) {
+  let h0 = mix32(WORLD_SEED + round * 4);
+  let h1 = mix32(WORLD_SEED + round * 4 + 1);
+  let h2 = mix32(WORLD_SEED + round * 4 + 2);
+  let h3 = mix32(WORLD_SEED + round * 4 + 3);
+  for (let t = 0; t < HALF; t++) {
+    h0 = mix32(h0 ^ src[t]);
+    h1 = mix32(h1 ^ h0);
+    h2 = mix32(h2 ^ h1);
+    h3 = mix32(h3 ^ h2);
+  }
+  const rand = sfc32(h0, h1, h2, h3);
   for (let k = 0; k < 12; k++) rand();   // warm up
+  for (let t = 0; t < HALF; t++) dst[t] ^= Math.floor(rand() * 256);
+}
+
+// shuffles the 2 * HALF byte block (L, R) in place. this is a feistel network, which
+// is a one-to-one map on the whole block however roundXor behaves: each round
+// replaces L with L xor f(R) and swaps the halves, and that can be undone by
+// swapping back and xoring the same stream again. inverse = true runs it backwards,
+// so the map can be checked, and so the cell holding any given image can be found.
+// ROUNDS is even, so L and R end up back in their own buffers.
+function permute(L, R, inverse) {
+  for (let n = 0; n < ROUNDS; n++) {
+    if (inverse) {
+      const t = L; L = R; R = t;
+      roundXor(R, ROUNDS - 1 - n, L);
+    } else {
+      roundXor(R, n, L);
+      const t = L; L = R; R = t;
+    }
+  }
+}
+
+const bufL = new Uint8Array(HALF);
+const bufR = new Uint8Array(HALF);
+
+// the image at a cell. the cell's two coordinates fill the two halves of a
+// 30,000 byte block, the shuffle scrambles it, and the bytes are the r, g, b values.
+function renderCell(i, j) {
+  coordBytes(i, bufL);
+  coordBytes(j, bufR);
+  permute(bufL, bufR, false);
 
   img.loadPixels();
   for (let p = 0; p < N; p++) {
-    img.pixels[p * 4]     = Math.floor(rand() * 256);
-    img.pixels[p * 4 + 1] = Math.floor(rand() * 256);
-    img.pixels[p * 4 + 2] = Math.floor(rand() * 256);
+    for (let c = 0; c < 3; c++) {
+      const k = p * 3 + c;
+      img.pixels[p * 4 + c] = k < HALF ? bufL[k] : bufR[k - HALF];
+    }
     img.pixels[p * 4 + 3] = 255;
   }
   img.updatePixels();
-  address = hash32(i, j, WORLD_SEED).toString(16).padStart(8, '0');
+  // short label: the first 8 bytes of the image
+  address = Array.from(bufL.subarray(0, 8), (b) => b.toString(16).padStart(2, '0')).join('');
 }
 
 function setup() {
@@ -89,9 +147,9 @@ function draw() {
   fill(255);
   textFont('monospace');
   textSize(TEXT_SIZE);
-  text(`cell (${ci}, ${cj})   address ${address}`, 10, 21);
+  text(`cell (${ci}, ${cj}) from centre   id ${address}`, 10, 21);
   textSize(TEXT_SIZE);
-  text('1 of ~10^72247 possible 100x100 images', 10, 41);
+  text('1 of ~10^72247 images, each at exactly one cell', 10, 41);
 
   drawMap();
 
